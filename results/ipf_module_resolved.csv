@@ -1,0 +1,254 @@
+celltype,module,module_full,delta,p,n_ipf,n_ctl
+B,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.594207359116139,0.0009328668998833916,22,7
+B,Respiration,blue|Respiration/ Mitochondrial translation,0.10194529587530876,0.9801496687553659,22,7
+B,Chromatin modification (1),brown|Chromatin modification (1),0.295661807272959,0.5660759363907789,22,7
+B,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.17973455420501844,0.020738348774330784,22,7
+B,VEGF signaling,darkgreen|VEGF signaling,0.007905028400923261,0.900967464985456,22,7
+B,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.07638203147409714,0.28023167903227875,22,7
+B,Lipid met,darkorange|Lipid met/ PPAR signaling,0.336234891429546,0.12191852791552943,22,7
+B,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,-0.09257238553381636,0.5001281410576762,22,7
+B,Cell cycle,green|Cell cycle/ DNA replication,0.05573185781440572,0.8227155652942759,22,7
+B,ECM organization,greenyellow|ECM organization/ EMT,0.1763183554615525,0.237048142595369,22,7
+B,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,-0.17595282629448866,0.28023167903227875,22,7
+B,Interferon signaling,lightgreen|Interferon signaling,-0.2566522812796875,0.18107484719178873,22,7
+B,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.12562424392249227,0.2580491805379362,22,7
+B,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.38199090442358086,0.12191852791552943,22,7
+B,mRNA splicing,midnightblue|mRNA splicing,-0.11148458575199288,0.600480528966286,22,7
+B,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.14701323101792707,0.32819743974166765,22,7
+B,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,1.3906347796630814,0.04217250349184382,22,7
+B,Translation,red|Translation/ Ribosome,0.6798432006339499,0.16468048027268417,22,7
+B,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.14005550198059033,0.5001281410576762,22,7
+B,Heat stress response,skyblue|Heat stress response,-0.0011186079451616926,0.600480528966286,22,7
+B,OxPhos,tan|OxPhos/ TCA cycle,-0.27435663390765286,0.28023167903227875,22,7
+B,Innate immunity,turquoise|Innate immunity/ Inflammation,0.08342717801194854,0.8616742910595984,22,7
+B,Chromatin modification (2),yellow|Chromatin modification (2),-0.44075814092834914,0.08799958994861544,22,7
+Ciliated,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.048700368719330187,0.38763653114996377,30,8
+Ciliated,Respiration,blue|Respiration/ Mitochondrial translation,0.2271238190761077,0.448897596106225,30,8
+Ciliated,Chromatin modification (1),brown|Chromatin modification (1),-0.30499089091420917,0.7923333164020273,30,8
+Ciliated,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,-0.16597555319973697,0.12086907822451617,30,8
+Ciliated,VEGF signaling,darkgreen|VEGF signaling,0.17776902622092758,0.8469333028406236,30,8
+Ciliated,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.18018320247604605,0.00010731340003286471,30,8
+Ciliated,Lipid met,darkorange|Lipid met/ PPAR signaling,0.06902892249544773,0.40749175948416944,30,8
+Ciliated,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.2208125149372318,0.0016555055005069985,30,8
+Ciliated,Cell cycle,green|Cell cycle/ DNA replication,0.2981429642662799,0.08924618307420666,30,8
+Ciliated,ECM organization,greenyellow|ECM organization/ EMT,-0.2312819426734227,0.10414826818502043,30,8
+Ciliated,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.07429580559950344,0.7386948972887255,30,8
+Ciliated,Interferon signaling,lightgreen|Interferon signaling,-0.19670748249142023,0.2971417664816247,30,8
+Ciliated,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.21107261097375263,0.2808214595391266,30,8
+Ciliated,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,-0.013643013313460888,0.9300939082223415,30,8
+Ciliated,mRNA splicing,midnightblue|mRNA splicing,0.2678709554911944,0.015070621132740377,30,8
+Ciliated,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.029184246085814394,0.2971417664816247,30,8
+Ciliated,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.0165630549133308,0.6862514439664147,30,8
+Ciliated,Translation,red|Translation/ Ribosome,0.21231186344403097,0.08924618307420666,30,8
+Ciliated,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,-0.010453303379403287,0.5381740019710659,30,8
+Ciliated,Heat stress response,skyblue|Heat stress response,0.24375609314058821,0.0058226925799081996,30,8
+Ciliated,OxPhos,tan|OxPhos/ TCA cycle,-0.09926381642753089,0.6862514439664147,30,8
+Ciliated,Innate immunity,turquoise|Innate immunity/ Inflammation,-0.09450521404820877,0.7123083153243946,30,8
+Ciliated,Chromatin modification (2),yellow|Chromatin modification (2),0.13811405063313614,0.14960727139894223,30,8
+Fibroblast,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.06707162809104,0.7332667332667333,10,4
+Fibroblast,Respiration,blue|Respiration/ Mitochondrial translation,-0.25543166591728433,0.2397602397602398,10,4
+Fibroblast,Chromatin modification (1),brown|Chromatin modification (1),0.531973145186072,0.05394605394605395,10,4
+Fibroblast,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.0262444039670105,1.0,10,4
+Fibroblast,VEGF signaling,darkgreen|VEGF signaling,0.16697797901041336,0.07592407592407593,10,4
+Fibroblast,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.10638111992134257,0.14185814185814188,10,4
+Fibroblast,Lipid met,darkorange|Lipid met/ PPAR signaling,-0.16379518955080244,0.8391608391608392,10,4
+Fibroblast,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.07621496622703061,0.7332667332667333,10,4
+Fibroblast,Cell cycle,green|Cell cycle/ DNA replication,-0.36974351973854735,0.3736263736263737,10,4
+Fibroblast,ECM organization,greenyellow|ECM organization/ EMT,-0.128683523118511,0.5394605394605395,10,4
+Fibroblast,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,-0.06380645471979327,0.5394605394605395,10,4
+Fibroblast,Interferon signaling,lightgreen|Interferon signaling,0.23951888571220067,0.2397602397602398,10,4
+Fibroblast,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,-0.02754933738028728,0.6353646353646354,10,4
+Fibroblast,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,-0.17377950759782662,0.945054945054945,10,4
+Fibroblast,mRNA splicing,midnightblue|mRNA splicing,-0.05773421156987313,0.7332667332667333,10,4
+Fibroblast,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,-0.3382816748740329,0.07592407592407593,10,4
+Fibroblast,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.04354406742271713,0.945054945054945,10,4
+Fibroblast,Translation,red|Translation/ Ribosome,-0.2210708617755492,0.7332667332667333,10,4
+Fibroblast,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,-0.33704332993295427,0.6353646353646354,10,4
+Fibroblast,Heat stress response,skyblue|Heat stress response,-0.004942235151960225,1.0,10,4
+Fibroblast,OxPhos,tan|OxPhos/ TCA cycle,-0.45966974790883824,0.18781218781218784,10,4
+Fibroblast,Innate immunity,turquoise|Innate immunity/ Inflammation,-0.5634382342326704,0.18781218781218784,10,4
+Fibroblast,Chromatin modification (2),yellow|Chromatin modification (2),-0.4600045842184159,0.14185814185814188,10,4
+Macrophage,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.1653837039604215,0.030153478385458066,32,27
+Macrophage,Respiration,blue|Respiration/ Mitochondrial translation,-0.2910485210199335,0.022033807441074978,32,27
+Macrophage,Chromatin modification (1),brown|Chromatin modification (1),0.20781770576635353,0.09878454100058537,32,27
+Macrophage,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.07527846724658722,0.07887068475705585,32,27
+Macrophage,VEGF signaling,darkgreen|VEGF signaling,-0.7293653299951501,1.5841402890487744e-08,32,27
+Macrophage,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,-0.02337110790377859,0.05239783401019581,32,27
+Macrophage,Lipid met,darkorange|Lipid met/ PPAR signaling,0.04426223037687424,0.3416514774271112,32,27
+Macrophage,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.10881657423509736,0.16388359014642473,32,27
+Macrophage,Cell cycle,green|Cell cycle/ DNA replication,0.09713528247527276,0.5683085638061949,32,27
+Macrophage,ECM organization,greenyellow|ECM organization/ EMT,-0.2740728248723915,0.009912684410468955,32,27
+Macrophage,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.3427296732631313,4.831787994117752e-06,32,27
+Macrophage,Interferon signaling,lightgreen|Interferon signaling,-0.36834028937900304,2.490663256792255e-06,32,27
+Macrophage,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.18005446651598775,0.005240544345904549,32,27
+Macrophage,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.06863663661060396,0.5277774519538472,32,27
+Macrophage,mRNA splicing,midnightblue|mRNA splicing,0.08028478361960416,0.3416514774271112,32,27
+Macrophage,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.08916776899870338,0.498376807540059,32,27
+Macrophage,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.325859425526985,0.006314141218905617,32,27
+Macrophage,Translation,red|Translation/ Ribosome,0.4082982611677843,0.00016615453977996422,32,27
+Macrophage,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.3252259227073021,0.0007516404285288798,32,27
+Macrophage,Heat stress response,skyblue|Heat stress response,0.2304837488265888,0.000601641663934238,32,27
+Macrophage,OxPhos,tan|OxPhos/ TCA cycle,0.21780033315574057,0.04072171828484312,32,27
+Macrophage,Innate immunity,turquoise|Innate immunity/ Inflammation,-0.3237745761123789,0.006921941640051342,32,27
+Macrophage,Chromatin modification (2),yellow|Chromatin modification (2),0.1769678320632015,0.07140076615290329,32,27
+Macrophage_Alveolar,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.08867431810484405,0.4947606055408049,29,26
+Macrophage_Alveolar,Respiration,blue|Respiration/ Mitochondrial translation,-0.2131370680331219,0.2843965376237979,29,26
+Macrophage_Alveolar,Chromatin modification (1),brown|Chromatin modification (1),0.08491892435891989,0.4947606055408049,29,26
+Macrophage_Alveolar,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.024999646216423203,0.7044582178956431,29,26
+Macrophage_Alveolar,VEGF signaling,darkgreen|VEGF signaling,-0.44539955085879135,1.9238417741469327e-05,29,26
+Macrophage_Alveolar,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,-0.03677284697548361,0.03437009163802137,29,26
+Macrophage_Alveolar,Lipid met,darkorange|Lipid met/ PPAR signaling,0.17497547238793215,0.030289997407915655,29,26
+Macrophage_Alveolar,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.03558380243526343,0.9798258161450573,29,26
+Macrophage_Alveolar,Cell cycle,green|Cell cycle/ DNA replication,0.023616330953464666,0.6071297944914915,29,26
+Macrophage_Alveolar,ECM organization,greenyellow|ECM organization/ EMT,-0.2865898959084419,0.017058990342703275,29,26
+Macrophage_Alveolar,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.04455438962745975,0.39458129966822,29,26
+Macrophage_Alveolar,Interferon signaling,lightgreen|Interferon signaling,-0.27792319302873036,0.00012544268354274722,29,26
+Macrophage_Alveolar,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.04965312248774193,0.3671030058122794,29,26
+Macrophage_Alveolar,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,-0.33828733125359334,0.0075395465289432384,29,26
+Macrophage_Alveolar,mRNA splicing,midnightblue|mRNA splicing,0.14515088210713467,0.11497033351199658,29,26
+Macrophage_Alveolar,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.1923897100612285,0.06015059126885079,29,26
+Macrophage_Alveolar,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,-0.0562863731287118,0.5608310597859644,29,26
+Macrophage_Alveolar,Translation,red|Translation/ Ribosome,-0.07143118127333575,0.3582151867638679,29,26
+Macrophage_Alveolar,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.3549833646688988,0.003263589639319464,29,26
+Macrophage_Alveolar,Heat stress response,skyblue|Heat stress response,0.02952516887339775,0.4841678519090139,29,26
+Macrophage_Alveolar,OxPhos,tan|OxPhos/ TCA cycle,0.11880110560698161,0.47369929497448016,29,26
+Macrophage_Alveolar,Innate immunity,turquoise|Innate immunity/ Inflammation,-0.4559546282536387,0.000531498694719172,29,26
+Macrophage_Alveolar,Chromatin modification (2),yellow|Chromatin modification (2),-0.19065122056537515,0.0648963041501043,29,26
+NK,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,0.3212935685204634,0.013185604849500463,23,15
+NK,Respiration,blue|Respiration/ Mitochondrial translation,0.5193465804433963,0.09444802176845916,23,15
+NK,Chromatin modification (1),brown|Chromatin modification (1),0.8132694866366256,0.014331212918835932,23,15
+NK,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.25416671857341155,0.008587922186643922,23,15
+NK,VEGF signaling,darkgreen|VEGF signaling,-0.014447005324793746,0.9761754732712655,23,15
+NK,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.016637176489114926,0.7881016845128016,23,15
+NK,Lipid met,darkorange|Lipid met/ PPAR signaling,0.34064229862968054,0.25644484508750576,23,15
+NK,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.056101691644437526,0.33924921802039076,23,15
+NK,Cell cycle,green|Cell cycle/ DNA replication,0.6010097483691371,0.012121731303901016,23,15
+NK,ECM organization,greenyellow|ECM organization/ EMT,0.2909349271123374,0.012121731303901016,23,15
+NK,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.21308787808116417,0.9049139240281195,23,15
+NK,Interferon signaling,lightgreen|Interferon signaling,-0.06575327649228672,0.6116715134117341,23,15
+NK,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.3658278754962193,0.013185604849500463,23,15
+NK,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.3571957926450198,0.17898639869589228,23,15
+NK,mRNA splicing,midnightblue|mRNA splicing,0.23709971353164677,0.25644484508750576,23,15
+NK,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.31527277779487417,0.654181473075359,23,15
+NK,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.9396937857062568,0.005480293480700398,23,15
+NK,Translation,red|Translation/ Ribosome,0.13153814003003084,0.9761754732712655,23,15
+NK,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.32090297344122387,0.14337472895573222,23,15
+NK,Heat stress response,skyblue|Heat stress response,0.11028212563869691,0.23225813041209709,23,15
+NK,OxPhos,tan|OxPhos/ TCA cycle,0.5546641698223906,0.002097995118796763,23,15
+NK,Innate immunity,turquoise|Innate immunity/ Inflammation,0.5221360872139817,0.05596610342099121,23,15
+NK,Chromatin modification (2),yellow|Chromatin modification (2),0.5104172677776231,0.029251829121441354,23,15
+T,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,0.28467438897966546,0.043164996331413054,24,10
+T,Respiration,blue|Respiration/ Mitochondrial translation,-0.014416301204922488,0.8059323495912675,24,10
+T,Chromatin modification (1),brown|Chromatin modification (1),0.24279287277942452,0.17966932404563019,24,10
+T,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,-0.007748478865330401,0.864944066218365,24,10
+T,VEGF signaling,darkgreen|VEGF signaling,-0.27047171284929233,0.10819724752370144,24,10
+T,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,-0.009355350653690891,0.8059323495912675,24,10
+T,Lipid met,darkorange|Lipid met/ PPAR signaling,0.36247618031220863,0.09258010577493009,24,10
+T,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,-0.011151996337004975,0.8947568421887474,24,10
+T,Cell cycle,green|Cell cycle/ DNA replication,0.7605093944028429,0.05629814573602206,24,10
+T,ECM organization,greenyellow|ECM organization/ EMT,0.24545526332668618,0.01639173967898141,24,10
+T,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.1566201843489936,0.5328631283192766,24,10
+T,Interferon signaling,lightgreen|Interferon signaling,-0.4198967541025526,0.07882669567995178,24,10
+T,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.01868590708673305,0.9247190374867695,24,10
+T,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,-0.16687214249229682,0.21930264967931878,24,10
+T,mRNA splicing,midnightblue|mRNA splicing,-0.020706852039302587,0.9849222966103836,24,10
+T,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,-0.2683948467955031,0.12582967918820676,24,10
+T,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.5561115427613946,0.12582967918820676,24,10
+T,Translation,red|Translation/ Ribosome,0.318427636224893,0.14562408020956769,24,10
+T,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.011282962537688151,0.6098748990217713,24,10
+T,Heat stress response,skyblue|Heat stress response,0.07814443827953216,0.6366016325636008,24,10
+T,OxPhos,tan|OxPhos/ TCA cycle,0.12652365663426804,0.6098748990217713,24,10
+T,Innate immunity,turquoise|Innate immunity/ Inflammation,0.2720996080563245,0.1354477445422811,24,10
+T,Chromatin modification (2),yellow|Chromatin modification (2),-0.060706545559029546,0.9247190374867695,24,10
+T_Cytotoxic,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,0.25220429067995576,0.02785642911968299,28,13
+T_Cytotoxic,Respiration,blue|Respiration/ Mitochondrial translation,-0.08912805931620757,0.7901178266305191,28,13
+T_Cytotoxic,Chromatin modification (1),brown|Chromatin modification (1),0.013908820881636261,0.9441606469409496,28,13
+T_Cytotoxic,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.023836008420412873,0.7686247922021466,28,13
+T_Cytotoxic,VEGF signaling,darkgreen|VEGF signaling,-0.36041629575918865,0.003734995437319831,28,13
+T_Cytotoxic,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,-0.07758994538316649,0.025925964030368523,28,13
+T_Cytotoxic,Lipid met,darkorange|Lipid met/ PPAR signaling,0.43929756517293495,0.003734995437319831,28,13
+T_Cytotoxic,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.0734102904613204,0.09007471141314616,28,13
+T_Cytotoxic,Cell cycle,green|Cell cycle/ DNA replication,0.2833902372079302,0.5848435719980192,28,13
+T_Cytotoxic,ECM organization,greenyellow|ECM organization/ EMT,0.21582396600920153,0.09551696030594414,28,13
+T_Cytotoxic,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.0782244209394366,0.29343216267129635,28,13
+T_Cytotoxic,Interferon signaling,lightgreen|Interferon signaling,-0.0683887699281675,0.4245961506120828,28,13
+T_Cytotoxic,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.17491609166303976,0.13390279265495575,28,13
+T_Cytotoxic,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,-0.3125531829021712,0.26844297370028747,28,13
+T_Cytotoxic,mRNA splicing,midnightblue|mRNA splicing,0.18270720836572982,0.6438850235839113,28,13
+T_Cytotoxic,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,-0.12937761490201025,0.2565128048302513,28,13
+T_Cytotoxic,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.6394103695952529,0.008804554606220134,28,13
+T_Cytotoxic,Translation,red|Translation/ Ribosome,-0.09932417129193913,0.6239284632085247,28,13
+T_Cytotoxic,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.00496691234205493,0.9888233629409615,28,13
+T_Cytotoxic,Heat stress response,skyblue|Heat stress response,0.16993092140209265,0.23376937266281617,28,13
+T_Cytotoxic,OxPhos,tan|OxPhos/ TCA cycle,0.24438388192010896,0.2807488029481551,28,13
+T_Cytotoxic,Innate immunity,turquoise|Innate immunity/ Inflammation,0.1440353191076131,0.5848435719980192,28,13
+T_Cytotoxic,Chromatin modification (2),yellow|Chromatin modification (2),0.2720306191615449,0.23376937266281617,28,13
+cDC2,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.40018260459387606,0.0709096426284756,22,9
+cDC2,Respiration,blue|Respiration/ Mitochondrial translation,0.09724478756465124,0.8789361688732084,22,9
+cDC2,Chromatin modification (1),brown|Chromatin modification (1),0.186545965609675,0.2671089012521132,22,9
+cDC2,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.15689926289591716,0.0779787345010902,22,9
+cDC2,VEGF signaling,darkgreen|VEGF signaling,0.04639300366753313,0.47271392273505897,22,9
+cDC2,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.10157732340160619,0.13324702034013247,22,9
+cDC2,Lipid met,darkorange|Lipid met/ PPAR signaling,0.12768793130620418,0.47271392273505897,22,9
+cDC2,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.18449433815790417,0.1572500789959627,22,9
+cDC2,Cell cycle,green|Cell cycle/ DNA replication,0.18717269278836937,0.3723136168972013,22,9
+cDC2,ECM organization,greenyellow|ECM organization/ EMT,0.4601418581854147,0.034798830324050734,22,9
+cDC2,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,0.1168970057262084,0.2671089012521132,22,9
+cDC2,Interferon signaling,lightgreen|Interferon signaling,-0.4396641297147016,0.007440800808234149,22,9
+cDC2,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.023620723684395786,0.9826396357305751,22,9
+cDC2,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.5026867100029992,0.013938404759043265,22,9
+cDC2,mRNA splicing,midnightblue|mRNA splicing,0.46881632672907847,0.01090008668132888,22,9
+cDC2,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,-0.2184702493920171,0.4463048973903676,22,9
+cDC2,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.3500116085627074,0.0709096426284756,22,9
+cDC2,Translation,red|Translation/ Ribosome,0.7934555307858148,0.006528914743482244,22,9
+cDC2,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,-0.019437730396986486,0.9133622858444825,22,9
+cDC2,Heat stress response,skyblue|Heat stress response,0.14092967487058594,0.003308056787977284,22,9
+cDC2,OxPhos,tan|OxPhos/ TCA cycle,0.12296106797251241,0.6477042192622259,22,9
+cDC2,Innate immunity,turquoise|Innate immunity/ Inflammation,0.30548251963909806,0.1992039946049815,22,9
+cDC2,Chromatin modification (2),yellow|Chromatin modification (2),0.2327103131391804,0.3064467654833892,22,9
+cMonocyte,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,-0.11185241379472216,0.035817999751769525,26,17
+cMonocyte,Respiration,blue|Respiration/ Mitochondrial translation,0.069558308401764,0.8134475324779324,26,17
+cMonocyte,Chromatin modification (1),brown|Chromatin modification (1),0.7672916831014204,0.042922096793088504,26,17
+cMonocyte,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.01185431260270571,0.9504830195214938,26,17
+cMonocyte,VEGF signaling,darkgreen|VEGF signaling,0.009122648365369704,0.9900904929605753,26,17
+cMonocyte,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.0557405417443282,0.4945421064448263,26,17
+cMonocyte,Lipid met,darkorange|Lipid met/ PPAR signaling,0.36718144329501473,0.0888404877073078,26,17
+cMonocyte,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.02447635651291053,0.5762286004470838,26,17
+cMonocyte,Cell cycle,green|Cell cycle/ DNA replication,-0.5190319646601528,0.20968775138379503,26,17
+cMonocyte,ECM organization,greenyellow|ECM organization/ EMT,0.12039001537031037,0.3026047415633496,26,17
+cMonocyte,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,-0.20488050689542947,0.015439229314028234,26,17
+cMonocyte,Interferon signaling,lightgreen|Interferon signaling,0.02253476311397909,0.9900904929605753,26,17
+cMonocyte,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.004373287749131136,0.5762286004470838,26,17
+cMonocyte,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.4007768132443354,0.054215984815750344,26,17
+cMonocyte,mRNA splicing,midnightblue|mRNA splicing,-0.1561148755240353,0.4053282406249483,26,17
+cMonocyte,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.17504035500403783,0.18386619212675626,26,17
+cMonocyte,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.8911797878575594,0.020203428946620125,26,17
+cMonocyte,Translation,red|Translation/ Ribosome,0.41390656261554026,0.5428014164019808,26,17
+cMonocyte,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.29659013585353805,0.09856188515707046,26,17
+cMonocyte,Heat stress response,skyblue|Heat stress response,0.28880649051356677,0.0011884753340151164,26,17
+cMonocyte,OxPhos,tan|OxPhos/ TCA cycle,0.2290213127382833,0.6281149761843793,26,17
+cMonocyte,Innate immunity,turquoise|Innate immunity/ Inflammation,0.12202437563607173,0.8134475324779324,26,17
+cMonocyte,Chromatin modification (2),yellow|Chromatin modification (2),-0.3414085649303217,0.0607340406023787,26,17
+ncMonocyte,Muscle contraction,black|Muscle contraction/ Cytoskeleton/ Glycolysis,0.04318618570533741,0.8230134158926727,14,5
+ncMonocyte,Respiration,blue|Respiration/ Mitochondrial translation,0.5652060529673822,0.004987960096319229,14,5
+ncMonocyte,Chromatin modification (1),brown|Chromatin modification (1),0.8532890423147357,0.033883728930168555,14,5
+ncMonocyte,Heme metabolism,cyan|Heme metabolism/ ROS pathway/ Mitochondria,0.3009570087784077,0.0001719986240110079,14,5
+ncMonocyte,VEGF signaling,darkgreen|VEGF signaling,-0.07293385015915789,0.391296869625043,14,5
+ncMonocyte,Protein processing in ER,darkgrey|Protein processing in ER/ UPR/ mTOR signaling,0.0014133895530597136,0.893188854489164,14,5
+ncMonocyte,Lipid met,darkorange|Lipid met/ PPAR signaling,-0.1675758484606204,1.0,14,5
+ncMonocyte,Cholesterol met (darkred),darkred|Cholesterol met/ mTOR signaling,0.027483057926311567,0.499828001375989,14,5
+ncMonocyte,Cell cycle,green|Cell cycle/ DNA replication,0.3092120217327908,0.499828001375989,14,5
+ncMonocyte,ECM organization,greenyellow|ECM organization/ EMT,0.18893721710924472,0.8230134158926727,14,5
+ncMonocyte,Apoptosis,grey60|Apoptosis/ Nrf2 signaling/ Proteasome,-0.1261912484342274,0.391296869625043,14,5
+ncMonocyte,Interferon signaling,lightgreen|Interferon signaling,0.0010959371187621303,0.8230134158926727,14,5
+ncMonocyte,Nrf2 signaling,lightyellow|Nrf2 signaling/ Proteasome,0.25728601396784245,0.391296869625043,14,5
+ncMonocyte,Amino acid met,magenta|Amino acid met/ Coagulation/ Xenobiotic met,0.7915576378417777,0.004987960096319229,14,5
+ncMonocyte,mRNA splicing,midnightblue|mRNA splicing,0.14588663488751408,0.5593395252837977,14,5
+ncMonocyte,Fatty acid met,orange|Fatty acid met/ Beta-oxidation,0.7477528436165145,0.010319917440660475,14,5
+ncMonocyte,Adaptive immunity,pink|Adaptive immunity/ T cell signaling,0.46640865648240337,0.391296869625043,14,5
+ncMonocyte,Translation,red|Translation/ Ribosome,0.8139715715087995,0.1560027519779842,14,5
+ncMonocyte,Cholesterol met (salmon),salmon|Cholesterol met/ Platelet degranulation,0.7278974889087109,0.004987960096319229,14,5
+ncMonocyte,Heat stress response,skyblue|Heat stress response,0.24713189712002265,0.0001719986240110079,14,5
+ncMonocyte,OxPhos,tan|OxPhos/ TCA cycle,-0.6118265609289112,0.129858961128311,14,5
+ncMonocyte,Innate immunity,turquoise|Innate immunity/ Inflammation,-0.32330163679541296,0.2975576195390437,14,5
+ncMonocyte,Chromatin modification (2),yellow|Chromatin modification (2),-0.005474280262659954,0.4439284485724114,14,5

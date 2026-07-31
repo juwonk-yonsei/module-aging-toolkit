@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "module-aging"
+version = "0.1.0"
+description = "Module- and cell-type-resolved framework for applying and validating transcriptomic aging clocks in single-cell data (attribution ladder)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Juwon Kang", email = "juwonk@yonsei.ac.kr" },
+  { name = "Junjeong Choi", email = "junjeong@yonsei.ac.kr" },
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "statsmodels",
+  "matplotlib",
+  "joblib",
+  "pillow",
+]
+
+[project.urls]
+Repository = "https://github.com/<your-org>/module-aging-toolkit"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

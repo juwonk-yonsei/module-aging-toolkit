@@ -1,0 +1,569 @@
+group,Subject_Identity,celltype,n_cells,Disease_Identity
+THD0001||AT2,THD0001,AT2,1219,Control
+THD0001||Proliferating Epithelial Cells,THD0001,Proliferating Epithelial Cells,47,Control
+THD0001||Monocytes,THD0001,Monocytes,437,Control
+THD0001||Endothelial Cells,THD0001,Endothelial Cells,62,Control
+THD0001||Macrophages,THD0001,Macrophages,292,Control
+THD0001||NK Cells,THD0001,NK Cells,28,Control
+THD0001||Ciliated,THD0001,Ciliated,8,Control
+THD0001||B Cells,THD0001,B Cells,1,Control
+THD0001||cDCs,THD0001,cDCs,22,Control
+THD0001||AT1,THD0001,AT1,11,Control
+THD0001||Transitional AT2,THD0001,Transitional AT2,38,Control
+THD0001||PLIN2+ Fibroblasts,THD0001,PLIN2+ Fibroblasts,3,Control
+THD0001||Lymphatic Endothelial Cells,THD0001,Lymphatic Endothelial Cells,8,Control
+THD0001||Basal,THD0001,Basal,2,Control
+THD0001||Proliferating Macrophages,THD0001,Proliferating Macrophages,3,Control
+THD0001||Plasma Cells,THD0001,Plasma Cells,4,Control
+THD0001||Mesothelial Cells,THD0001,Mesothelial Cells,1,Control
+THD0001||SCGB3A2+ SCGB1A1+,THD0001,SCGB3A2+ SCGB1A1+,1,Control
+THD0001||SCGB3A2+,THD0001,SCGB3A2+,2,Control
+THD0001||Proliferating T Cells,THD0001,Proliferating T Cells,4,Control
+THD0001||Fibroblasts,THD0001,Fibroblasts,4,Control
+THD0001||Myofibroblasts,THD0001,Myofibroblasts,2,Control
+THD0001||T Cells,THD0001,T Cells,9,Control
+THD0001||Mast Cells,THD0001,Mast Cells,6,Control
+THD0001||MUC5B+,THD0001,MUC5B+,3,Control
+THD0001||Smooth Muscle Cells,THD0001,Smooth Muscle Cells,1,Control
+THD0002||Endothelial Cells,THD0002,Endothelial Cells,187,Control
+THD0002||Monocytes,THD0002,Monocytes,349,Control
+THD0002||Macrophages,THD0002,Macrophages,748,Control
+THD0002||AT1,THD0002,AT1,104,Control
+THD0002||SCGB3A2+,THD0002,SCGB3A2+,20,Control
+THD0002||Basal,THD0002,Basal,12,Control
+THD0002||AT2,THD0002,AT2,1044,Control
+THD0002||Mast Cells,THD0002,Mast Cells,1,Control
+THD0002||Ciliated,THD0002,Ciliated,34,Control
+THD0002||Myofibroblasts,THD0002,Myofibroblasts,14,Control
+THD0002||Smooth Muscle Cells,THD0002,Smooth Muscle Cells,24,Control
+THD0002||Transitional AT2,THD0002,Transitional AT2,29,Control
+THD0002||SCGB3A2+ SCGB1A1+,THD0002,SCGB3A2+ SCGB1A1+,12,Control
+THD0002||Fibroblasts,THD0002,Fibroblasts,23,Control
+THD0002||Lymphatic Endothelial Cells,THD0002,Lymphatic Endothelial Cells,19,Control
+THD0002||Plasma Cells,THD0002,Plasma Cells,2,Control
+THD0002||MUC5B+,THD0002,MUC5B+,1,Control
+THD0002||cDCs,THD0002,cDCs,12,Control
+THD0002||Proliferating Macrophages,THD0002,Proliferating Macrophages,7,Control
+THD0002||Proliferating T Cells,THD0002,Proliferating T Cells,1,Control
+THD0002||Differentiating Ciliated,THD0002,Differentiating Ciliated,2,Control
+THD0002||NK Cells,THD0002,NK Cells,1,Control
+THD0002||T Cells,THD0002,T Cells,1,Control
+THD0005||Macrophages,THD0005,Macrophages,958,Control
+THD0005||Ciliated,THD0005,Ciliated,143,Control
+THD0005||Proliferating T Cells,THD0005,Proliferating T Cells,72,Control
+THD0005||Endothelial Cells,THD0005,Endothelial Cells,553,Control
+THD0005||Monocytes,THD0005,Monocytes,863,Control
+THD0005||Plasma Cells,THD0005,Plasma Cells,134,Control
+THD0005||T Cells,THD0005,T Cells,221,Control
+THD0005||Mast Cells,THD0005,Mast Cells,179,Control
+THD0005||Lymphatic Endothelial Cells,THD0005,Lymphatic Endothelial Cells,141,Control
+THD0005||Smooth Muscle Cells,THD0005,Smooth Muscle Cells,14,Control
+THD0005||AT2,THD0005,AT2,30,Control
+THD0005||AT1,THD0005,AT1,56,Control
+THD0005||Mesothelial Cells,THD0005,Mesothelial Cells,26,Control
+THD0005||Proliferating Macrophages,THD0005,Proliferating Macrophages,11,Control
+THD0005||pDCs,THD0005,pDCs,9,Control
+THD0005||cDCs,THD0005,cDCs,27,Control
+THD0005||MUC5B+,THD0005,MUC5B+,1,Control
+THD0005||NK Cells,THD0005,NK Cells,23,Control
+THD0005||Myofibroblasts,THD0005,Myofibroblasts,11,Control
+THD0005||B Cells,THD0005,B Cells,8,Control
+THD0005||Basal,THD0005,Basal,1,Control
+THD0005||SCGB3A2+,THD0005,SCGB3A2+,7,Control
+THD0005||Transitional AT2,THD0005,Transitional AT2,4,Control
+THD0005||PLIN2+ Fibroblasts,THD0005,PLIN2+ Fibroblasts,1,Control
+THD0005||Fibroblasts,THD0005,Fibroblasts,1,Control
+TILD001||Macrophages,TILD001,Macrophages,431,IPF
+TILD001||PLIN2+ Fibroblasts,TILD001,PLIN2+ Fibroblasts,830,IPF
+TILD001||Myofibroblasts,TILD001,Myofibroblasts,53,IPF
+TILD001||Smooth Muscle Cells,TILD001,Smooth Muscle Cells,34,IPF
+TILD001||HAS1 High Fibroblasts,TILD001,HAS1 High Fibroblasts,179,IPF
+TILD001||Endothelial Cells,TILD001,Endothelial Cells,50,IPF
+TILD001||SCGB3A2+,TILD001,SCGB3A2+,46,IPF
+TILD001||Monocytes,TILD001,Monocytes,243,IPF
+TILD001||AT2,TILD001,AT2,2,IPF
+TILD001||Ciliated,TILD001,Ciliated,106,IPF
+TILD001||cDCs,TILD001,cDCs,43,IPF
+TILD001||Proliferating Macrophages,TILD001,Proliferating Macrophages,4,IPF
+TILD001||Basal,TILD001,Basal,27,IPF
+TILD001||MUC5B+,TILD001,MUC5B+,15,IPF
+TILD001||Mast Cells,TILD001,Mast Cells,15,IPF
+TILD001||Mesothelial Cells,TILD001,Mesothelial Cells,1,IPF
+TILD001||SCGB3A2+ SCGB1A1+,TILD001,SCGB3A2+ SCGB1A1+,30,IPF
+TILD001||Fibroblasts,TILD001,Fibroblasts,7,IPF
+TILD001||MUC5AC+ High,TILD001,MUC5AC+ High,1,IPF
+TILD001||Lymphatic Endothelial Cells,TILD001,Lymphatic Endothelial Cells,4,IPF
+TILD001||T Cells,TILD001,T Cells,2,IPF
+TILD001||Proliferating T Cells,TILD001,Proliferating T Cells,1,IPF
+TILD001||Differentiating Ciliated,TILD001,Differentiating Ciliated,3,IPF
+TILD001||B Cells,TILD001,B Cells,1,IPF
+TILD006||Macrophages,TILD006,Macrophages,2122,IPF
+TILD006||SCGB3A2+,TILD006,SCGB3A2+,61,IPF
+TILD006||Plasma Cells,TILD006,Plasma Cells,133,IPF
+TILD006||Transitional AT2,TILD006,Transitional AT2,5,IPF
+TILD006||Endothelial Cells,TILD006,Endothelial Cells,229,IPF
+TILD006||AT2,TILD006,AT2,36,IPF
+TILD006||cDCs,TILD006,cDCs,161,IPF
+TILD006||Myofibroblasts,TILD006,Myofibroblasts,117,IPF
+TILD006||Proliferating Epithelial Cells,TILD006,Proliferating Epithelial Cells,6,IPF
+TILD006||Mesothelial Cells,TILD006,Mesothelial Cells,4,IPF
+TILD006||KRT5-/KRT17+,TILD006,KRT5-/KRT17+,15,IPF
+TILD006||Proliferating Macrophages,TILD006,Proliferating Macrophages,78,IPF
+TILD006||Proliferating T Cells,TILD006,Proliferating T Cells,20,IPF
+TILD006||Mast Cells,TILD006,Mast Cells,12,IPF
+TILD006||SCGB3A2+ SCGB1A1+,TILD006,SCGB3A2+ SCGB1A1+,18,IPF
+TILD006||B Cells,TILD006,B Cells,7,IPF
+TILD006||Ciliated,TILD006,Ciliated,89,IPF
+TILD006||Monocytes,TILD006,Monocytes,18,IPF
+TILD006||Smooth Muscle Cells,TILD006,Smooth Muscle Cells,32,IPF
+TILD006||Lymphatic Endothelial Cells,TILD006,Lymphatic Endothelial Cells,7,IPF
+TILD006||T Cells,TILD006,T Cells,14,IPF
+TILD006||pDCs,TILD006,pDCs,8,IPF
+TILD006||Fibroblasts,TILD006,Fibroblasts,40,IPF
+TILD006||Differentiating Ciliated,TILD006,Differentiating Ciliated,7,IPF
+TILD006||MUC5B+,TILD006,MUC5B+,41,IPF
+TILD006||Basal,TILD006,Basal,29,IPF
+TILD006||PLIN2+ Fibroblasts,TILD006,PLIN2+ Fibroblasts,4,IPF
+TILD010||Macrophages,TILD010,Macrophages,741,IPF
+TILD010||Basal,TILD010,Basal,153,IPF
+TILD010||Ciliated,TILD010,Ciliated,122,IPF
+TILD010||SCGB3A2+,TILD010,SCGB3A2+,154,IPF
+TILD010||cDCs,TILD010,cDCs,42,IPF
+TILD010||MUC5B+,TILD010,MUC5B+,35,IPF
+TILD010||Endothelial Cells,TILD010,Endothelial Cells,89,IPF
+TILD010||Smooth Muscle Cells,TILD010,Smooth Muscle Cells,44,IPF
+TILD010||Proliferating Macrophages,TILD010,Proliferating Macrophages,33,IPF
+TILD010||Proliferating Epithelial Cells,TILD010,Proliferating Epithelial Cells,8,IPF
+TILD010||SCGB3A2+ SCGB1A1+,TILD010,SCGB3A2+ SCGB1A1+,34,IPF
+TILD010||B Cells,TILD010,B Cells,1,IPF
+TILD010||Mast Cells,TILD010,Mast Cells,8,IPF
+TILD010||Differentiating Ciliated,TILD010,Differentiating Ciliated,12,IPF
+TILD010||AT2,TILD010,AT2,29,IPF
+TILD010||Myofibroblasts,TILD010,Myofibroblasts,47,IPF
+TILD010||AT1,TILD010,AT1,3,IPF
+TILD010||Fibroblasts,TILD010,Fibroblasts,8,IPF
+TILD010||Transitional AT2,TILD010,Transitional AT2,7,IPF
+TILD010||Lymphatic Endothelial Cells,TILD010,Lymphatic Endothelial Cells,3,IPF
+TILD010||T Cells,TILD010,T Cells,2,IPF
+TILD010||Monocytes,TILD010,Monocytes,4,IPF
+TILD010||PLIN2+ Fibroblasts,TILD010,PLIN2+ Fibroblasts,2,IPF
+TILD010||Plasma Cells,TILD010,Plasma Cells,3,IPF
+TILD015||Monocytes,TILD015,Monocytes,1042,IPF
+TILD015||B Cells,TILD015,B Cells,152,IPF
+TILD015||Macrophages,TILD015,Macrophages,2422,IPF
+TILD015||T Cells,TILD015,T Cells,1259,IPF
+TILD015||Endothelial Cells,TILD015,Endothelial Cells,471,IPF
+TILD015||Smooth Muscle Cells,TILD015,Smooth Muscle Cells,28,IPF
+TILD015||pDCs,TILD015,pDCs,54,IPF
+TILD015||Ciliated,TILD015,Ciliated,120,IPF
+TILD015||Fibroblasts,TILD015,Fibroblasts,29,IPF
+TILD015||Mast Cells,TILD015,Mast Cells,75,IPF
+TILD015||Myofibroblasts,TILD015,Myofibroblasts,94,IPF
+TILD015||NK Cells,TILD015,NK Cells,29,IPF
+TILD015||cDCs,TILD015,cDCs,83,IPF
+TILD015||SCGB3A2+,TILD015,SCGB3A2+,207,IPF
+TILD015||AT1,TILD015,AT1,4,IPF
+TILD015||Proliferating T Cells,TILD015,Proliferating T Cells,48,IPF
+TILD015||Proliferating Macrophages,TILD015,Proliferating Macrophages,18,IPF
+TILD015||KRT5-/KRT17+,TILD015,KRT5-/KRT17+,14,IPF
+TILD015||Plasma Cells,TILD015,Plasma Cells,56,IPF
+TILD015||Lymphatic Endothelial Cells,TILD015,Lymphatic Endothelial Cells,23,IPF
+TILD015||Basal,TILD015,Basal,48,IPF
+TILD015||SCGB3A2+ SCGB1A1+,TILD015,SCGB3A2+ SCGB1A1+,31,IPF
+TILD015||Proliferating Epithelial Cells,TILD015,Proliferating Epithelial Cells,3,IPF
+TILD015||MUC5B+,TILD015,MUC5B+,32,IPF
+TILD015||AT2,TILD015,AT2,19,IPF
+TILD015||Differentiating Ciliated,TILD015,Differentiating Ciliated,1,IPF
+TILD015||Transitional AT2,TILD015,Transitional AT2,6,IPF
+TILD015||PLIN2+ Fibroblasts,TILD015,PLIN2+ Fibroblasts,7,IPF
+TILD015||Mesothelial Cells,TILD015,Mesothelial Cells,27,IPF
+TILD028||T Cells,TILD028,T Cells,143,IPF
+TILD028||Myofibroblasts,TILD028,Myofibroblasts,104,IPF
+TILD028||Endothelial Cells,TILD028,Endothelial Cells,406,IPF
+TILD028||Macrophages,TILD028,Macrophages,1799,IPF
+TILD028||AT2,TILD028,AT2,61,IPF
+TILD028||Mast Cells,TILD028,Mast Cells,142,IPF
+TILD028||Monocytes,TILD028,Monocytes,438,IPF
+TILD028||SCGB3A2+,TILD028,SCGB3A2+,180,IPF
+TILD028||B Cells,TILD028,B Cells,199,IPF
+TILD028||Ciliated,TILD028,Ciliated,313,IPF
+TILD028||Smooth Muscle Cells,TILD028,Smooth Muscle Cells,72,IPF
+TILD028||Basal,TILD028,Basal,101,IPF
+TILD028||Plasma Cells,TILD028,Plasma Cells,27,IPF
+TILD028||Proliferating Macrophages,TILD028,Proliferating Macrophages,25,IPF
+TILD028||PLIN2+ Fibroblasts,TILD028,PLIN2+ Fibroblasts,27,IPF
+TILD028||MUC5B+,TILD028,MUC5B+,53,IPF
+TILD028||cDCs,TILD028,cDCs,145,IPF
+TILD028||SCGB3A2+ SCGB1A1+,TILD028,SCGB3A2+ SCGB1A1+,51,IPF
+TILD028||NK Cells,TILD028,NK Cells,20,IPF
+TILD028||Fibroblasts,TILD028,Fibroblasts,13,IPF
+TILD028||Differentiating Ciliated,TILD028,Differentiating Ciliated,13,IPF
+TILD028||KRT5-/KRT17+,TILD028,KRT5-/KRT17+,7,IPF
+TILD028||Lymphatic Endothelial Cells,TILD028,Lymphatic Endothelial Cells,14,IPF
+TILD028||Proliferating T Cells,TILD028,Proliferating T Cells,10,IPF
+TILD028||pDCs,TILD028,pDCs,3,IPF
+TILD028||Transitional AT2,TILD028,Transitional AT2,1,IPF
+TILD028||AT1,TILD028,AT1,7,IPF
+TILD028||Mesothelial Cells,TILD028,Mesothelial Cells,15,IPF
+TILD028||Proliferating Epithelial Cells,TILD028,Proliferating Epithelial Cells,3,IPF
+TILD028||MUC5AC+ High,TILD028,MUC5AC+ High,1,IPF
+VUHD65||Ciliated,VUHD65,Ciliated,449,Control
+VUHD65||Smooth Muscle Cells,VUHD65,Smooth Muscle Cells,15,Control
+VUHD65||Proliferating Macrophages,VUHD65,Proliferating Macrophages,39,Control
+VUHD65||Monocytes,VUHD65,Monocytes,39,Control
+VUHD65||MUC5B+,VUHD65,MUC5B+,116,Control
+VUHD65||Macrophages,VUHD65,Macrophages,791,Control
+VUHD65||AT2,VUHD65,AT2,328,Control
+VUHD65||NK Cells,VUHD65,NK Cells,121,Control
+VUHD65||AT1,VUHD65,AT1,14,Control
+VUHD65||Endothelial Cells,VUHD65,Endothelial Cells,314,Control
+VUHD65||Differentiating Ciliated,VUHD65,Differentiating Ciliated,79,Control
+VUHD65||T Cells,VUHD65,T Cells,30,Control
+VUHD65||Myofibroblasts,VUHD65,Myofibroblasts,36,Control
+VUHD65||SCGB3A2+ SCGB1A1+,VUHD65,SCGB3A2+ SCGB1A1+,34,Control
+VUHD65||Lymphatic Endothelial Cells,VUHD65,Lymphatic Endothelial Cells,15,Control
+VUHD65||Fibroblasts,VUHD65,Fibroblasts,19,Control
+VUHD65||Transitional AT2,VUHD65,Transitional AT2,55,Control
+VUHD65||Mast Cells,VUHD65,Mast Cells,5,Control
+VUHD65||Basal,VUHD65,Basal,7,Control
+VUHD65||Mesothelial Cells,VUHD65,Mesothelial Cells,6,Control
+VUHD65||Proliferating Epithelial Cells,VUHD65,Proliferating Epithelial Cells,6,Control
+VUHD65||SCGB3A2+,VUHD65,SCGB3A2+,8,Control
+VUHD65||Proliferating T Cells,VUHD65,Proliferating T Cells,4,Control
+VUHD65||cDCs,VUHD65,cDCs,2,Control
+VUHD65||MUC5AC+ High,VUHD65,MUC5AC+ High,12,Control
+VUHD65||B Cells,VUHD65,B Cells,3,Control
+VUHD65||PLIN2+ Fibroblasts,VUHD65,PLIN2+ Fibroblasts,2,Control
+VUHD65||KRT5-/KRT17+,VUHD65,KRT5-/KRT17+,1,Control
+VUHD65||Plasma Cells,VUHD65,Plasma Cells,2,Control
+VUHD66||AT2,VUHD66,AT2,504,Control
+VUHD66||Ciliated,VUHD66,Ciliated,892,Control
+VUHD66||Monocytes,VUHD66,Monocytes,34,Control
+VUHD66||AT1,VUHD66,AT1,40,Control
+VUHD66||B Cells,VUHD66,B Cells,33,Control
+VUHD66||NK Cells,VUHD66,NK Cells,131,Control
+VUHD66||Macrophages,VUHD66,Macrophages,169,Control
+VUHD66||Proliferating T Cells,VUHD66,Proliferating T Cells,13,Control
+VUHD66||SCGB3A2+ SCGB1A1+,VUHD66,SCGB3A2+ SCGB1A1+,114,Control
+VUHD66||Transitional AT2,VUHD66,Transitional AT2,110,Control
+VUHD66||Myofibroblasts,VUHD66,Myofibroblasts,56,Control
+VUHD66||SCGB3A2+,VUHD66,SCGB3A2+,40,Control
+VUHD66||Lymphatic Endothelial Cells,VUHD66,Lymphatic Endothelial Cells,143,Control
+VUHD66||Basal,VUHD66,Basal,1,Control
+VUHD66||T Cells,VUHD66,T Cells,241,Control
+VUHD66||Differentiating Ciliated,VUHD66,Differentiating Ciliated,67,Control
+VUHD66||Endothelial Cells,VUHD66,Endothelial Cells,49,Control
+VUHD66||KRT5-/KRT17+,VUHD66,KRT5-/KRT17+,12,Control
+VUHD66||Mast Cells,VUHD66,Mast Cells,14,Control
+VUHD66||Fibroblasts,VUHD66,Fibroblasts,57,Control
+VUHD66||Proliferating Epithelial Cells,VUHD66,Proliferating Epithelial Cells,6,Control
+VUHD66||Smooth Muscle Cells,VUHD66,Smooth Muscle Cells,2,Control
+VUHD66||pDCs,VUHD66,pDCs,8,Control
+VUHD66||cDCs,VUHD66,cDCs,19,Control
+VUHD66||Plasma Cells,VUHD66,Plasma Cells,5,Control
+VUHD66||MUC5B+,VUHD66,MUC5B+,26,Control
+VUHD66||Proliferating Macrophages,VUHD66,Proliferating Macrophages,11,Control
+VUHD66||MUC5AC+ High,VUHD66,MUC5AC+ High,5,Control
+VUHD67||T Cells,VUHD67,T Cells,1584,Control
+VUHD67||Macrophages,VUHD67,Macrophages,2073,Control
+VUHD67||NK Cells,VUHD67,NK Cells,249,Control
+VUHD67||AT2,VUHD67,AT2,1120,Control
+VUHD67||Fibroblasts,VUHD67,Fibroblasts,22,Control
+VUHD67||Ciliated,VUHD67,Ciliated,206,Control
+VUHD67||Proliferating T Cells,VUHD67,Proliferating T Cells,204,Control
+VUHD67||Monocytes,VUHD67,Monocytes,918,Control
+VUHD67||Plasma Cells,VUHD67,Plasma Cells,87,Control
+VUHD67||Transitional AT2,VUHD67,Transitional AT2,188,Control
+VUHD67||Endothelial Cells,VUHD67,Endothelial Cells,348,Control
+VUHD67||MUC5B+,VUHD67,MUC5B+,60,Control
+VUHD67||AT1,VUHD67,AT1,200,Control
+VUHD67||B Cells,VUHD67,B Cells,58,Control
+VUHD67||Proliferating Epithelial Cells,VUHD67,Proliferating Epithelial Cells,16,Control
+VUHD67||Myofibroblasts,VUHD67,Myofibroblasts,30,Control
+VUHD67||Differentiating Ciliated,VUHD67,Differentiating Ciliated,44,Control
+VUHD67||SCGB3A2+,VUHD67,SCGB3A2+,9,Control
+VUHD67||cDCs,VUHD67,cDCs,12,Control
+VUHD67||Smooth Muscle Cells,VUHD67,Smooth Muscle Cells,36,Control
+VUHD67||Lymphatic Endothelial Cells,VUHD67,Lymphatic Endothelial Cells,47,Control
+VUHD67||Mast Cells,VUHD67,Mast Cells,23,Control
+VUHD67||Basal,VUHD67,Basal,37,Control
+VUHD67||SCGB3A2+ SCGB1A1+,VUHD67,SCGB3A2+ SCGB1A1+,32,Control
+VUHD67||Proliferating Macrophages,VUHD67,Proliferating Macrophages,9,Control
+VUHD68||Macrophages,VUHD68,Macrophages,4492,Control
+VUHD68||Monocytes,VUHD68,Monocytes,100,Control
+VUHD68||Endothelial Cells,VUHD68,Endothelial Cells,707,Control
+VUHD68||AT2,VUHD68,AT2,42,Control
+VUHD68||Proliferating Macrophages,VUHD68,Proliferating Macrophages,98,Control
+VUHD68||T Cells,VUHD68,T Cells,40,Control
+VUHD68||MUC5B+,VUHD68,MUC5B+,16,Control
+VUHD68||Ciliated,VUHD68,Ciliated,32,Control
+VUHD68||NK Cells,VUHD68,NK Cells,52,Control
+VUHD68||Smooth Muscle Cells,VUHD68,Smooth Muscle Cells,86,Control
+VUHD68||SCGB3A2+ SCGB1A1+,VUHD68,SCGB3A2+ SCGB1A1+,11,Control
+VUHD68||Mast Cells,VUHD68,Mast Cells,10,Control
+VUHD68||Lymphatic Endothelial Cells,VUHD68,Lymphatic Endothelial Cells,8,Control
+VUHD68||cDCs,VUHD68,cDCs,45,Control
+VUHD68||Myofibroblasts,VUHD68,Myofibroblasts,41,Control
+VUHD68||Fibroblasts,VUHD68,Fibroblasts,7,Control
+VUHD68||Plasma Cells,VUHD68,Plasma Cells,1,Control
+VUHD68||SCGB3A2+,VUHD68,SCGB3A2+,4,Control
+VUHD68||B Cells,VUHD68,B Cells,10,Control
+VUHD68||Basal,VUHD68,Basal,1,Control
+VUHD68||AT1,VUHD68,AT1,8,Control
+VUHD68||Transitional AT2,VUHD68,Transitional AT2,2,Control
+VUHD68||Differentiating Ciliated,VUHD68,Differentiating Ciliated,1,Control
+VUHD68||Proliferating T Cells,VUHD68,Proliferating T Cells,1,Control
+VUHD69||Monocytes,VUHD69,Monocytes,89,Control
+VUHD69||Endothelial Cells,VUHD69,Endothelial Cells,93,Control
+VUHD69||T Cells,VUHD69,T Cells,474,Control
+VUHD69||NK Cells,VUHD69,NK Cells,40,Control
+VUHD69||B Cells,VUHD69,B Cells,25,Control
+VUHD69||Fibroblasts,VUHD69,Fibroblasts,2,Control
+VUHD69||Smooth Muscle Cells,VUHD69,Smooth Muscle Cells,8,Control
+VUHD69||Ciliated,VUHD69,Ciliated,14,Control
+VUHD69||AT1,VUHD69,AT1,3,Control
+VUHD69||Transitional AT2,VUHD69,Transitional AT2,2,Control
+VUHD69||Macrophages,VUHD69,Macrophages,20,Control
+VUHD69||cDCs,VUHD69,cDCs,9,Control
+VUHD69||Proliferating Epithelial Cells,VUHD69,Proliferating Epithelial Cells,2,Control
+VUHD69||SCGB3A2+,VUHD69,SCGB3A2+,2,Control
+VUHD69||Myofibroblasts,VUHD69,Myofibroblasts,5,Control
+VUHD69||AT2,VUHD69,AT2,4,Control
+VUHD69||SCGB3A2+ SCGB1A1+,VUHD69,SCGB3A2+ SCGB1A1+,3,Control
+VUHD69||Lymphatic Endothelial Cells,VUHD69,Lymphatic Endothelial Cells,5,Control
+VUHD70||Ciliated,VUHD70,Ciliated,294,Control
+VUHD70||NK Cells,VUHD70,NK Cells,67,Control
+VUHD70||Macrophages,VUHD70,Macrophages,538,Control
+VUHD70||SCGB3A2+ SCGB1A1+,VUHD70,SCGB3A2+ SCGB1A1+,12,Control
+VUHD70||MUC5B+,VUHD70,MUC5B+,22,Control
+VUHD70||Endothelial Cells,VUHD70,Endothelial Cells,448,Control
+VUHD70||Lymphatic Endothelial Cells,VUHD70,Lymphatic Endothelial Cells,9,Control
+VUHD70||Differentiating Ciliated,VUHD70,Differentiating Ciliated,16,Control
+VUHD70||MUC5AC+ High,VUHD70,MUC5AC+ High,3,Control
+VUHD70||AT1,VUHD70,AT1,36,Control
+VUHD70||B Cells,VUHD70,B Cells,2,Control
+VUHD70||Monocytes,VUHD70,Monocytes,13,Control
+VUHD70||Transitional AT2,VUHD70,Transitional AT2,14,Control
+VUHD70||Proliferating Macrophages,VUHD70,Proliferating Macrophages,11,Control
+VUHD70||T Cells,VUHD70,T Cells,2,Control
+VUHD70||Fibroblasts,VUHD70,Fibroblasts,5,Control
+VUHD70||AT2,VUHD70,AT2,4,Control
+VUHD70||Myofibroblasts,VUHD70,Myofibroblasts,1,Control
+VUHD70||Smooth Muscle Cells,VUHD70,Smooth Muscle Cells,2,Control
+VUHD70||Mast Cells,VUHD70,Mast Cells,4,Control
+VUHD70||SCGB3A2+,VUHD70,SCGB3A2+,4,Control
+VUHD70||cDCs,VUHD70,cDCs,1,Control
+VUHD70||Basal,VUHD70,Basal,1,Control
+VUHD071||Macrophages,VUHD071,Macrophages,1923,Control
+VUHD071||Proliferating T Cells,VUHD071,Proliferating T Cells,2,Control
+VUHD071||Differentiating Ciliated,VUHD071,Differentiating Ciliated,17,Control
+VUHD071||T Cells,VUHD071,T Cells,20,Control
+VUHD071||AT2,VUHD071,AT2,98,Control
+VUHD071||Ciliated,VUHD071,Ciliated,47,Control
+VUHD071||Proliferating Macrophages,VUHD071,Proliferating Macrophages,11,Control
+VUHD071||Mast Cells,VUHD071,Mast Cells,12,Control
+VUHD071||MUC5B+,VUHD071,MUC5B+,36,Control
+VUHD071||SCGB3A2+ SCGB1A1+,VUHD071,SCGB3A2+ SCGB1A1+,3,Control
+VUHD071||cDCs,VUHD071,cDCs,2,Control
+VUHD071||Plasma Cells,VUHD071,Plasma Cells,3,Control
+VUHD071||Monocytes,VUHD071,Monocytes,12,Control
+VUHD071||Proliferating Epithelial Cells,VUHD071,Proliferating Epithelial Cells,2,Control
+VUHD071||Mesothelial Cells,VUHD071,Mesothelial Cells,2,Control
+VUHD071||Basal,VUHD071,Basal,3,Control
+VUHD071||SCGB3A2+,VUHD071,SCGB3A2+,1,Control
+VUHD071||Transitional AT2,VUHD071,Transitional AT2,1,Control
+VUILD53||Smooth Muscle Cells,VUILD53,Smooth Muscle Cells,29,IPF
+VUILD53||Plasma Cells,VUILD53,Plasma Cells,15,IPF
+VUILD53||Macrophages,VUILD53,Macrophages,380,IPF
+VUILD53||Ciliated,VUILD53,Ciliated,252,IPF
+VUILD53||SCGB3A2+ SCGB1A1+,VUILD53,SCGB3A2+ SCGB1A1+,43,IPF
+VUILD53||Endothelial Cells,VUILD53,Endothelial Cells,94,IPF
+VUILD53||AT2,VUILD53,AT2,109,IPF
+VUILD53||Myofibroblasts,VUILD53,Myofibroblasts,26,IPF
+VUILD53||MUC5B+,VUILD53,MUC5B+,9,IPF
+VUILD53||Monocytes,VUILD53,Monocytes,9,IPF
+VUILD53||PLIN2+ Fibroblasts,VUILD53,PLIN2+ Fibroblasts,39,IPF
+VUILD53||Basal,VUILD53,Basal,32,IPF
+VUILD53||SCGB3A2+,VUILD53,SCGB3A2+,19,IPF
+VUILD53||Proliferating Macrophages,VUILD53,Proliferating Macrophages,9,IPF
+VUILD53||Differentiating Ciliated,VUILD53,Differentiating Ciliated,9,IPF
+VUILD53||Mast Cells,VUILD53,Mast Cells,11,IPF
+VUILD53||B Cells,VUILD53,B Cells,8,IPF
+VUILD53||Mesothelial Cells,VUILD53,Mesothelial Cells,3,IPF
+VUILD53||cDCs,VUILD53,cDCs,6,IPF
+VUILD53||AT1,VUILD53,AT1,2,IPF
+VUILD53||KRT5-/KRT17+,VUILD53,KRT5-/KRT17+,2,IPF
+VUILD53||T Cells,VUILD53,T Cells,4,IPF
+VUILD53||pDCs,VUILD53,pDCs,2,IPF
+VUILD53||Proliferating Epithelial Cells,VUILD53,Proliferating Epithelial Cells,1,IPF
+VUILD53||Fibroblasts,VUILD53,Fibroblasts,1,IPF
+VUILD53||Lymphatic Endothelial Cells,VUILD53,Lymphatic Endothelial Cells,1,IPF
+VUILD53||Transitional AT2,VUILD53,Transitional AT2,1,IPF
+VUILD59||AT2,VUILD59,AT2,1838,IPF
+VUILD59||Macrophages,VUILD59,Macrophages,5372,IPF
+VUILD59||Proliferating Macrophages,VUILD59,Proliferating Macrophages,497,IPF
+VUILD59||cDCs,VUILD59,cDCs,154,IPF
+VUILD59||Proliferating T Cells,VUILD59,Proliferating T Cells,7,IPF
+VUILD59||T Cells,VUILD59,T Cells,243,IPF
+VUILD59||SCGB3A2+ SCGB1A1+,VUILD59,SCGB3A2+ SCGB1A1+,58,IPF
+VUILD59||Monocytes,VUILD59,Monocytes,40,IPF
+VUILD59||B Cells,VUILD59,B Cells,9,IPF
+VUILD59||Endothelial Cells,VUILD59,Endothelial Cells,1410,IPF
+VUILD59||AT1,VUILD59,AT1,23,IPF
+VUILD59||NK Cells,VUILD59,NK Cells,71,IPF
+VUILD59||Smooth Muscle Cells,VUILD59,Smooth Muscle Cells,290,IPF
+VUILD59||Ciliated,VUILD59,Ciliated,1269,IPF
+VUILD59||KRT5-/KRT17+,VUILD59,KRT5-/KRT17+,77,IPF
+VUILD59||pDCs,VUILD59,pDCs,8,IPF
+VUILD59||Transitional AT2,VUILD59,Transitional AT2,500,IPF
+VUILD59||SCGB3A2+,VUILD59,SCGB3A2+,641,IPF
+VUILD59||Plasma Cells,VUILD59,Plasma Cells,7,IPF
+VUILD59||Differentiating Ciliated,VUILD59,Differentiating Ciliated,261,IPF
+VUILD59||Proliferating Epithelial Cells,VUILD59,Proliferating Epithelial Cells,102,IPF
+VUILD59||Basal,VUILD59,Basal,551,IPF
+VUILD59||MUC5B+,VUILD59,MUC5B+,578,IPF
+VUILD59||Myofibroblasts,VUILD59,Myofibroblasts,324,IPF
+VUILD59||Lymphatic Endothelial Cells,VUILD59,Lymphatic Endothelial Cells,478,IPF
+VUILD59||Mesothelial Cells,VUILD59,Mesothelial Cells,32,IPF
+VUILD59||PLIN2+ Fibroblasts,VUILD59,PLIN2+ Fibroblasts,250,IPF
+VUILD59||Fibroblasts,VUILD59,Fibroblasts,38,IPF
+VUILD59||MUC5AC+ High,VUILD59,MUC5AC+ High,14,IPF
+VUILD60||NK Cells,VUILD60,NK Cells,107,IPF
+VUILD60||Monocytes,VUILD60,Monocytes,100,IPF
+VUILD60||T Cells,VUILD60,T Cells,529,IPF
+VUILD60||Ciliated,VUILD60,Ciliated,4210,IPF
+VUILD60||AT1,VUILD60,AT1,36,IPF
+VUILD60||MUC5B+,VUILD60,MUC5B+,259,IPF
+VUILD60||AT2,VUILD60,AT2,137,IPF
+VUILD60||Mast Cells,VUILD60,Mast Cells,65,IPF
+VUILD60||Macrophages,VUILD60,Macrophages,1011,IPF
+VUILD60||SCGB3A2+ SCGB1A1+,VUILD60,SCGB3A2+ SCGB1A1+,161,IPF
+VUILD60||Endothelial Cells,VUILD60,Endothelial Cells,190,IPF
+VUILD60||Differentiating Ciliated,VUILD60,Differentiating Ciliated,350,IPF
+VUILD60||cDCs,VUILD60,cDCs,119,IPF
+VUILD60||KRT5-/KRT17+,VUILD60,KRT5-/KRT17+,110,IPF
+VUILD60||Transitional AT2,VUILD60,Transitional AT2,18,IPF
+VUILD60||B Cells,VUILD60,B Cells,27,IPF
+VUILD60||Myofibroblasts,VUILD60,Myofibroblasts,10,IPF
+VUILD60||Smooth Muscle Cells,VUILD60,Smooth Muscle Cells,14,IPF
+VUILD60||SCGB3A2+,VUILD60,SCGB3A2+,439,IPF
+VUILD60||Proliferating Macrophages,VUILD60,Proliferating Macrophages,51,IPF
+VUILD60||Proliferating T Cells,VUILD60,Proliferating T Cells,16,IPF
+VUILD60||Basal,VUILD60,Basal,444,IPF
+VUILD60||Lymphatic Endothelial Cells,VUILD60,Lymphatic Endothelial Cells,25,IPF
+VUILD60||Fibroblasts,VUILD60,Fibroblasts,2,IPF
+VUILD60||Proliferating Epithelial Cells,VUILD60,Proliferating Epithelial Cells,19,IPF
+VUILD60||MUC5AC+ High,VUILD60,MUC5AC+ High,12,IPF
+VUILD60||Plasma Cells,VUILD60,Plasma Cells,2,IPF
+VUILD61||Macrophages,VUILD61,Macrophages,971,IPF
+VUILD61||Monocytes,VUILD61,Monocytes,108,IPF
+VUILD61||AT2,VUILD61,AT2,395,IPF
+VUILD61||NK Cells,VUILD61,NK Cells,124,IPF
+VUILD61||Endothelial Cells,VUILD61,Endothelial Cells,274,IPF
+VUILD61||B Cells,VUILD61,B Cells,24,IPF
+VUILD61||Proliferating Epithelial Cells,VUILD61,Proliferating Epithelial Cells,35,IPF
+VUILD61||T Cells,VUILD61,T Cells,206,IPF
+VUILD61||Ciliated,VUILD61,Ciliated,4289,IPF
+VUILD61||MUC5B+,VUILD61,MUC5B+,457,IPF
+VUILD61||Plasma Cells,VUILD61,Plasma Cells,9,IPF
+VUILD61||AT1,VUILD61,AT1,20,IPF
+VUILD61||SCGB3A2+ SCGB1A1+,VUILD61,SCGB3A2+ SCGB1A1+,150,IPF
+VUILD61||cDCs,VUILD61,cDCs,85,IPF
+VUILD61||MUC5AC+ High,VUILD61,MUC5AC+ High,22,IPF
+VUILD61||pDCs,VUILD61,pDCs,25,IPF
+VUILD61||Differentiating Ciliated,VUILD61,Differentiating Ciliated,296,IPF
+VUILD61||Mast Cells,VUILD61,Mast Cells,16,IPF
+VUILD61||Basal,VUILD61,Basal,84,IPF
+VUILD61||Transitional AT2,VUILD61,Transitional AT2,12,IPF
+VUILD61||Proliferating T Cells,VUILD61,Proliferating T Cells,6,IPF
+VUILD61||Proliferating Macrophages,VUILD61,Proliferating Macrophages,22,IPF
+VUILD61||SCGB3A2+,VUILD61,SCGB3A2+,663,IPF
+VUILD61||Lymphatic Endothelial Cells,VUILD61,Lymphatic Endothelial Cells,3,IPF
+VUILD61||KRT5-/KRT17+,VUILD61,KRT5-/KRT17+,11,IPF
+VUILD61||Fibroblasts,VUILD61,Fibroblasts,11,IPF
+VUILD61||Mesothelial Cells,VUILD61,Mesothelial Cells,49,IPF
+VUILD61||PLIN2+ Fibroblasts,VUILD61,PLIN2+ Fibroblasts,8,IPF
+VUILD61||Myofibroblasts,VUILD61,Myofibroblasts,20,IPF
+VUILD61||Smooth Muscle Cells,VUILD61,Smooth Muscle Cells,13,IPF
+VUILD63||Plasma Cells,VUILD63,Plasma Cells,2,IPF
+VUILD63||Macrophages,VUILD63,Macrophages,322,IPF
+VUILD63||NK Cells,VUILD63,NK Cells,593,IPF
+VUILD63||Monocytes,VUILD63,Monocytes,79,IPF
+VUILD63||Endothelial Cells,VUILD63,Endothelial Cells,167,IPF
+VUILD63||Ciliated,VUILD63,Ciliated,186,IPF
+VUILD63||B Cells,VUILD63,B Cells,41,IPF
+VUILD63||cDCs,VUILD63,cDCs,63,IPF
+VUILD63||SCGB3A2+,VUILD63,SCGB3A2+,17,IPF
+VUILD63||MUC5B+,VUILD63,MUC5B+,30,IPF
+VUILD63||T Cells,VUILD63,T Cells,386,IPF
+VUILD63||Basal,VUILD63,Basal,15,IPF
+VUILD63||AT2,VUILD63,AT2,99,IPF
+VUILD63||Proliferating T Cells,VUILD63,Proliferating T Cells,18,IPF
+VUILD63||Proliferating Macrophages,VUILD63,Proliferating Macrophages,24,IPF
+VUILD63||Smooth Muscle Cells,VUILD63,Smooth Muscle Cells,4,IPF
+VUILD63||SCGB3A2+ SCGB1A1+,VUILD63,SCGB3A2+ SCGB1A1+,33,IPF
+VUILD63||KRT5-/KRT17+,VUILD63,KRT5-/KRT17+,7,IPF
+VUILD63||Differentiating Ciliated,VUILD63,Differentiating Ciliated,8,IPF
+VUILD63||Transitional AT2,VUILD63,Transitional AT2,8,IPF
+VUILD63||MUC5AC+ High,VUILD63,MUC5AC+ High,1,IPF
+VUILD63||Myofibroblasts,VUILD63,Myofibroblasts,4,IPF
+VUILD63||pDCs,VUILD63,pDCs,2,IPF
+VUILD63||Proliferating Epithelial Cells,VUILD63,Proliferating Epithelial Cells,3,IPF
+VUILD63||Lymphatic Endothelial Cells,VUILD63,Lymphatic Endothelial Cells,6,IPF
+VUILD63||Mesothelial Cells,VUILD63,Mesothelial Cells,5,IPF
+VUILD63||Mast Cells,VUILD63,Mast Cells,1,IPF
+VUILD64||Macrophages,VUILD64,Macrophages,135,IPF
+VUILD64||SCGB3A2+ SCGB1A1+,VUILD64,SCGB3A2+ SCGB1A1+,197,IPF
+VUILD64||Fibroblasts,VUILD64,Fibroblasts,2,IPF
+VUILD64||AT2,VUILD64,AT2,428,IPF
+VUILD64||MUC5B+,VUILD64,MUC5B+,59,IPF
+VUILD64||SCGB3A2+,VUILD64,SCGB3A2+,26,IPF
+VUILD64||Ciliated,VUILD64,Ciliated,278,IPF
+VUILD64||KRT5-/KRT17+,VUILD64,KRT5-/KRT17+,127,IPF
+VUILD64||Proliferating Epithelial Cells,VUILD64,Proliferating Epithelial Cells,3,IPF
+VUILD64||Basal,VUILD64,Basal,14,IPF
+VUILD64||Differentiating Ciliated,VUILD64,Differentiating Ciliated,27,IPF
+VUILD64||T Cells,VUILD64,T Cells,14,IPF
+VUILD64||NK Cells,VUILD64,NK Cells,4,IPF
+VUILD64||Proliferating Macrophages,VUILD64,Proliferating Macrophages,6,IPF
+VUILD64||cDCs,VUILD64,cDCs,20,IPF
+VUILD64||Monocytes,VUILD64,Monocytes,20,IPF
+VUILD64||Transitional AT2,VUILD64,Transitional AT2,3,IPF
+VUILD64||Lymphatic Endothelial Cells,VUILD64,Lymphatic Endothelial Cells,9,IPF
+VUILD64||Endothelial Cells,VUILD64,Endothelial Cells,17,IPF
+VUILD64||B Cells,VUILD64,B Cells,9,IPF
+VUILD64||Myofibroblasts,VUILD64,Myofibroblasts,7,IPF
+VUILD64||Plasma Cells,VUILD64,Plasma Cells,4,IPF
+VUILD64||pDCs,VUILD64,pDCs,2,IPF
+VUILD64||Proliferating T Cells,VUILD64,Proliferating T Cells,4,IPF
+VUILD64||Smooth Muscle Cells,VUILD64,Smooth Muscle Cells,1,IPF
+VUILD64||Mast Cells,VUILD64,Mast Cells,2,IPF
+VUILD64||AT1,VUILD64,AT1,1,IPF
+VUILD65||Ciliated,VUILD65,Ciliated,623,IPF
+VUILD65||Macrophages,VUILD65,Macrophages,801,IPF
+VUILD65||SCGB3A2+,VUILD65,SCGB3A2+,371,IPF
+VUILD65||AT2,VUILD65,AT2,72,IPF
+VUILD65||Basal,VUILD65,Basal,288,IPF
+VUILD65||B Cells,VUILD65,B Cells,72,IPF
+VUILD65||Differentiating Ciliated,VUILD65,Differentiating Ciliated,70,IPF
+VUILD65||MUC5B+,VUILD65,MUC5B+,372,IPF
+VUILD65||cDCs,VUILD65,cDCs,140,IPF
+VUILD65||Transitional AT2,VUILD65,Transitional AT2,20,IPF
+VUILD65||Myofibroblasts,VUILD65,Myofibroblasts,7,IPF
+VUILD65||Endothelial Cells,VUILD65,Endothelial Cells,99,IPF
+VUILD65||SCGB3A2+ SCGB1A1+,VUILD65,SCGB3A2+ SCGB1A1+,48,IPF
+VUILD65||T Cells,VUILD65,T Cells,27,IPF
+VUILD65||KRT5-/KRT17+,VUILD65,KRT5-/KRT17+,4,IPF
+VUILD65||Monocytes,VUILD65,Monocytes,12,IPF
+VUILD65||pDCs,VUILD65,pDCs,5,IPF
+VUILD65||Proliferating T Cells,VUILD65,Proliferating T Cells,2,IPF
+VUILD65||MUC5AC+ High,VUILD65,MUC5AC+ High,24,IPF
+VUILD65||NK Cells,VUILD65,NK Cells,9,IPF
+VUILD65||Lymphatic Endothelial Cells,VUILD65,Lymphatic Endothelial Cells,11,IPF
+VUILD65||Proliferating Macrophages,VUILD65,Proliferating Macrophages,46,IPF
+VUILD65||Plasma Cells,VUILD65,Plasma Cells,7,IPF
+VUILD65||Proliferating Epithelial Cells,VUILD65,Proliferating Epithelial Cells,39,IPF
+VUILD65||Smooth Muscle Cells,VUILD65,Smooth Muscle Cells,6,IPF
+VUILD65||Mast Cells,VUILD65,Mast Cells,13,IPF
+VUILD65||Mesothelial Cells,VUILD65,Mesothelial Cells,1,IPF
+VUILD65||Fibroblasts,VUILD65,Fibroblasts,1,IPF

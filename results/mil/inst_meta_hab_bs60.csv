@@ -1,0 +1,1120 @@
+instance,celltype,Subject_Identity,Disease_Identity,n_cells,subclass_majority
+0,AT2,THD0001,Control,61,AT2
+1,AT2,THD0001,Control,61,AT2
+2,AT2,THD0001,Control,61,AT2
+3,AT2,THD0001,Control,61,AT2
+4,AT2,THD0001,Control,61,AT2
+5,AT2,THD0001,Control,61,AT2
+6,AT2,THD0001,Control,61,AT2
+7,AT2,THD0001,Control,61,AT2
+8,AT2,THD0001,Control,61,AT2
+9,AT2,THD0001,Control,61,AT2
+10,AT2,THD0001,Control,61,AT2
+11,AT2,THD0001,Control,61,AT2
+12,AT2,THD0001,Control,61,AT2
+13,AT2,THD0001,Control,61,AT2
+14,AT2,THD0001,Control,61,AT2
+15,AT2,THD0001,Control,61,AT2
+16,AT2,THD0001,Control,61,AT2
+17,AT2,THD0001,Control,61,AT2
+18,AT2,THD0001,Control,61,AT2
+19,AT2,THD0001,Control,60,AT2
+20,Monocytes,THD0001,Control,63,Monocytes
+21,Monocytes,THD0001,Control,63,Monocytes
+22,Monocytes,THD0001,Control,63,Monocytes
+23,Monocytes,THD0001,Control,62,Monocytes
+24,Monocytes,THD0001,Control,62,Monocytes
+25,Monocytes,THD0001,Control,62,Monocytes
+26,Monocytes,THD0001,Control,62,Monocytes
+27,Macrophages,THD0001,Control,59,Macrophages
+28,Macrophages,THD0001,Control,59,Macrophages
+29,Macrophages,THD0001,Control,58,Macrophages
+30,Macrophages,THD0001,Control,58,Macrophages
+31,Macrophages,THD0001,Control,58,Macrophages
+32,Monocytes,THD0002,Control,59,Monocytes
+33,Monocytes,THD0002,Control,58,Monocytes
+34,Monocytes,THD0002,Control,58,Monocytes
+35,Monocytes,THD0002,Control,58,Monocytes
+36,Monocytes,THD0002,Control,58,Monocytes
+37,Monocytes,THD0002,Control,58,Monocytes
+38,Macrophages,THD0002,Control,63,Macrophages
+39,Macrophages,THD0002,Control,63,Macrophages
+40,Macrophages,THD0002,Control,63,Macrophages
+41,Macrophages,THD0002,Control,63,Macrophages
+42,Macrophages,THD0002,Control,62,Macrophages
+43,Macrophages,THD0002,Control,62,Macrophages
+44,Macrophages,THD0002,Control,62,Macrophages
+45,Macrophages,THD0002,Control,62,Macrophages
+46,Macrophages,THD0002,Control,62,Macrophages
+47,Macrophages,THD0002,Control,62,Macrophages
+48,Macrophages,THD0002,Control,62,Macrophages
+49,Macrophages,THD0002,Control,62,Macrophages
+50,AT2,THD0002,Control,62,AT2
+51,AT2,THD0002,Control,62,AT2
+52,AT2,THD0002,Control,62,AT2
+53,AT2,THD0002,Control,62,AT2
+54,AT2,THD0002,Control,62,AT2
+55,AT2,THD0002,Control,62,AT2
+56,AT2,THD0002,Control,62,AT2
+57,AT2,THD0002,Control,61,AT2
+58,AT2,THD0002,Control,61,AT2
+59,AT2,THD0002,Control,61,AT2
+60,AT2,THD0002,Control,61,AT2
+61,AT2,THD0002,Control,61,AT2
+62,AT2,THD0002,Control,61,AT2
+63,AT2,THD0002,Control,61,AT2
+64,AT2,THD0002,Control,61,AT2
+65,AT2,THD0002,Control,61,AT2
+66,AT2,THD0002,Control,61,AT2
+67,Macrophages,THD0005,Control,60,Macrophages
+68,Macrophages,THD0005,Control,60,Macrophages
+69,Macrophages,THD0005,Control,60,Macrophages
+70,Macrophages,THD0005,Control,60,Macrophages
+71,Macrophages,THD0005,Control,60,Macrophages
+72,Macrophages,THD0005,Control,60,Macrophages
+73,Macrophages,THD0005,Control,60,Macrophages
+74,Macrophages,THD0005,Control,60,Macrophages
+75,Macrophages,THD0005,Control,60,Macrophages
+76,Macrophages,THD0005,Control,60,Macrophages
+77,Macrophages,THD0005,Control,60,Macrophages
+78,Macrophages,THD0005,Control,60,Macrophages
+79,Macrophages,THD0005,Control,60,Macrophages
+80,Macrophages,THD0005,Control,60,Macrophages
+81,Macrophages,THD0005,Control,59,Macrophages
+82,Macrophages,THD0005,Control,59,Macrophages
+83,Ciliated,THD0005,Control,72,Ciliated
+84,Ciliated,THD0005,Control,71,Ciliated
+85,Proliferating T Cells,THD0005,Control,72,Proliferating T Cells
+86,Monocytes,THD0005,Control,62,Monocytes
+87,Monocytes,THD0005,Control,62,Monocytes
+88,Monocytes,THD0005,Control,62,Monocytes
+89,Monocytes,THD0005,Control,62,Monocytes
+90,Monocytes,THD0005,Control,62,Monocytes
+91,Monocytes,THD0005,Control,62,Monocytes
+92,Monocytes,THD0005,Control,62,Monocytes
+93,Monocytes,THD0005,Control,62,Monocytes
+94,Monocytes,THD0005,Control,62,Monocytes
+95,Monocytes,THD0005,Control,61,Monocytes
+96,Monocytes,THD0005,Control,61,Monocytes
+97,Monocytes,THD0005,Control,61,Monocytes
+98,Monocytes,THD0005,Control,61,Monocytes
+99,Monocytes,THD0005,Control,61,Monocytes
+100,Plasma Cells,THD0005,Control,67,Plasma Cells
+101,Plasma Cells,THD0005,Control,67,Plasma Cells
+102,T Cells,THD0005,Control,56,T Cells
+103,T Cells,THD0005,Control,55,T Cells
+104,T Cells,THD0005,Control,55,T Cells
+105,T Cells,THD0005,Control,55,T Cells
+106,Macrophages,TILD001,IPF,62,Macrophages
+107,Macrophages,TILD001,IPF,62,Macrophages
+108,Macrophages,TILD001,IPF,62,Macrophages
+109,Macrophages,TILD001,IPF,62,Macrophages
+110,Macrophages,TILD001,IPF,61,Macrophages
+111,Macrophages,TILD001,IPF,61,Macrophages
+112,Macrophages,TILD001,IPF,61,Macrophages
+113,PLIN2+ Fibroblasts,TILD001,IPF,60,PLIN2+ Fibroblasts
+114,PLIN2+ Fibroblasts,TILD001,IPF,60,PLIN2+ Fibroblasts
+115,PLIN2+ Fibroblasts,TILD001,IPF,60,PLIN2+ Fibroblasts
+116,PLIN2+ Fibroblasts,TILD001,IPF,60,PLIN2+ Fibroblasts
+117,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+118,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+119,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+120,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+121,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+122,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+123,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+124,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+125,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+126,PLIN2+ Fibroblasts,TILD001,IPF,59,PLIN2+ Fibroblasts
+127,HAS1 High Fibroblasts,TILD001,IPF,60,HAS1 High Fibroblasts
+128,HAS1 High Fibroblasts,TILD001,IPF,60,HAS1 High Fibroblasts
+129,HAS1 High Fibroblasts,TILD001,IPF,59,HAS1 High Fibroblasts
+130,Monocytes,TILD001,IPF,61,Monocytes
+131,Monocytes,TILD001,IPF,61,Monocytes
+132,Monocytes,TILD001,IPF,61,Monocytes
+133,Monocytes,TILD001,IPF,60,Monocytes
+134,Ciliated,TILD001,IPF,53,Ciliated
+135,Ciliated,TILD001,IPF,53,Ciliated
+136,Macrophages,TILD006,IPF,61,Macrophages
+137,Macrophages,TILD006,IPF,61,Macrophages
+138,Macrophages,TILD006,IPF,61,Macrophages
+139,Macrophages,TILD006,IPF,61,Macrophages
+140,Macrophages,TILD006,IPF,61,Macrophages
+141,Macrophages,TILD006,IPF,61,Macrophages
+142,Macrophages,TILD006,IPF,61,Macrophages
+143,Macrophages,TILD006,IPF,61,Macrophages
+144,Macrophages,TILD006,IPF,61,Macrophages
+145,Macrophages,TILD006,IPF,61,Macrophages
+146,Macrophages,TILD006,IPF,61,Macrophages
+147,Macrophages,TILD006,IPF,61,Macrophages
+148,Macrophages,TILD006,IPF,61,Macrophages
+149,Macrophages,TILD006,IPF,61,Macrophages
+150,Macrophages,TILD006,IPF,61,Macrophages
+151,Macrophages,TILD006,IPF,61,Macrophages
+152,Macrophages,TILD006,IPF,61,Macrophages
+153,Macrophages,TILD006,IPF,61,Macrophages
+154,Macrophages,TILD006,IPF,61,Macrophages
+155,Macrophages,TILD006,IPF,61,Macrophages
+156,Macrophages,TILD006,IPF,61,Macrophages
+157,Macrophages,TILD006,IPF,61,Macrophages
+158,Macrophages,TILD006,IPF,60,Macrophages
+159,Macrophages,TILD006,IPF,60,Macrophages
+160,Macrophages,TILD006,IPF,60,Macrophages
+161,Macrophages,TILD006,IPF,60,Macrophages
+162,Macrophages,TILD006,IPF,60,Macrophages
+163,Macrophages,TILD006,IPF,60,Macrophages
+164,Macrophages,TILD006,IPF,60,Macrophages
+165,Macrophages,TILD006,IPF,60,Macrophages
+166,Macrophages,TILD006,IPF,60,Macrophages
+167,Macrophages,TILD006,IPF,60,Macrophages
+168,Macrophages,TILD006,IPF,60,Macrophages
+169,Macrophages,TILD006,IPF,60,Macrophages
+170,Macrophages,TILD006,IPF,60,Macrophages
+171,Plasma Cells,TILD006,IPF,67,Plasma Cells
+172,Plasma Cells,TILD006,IPF,66,Plasma Cells
+173,cDCs,TILD006,IPF,54,cDCs
+174,cDCs,TILD006,IPF,54,cDCs
+175,cDCs,TILD006,IPF,53,cDCs
+176,Myofibroblasts,TILD006,IPF,59,Myofibroblasts
+177,Myofibroblasts,TILD006,IPF,58,Myofibroblasts
+178,Proliferating Macrophages,TILD006,IPF,78,Proliferating Macrophages
+179,Ciliated,TILD006,IPF,89,Ciliated
+180,Macrophages,TILD010,IPF,62,Macrophages
+181,Macrophages,TILD010,IPF,62,Macrophages
+182,Macrophages,TILD010,IPF,62,Macrophages
+183,Macrophages,TILD010,IPF,62,Macrophages
+184,Macrophages,TILD010,IPF,62,Macrophages
+185,Macrophages,TILD010,IPF,62,Macrophages
+186,Macrophages,TILD010,IPF,62,Macrophages
+187,Macrophages,TILD010,IPF,62,Macrophages
+188,Macrophages,TILD010,IPF,62,Macrophages
+189,Macrophages,TILD010,IPF,61,Macrophages
+190,Macrophages,TILD010,IPF,61,Macrophages
+191,Macrophages,TILD010,IPF,61,Macrophages
+192,Ciliated,TILD010,IPF,61,Ciliated
+193,Ciliated,TILD010,IPF,61,Ciliated
+194,Monocytes,TILD015,IPF,62,Monocytes
+195,Monocytes,TILD015,IPF,62,Monocytes
+196,Monocytes,TILD015,IPF,62,Monocytes
+197,Monocytes,TILD015,IPF,62,Monocytes
+198,Monocytes,TILD015,IPF,62,Monocytes
+199,Monocytes,TILD015,IPF,61,Monocytes
+200,Monocytes,TILD015,IPF,61,Monocytes
+201,Monocytes,TILD015,IPF,61,Monocytes
+202,Monocytes,TILD015,IPF,61,Monocytes
+203,Monocytes,TILD015,IPF,61,Monocytes
+204,Monocytes,TILD015,IPF,61,Monocytes
+205,Monocytes,TILD015,IPF,61,Monocytes
+206,Monocytes,TILD015,IPF,61,Monocytes
+207,Monocytes,TILD015,IPF,61,Monocytes
+208,Monocytes,TILD015,IPF,61,Monocytes
+209,Monocytes,TILD015,IPF,61,Monocytes
+210,Monocytes,TILD015,IPF,61,Monocytes
+211,B Cells,TILD015,IPF,51,B Cells
+212,B Cells,TILD015,IPF,51,B Cells
+213,B Cells,TILD015,IPF,50,B Cells
+214,Macrophages,TILD015,IPF,61,Macrophages
+215,Macrophages,TILD015,IPF,61,Macrophages
+216,Macrophages,TILD015,IPF,61,Macrophages
+217,Macrophages,TILD015,IPF,61,Macrophages
+218,Macrophages,TILD015,IPF,61,Macrophages
+219,Macrophages,TILD015,IPF,61,Macrophages
+220,Macrophages,TILD015,IPF,61,Macrophages
+221,Macrophages,TILD015,IPF,61,Macrophages
+222,Macrophages,TILD015,IPF,61,Macrophages
+223,Macrophages,TILD015,IPF,61,Macrophages
+224,Macrophages,TILD015,IPF,61,Macrophages
+225,Macrophages,TILD015,IPF,61,Macrophages
+226,Macrophages,TILD015,IPF,61,Macrophages
+227,Macrophages,TILD015,IPF,61,Macrophages
+228,Macrophages,TILD015,IPF,61,Macrophages
+229,Macrophages,TILD015,IPF,61,Macrophages
+230,Macrophages,TILD015,IPF,61,Macrophages
+231,Macrophages,TILD015,IPF,61,Macrophages
+232,Macrophages,TILD015,IPF,61,Macrophages
+233,Macrophages,TILD015,IPF,61,Macrophages
+234,Macrophages,TILD015,IPF,61,Macrophages
+235,Macrophages,TILD015,IPF,61,Macrophages
+236,Macrophages,TILD015,IPF,60,Macrophages
+237,Macrophages,TILD015,IPF,60,Macrophages
+238,Macrophages,TILD015,IPF,60,Macrophages
+239,Macrophages,TILD015,IPF,60,Macrophages
+240,Macrophages,TILD015,IPF,60,Macrophages
+241,Macrophages,TILD015,IPF,60,Macrophages
+242,Macrophages,TILD015,IPF,60,Macrophages
+243,Macrophages,TILD015,IPF,60,Macrophages
+244,Macrophages,TILD015,IPF,60,Macrophages
+245,Macrophages,TILD015,IPF,60,Macrophages
+246,Macrophages,TILD015,IPF,60,Macrophages
+247,Macrophages,TILD015,IPF,60,Macrophages
+248,Macrophages,TILD015,IPF,60,Macrophages
+249,Macrophages,TILD015,IPF,60,Macrophages
+250,Macrophages,TILD015,IPF,60,Macrophages
+251,Macrophages,TILD015,IPF,60,Macrophages
+252,Macrophages,TILD015,IPF,60,Macrophages
+253,Macrophages,TILD015,IPF,60,Macrophages
+254,T Cells,TILD015,IPF,60,T Cells
+255,T Cells,TILD015,IPF,60,T Cells
+256,T Cells,TILD015,IPF,60,T Cells
+257,T Cells,TILD015,IPF,60,T Cells
+258,T Cells,TILD015,IPF,60,T Cells
+259,T Cells,TILD015,IPF,60,T Cells
+260,T Cells,TILD015,IPF,60,T Cells
+261,T Cells,TILD015,IPF,60,T Cells
+262,T Cells,TILD015,IPF,60,T Cells
+263,T Cells,TILD015,IPF,60,T Cells
+264,T Cells,TILD015,IPF,60,T Cells
+265,T Cells,TILD015,IPF,60,T Cells
+266,T Cells,TILD015,IPF,60,T Cells
+267,T Cells,TILD015,IPF,60,T Cells
+268,T Cells,TILD015,IPF,60,T Cells
+269,T Cells,TILD015,IPF,60,T Cells
+270,T Cells,TILD015,IPF,60,T Cells
+271,T Cells,TILD015,IPF,60,T Cells
+272,T Cells,TILD015,IPF,60,T Cells
+273,T Cells,TILD015,IPF,60,T Cells
+274,T Cells,TILD015,IPF,59,T Cells
+275,Ciliated,TILD015,IPF,60,Ciliated
+276,Ciliated,TILD015,IPF,60,Ciliated
+277,Myofibroblasts,TILD015,IPF,47,Myofibroblasts
+278,Myofibroblasts,TILD015,IPF,47,Myofibroblasts
+279,cDCs,TILD015,IPF,83,cDCs
+280,T Cells,TILD028,IPF,72,T Cells
+281,T Cells,TILD028,IPF,71,T Cells
+282,Myofibroblasts,TILD028,IPF,52,Myofibroblasts
+283,Myofibroblasts,TILD028,IPF,52,Myofibroblasts
+284,Macrophages,TILD028,IPF,60,Macrophages
+285,Macrophages,TILD028,IPF,60,Macrophages
+286,Macrophages,TILD028,IPF,60,Macrophages
+287,Macrophages,TILD028,IPF,60,Macrophages
+288,Macrophages,TILD028,IPF,60,Macrophages
+289,Macrophages,TILD028,IPF,60,Macrophages
+290,Macrophages,TILD028,IPF,60,Macrophages
+291,Macrophages,TILD028,IPF,60,Macrophages
+292,Macrophages,TILD028,IPF,60,Macrophages
+293,Macrophages,TILD028,IPF,60,Macrophages
+294,Macrophages,TILD028,IPF,60,Macrophages
+295,Macrophages,TILD028,IPF,60,Macrophages
+296,Macrophages,TILD028,IPF,60,Macrophages
+297,Macrophages,TILD028,IPF,60,Macrophages
+298,Macrophages,TILD028,IPF,60,Macrophages
+299,Macrophages,TILD028,IPF,60,Macrophages
+300,Macrophages,TILD028,IPF,60,Macrophages
+301,Macrophages,TILD028,IPF,60,Macrophages
+302,Macrophages,TILD028,IPF,60,Macrophages
+303,Macrophages,TILD028,IPF,60,Macrophages
+304,Macrophages,TILD028,IPF,60,Macrophages
+305,Macrophages,TILD028,IPF,60,Macrophages
+306,Macrophages,TILD028,IPF,60,Macrophages
+307,Macrophages,TILD028,IPF,60,Macrophages
+308,Macrophages,TILD028,IPF,60,Macrophages
+309,Macrophages,TILD028,IPF,60,Macrophages
+310,Macrophages,TILD028,IPF,60,Macrophages
+311,Macrophages,TILD028,IPF,60,Macrophages
+312,Macrophages,TILD028,IPF,60,Macrophages
+313,Macrophages,TILD028,IPF,59,Macrophages
+314,AT2,TILD028,IPF,61,AT2
+315,Monocytes,TILD028,IPF,63,Monocytes
+316,Monocytes,TILD028,IPF,63,Monocytes
+317,Monocytes,TILD028,IPF,63,Monocytes
+318,Monocytes,TILD028,IPF,63,Monocytes
+319,Monocytes,TILD028,IPF,62,Monocytes
+320,Monocytes,TILD028,IPF,62,Monocytes
+321,Monocytes,TILD028,IPF,62,Monocytes
+322,B Cells,TILD028,IPF,67,B Cells
+323,B Cells,TILD028,IPF,66,B Cells
+324,B Cells,TILD028,IPF,66,B Cells
+325,Ciliated,TILD028,IPF,63,Ciliated
+326,Ciliated,TILD028,IPF,63,Ciliated
+327,Ciliated,TILD028,IPF,63,Ciliated
+328,Ciliated,TILD028,IPF,62,Ciliated
+329,Ciliated,TILD028,IPF,62,Ciliated
+330,cDCs,TILD028,IPF,73,cDCs
+331,cDCs,TILD028,IPF,72,cDCs
+332,Ciliated,VUHD65,Control,65,Ciliated
+333,Ciliated,VUHD65,Control,64,Ciliated
+334,Ciliated,VUHD65,Control,64,Ciliated
+335,Ciliated,VUHD65,Control,64,Ciliated
+336,Ciliated,VUHD65,Control,64,Ciliated
+337,Ciliated,VUHD65,Control,64,Ciliated
+338,Ciliated,VUHD65,Control,64,Ciliated
+339,Macrophages,VUHD65,Control,61,Macrophages
+340,Macrophages,VUHD65,Control,61,Macrophages
+341,Macrophages,VUHD65,Control,61,Macrophages
+342,Macrophages,VUHD65,Control,61,Macrophages
+343,Macrophages,VUHD65,Control,61,Macrophages
+344,Macrophages,VUHD65,Control,61,Macrophages
+345,Macrophages,VUHD65,Control,61,Macrophages
+346,Macrophages,VUHD65,Control,61,Macrophages
+347,Macrophages,VUHD65,Control,61,Macrophages
+348,Macrophages,VUHD65,Control,61,Macrophages
+349,Macrophages,VUHD65,Control,61,Macrophages
+350,Macrophages,VUHD65,Control,60,Macrophages
+351,Macrophages,VUHD65,Control,60,Macrophages
+352,AT2,VUHD65,Control,66,AT2
+353,AT2,VUHD65,Control,66,AT2
+354,AT2,VUHD65,Control,66,AT2
+355,AT2,VUHD65,Control,65,AT2
+356,AT2,VUHD65,Control,65,AT2
+357,NK Cells,VUHD65,Control,61,NK Cells
+358,NK Cells,VUHD65,Control,60,NK Cells
+359,Differentiating Ciliated,VUHD65,Control,79,Differentiating Ciliated
+360,AT2,VUHD66,Control,63,AT2
+361,AT2,VUHD66,Control,63,AT2
+362,AT2,VUHD66,Control,63,AT2
+363,AT2,VUHD66,Control,63,AT2
+364,AT2,VUHD66,Control,63,AT2
+365,AT2,VUHD66,Control,63,AT2
+366,AT2,VUHD66,Control,63,AT2
+367,AT2,VUHD66,Control,63,AT2
+368,Ciliated,VUHD66,Control,60,Ciliated
+369,Ciliated,VUHD66,Control,60,Ciliated
+370,Ciliated,VUHD66,Control,60,Ciliated
+371,Ciliated,VUHD66,Control,60,Ciliated
+372,Ciliated,VUHD66,Control,60,Ciliated
+373,Ciliated,VUHD66,Control,60,Ciliated
+374,Ciliated,VUHD66,Control,60,Ciliated
+375,Ciliated,VUHD66,Control,59,Ciliated
+376,Ciliated,VUHD66,Control,59,Ciliated
+377,Ciliated,VUHD66,Control,59,Ciliated
+378,Ciliated,VUHD66,Control,59,Ciliated
+379,Ciliated,VUHD66,Control,59,Ciliated
+380,Ciliated,VUHD66,Control,59,Ciliated
+381,Ciliated,VUHD66,Control,59,Ciliated
+382,Ciliated,VUHD66,Control,59,Ciliated
+383,NK Cells,VUHD66,Control,66,NK Cells
+384,NK Cells,VUHD66,Control,65,NK Cells
+385,Macrophages,VUHD66,Control,57,Macrophages
+386,Macrophages,VUHD66,Control,56,Macrophages
+387,Macrophages,VUHD66,Control,56,Macrophages
+388,Transitional AT2,VUHD66,Control,55,Transitional AT2
+389,Transitional AT2,VUHD66,Control,55,Transitional AT2
+390,T Cells,VUHD66,Control,61,T Cells
+391,T Cells,VUHD66,Control,60,T Cells
+392,T Cells,VUHD66,Control,60,T Cells
+393,T Cells,VUHD66,Control,60,T Cells
+394,Differentiating Ciliated,VUHD66,Control,67,Differentiating Ciliated
+395,T Cells,VUHD67,Control,61,T Cells
+396,T Cells,VUHD67,Control,61,T Cells
+397,T Cells,VUHD67,Control,61,T Cells
+398,T Cells,VUHD67,Control,61,T Cells
+399,T Cells,VUHD67,Control,61,T Cells
+400,T Cells,VUHD67,Control,61,T Cells
+401,T Cells,VUHD67,Control,61,T Cells
+402,T Cells,VUHD67,Control,61,T Cells
+403,T Cells,VUHD67,Control,61,T Cells
+404,T Cells,VUHD67,Control,61,T Cells
+405,T Cells,VUHD67,Control,61,T Cells
+406,T Cells,VUHD67,Control,61,T Cells
+407,T Cells,VUHD67,Control,61,T Cells
+408,T Cells,VUHD67,Control,61,T Cells
+409,T Cells,VUHD67,Control,61,T Cells
+410,T Cells,VUHD67,Control,61,T Cells
+411,T Cells,VUHD67,Control,61,T Cells
+412,T Cells,VUHD67,Control,61,T Cells
+413,T Cells,VUHD67,Control,61,T Cells
+414,T Cells,VUHD67,Control,61,T Cells
+415,T Cells,VUHD67,Control,61,T Cells
+416,T Cells,VUHD67,Control,61,T Cells
+417,T Cells,VUHD67,Control,61,T Cells
+418,T Cells,VUHD67,Control,61,T Cells
+419,T Cells,VUHD67,Control,60,T Cells
+420,T Cells,VUHD67,Control,60,T Cells
+421,Macrophages,VUHD67,Control,60,Macrophages
+422,Macrophages,VUHD67,Control,60,Macrophages
+423,Macrophages,VUHD67,Control,60,Macrophages
+424,Macrophages,VUHD67,Control,60,Macrophages
+425,Macrophages,VUHD67,Control,60,Macrophages
+426,Macrophages,VUHD67,Control,60,Macrophages
+427,Macrophages,VUHD67,Control,60,Macrophages
+428,Macrophages,VUHD67,Control,60,Macrophages
+429,Macrophages,VUHD67,Control,59,Macrophages
+430,Macrophages,VUHD67,Control,59,Macrophages
+431,Macrophages,VUHD67,Control,59,Macrophages
+432,Macrophages,VUHD67,Control,59,Macrophages
+433,Macrophages,VUHD67,Control,59,Macrophages
+434,Macrophages,VUHD67,Control,59,Macrophages
+435,Macrophages,VUHD67,Control,59,Macrophages
+436,Macrophages,VUHD67,Control,59,Macrophages
+437,Macrophages,VUHD67,Control,59,Macrophages
+438,Macrophages,VUHD67,Control,59,Macrophages
+439,Macrophages,VUHD67,Control,59,Macrophages
+440,Macrophages,VUHD67,Control,59,Macrophages
+441,Macrophages,VUHD67,Control,59,Macrophages
+442,Macrophages,VUHD67,Control,59,Macrophages
+443,Macrophages,VUHD67,Control,59,Macrophages
+444,Macrophages,VUHD67,Control,59,Macrophages
+445,Macrophages,VUHD67,Control,59,Macrophages
+446,Macrophages,VUHD67,Control,59,Macrophages
+447,Macrophages,VUHD67,Control,59,Macrophages
+448,Macrophages,VUHD67,Control,59,Macrophages
+449,Macrophages,VUHD67,Control,59,Macrophages
+450,Macrophages,VUHD67,Control,59,Macrophages
+451,Macrophages,VUHD67,Control,59,Macrophages
+452,Macrophages,VUHD67,Control,59,Macrophages
+453,Macrophages,VUHD67,Control,59,Macrophages
+454,Macrophages,VUHD67,Control,59,Macrophages
+455,Macrophages,VUHD67,Control,59,Macrophages
+456,NK Cells,VUHD67,Control,63,NK Cells
+457,NK Cells,VUHD67,Control,62,NK Cells
+458,NK Cells,VUHD67,Control,62,NK Cells
+459,NK Cells,VUHD67,Control,62,NK Cells
+460,AT2,VUHD67,Control,59,AT2
+461,AT2,VUHD67,Control,59,AT2
+462,AT2,VUHD67,Control,59,AT2
+463,AT2,VUHD67,Control,59,AT2
+464,AT2,VUHD67,Control,59,AT2
+465,AT2,VUHD67,Control,59,AT2
+466,AT2,VUHD67,Control,59,AT2
+467,AT2,VUHD67,Control,59,AT2
+468,AT2,VUHD67,Control,59,AT2
+469,AT2,VUHD67,Control,59,AT2
+470,AT2,VUHD67,Control,59,AT2
+471,AT2,VUHD67,Control,59,AT2
+472,AT2,VUHD67,Control,59,AT2
+473,AT2,VUHD67,Control,59,AT2
+474,AT2,VUHD67,Control,59,AT2
+475,AT2,VUHD67,Control,59,AT2
+476,AT2,VUHD67,Control,59,AT2
+477,AT2,VUHD67,Control,59,AT2
+478,AT2,VUHD67,Control,58,AT2
+479,Ciliated,VUHD67,Control,69,Ciliated
+480,Ciliated,VUHD67,Control,69,Ciliated
+481,Ciliated,VUHD67,Control,68,Ciliated
+482,Proliferating T Cells,VUHD67,Control,68,Proliferating T Cells
+483,Proliferating T Cells,VUHD67,Control,68,Proliferating T Cells
+484,Proliferating T Cells,VUHD67,Control,68,Proliferating T Cells
+485,Monocytes,VUHD67,Control,62,Monocytes
+486,Monocytes,VUHD67,Control,62,Monocytes
+487,Monocytes,VUHD67,Control,62,Monocytes
+488,Monocytes,VUHD67,Control,61,Monocytes
+489,Monocytes,VUHD67,Control,61,Monocytes
+490,Monocytes,VUHD67,Control,61,Monocytes
+491,Monocytes,VUHD67,Control,61,Monocytes
+492,Monocytes,VUHD67,Control,61,Monocytes
+493,Monocytes,VUHD67,Control,61,Monocytes
+494,Monocytes,VUHD67,Control,61,Monocytes
+495,Monocytes,VUHD67,Control,61,Monocytes
+496,Monocytes,VUHD67,Control,61,Monocytes
+497,Monocytes,VUHD67,Control,61,Monocytes
+498,Monocytes,VUHD67,Control,61,Monocytes
+499,Monocytes,VUHD67,Control,61,Monocytes
+500,Plasma Cells,VUHD67,Control,87,Plasma Cells
+501,Transitional AT2,VUHD67,Control,63,Transitional AT2
+502,Transitional AT2,VUHD67,Control,63,Transitional AT2
+503,Transitional AT2,VUHD67,Control,62,Transitional AT2
+504,Macrophages,VUHD68,Control,60,Macrophages
+505,Macrophages,VUHD68,Control,60,Macrophages
+506,Macrophages,VUHD68,Control,60,Macrophages
+507,Macrophages,VUHD68,Control,60,Macrophages
+508,Macrophages,VUHD68,Control,60,Macrophages
+509,Macrophages,VUHD68,Control,60,Macrophages
+510,Macrophages,VUHD68,Control,60,Macrophages
+511,Macrophages,VUHD68,Control,60,Macrophages
+512,Macrophages,VUHD68,Control,60,Macrophages
+513,Macrophages,VUHD68,Control,60,Macrophages
+514,Macrophages,VUHD68,Control,60,Macrophages
+515,Macrophages,VUHD68,Control,60,Macrophages
+516,Macrophages,VUHD68,Control,60,Macrophages
+517,Macrophages,VUHD68,Control,60,Macrophages
+518,Macrophages,VUHD68,Control,60,Macrophages
+519,Macrophages,VUHD68,Control,60,Macrophages
+520,Macrophages,VUHD68,Control,60,Macrophages
+521,Macrophages,VUHD68,Control,60,Macrophages
+522,Macrophages,VUHD68,Control,60,Macrophages
+523,Macrophages,VUHD68,Control,60,Macrophages
+524,Macrophages,VUHD68,Control,60,Macrophages
+525,Macrophages,VUHD68,Control,60,Macrophages
+526,Macrophages,VUHD68,Control,60,Macrophages
+527,Macrophages,VUHD68,Control,60,Macrophages
+528,Macrophages,VUHD68,Control,60,Macrophages
+529,Macrophages,VUHD68,Control,60,Macrophages
+530,Macrophages,VUHD68,Control,60,Macrophages
+531,Macrophages,VUHD68,Control,60,Macrophages
+532,Macrophages,VUHD68,Control,60,Macrophages
+533,Macrophages,VUHD68,Control,60,Macrophages
+534,Macrophages,VUHD68,Control,60,Macrophages
+535,Macrophages,VUHD68,Control,60,Macrophages
+536,Macrophages,VUHD68,Control,60,Macrophages
+537,Macrophages,VUHD68,Control,60,Macrophages
+538,Macrophages,VUHD68,Control,60,Macrophages
+539,Macrophages,VUHD68,Control,60,Macrophages
+540,Macrophages,VUHD68,Control,60,Macrophages
+541,Macrophages,VUHD68,Control,60,Macrophages
+542,Macrophages,VUHD68,Control,60,Macrophages
+543,Macrophages,VUHD68,Control,60,Macrophages
+544,Macrophages,VUHD68,Control,60,Macrophages
+545,Macrophages,VUHD68,Control,60,Macrophages
+546,Macrophages,VUHD68,Control,60,Macrophages
+547,Macrophages,VUHD68,Control,60,Macrophages
+548,Macrophages,VUHD68,Control,60,Macrophages
+549,Macrophages,VUHD68,Control,60,Macrophages
+550,Macrophages,VUHD68,Control,60,Macrophages
+551,Macrophages,VUHD68,Control,60,Macrophages
+552,Macrophages,VUHD68,Control,60,Macrophages
+553,Macrophages,VUHD68,Control,60,Macrophages
+554,Macrophages,VUHD68,Control,60,Macrophages
+555,Macrophages,VUHD68,Control,60,Macrophages
+556,Macrophages,VUHD68,Control,60,Macrophages
+557,Macrophages,VUHD68,Control,60,Macrophages
+558,Macrophages,VUHD68,Control,60,Macrophages
+559,Macrophages,VUHD68,Control,60,Macrophages
+560,Macrophages,VUHD68,Control,60,Macrophages
+561,Macrophages,VUHD68,Control,60,Macrophages
+562,Macrophages,VUHD68,Control,60,Macrophages
+563,Macrophages,VUHD68,Control,60,Macrophages
+564,Macrophages,VUHD68,Control,60,Macrophages
+565,Macrophages,VUHD68,Control,60,Macrophages
+566,Macrophages,VUHD68,Control,60,Macrophages
+567,Macrophages,VUHD68,Control,60,Macrophages
+568,Macrophages,VUHD68,Control,60,Macrophages
+569,Macrophages,VUHD68,Control,60,Macrophages
+570,Macrophages,VUHD68,Control,60,Macrophages
+571,Macrophages,VUHD68,Control,59,Macrophages
+572,Macrophages,VUHD68,Control,59,Macrophages
+573,Macrophages,VUHD68,Control,59,Macrophages
+574,Macrophages,VUHD68,Control,59,Macrophages
+575,Macrophages,VUHD68,Control,59,Macrophages
+576,Macrophages,VUHD68,Control,59,Macrophages
+577,Macrophages,VUHD68,Control,59,Macrophages
+578,Macrophages,VUHD68,Control,59,Macrophages
+579,Monocytes,VUHD68,Control,50,Monocytes
+580,Monocytes,VUHD68,Control,50,Monocytes
+581,Proliferating Macrophages,VUHD68,Control,49,Proliferating Macrophages
+582,Proliferating Macrophages,VUHD68,Control,49,Proliferating Macrophages
+583,Monocytes,VUHD69,Control,89,Monocytes
+584,T Cells,VUHD69,Control,60,T Cells
+585,T Cells,VUHD69,Control,60,T Cells
+586,T Cells,VUHD69,Control,59,T Cells
+587,T Cells,VUHD69,Control,59,T Cells
+588,T Cells,VUHD69,Control,59,T Cells
+589,T Cells,VUHD69,Control,59,T Cells
+590,T Cells,VUHD69,Control,59,T Cells
+591,T Cells,VUHD69,Control,59,T Cells
+592,Ciliated,VUHD70,Control,59,Ciliated
+593,Ciliated,VUHD70,Control,59,Ciliated
+594,Ciliated,VUHD70,Control,59,Ciliated
+595,Ciliated,VUHD70,Control,59,Ciliated
+596,Ciliated,VUHD70,Control,58,Ciliated
+597,NK Cells,VUHD70,Control,67,NK Cells
+598,Macrophages,VUHD70,Control,60,Macrophages
+599,Macrophages,VUHD70,Control,60,Macrophages
+600,Macrophages,VUHD70,Control,60,Macrophages
+601,Macrophages,VUHD70,Control,60,Macrophages
+602,Macrophages,VUHD70,Control,60,Macrophages
+603,Macrophages,VUHD70,Control,60,Macrophages
+604,Macrophages,VUHD70,Control,60,Macrophages
+605,Macrophages,VUHD70,Control,59,Macrophages
+606,Macrophages,VUHD70,Control,59,Macrophages
+607,Macrophages,VUHD071,Control,61,Macrophages
+608,Macrophages,VUHD071,Control,61,Macrophages
+609,Macrophages,VUHD071,Control,61,Macrophages
+610,Macrophages,VUHD071,Control,60,Macrophages
+611,Macrophages,VUHD071,Control,60,Macrophages
+612,Macrophages,VUHD071,Control,60,Macrophages
+613,Macrophages,VUHD071,Control,60,Macrophages
+614,Macrophages,VUHD071,Control,60,Macrophages
+615,Macrophages,VUHD071,Control,60,Macrophages
+616,Macrophages,VUHD071,Control,60,Macrophages
+617,Macrophages,VUHD071,Control,60,Macrophages
+618,Macrophages,VUHD071,Control,60,Macrophages
+619,Macrophages,VUHD071,Control,60,Macrophages
+620,Macrophages,VUHD071,Control,60,Macrophages
+621,Macrophages,VUHD071,Control,60,Macrophages
+622,Macrophages,VUHD071,Control,60,Macrophages
+623,Macrophages,VUHD071,Control,60,Macrophages
+624,Macrophages,VUHD071,Control,60,Macrophages
+625,Macrophages,VUHD071,Control,60,Macrophages
+626,Macrophages,VUHD071,Control,60,Macrophages
+627,Macrophages,VUHD071,Control,60,Macrophages
+628,Macrophages,VUHD071,Control,60,Macrophages
+629,Macrophages,VUHD071,Control,60,Macrophages
+630,Macrophages,VUHD071,Control,60,Macrophages
+631,Macrophages,VUHD071,Control,60,Macrophages
+632,Macrophages,VUHD071,Control,60,Macrophages
+633,Macrophages,VUHD071,Control,60,Macrophages
+634,Macrophages,VUHD071,Control,60,Macrophages
+635,Macrophages,VUHD071,Control,60,Macrophages
+636,Macrophages,VUHD071,Control,60,Macrophages
+637,Macrophages,VUHD071,Control,60,Macrophages
+638,Macrophages,VUHD071,Control,60,Macrophages
+639,AT2,VUHD071,Control,49,AT2
+640,AT2,VUHD071,Control,49,AT2
+641,Macrophages,VUILD53,IPF,64,Macrophages
+642,Macrophages,VUILD53,IPF,64,Macrophages
+643,Macrophages,VUILD53,IPF,63,Macrophages
+644,Macrophages,VUILD53,IPF,63,Macrophages
+645,Macrophages,VUILD53,IPF,63,Macrophages
+646,Macrophages,VUILD53,IPF,63,Macrophages
+647,Ciliated,VUILD53,IPF,63,Ciliated
+648,Ciliated,VUILD53,IPF,63,Ciliated
+649,Ciliated,VUILD53,IPF,63,Ciliated
+650,Ciliated,VUILD53,IPF,63,Ciliated
+651,AT2,VUILD53,IPF,55,AT2
+652,AT2,VUILD53,IPF,54,AT2
+653,AT2,VUILD59,IPF,60,AT2
+654,AT2,VUILD59,IPF,60,AT2
+655,AT2,VUILD59,IPF,60,AT2
+656,AT2,VUILD59,IPF,60,AT2
+657,AT2,VUILD59,IPF,60,AT2
+658,AT2,VUILD59,IPF,60,AT2
+659,AT2,VUILD59,IPF,60,AT2
+660,AT2,VUILD59,IPF,60,AT2
+661,AT2,VUILD59,IPF,60,AT2
+662,AT2,VUILD59,IPF,59,AT2
+663,AT2,VUILD59,IPF,59,AT2
+664,AT2,VUILD59,IPF,59,AT2
+665,AT2,VUILD59,IPF,59,AT2
+666,AT2,VUILD59,IPF,59,AT2
+667,AT2,VUILD59,IPF,59,AT2
+668,AT2,VUILD59,IPF,59,AT2
+669,AT2,VUILD59,IPF,59,AT2
+670,AT2,VUILD59,IPF,59,AT2
+671,AT2,VUILD59,IPF,59,AT2
+672,AT2,VUILD59,IPF,59,AT2
+673,AT2,VUILD59,IPF,59,AT2
+674,AT2,VUILD59,IPF,59,AT2
+675,AT2,VUILD59,IPF,59,AT2
+676,AT2,VUILD59,IPF,59,AT2
+677,AT2,VUILD59,IPF,59,AT2
+678,AT2,VUILD59,IPF,59,AT2
+679,AT2,VUILD59,IPF,59,AT2
+680,AT2,VUILD59,IPF,59,AT2
+681,AT2,VUILD59,IPF,59,AT2
+682,AT2,VUILD59,IPF,59,AT2
+683,AT2,VUILD59,IPF,59,AT2
+684,Macrophages,VUILD59,IPF,60,Macrophages
+685,Macrophages,VUILD59,IPF,60,Macrophages
+686,Macrophages,VUILD59,IPF,60,Macrophages
+687,Macrophages,VUILD59,IPF,60,Macrophages
+688,Macrophages,VUILD59,IPF,60,Macrophages
+689,Macrophages,VUILD59,IPF,60,Macrophages
+690,Macrophages,VUILD59,IPF,60,Macrophages
+691,Macrophages,VUILD59,IPF,60,Macrophages
+692,Macrophages,VUILD59,IPF,60,Macrophages
+693,Macrophages,VUILD59,IPF,60,Macrophages
+694,Macrophages,VUILD59,IPF,60,Macrophages
+695,Macrophages,VUILD59,IPF,60,Macrophages
+696,Macrophages,VUILD59,IPF,60,Macrophages
+697,Macrophages,VUILD59,IPF,60,Macrophages
+698,Macrophages,VUILD59,IPF,60,Macrophages
+699,Macrophages,VUILD59,IPF,60,Macrophages
+700,Macrophages,VUILD59,IPF,60,Macrophages
+701,Macrophages,VUILD59,IPF,60,Macrophages
+702,Macrophages,VUILD59,IPF,60,Macrophages
+703,Macrophages,VUILD59,IPF,60,Macrophages
+704,Macrophages,VUILD59,IPF,60,Macrophages
+705,Macrophages,VUILD59,IPF,60,Macrophages
+706,Macrophages,VUILD59,IPF,60,Macrophages
+707,Macrophages,VUILD59,IPF,60,Macrophages
+708,Macrophages,VUILD59,IPF,60,Macrophages
+709,Macrophages,VUILD59,IPF,60,Macrophages
+710,Macrophages,VUILD59,IPF,60,Macrophages
+711,Macrophages,VUILD59,IPF,60,Macrophages
+712,Macrophages,VUILD59,IPF,60,Macrophages
+713,Macrophages,VUILD59,IPF,60,Macrophages
+714,Macrophages,VUILD59,IPF,60,Macrophages
+715,Macrophages,VUILD59,IPF,60,Macrophages
+716,Macrophages,VUILD59,IPF,60,Macrophages
+717,Macrophages,VUILD59,IPF,60,Macrophages
+718,Macrophages,VUILD59,IPF,60,Macrophages
+719,Macrophages,VUILD59,IPF,60,Macrophages
+720,Macrophages,VUILD59,IPF,60,Macrophages
+721,Macrophages,VUILD59,IPF,60,Macrophages
+722,Macrophages,VUILD59,IPF,60,Macrophages
+723,Macrophages,VUILD59,IPF,60,Macrophages
+724,Macrophages,VUILD59,IPF,60,Macrophages
+725,Macrophages,VUILD59,IPF,60,Macrophages
+726,Macrophages,VUILD59,IPF,60,Macrophages
+727,Macrophages,VUILD59,IPF,60,Macrophages
+728,Macrophages,VUILD59,IPF,60,Macrophages
+729,Macrophages,VUILD59,IPF,60,Macrophages
+730,Macrophages,VUILD59,IPF,60,Macrophages
+731,Macrophages,VUILD59,IPF,60,Macrophages
+732,Macrophages,VUILD59,IPF,60,Macrophages
+733,Macrophages,VUILD59,IPF,60,Macrophages
+734,Macrophages,VUILD59,IPF,60,Macrophages
+735,Macrophages,VUILD59,IPF,60,Macrophages
+736,Macrophages,VUILD59,IPF,60,Macrophages
+737,Macrophages,VUILD59,IPF,60,Macrophages
+738,Macrophages,VUILD59,IPF,60,Macrophages
+739,Macrophages,VUILD59,IPF,60,Macrophages
+740,Macrophages,VUILD59,IPF,60,Macrophages
+741,Macrophages,VUILD59,IPF,60,Macrophages
+742,Macrophages,VUILD59,IPF,60,Macrophages
+743,Macrophages,VUILD59,IPF,60,Macrophages
+744,Macrophages,VUILD59,IPF,60,Macrophages
+745,Macrophages,VUILD59,IPF,60,Macrophages
+746,Macrophages,VUILD59,IPF,59,Macrophages
+747,Macrophages,VUILD59,IPF,59,Macrophages
+748,Macrophages,VUILD59,IPF,59,Macrophages
+749,Macrophages,VUILD59,IPF,59,Macrophages
+750,Macrophages,VUILD59,IPF,59,Macrophages
+751,Macrophages,VUILD59,IPF,59,Macrophages
+752,Macrophages,VUILD59,IPF,59,Macrophages
+753,Macrophages,VUILD59,IPF,59,Macrophages
+754,Macrophages,VUILD59,IPF,59,Macrophages
+755,Macrophages,VUILD59,IPF,59,Macrophages
+756,Macrophages,VUILD59,IPF,59,Macrophages
+757,Macrophages,VUILD59,IPF,59,Macrophages
+758,Macrophages,VUILD59,IPF,59,Macrophages
+759,Macrophages,VUILD59,IPF,59,Macrophages
+760,Macrophages,VUILD59,IPF,59,Macrophages
+761,Macrophages,VUILD59,IPF,59,Macrophages
+762,Macrophages,VUILD59,IPF,59,Macrophages
+763,Macrophages,VUILD59,IPF,59,Macrophages
+764,Macrophages,VUILD59,IPF,59,Macrophages
+765,Macrophages,VUILD59,IPF,59,Macrophages
+766,Macrophages,VUILD59,IPF,59,Macrophages
+767,Macrophages,VUILD59,IPF,59,Macrophages
+768,Macrophages,VUILD59,IPF,59,Macrophages
+769,Macrophages,VUILD59,IPF,59,Macrophages
+770,Macrophages,VUILD59,IPF,59,Macrophages
+771,Macrophages,VUILD59,IPF,59,Macrophages
+772,Macrophages,VUILD59,IPF,59,Macrophages
+773,Macrophages,VUILD59,IPF,59,Macrophages
+774,Proliferating Macrophages,VUILD59,IPF,63,Proliferating Macrophages
+775,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+776,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+777,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+778,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+779,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+780,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+781,Proliferating Macrophages,VUILD59,IPF,62,Proliferating Macrophages
+782,cDCs,VUILD59,IPF,52,cDCs
+783,cDCs,VUILD59,IPF,51,cDCs
+784,cDCs,VUILD59,IPF,51,cDCs
+785,T Cells,VUILD59,IPF,61,T Cells
+786,T Cells,VUILD59,IPF,61,T Cells
+787,T Cells,VUILD59,IPF,61,T Cells
+788,T Cells,VUILD59,IPF,60,T Cells
+789,NK Cells,VUILD59,IPF,71,NK Cells
+790,Ciliated,VUILD59,IPF,61,Ciliated
+791,Ciliated,VUILD59,IPF,61,Ciliated
+792,Ciliated,VUILD59,IPF,61,Ciliated
+793,Ciliated,VUILD59,IPF,61,Ciliated
+794,Ciliated,VUILD59,IPF,61,Ciliated
+795,Ciliated,VUILD59,IPF,61,Ciliated
+796,Ciliated,VUILD59,IPF,61,Ciliated
+797,Ciliated,VUILD59,IPF,61,Ciliated
+798,Ciliated,VUILD59,IPF,61,Ciliated
+799,Ciliated,VUILD59,IPF,60,Ciliated
+800,Ciliated,VUILD59,IPF,60,Ciliated
+801,Ciliated,VUILD59,IPF,60,Ciliated
+802,Ciliated,VUILD59,IPF,60,Ciliated
+803,Ciliated,VUILD59,IPF,60,Ciliated
+804,Ciliated,VUILD59,IPF,60,Ciliated
+805,Ciliated,VUILD59,IPF,60,Ciliated
+806,Ciliated,VUILD59,IPF,60,Ciliated
+807,Ciliated,VUILD59,IPF,60,Ciliated
+808,Ciliated,VUILD59,IPF,60,Ciliated
+809,Ciliated,VUILD59,IPF,60,Ciliated
+810,Ciliated,VUILD59,IPF,60,Ciliated
+811,Transitional AT2,VUILD59,IPF,63,Transitional AT2
+812,Transitional AT2,VUILD59,IPF,63,Transitional AT2
+813,Transitional AT2,VUILD59,IPF,63,Transitional AT2
+814,Transitional AT2,VUILD59,IPF,63,Transitional AT2
+815,Transitional AT2,VUILD59,IPF,62,Transitional AT2
+816,Transitional AT2,VUILD59,IPF,62,Transitional AT2
+817,Transitional AT2,VUILD59,IPF,62,Transitional AT2
+818,Transitional AT2,VUILD59,IPF,62,Transitional AT2
+819,Differentiating Ciliated,VUILD59,IPF,66,Differentiating Ciliated
+820,Differentiating Ciliated,VUILD59,IPF,65,Differentiating Ciliated
+821,Differentiating Ciliated,VUILD59,IPF,65,Differentiating Ciliated
+822,Differentiating Ciliated,VUILD59,IPF,65,Differentiating Ciliated
+823,Myofibroblasts,VUILD59,IPF,65,Myofibroblasts
+824,Myofibroblasts,VUILD59,IPF,65,Myofibroblasts
+825,Myofibroblasts,VUILD59,IPF,65,Myofibroblasts
+826,Myofibroblasts,VUILD59,IPF,65,Myofibroblasts
+827,Myofibroblasts,VUILD59,IPF,64,Myofibroblasts
+828,PLIN2+ Fibroblasts,VUILD59,IPF,63,PLIN2+ Fibroblasts
+829,PLIN2+ Fibroblasts,VUILD59,IPF,63,PLIN2+ Fibroblasts
+830,PLIN2+ Fibroblasts,VUILD59,IPF,62,PLIN2+ Fibroblasts
+831,PLIN2+ Fibroblasts,VUILD59,IPF,62,PLIN2+ Fibroblasts
+832,NK Cells,VUILD60,IPF,54,NK Cells
+833,NK Cells,VUILD60,IPF,53,NK Cells
+834,Monocytes,VUILD60,IPF,50,Monocytes
+835,Monocytes,VUILD60,IPF,50,Monocytes
+836,T Cells,VUILD60,IPF,59,T Cells
+837,T Cells,VUILD60,IPF,59,T Cells
+838,T Cells,VUILD60,IPF,59,T Cells
+839,T Cells,VUILD60,IPF,59,T Cells
+840,T Cells,VUILD60,IPF,59,T Cells
+841,T Cells,VUILD60,IPF,59,T Cells
+842,T Cells,VUILD60,IPF,59,T Cells
+843,T Cells,VUILD60,IPF,58,T Cells
+844,T Cells,VUILD60,IPF,58,T Cells
+845,Ciliated,VUILD60,IPF,61,Ciliated
+846,Ciliated,VUILD60,IPF,61,Ciliated
+847,Ciliated,VUILD60,IPF,61,Ciliated
+848,Ciliated,VUILD60,IPF,61,Ciliated
+849,Ciliated,VUILD60,IPF,61,Ciliated
+850,Ciliated,VUILD60,IPF,61,Ciliated
+851,Ciliated,VUILD60,IPF,61,Ciliated
+852,Ciliated,VUILD60,IPF,61,Ciliated
+853,Ciliated,VUILD60,IPF,61,Ciliated
+854,Ciliated,VUILD60,IPF,61,Ciliated
+855,Ciliated,VUILD60,IPF,60,Ciliated
+856,Ciliated,VUILD60,IPF,60,Ciliated
+857,Ciliated,VUILD60,IPF,60,Ciliated
+858,Ciliated,VUILD60,IPF,60,Ciliated
+859,Ciliated,VUILD60,IPF,60,Ciliated
+860,Ciliated,VUILD60,IPF,60,Ciliated
+861,Ciliated,VUILD60,IPF,60,Ciliated
+862,Ciliated,VUILD60,IPF,60,Ciliated
+863,Ciliated,VUILD60,IPF,60,Ciliated
+864,Ciliated,VUILD60,IPF,60,Ciliated
+865,Ciliated,VUILD60,IPF,60,Ciliated
+866,Ciliated,VUILD60,IPF,60,Ciliated
+867,Ciliated,VUILD60,IPF,60,Ciliated
+868,Ciliated,VUILD60,IPF,60,Ciliated
+869,Ciliated,VUILD60,IPF,60,Ciliated
+870,Ciliated,VUILD60,IPF,60,Ciliated
+871,Ciliated,VUILD60,IPF,60,Ciliated
+872,Ciliated,VUILD60,IPF,60,Ciliated
+873,Ciliated,VUILD60,IPF,60,Ciliated
+874,Ciliated,VUILD60,IPF,60,Ciliated
+875,Ciliated,VUILD60,IPF,60,Ciliated
+876,Ciliated,VUILD60,IPF,60,Ciliated
+877,Ciliated,VUILD60,IPF,60,Ciliated
+878,Ciliated,VUILD60,IPF,60,Ciliated
+879,Ciliated,VUILD60,IPF,60,Ciliated
+880,Ciliated,VUILD60,IPF,60,Ciliated
+881,Ciliated,VUILD60,IPF,60,Ciliated
+882,Ciliated,VUILD60,IPF,60,Ciliated
+883,Ciliated,VUILD60,IPF,60,Ciliated
+884,Ciliated,VUILD60,IPF,60,Ciliated
+885,Ciliated,VUILD60,IPF,60,Ciliated
+886,Ciliated,VUILD60,IPF,60,Ciliated
+887,Ciliated,VUILD60,IPF,60,Ciliated
+888,Ciliated,VUILD60,IPF,60,Ciliated
+889,Ciliated,VUILD60,IPF,60,Ciliated
+890,Ciliated,VUILD60,IPF,60,Ciliated
+891,Ciliated,VUILD60,IPF,60,Ciliated
+892,Ciliated,VUILD60,IPF,60,Ciliated
+893,Ciliated,VUILD60,IPF,60,Ciliated
+894,Ciliated,VUILD60,IPF,60,Ciliated
+895,Ciliated,VUILD60,IPF,60,Ciliated
+896,Ciliated,VUILD60,IPF,60,Ciliated
+897,Ciliated,VUILD60,IPF,60,Ciliated
+898,Ciliated,VUILD60,IPF,60,Ciliated
+899,Ciliated,VUILD60,IPF,60,Ciliated
+900,Ciliated,VUILD60,IPF,60,Ciliated
+901,Ciliated,VUILD60,IPF,60,Ciliated
+902,Ciliated,VUILD60,IPF,60,Ciliated
+903,Ciliated,VUILD60,IPF,60,Ciliated
+904,Ciliated,VUILD60,IPF,60,Ciliated
+905,Ciliated,VUILD60,IPF,60,Ciliated
+906,Ciliated,VUILD60,IPF,60,Ciliated
+907,Ciliated,VUILD60,IPF,60,Ciliated
+908,Ciliated,VUILD60,IPF,60,Ciliated
+909,Ciliated,VUILD60,IPF,60,Ciliated
+910,Ciliated,VUILD60,IPF,60,Ciliated
+911,Ciliated,VUILD60,IPF,60,Ciliated
+912,Ciliated,VUILD60,IPF,60,Ciliated
+913,Ciliated,VUILD60,IPF,60,Ciliated
+914,Ciliated,VUILD60,IPF,60,Ciliated
+915,AT2,VUILD60,IPF,69,AT2
+916,AT2,VUILD60,IPF,68,AT2
+917,Macrophages,VUILD60,IPF,60,Macrophages
+918,Macrophages,VUILD60,IPF,60,Macrophages
+919,Macrophages,VUILD60,IPF,60,Macrophages
+920,Macrophages,VUILD60,IPF,60,Macrophages
+921,Macrophages,VUILD60,IPF,60,Macrophages
+922,Macrophages,VUILD60,IPF,60,Macrophages
+923,Macrophages,VUILD60,IPF,60,Macrophages
+924,Macrophages,VUILD60,IPF,60,Macrophages
+925,Macrophages,VUILD60,IPF,59,Macrophages
+926,Macrophages,VUILD60,IPF,59,Macrophages
+927,Macrophages,VUILD60,IPF,59,Macrophages
+928,Macrophages,VUILD60,IPF,59,Macrophages
+929,Macrophages,VUILD60,IPF,59,Macrophages
+930,Macrophages,VUILD60,IPF,59,Macrophages
+931,Macrophages,VUILD60,IPF,59,Macrophages
+932,Macrophages,VUILD60,IPF,59,Macrophages
+933,Macrophages,VUILD60,IPF,59,Macrophages
+934,Differentiating Ciliated,VUILD60,IPF,59,Differentiating Ciliated
+935,Differentiating Ciliated,VUILD60,IPF,59,Differentiating Ciliated
+936,Differentiating Ciliated,VUILD60,IPF,58,Differentiating Ciliated
+937,Differentiating Ciliated,VUILD60,IPF,58,Differentiating Ciliated
+938,Differentiating Ciliated,VUILD60,IPF,58,Differentiating Ciliated
+939,Differentiating Ciliated,VUILD60,IPF,58,Differentiating Ciliated
+940,cDCs,VUILD60,IPF,60,cDCs
+941,cDCs,VUILD60,IPF,59,cDCs
+942,Macrophages,VUILD61,IPF,61,Macrophages
+943,Macrophages,VUILD61,IPF,61,Macrophages
+944,Macrophages,VUILD61,IPF,61,Macrophages
+945,Macrophages,VUILD61,IPF,61,Macrophages
+946,Macrophages,VUILD61,IPF,61,Macrophages
+947,Macrophages,VUILD61,IPF,61,Macrophages
+948,Macrophages,VUILD61,IPF,61,Macrophages
+949,Macrophages,VUILD61,IPF,61,Macrophages
+950,Macrophages,VUILD61,IPF,61,Macrophages
+951,Macrophages,VUILD61,IPF,61,Macrophages
+952,Macrophages,VUILD61,IPF,61,Macrophages
+953,Macrophages,VUILD61,IPF,60,Macrophages
+954,Macrophages,VUILD61,IPF,60,Macrophages
+955,Macrophages,VUILD61,IPF,60,Macrophages
+956,Macrophages,VUILD61,IPF,60,Macrophages
+957,Macrophages,VUILD61,IPF,60,Macrophages
+958,Monocytes,VUILD61,IPF,54,Monocytes
+959,Monocytes,VUILD61,IPF,54,Monocytes
+960,AT2,VUILD61,IPF,57,AT2
+961,AT2,VUILD61,IPF,57,AT2
+962,AT2,VUILD61,IPF,57,AT2
+963,AT2,VUILD61,IPF,56,AT2
+964,AT2,VUILD61,IPF,56,AT2
+965,AT2,VUILD61,IPF,56,AT2
+966,AT2,VUILD61,IPF,56,AT2
+967,NK Cells,VUILD61,IPF,62,NK Cells
+968,NK Cells,VUILD61,IPF,62,NK Cells
+969,T Cells,VUILD61,IPF,69,T Cells
+970,T Cells,VUILD61,IPF,69,T Cells
+971,T Cells,VUILD61,IPF,68,T Cells
+972,Ciliated,VUILD61,IPF,61,Ciliated
+973,Ciliated,VUILD61,IPF,61,Ciliated
+974,Ciliated,VUILD61,IPF,61,Ciliated
+975,Ciliated,VUILD61,IPF,61,Ciliated
+976,Ciliated,VUILD61,IPF,61,Ciliated
+977,Ciliated,VUILD61,IPF,61,Ciliated
+978,Ciliated,VUILD61,IPF,61,Ciliated
+979,Ciliated,VUILD61,IPF,61,Ciliated
+980,Ciliated,VUILD61,IPF,61,Ciliated
+981,Ciliated,VUILD61,IPF,61,Ciliated
+982,Ciliated,VUILD61,IPF,61,Ciliated
+983,Ciliated,VUILD61,IPF,61,Ciliated
+984,Ciliated,VUILD61,IPF,61,Ciliated
+985,Ciliated,VUILD61,IPF,61,Ciliated
+986,Ciliated,VUILD61,IPF,61,Ciliated
+987,Ciliated,VUILD61,IPF,61,Ciliated
+988,Ciliated,VUILD61,IPF,61,Ciliated
+989,Ciliated,VUILD61,IPF,61,Ciliated
+990,Ciliated,VUILD61,IPF,61,Ciliated
+991,Ciliated,VUILD61,IPF,61,Ciliated
+992,Ciliated,VUILD61,IPF,61,Ciliated
+993,Ciliated,VUILD61,IPF,61,Ciliated
+994,Ciliated,VUILD61,IPF,61,Ciliated
+995,Ciliated,VUILD61,IPF,61,Ciliated
+996,Ciliated,VUILD61,IPF,61,Ciliated
+997,Ciliated,VUILD61,IPF,61,Ciliated
+998,Ciliated,VUILD61,IPF,61,Ciliated
+999,Ciliated,VUILD61,IPF,61,Ciliated
+1000,Ciliated,VUILD61,IPF,61,Ciliated
+1001,Ciliated,VUILD61,IPF,60,Ciliated
+1002,Ciliated,VUILD61,IPF,60,Ciliated
+1003,Ciliated,VUILD61,IPF,60,Ciliated
+1004,Ciliated,VUILD61,IPF,60,Ciliated
+1005,Ciliated,VUILD61,IPF,60,Ciliated
+1006,Ciliated,VUILD61,IPF,60,Ciliated
+1007,Ciliated,VUILD61,IPF,60,Ciliated
+1008,Ciliated,VUILD61,IPF,60,Ciliated
+1009,Ciliated,VUILD61,IPF,60,Ciliated
+1010,Ciliated,VUILD61,IPF,60,Ciliated
+1011,Ciliated,VUILD61,IPF,60,Ciliated
+1012,Ciliated,VUILD61,IPF,60,Ciliated
+1013,Ciliated,VUILD61,IPF,60,Ciliated
+1014,Ciliated,VUILD61,IPF,60,Ciliated
+1015,Ciliated,VUILD61,IPF,60,Ciliated
+1016,Ciliated,VUILD61,IPF,60,Ciliated
+1017,Ciliated,VUILD61,IPF,60,Ciliated
+1018,Ciliated,VUILD61,IPF,60,Ciliated
+1019,Ciliated,VUILD61,IPF,60,Ciliated
+1020,Ciliated,VUILD61,IPF,60,Ciliated
+1021,Ciliated,VUILD61,IPF,60,Ciliated
+1022,Ciliated,VUILD61,IPF,60,Ciliated
+1023,Ciliated,VUILD61,IPF,60,Ciliated
+1024,Ciliated,VUILD61,IPF,60,Ciliated
+1025,Ciliated,VUILD61,IPF,60,Ciliated
+1026,Ciliated,VUILD61,IPF,60,Ciliated
+1027,Ciliated,VUILD61,IPF,60,Ciliated
+1028,Ciliated,VUILD61,IPF,60,Ciliated
+1029,Ciliated,VUILD61,IPF,60,Ciliated
+1030,Ciliated,VUILD61,IPF,60,Ciliated
+1031,Ciliated,VUILD61,IPF,60,Ciliated
+1032,Ciliated,VUILD61,IPF,60,Ciliated
+1033,Ciliated,VUILD61,IPF,60,Ciliated
+1034,Ciliated,VUILD61,IPF,60,Ciliated
+1035,Ciliated,VUILD61,IPF,60,Ciliated
+1036,Ciliated,VUILD61,IPF,60,Ciliated
+1037,Ciliated,VUILD61,IPF,60,Ciliated
+1038,Ciliated,VUILD61,IPF,60,Ciliated
+1039,Ciliated,VUILD61,IPF,60,Ciliated
+1040,Ciliated,VUILD61,IPF,60,Ciliated
+1041,Ciliated,VUILD61,IPF,60,Ciliated
+1042,Ciliated,VUILD61,IPF,60,Ciliated
+1043,cDCs,VUILD61,IPF,85,cDCs
+1044,Differentiating Ciliated,VUILD61,IPF,60,Differentiating Ciliated
+1045,Differentiating Ciliated,VUILD61,IPF,59,Differentiating Ciliated
+1046,Differentiating Ciliated,VUILD61,IPF,59,Differentiating Ciliated
+1047,Differentiating Ciliated,VUILD61,IPF,59,Differentiating Ciliated
+1048,Differentiating Ciliated,VUILD61,IPF,59,Differentiating Ciliated
+1049,Macrophages,VUILD63,IPF,65,Macrophages
+1050,Macrophages,VUILD63,IPF,65,Macrophages
+1051,Macrophages,VUILD63,IPF,64,Macrophages
+1052,Macrophages,VUILD63,IPF,64,Macrophages
+1053,Macrophages,VUILD63,IPF,64,Macrophages
+1054,NK Cells,VUILD63,IPF,60,NK Cells
+1055,NK Cells,VUILD63,IPF,60,NK Cells
+1056,NK Cells,VUILD63,IPF,60,NK Cells
+1057,NK Cells,VUILD63,IPF,59,NK Cells
+1058,NK Cells,VUILD63,IPF,59,NK Cells
+1059,NK Cells,VUILD63,IPF,59,NK Cells
+1060,NK Cells,VUILD63,IPF,59,NK Cells
+1061,NK Cells,VUILD63,IPF,59,NK Cells
+1062,NK Cells,VUILD63,IPF,59,NK Cells
+1063,NK Cells,VUILD63,IPF,59,NK Cells
+1064,Monocytes,VUILD63,IPF,79,Monocytes
+1065,Ciliated,VUILD63,IPF,62,Ciliated
+1066,Ciliated,VUILD63,IPF,62,Ciliated
+1067,Ciliated,VUILD63,IPF,62,Ciliated
+1068,cDCs,VUILD63,IPF,63,cDCs
+1069,T Cells,VUILD63,IPF,65,T Cells
+1070,T Cells,VUILD63,IPF,65,T Cells
+1071,T Cells,VUILD63,IPF,64,T Cells
+1072,T Cells,VUILD63,IPF,64,T Cells
+1073,T Cells,VUILD63,IPF,64,T Cells
+1074,T Cells,VUILD63,IPF,64,T Cells
+1075,AT2,VUILD63,IPF,50,AT2
+1076,AT2,VUILD63,IPF,49,AT2
+1077,Macrophages,VUILD64,IPF,68,Macrophages
+1078,Macrophages,VUILD64,IPF,67,Macrophages
+1079,AT2,VUILD64,IPF,62,AT2
+1080,AT2,VUILD64,IPF,61,AT2
+1081,AT2,VUILD64,IPF,61,AT2
+1082,AT2,VUILD64,IPF,61,AT2
+1083,AT2,VUILD64,IPF,61,AT2
+1084,AT2,VUILD64,IPF,61,AT2
+1085,AT2,VUILD64,IPF,61,AT2
+1086,Ciliated,VUILD64,IPF,56,Ciliated
+1087,Ciliated,VUILD64,IPF,56,Ciliated
+1088,Ciliated,VUILD64,IPF,56,Ciliated
+1089,Ciliated,VUILD64,IPF,55,Ciliated
+1090,Ciliated,VUILD64,IPF,55,Ciliated
+1091,Ciliated,VUILD65,IPF,63,Ciliated
+1092,Ciliated,VUILD65,IPF,63,Ciliated
+1093,Ciliated,VUILD65,IPF,63,Ciliated
+1094,Ciliated,VUILD65,IPF,62,Ciliated
+1095,Ciliated,VUILD65,IPF,62,Ciliated
+1096,Ciliated,VUILD65,IPF,62,Ciliated
+1097,Ciliated,VUILD65,IPF,62,Ciliated
+1098,Ciliated,VUILD65,IPF,62,Ciliated
+1099,Ciliated,VUILD65,IPF,62,Ciliated
+1100,Ciliated,VUILD65,IPF,62,Ciliated
+1101,Macrophages,VUILD65,IPF,62,Macrophages
+1102,Macrophages,VUILD65,IPF,62,Macrophages
+1103,Macrophages,VUILD65,IPF,62,Macrophages
+1104,Macrophages,VUILD65,IPF,62,Macrophages
+1105,Macrophages,VUILD65,IPF,62,Macrophages
+1106,Macrophages,VUILD65,IPF,62,Macrophages
+1107,Macrophages,VUILD65,IPF,62,Macrophages
+1108,Macrophages,VUILD65,IPF,62,Macrophages
+1109,Macrophages,VUILD65,IPF,61,Macrophages
+1110,Macrophages,VUILD65,IPF,61,Macrophages
+1111,Macrophages,VUILD65,IPF,61,Macrophages
+1112,Macrophages,VUILD65,IPF,61,Macrophages
+1113,Macrophages,VUILD65,IPF,61,Macrophages
+1114,AT2,VUILD65,IPF,72,AT2
+1115,B Cells,VUILD65,IPF,72,B Cells
+1116,Differentiating Ciliated,VUILD65,IPF,70,Differentiating Ciliated
+1117,cDCs,VUILD65,IPF,70,cDCs
+1118,cDCs,VUILD65,IPF,70,cDCs

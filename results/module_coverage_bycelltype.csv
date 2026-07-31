@@ -1,0 +1,300 @@
+celltype,annotation,n_genes,detected_frac
+ATII,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.5476190476190477
+ATII,Respiration/ Mitochondrial translation,357,0.6302521008403361
+ATII,Chromatin modification (1),246,0.6544715447154472
+ATII,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+ATII,VEGF signaling,34,0.6176470588235294
+ATII,Protein processing in ER/ UPR/ mTOR signaling,31,0.5161290322580645
+ATII,Lipid met/ PPAR signaling,16,0.8125
+ATII,Cholesterol met/ mTOR signaling,26,0.6923076923076923
+ATII,Cell cycle/ DNA replication,97,0.7010309278350515
+ATII,ECM organization/ EMT,59,0.728813559322034
+ATII,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6538461538461539
+ATII,Interferon signaling,59,0.5423728813559322
+ATII,Nrf2 signaling/ Proteasome,16,0.625
+ATII,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6666666666666667
+ATII,mRNA splicing,52,0.6153846153846154
+ATII,Fatty acid met/ Beta-oxidation,30,0.5666666666666667
+ATII,Adaptive immunity/ T cell signaling,93,0.6559139784946236
+ATII,Translation/ Ribosome,117,0.6153846153846154
+ATII,Cholesterol met/ Platelet degranulation,12,0.75
+ATII,Heat stress response,20,0.7
+ATII,OxPhos/ TCA cycle,61,0.6557377049180328
+ATII,Innate immunity/ Inflammation,332,0.641566265060241
+ATII,Chromatin modification (2),169,0.6035502958579881
+B,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.5
+B,Respiration/ Mitochondrial translation,357,0.6162464985994398
+B,Chromatin modification (1),246,0.6463414634146342
+B,Heme metabolism/ ROS pathway/ Mitochondria,20,0.65
+B,VEGF signaling,34,0.5588235294117647
+B,Protein processing in ER/ UPR/ mTOR signaling,31,0.5483870967741935
+B,Lipid met/ PPAR signaling,16,0.6875
+B,Cholesterol met/ mTOR signaling,26,0.6923076923076923
+B,Cell cycle/ DNA replication,97,0.5876288659793815
+B,ECM organization/ EMT,59,0.6271186440677966
+B,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.5961538461538461
+B,Interferon signaling,59,0.576271186440678
+B,Nrf2 signaling/ Proteasome,16,0.6875
+B,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6666666666666667
+B,mRNA splicing,52,0.5961538461538461
+B,Fatty acid met/ Beta-oxidation,30,0.6666666666666667
+B,Adaptive immunity/ T cell signaling,93,0.6021505376344086
+B,Translation/ Ribosome,117,0.5982905982905983
+B,Cholesterol met/ Platelet degranulation,12,0.75
+B,Heat stress response,20,0.55
+B,OxPhos/ TCA cycle,61,0.6229508196721312
+B,Innate immunity/ Inflammation,332,0.5993975903614458
+B,Chromatin modification (2),169,0.5621301775147929
+Ciliated,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.6190476190476191
+Ciliated,Respiration/ Mitochondrial translation,357,0.7478991596638656
+Ciliated,Chromatin modification (1),246,0.7195121951219512
+Ciliated,Heme metabolism/ ROS pathway/ Mitochondria,20,0.75
+Ciliated,VEGF signaling,34,0.7058823529411764
+Ciliated,Protein processing in ER/ UPR/ mTOR signaling,31,0.6129032258064516
+Ciliated,Lipid met/ PPAR signaling,16,0.9375
+Ciliated,Cholesterol met/ mTOR signaling,26,0.8076923076923077
+Ciliated,Cell cycle/ DNA replication,97,0.7731958762886598
+Ciliated,ECM organization/ EMT,59,0.7966101694915254
+Ciliated,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.7307692307692308
+Ciliated,Interferon signaling,59,0.6949152542372881
+Ciliated,Nrf2 signaling/ Proteasome,16,0.75
+Ciliated,Amino acid met/ Coagulation/ Xenobiotic met,54,0.7222222222222222
+Ciliated,mRNA splicing,52,0.6923076923076923
+Ciliated,Fatty acid met/ Beta-oxidation,30,0.7
+Ciliated,Adaptive immunity/ T cell signaling,93,0.6989247311827957
+Ciliated,Translation/ Ribosome,117,0.717948717948718
+Ciliated,Cholesterol met/ Platelet degranulation,12,0.8333333333333334
+Ciliated,Heat stress response,20,0.75
+Ciliated,OxPhos/ TCA cycle,61,0.7377049180327868
+Ciliated,Innate immunity/ Inflammation,332,0.7319277108433735
+Ciliated,Chromatin modification (2),169,0.680473372781065
+Fibroblast,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.6666666666666667
+Fibroblast,Respiration/ Mitochondrial translation,357,0.6582633053221288
+Fibroblast,Chromatin modification (1),246,0.6666666666666667
+Fibroblast,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+Fibroblast,VEGF signaling,34,0.6176470588235294
+Fibroblast,Protein processing in ER/ UPR/ mTOR signaling,31,0.5806451612903225
+Fibroblast,Lipid met/ PPAR signaling,16,0.75
+Fibroblast,Cholesterol met/ mTOR signaling,26,0.7307692307692308
+Fibroblast,Cell cycle/ DNA replication,97,0.7216494845360825
+Fibroblast,ECM organization/ EMT,59,0.728813559322034
+Fibroblast,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.75
+Fibroblast,Interferon signaling,59,0.5932203389830508
+Fibroblast,Nrf2 signaling/ Proteasome,16,0.625
+Fibroblast,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6296296296296297
+Fibroblast,mRNA splicing,52,0.6153846153846154
+Fibroblast,Fatty acid met/ Beta-oxidation,30,0.6
+Fibroblast,Adaptive immunity/ T cell signaling,93,0.6236559139784946
+Fibroblast,Translation/ Ribosome,117,0.5982905982905983
+Fibroblast,Cholesterol met/ Platelet degranulation,12,0.9166666666666666
+Fibroblast,Heat stress response,20,0.7
+Fibroblast,OxPhos/ TCA cycle,61,0.6885245901639344
+Fibroblast,Innate immunity/ Inflammation,332,0.6536144578313253
+Fibroblast,Chromatin modification (2),169,0.5857988165680473
+Lymphatic,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.5
+Lymphatic,Respiration/ Mitochondrial translation,357,0.5770308123249299
+Lymphatic,Chromatin modification (1),246,0.6219512195121951
+Lymphatic,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+Lymphatic,VEGF signaling,34,0.5882352941176471
+Lymphatic,Protein processing in ER/ UPR/ mTOR signaling,31,0.4838709677419355
+Lymphatic,Lipid met/ PPAR signaling,16,0.625
+Lymphatic,Cholesterol met/ mTOR signaling,26,0.6153846153846154
+Lymphatic,Cell cycle/ DNA replication,97,0.6288659793814433
+Lymphatic,ECM organization/ EMT,59,0.6779661016949152
+Lymphatic,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6346153846153846
+Lymphatic,Interferon signaling,59,0.5084745762711864
+Lymphatic,Nrf2 signaling/ Proteasome,16,0.625
+Lymphatic,Amino acid met/ Coagulation/ Xenobiotic met,54,0.5555555555555556
+Lymphatic,mRNA splicing,52,0.5961538461538461
+Lymphatic,Fatty acid met/ Beta-oxidation,30,0.5666666666666667
+Lymphatic,Adaptive immunity/ T cell signaling,93,0.5698924731182795
+Lymphatic,Translation/ Ribosome,117,0.5555555555555556
+Lymphatic,Cholesterol met/ Platelet degranulation,12,0.75
+Lymphatic,Heat stress response,20,0.65
+Lymphatic,OxPhos/ TCA cycle,61,0.5901639344262295
+Lymphatic,Innate immunity/ Inflammation,332,0.5963855421686747
+Lymphatic,Chromatin modification (2),169,0.5621301775147929
+Macrophage,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.8095238095238095
+Macrophage,Respiration/ Mitochondrial translation,357,0.876750700280112
+Macrophage,Chromatin modification (1),246,0.8414634146341463
+Macrophage,Heme metabolism/ ROS pathway/ Mitochondria,20,0.85
+Macrophage,VEGF signaling,34,0.8823529411764706
+Macrophage,Protein processing in ER/ UPR/ mTOR signaling,31,0.6451612903225806
+Macrophage,Lipid met/ PPAR signaling,16,0.9375
+Macrophage,Cholesterol met/ mTOR signaling,26,0.9230769230769231
+Macrophage,Cell cycle/ DNA replication,97,0.8969072164948454
+Macrophage,ECM organization/ EMT,59,0.8813559322033898
+Macrophage,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.8076923076923077
+Macrophage,Interferon signaling,59,0.8135593220338984
+Macrophage,Nrf2 signaling/ Proteasome,16,0.75
+Macrophage,Amino acid met/ Coagulation/ Xenobiotic met,54,0.8703703703703703
+Macrophage,mRNA splicing,52,0.7884615384615384
+Macrophage,Fatty acid met/ Beta-oxidation,30,0.8
+Macrophage,Adaptive immunity/ T cell signaling,93,0.8172043010752688
+Macrophage,Translation/ Ribosome,117,0.7863247863247863
+Macrophage,Cholesterol met/ Platelet degranulation,12,0.9166666666666666
+Macrophage,Heat stress response,20,0.8
+Macrophage,OxPhos/ TCA cycle,61,0.8360655737704918
+Macrophage,Innate immunity/ Inflammation,332,0.8373493975903614
+Macrophage,Chromatin modification (2),169,0.7988165680473372
+Macrophage_Alveolar,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.7619047619047619
+Macrophage_Alveolar,Respiration/ Mitochondrial translation,357,0.8543417366946778
+Macrophage_Alveolar,Chromatin modification (1),246,0.8292682926829268
+Macrophage_Alveolar,Heme metabolism/ ROS pathway/ Mitochondria,20,0.85
+Macrophage_Alveolar,VEGF signaling,34,0.8529411764705882
+Macrophage_Alveolar,Protein processing in ER/ UPR/ mTOR signaling,31,0.5806451612903225
+Macrophage_Alveolar,Lipid met/ PPAR signaling,16,0.875
+Macrophage_Alveolar,Cholesterol met/ mTOR signaling,26,0.9230769230769231
+Macrophage_Alveolar,Cell cycle/ DNA replication,97,0.8762886597938144
+Macrophage_Alveolar,ECM organization/ EMT,59,0.8813559322033898
+Macrophage_Alveolar,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.7884615384615384
+Macrophage_Alveolar,Interferon signaling,59,0.8135593220338984
+Macrophage_Alveolar,Nrf2 signaling/ Proteasome,16,0.75
+Macrophage_Alveolar,Amino acid met/ Coagulation/ Xenobiotic met,54,0.8888888888888888
+Macrophage_Alveolar,mRNA splicing,52,0.75
+Macrophage_Alveolar,Fatty acid met/ Beta-oxidation,30,0.8
+Macrophage_Alveolar,Adaptive immunity/ T cell signaling,93,0.8172043010752688
+Macrophage_Alveolar,Translation/ Ribosome,117,0.7863247863247863
+Macrophage_Alveolar,Cholesterol met/ Platelet degranulation,12,0.9166666666666666
+Macrophage_Alveolar,Heat stress response,20,0.8
+Macrophage_Alveolar,OxPhos/ TCA cycle,61,0.8032786885245902
+Macrophage_Alveolar,Innate immunity/ Inflammation,332,0.8253012048192772
+Macrophage_Alveolar,Chromatin modification (2),169,0.7869822485207101
+NK,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.5476190476190477
+NK,Respiration/ Mitochondrial translation,357,0.6386554621848739
+NK,Chromatin modification (1),246,0.6707317073170731
+NK,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+NK,VEGF signaling,34,0.5588235294117647
+NK,Protein processing in ER/ UPR/ mTOR signaling,31,0.4516129032258065
+NK,Lipid met/ PPAR signaling,16,0.8125
+NK,Cholesterol met/ mTOR signaling,26,0.6153846153846154
+NK,Cell cycle/ DNA replication,97,0.6597938144329897
+NK,ECM organization/ EMT,59,0.6440677966101696
+NK,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6153846153846154
+NK,Interferon signaling,59,0.576271186440678
+NK,Nrf2 signaling/ Proteasome,16,0.6875
+NK,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6481481481481481
+NK,mRNA splicing,52,0.5961538461538461
+NK,Fatty acid met/ Beta-oxidation,30,0.6333333333333333
+NK,Adaptive immunity/ T cell signaling,93,0.6236559139784946
+NK,Translation/ Ribosome,117,0.5982905982905983
+NK,Cholesterol met/ Platelet degranulation,12,0.6666666666666667
+NK,Heat stress response,20,0.6
+NK,OxPhos/ TCA cycle,61,0.6229508196721312
+NK,Innate immunity/ Inflammation,332,0.6295180722891567
+NK,Chromatin modification (2),169,0.5976331360946745
+T,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.5714285714285714
+T,Respiration/ Mitochondrial translation,357,0.6442577030812324
+T,Chromatin modification (1),246,0.6747967479674797
+T,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+T,VEGF signaling,34,0.5588235294117647
+T,Protein processing in ER/ UPR/ mTOR signaling,31,0.4838709677419355
+T,Lipid met/ PPAR signaling,16,0.75
+T,Cholesterol met/ mTOR signaling,26,0.6923076923076923
+T,Cell cycle/ DNA replication,97,0.6701030927835052
+T,ECM organization/ EMT,59,0.6610169491525424
+T,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6153846153846154
+T,Interferon signaling,59,0.6101694915254237
+T,Nrf2 signaling/ Proteasome,16,0.6875
+T,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6481481481481481
+T,mRNA splicing,52,0.6346153846153846
+T,Fatty acid met/ Beta-oxidation,30,0.6666666666666667
+T,Adaptive immunity/ T cell signaling,93,0.6559139784946236
+T,Translation/ Ribosome,117,0.6153846153846154
+T,Cholesterol met/ Platelet degranulation,12,0.6666666666666667
+T,Heat stress response,20,0.65
+T,OxPhos/ TCA cycle,61,0.6721311475409837
+T,Innate immunity/ Inflammation,332,0.6536144578313253
+T,Chromatin modification (2),169,0.6213017751479291
+T_Cytotoxic,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.6190476190476191
+T_Cytotoxic,Respiration/ Mitochondrial translation,357,0.6582633053221288
+T_Cytotoxic,Chromatin modification (1),246,0.6829268292682926
+T_Cytotoxic,Heme metabolism/ ROS pathway/ Mitochondria,20,0.75
+T_Cytotoxic,VEGF signaling,34,0.6176470588235294
+T_Cytotoxic,Protein processing in ER/ UPR/ mTOR signaling,31,0.4516129032258065
+T_Cytotoxic,Lipid met/ PPAR signaling,16,0.75
+T_Cytotoxic,Cholesterol met/ mTOR signaling,26,0.6923076923076923
+T_Cytotoxic,Cell cycle/ DNA replication,97,0.6597938144329897
+T_Cytotoxic,ECM organization/ EMT,59,0.6440677966101696
+T_Cytotoxic,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6153846153846154
+T_Cytotoxic,Interferon signaling,59,0.6101694915254237
+T_Cytotoxic,Nrf2 signaling/ Proteasome,16,0.6875
+T_Cytotoxic,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6851851851851851
+T_Cytotoxic,mRNA splicing,52,0.6346153846153846
+T_Cytotoxic,Fatty acid met/ Beta-oxidation,30,0.6333333333333333
+T_Cytotoxic,Adaptive immunity/ T cell signaling,93,0.6666666666666667
+T_Cytotoxic,Translation/ Ribosome,117,0.6239316239316239
+T_Cytotoxic,Cholesterol met/ Platelet degranulation,12,0.75
+T_Cytotoxic,Heat stress response,20,0.6
+T_Cytotoxic,OxPhos/ TCA cycle,61,0.7049180327868853
+T_Cytotoxic,Innate immunity/ Inflammation,332,0.6686746987951807
+T_Cytotoxic,Chromatin modification (2),169,0.5976331360946745
+cDC2,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.6190476190476191
+cDC2,Respiration/ Mitochondrial translation,357,0.7198879551820728
+cDC2,Chromatin modification (1),246,0.7398373983739837
+cDC2,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+cDC2,VEGF signaling,34,0.7058823529411764
+cDC2,Protein processing in ER/ UPR/ mTOR signaling,31,0.5483870967741935
+cDC2,Lipid met/ PPAR signaling,16,0.75
+cDC2,Cholesterol met/ mTOR signaling,26,0.8076923076923077
+cDC2,Cell cycle/ DNA replication,97,0.6907216494845361
+cDC2,ECM organization/ EMT,59,0.7796610169491526
+cDC2,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.7307692307692308
+cDC2,Interferon signaling,59,0.6779661016949152
+cDC2,Nrf2 signaling/ Proteasome,16,0.6875
+cDC2,Amino acid met/ Coagulation/ Xenobiotic met,54,0.7407407407407407
+cDC2,mRNA splicing,52,0.7115384615384616
+cDC2,Fatty acid met/ Beta-oxidation,30,0.6666666666666667
+cDC2,Adaptive immunity/ T cell signaling,93,0.7311827956989247
+cDC2,Translation/ Ribosome,117,0.6752136752136753
+cDC2,Cholesterol met/ Platelet degranulation,12,0.75
+cDC2,Heat stress response,20,0.7
+cDC2,OxPhos/ TCA cycle,61,0.7213114754098361
+cDC2,Innate immunity/ Inflammation,332,0.713855421686747
+cDC2,Chromatin modification (2),169,0.6568047337278107
+cMonocyte,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.47619047619047616
+cMonocyte,Respiration/ Mitochondrial translation,357,0.669467787114846
+cMonocyte,Chromatin modification (1),246,0.6869918699186992
+cMonocyte,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+cMonocyte,VEGF signaling,34,0.6764705882352942
+cMonocyte,Protein processing in ER/ UPR/ mTOR signaling,31,0.4838709677419355
+cMonocyte,Lipid met/ PPAR signaling,16,0.75
+cMonocyte,Cholesterol met/ mTOR signaling,26,0.7307692307692308
+cMonocyte,Cell cycle/ DNA replication,97,0.6804123711340206
+cMonocyte,ECM organization/ EMT,59,0.711864406779661
+cMonocyte,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6923076923076923
+cMonocyte,Interferon signaling,59,0.6949152542372881
+cMonocyte,Nrf2 signaling/ Proteasome,16,0.6875
+cMonocyte,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6481481481481481
+cMonocyte,mRNA splicing,52,0.6346153846153846
+cMonocyte,Fatty acid met/ Beta-oxidation,30,0.6333333333333333
+cMonocyte,Adaptive immunity/ T cell signaling,93,0.6881720430107527
+cMonocyte,Translation/ Ribosome,117,0.641025641025641
+cMonocyte,Cholesterol met/ Platelet degranulation,12,0.75
+cMonocyte,Heat stress response,20,0.65
+cMonocyte,OxPhos/ TCA cycle,61,0.6885245901639344
+cMonocyte,Innate immunity/ Inflammation,332,0.6536144578313253
+cMonocyte,Chromatin modification (2),169,0.591715976331361
+ncMonocyte,Muscle contraction/ Cytoskeleton/ Glycolysis,42,0.4285714285714286
+ncMonocyte,Respiration/ Mitochondrial translation,357,0.6330532212885154
+ncMonocyte,Chromatin modification (1),246,0.6585365853658536
+ncMonocyte,Heme metabolism/ ROS pathway/ Mitochondria,20,0.7
+ncMonocyte,VEGF signaling,34,0.5882352941176471
+ncMonocyte,Protein processing in ER/ UPR/ mTOR signaling,31,0.4516129032258065
+ncMonocyte,Lipid met/ PPAR signaling,16,0.6875
+ncMonocyte,Cholesterol met/ mTOR signaling,26,0.6153846153846154
+ncMonocyte,Cell cycle/ DNA replication,97,0.6494845360824743
+ncMonocyte,ECM organization/ EMT,59,0.6779661016949152
+ncMonocyte,Apoptosis/ Nrf2 signaling/ Proteasome,52,0.6153846153846154
+ncMonocyte,Interferon signaling,59,0.6440677966101696
+ncMonocyte,Nrf2 signaling/ Proteasome,16,0.6875
+ncMonocyte,Amino acid met/ Coagulation/ Xenobiotic met,54,0.6296296296296297
+ncMonocyte,mRNA splicing,52,0.5961538461538461
+ncMonocyte,Fatty acid met/ Beta-oxidation,30,0.6333333333333333
+ncMonocyte,Adaptive immunity/ T cell signaling,93,0.6344086021505376
+ncMonocyte,Translation/ Ribosome,117,0.5811965811965811
+ncMonocyte,Cholesterol met/ Platelet degranulation,12,0.6666666666666667
+ncMonocyte,Heat stress response,20,0.6
+ncMonocyte,OxPhos/ TCA cycle,61,0.639344262295082
+ncMonocyte,Innate immunity/ Inflammation,332,0.6114457831325302
+ncMonocyte,Chromatin modification (2),169,0.5443786982248521

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or method, please cite the manuscript below."
+title: "module-aging-toolkit: module- and cell-type-resolved application and validation of transcriptomic aging clocks in single-cell data"
+version: 0.1.0
+date-released: 2026-07-31
+license: MIT
+authors:
+  - family-names: Kang
+    given-names: Juwon
+    orcid: "https://orcid.org/0009-0009-2186-0038"
+    affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+  - family-names: Choi
+    given-names: Junjeong
+    orcid: "https://orcid.org/0000-0003-1339-593X"
+    affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+preferred-citation:
+  type: article
+  title: "A module- and cell-type-resolved framework for applying and validating transcriptomic aging clocks in single-cell data: a proof-of-concept in idiopathic pulmonary fibrosis"
+  year: 2026
+  journal: "GeroScience (submitted)"
+  authors:
+    - family-names: Kang
+      given-names: Juwon
+      orcid: "https://orcid.org/0009-0009-2186-0038"
+    - family-names: Choi
+      given-names: Junjeong
+      orcid: "https://orcid.org/0000-0003-1339-593X"
+references:
+  - type: article
+    title: "Universal transcriptomic hallmarks of mammalian ageing and mortality"
+    year: 2026
+    journal: "Nature"
+    doi: "10.1038/s41586-026-10542-3"
+    notes: "tAge clocks and rodent meta-dataset (Zenodo 18763485); MGB Open Access License 1.0."
+    authors:
+      - family-names: Tyshkovskiy
+        given-names: Alexander
