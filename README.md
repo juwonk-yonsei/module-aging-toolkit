@@ -23,7 +23,7 @@ power / composition / resolution).
 
 ### 🔁 REUSE — apply the method to your data
 ```bash
-git clone <this-repo> && cd module-aging-toolkit
+git clone https://github.com/juwonk-yonsei/module-aging-toolkit.git && cd module-aging-toolkit
 pip install -e .            # exposes the `module_aging` package
 python examples/reuse_quickstart.py
 ```

@@ -4,6 +4,8 @@ title: "module-aging-toolkit: module- and cell-type-resolved application and val
 version: 0.1.0
 date-released: 2026-07-31
 license: MIT
+repository-code: "https://github.com/juwonk-yonsei/module-aging-toolkit"
+url: "https://github.com/juwonk-yonsei/module-aging-toolkit"
 authors:
   - family-names: Kang
     given-names: Juwon
