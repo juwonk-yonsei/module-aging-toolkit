@@ -1,0 +1,12 @@
+celltype,n_samples,genes_retained,genes_nonzero_all
+B,42,6541,5324
+Ciliated,45,11062,9289
+Fibroblast,15,8971,8131
+Macrophage,76,12558,9774
+Macrophage_Alveolar,71,12220,9591
+NK,53,6810,4669
+T,51,7443,4791
+T_Cytotoxic,56,7666,5163
+cDC2,43,8249,6493
+cMonocyte,58,7394,4911
+ncMonocyte,32,6393,5211

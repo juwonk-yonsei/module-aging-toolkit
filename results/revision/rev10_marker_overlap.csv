@@ -1,0 +1,18 @@
+marker_set,gene,module
+monocyte-derived,SPP1,
+monocyte-derived,FCN1,
+monocyte-derived,VCAN,
+monocyte-derived,CTHRC1,
+monocyte-derived,INHBA,
+monocyte-derived,MERTK,
+monocyte-derived,SPARC,Respiration
+monocyte-derived,CD14,Innate immunity
+monocyte-derived,S100A8,
+resident alveolar,FABP4,
+resident alveolar,MARCO,
+resident alveolar,MRC1,Nrf2 signaling
+resident alveolar,PPARG,
+resident alveolar,INHBA,
+resident alveolar,CD36,
+resident alveolar,APOC1,
+resident alveolar,C1QA,Chromatin modification (1)

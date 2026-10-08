@@ -1,47 +1,55 @@
 # Using the method on your own data
 
 This toolkit lets you (1) score single-cell pseudobulks with **module- and
-cell-type-resolved** aging clocks and (2) run the **attribution ladder**
-(manuscript Table 1) to diagnose *why* a module signal does or does not
-replicate across cohorts.
+cell-type-resolved** clocks and (2) run the **diagnostic checklist**
+(revised manuscript, Table 2) to decide how far a cross-cohort non-replication
+can be interpreted.
 
-## 1. The attribution ladder (`module_aging`)
+## 1. The diagnostic checklist (`module_aging.checklist`)
 
-The reusable, clock-agnostic core lives in `src/module_aging/`. It works on
-plain NumPy/pandas inputs — you do **not** need the transcriptomic clocks to use
-it, only per-module effect vectors (and, for the power stage, per-donor module
-scores).
+The reusable, clock-agnostic core lives in `src/module_aging/`. It needs only NumPy
+and works on sample × module score matrices with a case indicator per sample; you do
+**not** need the transcriptomic clocks to use it.
 
 ```python
-from module_aging import (
-    effect_concordance, concordance_permutation_p,
-    split_half_ceiling, classify,
-)
+from module_aging import cross_cohort_test, split_half_reliability, checklist
 
-# per-module effect vectors (one value per module) from two cohorts
-conc = effect_concordance(eff_cohortA, eff_cohortB)     # Pearson/Spearman/sign
-p    = concordance_permutation_p(eff_cohortA, eff_cohortB)
+# step 1: Pearson r between the two cohorts' effect vectors, two-sided p from
+# permuting disease labels within each cohort
+r, p = cross_cohort_test(scores_A, case_A, scores_B, case_B,
+                         strata_a=fine_celltype_A, strata_b=fine_celltype_B,
+                         donors_a=donor_A, donors_b=donor_B)
 
-# within-cohort split-half "ceiling" from per-donor module scores + labels
-sh = split_half_ceiling(donor_scores_A, labels_A)       # {median, lo, hi}
+# step 2: split-half reliability of the primary cohort and its permutation threshold
+r_sh, tau = split_half_reliability(scores_A, case_A, strata=fine_celltype_A, donors=donor_A)
 
-verdict = classify(conc.pearson_r, p, splithalf_median=sh["median"],
-                   r_bulk=..., p_bulk=...)               # Table-1 decision
-print(verdict.stage, "->", verdict.conclusion)
+# steps 3-4: optional sub-state comparison (mean r over matched sub-states,
+# Bonferroni-adjusted p, and the mean r of random splits of the same sizes)
+res = checklist(r, p, r_sh, tau, r_substate=..., p_substate=..., r_random_split=...)
+print(res.step, res.decision)
 ```
 
-The ladder stages (applied in order, stop at the first that resolves it):
+`strata` adds fixed effects for fine cell types within a coarse cell type, and `donors`
+makes permutations and split halves operate on donors rather than on pseudobulks; both
+are optional. The steps are applied in order and stop at the first decision:
 
-| Stage | Question | Primitive |
+| Step | Question | Decision |
 |---|---|---|
-| 0 observe | Does the effect vector replicate? | `effect_concordance` + `concordance_permutation_p` |
-| 1 technical | Gene-coverage / imputation artifact? | rescore on common gene support, then `effect_concordance` |
-| 2 power | Is *n* too small? | `split_half_ceiling` |
-| 3 composition | Sub-state mixing? | matched marker-defined sub-states, then `effect_concordance` |
-| 4 resolution | Recovers at bulk? | whole-donor pseudobulk / bulk cohort, then `effect_concordance` |
+| 1 | Do the effect vectors agree between cohorts? | r > 0 and p < 0.05: replicated |
+| 2 | Is the primary cohort's effect vector reliable at this sample size? | split-half r < τ: inconclusive (power) |
+| 3 | Does matching cell sub-states restore agreement? | p < 0.05 and r above the random-split r: composition |
+| 4 | — | between-cohort difference (unresolved) |
 
-See `examples/reuse_quickstart.py` for a runnable end-to-end demo on synthetic
-data.
+In simulation (Section 3.8, Supplementary Table S15a) the checklist called a shared
+effect replicated in 100% of cohort pairs, but it called a weak shared effect a
+between-cohort difference in 41% and a pure composition shift replicated in 44%. Treat
+its decisions as diagnostic statements about what the data can support, not as proof of
+a cause. The analyses in the manuscript use the scripts in `scripts/revision/`
+(`rev_10`, `rev_11`, `rev_12`, `rev_15`); `examples/reuse_quickstart.py` is a runnable
+demonstration on synthetic data.
+
+The attribution ladder of the original submission (`module_aging.classify` and related
+functions) is kept unchanged so that v0.1.0 results can be reproduced.
 
 ## 2. Scoring your own pseudobulks with the module clocks
 
@@ -54,13 +62,16 @@ meta   : samples × covariates   (must include a control-group column)
 ```
 
 1. Preprocess with the ported tAge pipeline
-   (`third_party/tage_prep.py`: RLE → log → per-sample scale → YuGene →
-   ortholog map to mouse Entrez → control-median subtraction).
+   (`third_party/tage_prep.py`: detection filter → ortholog map to mouse Entrez →
+   RLE → log10 → per-sample scaling → control-median subtraction).
 2. Apply each `data/module_clocks/module_*.pkl` to its module genes to get a
-   per-sample module aging score.
+   per-sample module score in Δlog10 hazard units (mortality clocks).
 
-`scripts/apply_module_clocks.py` and `scripts/ipf_pipeline.py` show the full
-sequence; adapt the input paths to your dataset (or set `MAT_ROOT`).
+`scripts/apply_module_clocks.py`, `scripts/ipf_pipeline.py` and
+`scripts/revision/rev_common.py` show the full sequence; adapt the input paths to your
+dataset (or set `MAT_ROOT`). Contrasts between disease groups within a cell type are
+unaffected by the imputation of undetected genes; raw scores should not be compared
+between cell types.
 
 > **License:** the module clocks / tAge components are MGB Open Access License
 > 1.0 (non-commercial, academic). See `THIRD_PARTY_NOTICES.md`.

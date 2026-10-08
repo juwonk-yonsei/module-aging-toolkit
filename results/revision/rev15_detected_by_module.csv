@@ -1,0 +1,254 @@
+celltype,module,n_genes,detected,frac
+B,Muscle contraction,42,21,0.5
+B,Respiration,357,220,0.6162464985994398
+B,Chromatin modification (1),246,159,0.6463414634146342
+B,Heme metabolism,20,13,0.65
+B,VEGF signaling,34,19,0.5588235294117647
+B,Protein processing in ER,31,17,0.5483870967741935
+B,Lipid met,16,11,0.6875
+B,Cholesterol met (darkred),26,18,0.6923076923076923
+B,Cell cycle,97,57,0.5876288659793815
+B,ECM organization,59,37,0.6271186440677966
+B,Apoptosis,52,31,0.5961538461538461
+B,Interferon signaling,59,34,0.576271186440678
+B,Nrf2 signaling,16,11,0.6875
+B,Amino acid met,54,36,0.6666666666666666
+B,mRNA splicing,52,31,0.5961538461538461
+B,Fatty acid met,30,20,0.6666666666666666
+B,Adaptive immunity,93,56,0.6021505376344086
+B,Translation,117,70,0.5982905982905983
+B,Cholesterol met (salmon),12,9,0.75
+B,Heat stress response,20,11,0.55
+B,OxPhos,61,38,0.6229508196721312
+B,Innate immunity,332,199,0.5993975903614458
+B,Chromatin modification (2),169,95,0.5621301775147929
+Ciliated,Muscle contraction,42,26,0.6190476190476191
+Ciliated,Respiration,357,267,0.7478991596638656
+Ciliated,Chromatin modification (1),246,177,0.7195121951219512
+Ciliated,Heme metabolism,20,15,0.75
+Ciliated,VEGF signaling,34,24,0.7058823529411765
+Ciliated,Protein processing in ER,31,19,0.6129032258064516
+Ciliated,Lipid met,16,15,0.9375
+Ciliated,Cholesterol met (darkred),26,21,0.8076923076923077
+Ciliated,Cell cycle,97,75,0.7731958762886598
+Ciliated,ECM organization,59,47,0.7966101694915254
+Ciliated,Apoptosis,52,38,0.7307692307692307
+Ciliated,Interferon signaling,59,41,0.6949152542372882
+Ciliated,Nrf2 signaling,16,12,0.75
+Ciliated,Amino acid met,54,39,0.7222222222222222
+Ciliated,mRNA splicing,52,36,0.6923076923076923
+Ciliated,Fatty acid met,30,21,0.7
+Ciliated,Adaptive immunity,93,65,0.6989247311827957
+Ciliated,Translation,117,84,0.717948717948718
+Ciliated,Cholesterol met (salmon),12,10,0.8333333333333334
+Ciliated,Heat stress response,20,15,0.75
+Ciliated,OxPhos,61,45,0.7377049180327869
+Ciliated,Innate immunity,332,243,0.7319277108433735
+Ciliated,Chromatin modification (2),169,115,0.6804733727810651
+Fibroblast,Muscle contraction,42,28,0.6666666666666666
+Fibroblast,Respiration,357,235,0.6582633053221288
+Fibroblast,Chromatin modification (1),246,164,0.6666666666666666
+Fibroblast,Heme metabolism,20,14,0.7
+Fibroblast,VEGF signaling,34,21,0.6176470588235294
+Fibroblast,Protein processing in ER,31,18,0.5806451612903226
+Fibroblast,Lipid met,16,12,0.75
+Fibroblast,Cholesterol met (darkred),26,19,0.7307692307692307
+Fibroblast,Cell cycle,97,70,0.7216494845360825
+Fibroblast,ECM organization,59,43,0.7288135593220338
+Fibroblast,Apoptosis,52,39,0.75
+Fibroblast,Interferon signaling,59,35,0.5932203389830508
+Fibroblast,Nrf2 signaling,16,10,0.625
+Fibroblast,Amino acid met,54,34,0.6296296296296297
+Fibroblast,mRNA splicing,52,32,0.6153846153846154
+Fibroblast,Fatty acid met,30,18,0.6
+Fibroblast,Adaptive immunity,93,58,0.6236559139784946
+Fibroblast,Translation,117,70,0.5982905982905983
+Fibroblast,Cholesterol met (salmon),12,11,0.9166666666666666
+Fibroblast,Heat stress response,20,14,0.7
+Fibroblast,OxPhos,61,42,0.6885245901639344
+Fibroblast,Innate immunity,332,217,0.6536144578313253
+Fibroblast,Chromatin modification (2),169,99,0.5857988165680473
+Macrophage,Muscle contraction,42,34,0.8095238095238095
+Macrophage,Respiration,357,313,0.876750700280112
+Macrophage,Chromatin modification (1),246,207,0.8414634146341463
+Macrophage,Heme metabolism,20,17,0.85
+Macrophage,VEGF signaling,34,30,0.8823529411764706
+Macrophage,Protein processing in ER,31,20,0.6451612903225806
+Macrophage,Lipid met,16,15,0.9375
+Macrophage,Cholesterol met (darkred),26,24,0.9230769230769231
+Macrophage,Cell cycle,97,87,0.8969072164948454
+Macrophage,ECM organization,59,52,0.8813559322033898
+Macrophage,Apoptosis,52,42,0.8076923076923077
+Macrophage,Interferon signaling,59,48,0.8135593220338984
+Macrophage,Nrf2 signaling,16,12,0.75
+Macrophage,Amino acid met,54,47,0.8703703703703703
+Macrophage,mRNA splicing,52,41,0.7884615384615384
+Macrophage,Fatty acid met,30,24,0.8
+Macrophage,Adaptive immunity,93,76,0.8172043010752689
+Macrophage,Translation,117,92,0.7863247863247863
+Macrophage,Cholesterol met (salmon),12,11,0.9166666666666666
+Macrophage,Heat stress response,20,16,0.8
+Macrophage,OxPhos,61,51,0.8360655737704918
+Macrophage,Innate immunity,332,278,0.8373493975903614
+Macrophage,Chromatin modification (2),169,135,0.7988165680473372
+Macrophage_Alveolar,Muscle contraction,42,32,0.7619047619047619
+Macrophage_Alveolar,Respiration,357,305,0.8543417366946778
+Macrophage_Alveolar,Chromatin modification (1),246,204,0.8292682926829268
+Macrophage_Alveolar,Heme metabolism,20,17,0.85
+Macrophage_Alveolar,VEGF signaling,34,29,0.8529411764705882
+Macrophage_Alveolar,Protein processing in ER,31,18,0.5806451612903226
+Macrophage_Alveolar,Lipid met,16,14,0.875
+Macrophage_Alveolar,Cholesterol met (darkred),26,24,0.9230769230769231
+Macrophage_Alveolar,Cell cycle,97,85,0.8762886597938144
+Macrophage_Alveolar,ECM organization,59,52,0.8813559322033898
+Macrophage_Alveolar,Apoptosis,52,41,0.7884615384615384
+Macrophage_Alveolar,Interferon signaling,59,48,0.8135593220338984
+Macrophage_Alveolar,Nrf2 signaling,16,12,0.75
+Macrophage_Alveolar,Amino acid met,54,48,0.8888888888888888
+Macrophage_Alveolar,mRNA splicing,52,39,0.75
+Macrophage_Alveolar,Fatty acid met,30,24,0.8
+Macrophage_Alveolar,Adaptive immunity,93,76,0.8172043010752689
+Macrophage_Alveolar,Translation,117,92,0.7863247863247863
+Macrophage_Alveolar,Cholesterol met (salmon),12,11,0.9166666666666666
+Macrophage_Alveolar,Heat stress response,20,16,0.8
+Macrophage_Alveolar,OxPhos,61,49,0.8032786885245902
+Macrophage_Alveolar,Innate immunity,332,274,0.8253012048192772
+Macrophage_Alveolar,Chromatin modification (2),169,133,0.7869822485207101
+NK,Muscle contraction,42,23,0.5476190476190477
+NK,Respiration,357,228,0.6386554621848739
+NK,Chromatin modification (1),246,165,0.6707317073170732
+NK,Heme metabolism,20,14,0.7
+NK,VEGF signaling,34,19,0.5588235294117647
+NK,Protein processing in ER,31,14,0.45161290322580644
+NK,Lipid met,16,13,0.8125
+NK,Cholesterol met (darkred),26,16,0.6153846153846154
+NK,Cell cycle,97,64,0.6597938144329897
+NK,ECM organization,59,38,0.6440677966101694
+NK,Apoptosis,52,32,0.6153846153846154
+NK,Interferon signaling,59,34,0.576271186440678
+NK,Nrf2 signaling,16,11,0.6875
+NK,Amino acid met,54,35,0.6481481481481481
+NK,mRNA splicing,52,31,0.5961538461538461
+NK,Fatty acid met,30,19,0.6333333333333333
+NK,Adaptive immunity,93,58,0.6236559139784946
+NK,Translation,117,70,0.5982905982905983
+NK,Cholesterol met (salmon),12,8,0.6666666666666666
+NK,Heat stress response,20,12,0.6
+NK,OxPhos,61,38,0.6229508196721312
+NK,Innate immunity,332,209,0.6295180722891566
+NK,Chromatin modification (2),169,101,0.5976331360946746
+T,Muscle contraction,42,24,0.5714285714285714
+T,Respiration,357,230,0.6442577030812325
+T,Chromatin modification (1),246,166,0.6747967479674797
+T,Heme metabolism,20,14,0.7
+T,VEGF signaling,34,19,0.5588235294117647
+T,Protein processing in ER,31,15,0.4838709677419355
+T,Lipid met,16,12,0.75
+T,Cholesterol met (darkred),26,18,0.6923076923076923
+T,Cell cycle,97,65,0.6701030927835051
+T,ECM organization,59,39,0.6610169491525424
+T,Apoptosis,52,32,0.6153846153846154
+T,Interferon signaling,59,36,0.6101694915254238
+T,Nrf2 signaling,16,11,0.6875
+T,Amino acid met,54,35,0.6481481481481481
+T,mRNA splicing,52,33,0.6346153846153846
+T,Fatty acid met,30,20,0.6666666666666666
+T,Adaptive immunity,93,61,0.6559139784946236
+T,Translation,117,72,0.6153846153846154
+T,Cholesterol met (salmon),12,8,0.6666666666666666
+T,Heat stress response,20,13,0.65
+T,OxPhos,61,41,0.6721311475409836
+T,Innate immunity,332,217,0.6536144578313253
+T,Chromatin modification (2),169,105,0.621301775147929
+T_Cytotoxic,Muscle contraction,42,26,0.6190476190476191
+T_Cytotoxic,Respiration,357,235,0.6582633053221288
+T_Cytotoxic,Chromatin modification (1),246,168,0.6829268292682927
+T_Cytotoxic,Heme metabolism,20,15,0.75
+T_Cytotoxic,VEGF signaling,34,21,0.6176470588235294
+T_Cytotoxic,Protein processing in ER,31,14,0.45161290322580644
+T_Cytotoxic,Lipid met,16,12,0.75
+T_Cytotoxic,Cholesterol met (darkred),26,18,0.6923076923076923
+T_Cytotoxic,Cell cycle,97,64,0.6597938144329897
+T_Cytotoxic,ECM organization,59,38,0.6440677966101694
+T_Cytotoxic,Apoptosis,52,32,0.6153846153846154
+T_Cytotoxic,Interferon signaling,59,36,0.6101694915254238
+T_Cytotoxic,Nrf2 signaling,16,11,0.6875
+T_Cytotoxic,Amino acid met,54,37,0.6851851851851852
+T_Cytotoxic,mRNA splicing,52,33,0.6346153846153846
+T_Cytotoxic,Fatty acid met,30,19,0.6333333333333333
+T_Cytotoxic,Adaptive immunity,93,62,0.6666666666666666
+T_Cytotoxic,Translation,117,73,0.6239316239316239
+T_Cytotoxic,Cholesterol met (salmon),12,9,0.75
+T_Cytotoxic,Heat stress response,20,12,0.6
+T_Cytotoxic,OxPhos,61,43,0.7049180327868853
+T_Cytotoxic,Innate immunity,332,222,0.6686746987951807
+T_Cytotoxic,Chromatin modification (2),169,101,0.5976331360946746
+cDC2,Muscle contraction,42,26,0.6190476190476191
+cDC2,Respiration,357,257,0.7198879551820728
+cDC2,Chromatin modification (1),246,182,0.7398373983739838
+cDC2,Heme metabolism,20,14,0.7
+cDC2,VEGF signaling,34,24,0.7058823529411765
+cDC2,Protein processing in ER,31,17,0.5483870967741935
+cDC2,Lipid met,16,12,0.75
+cDC2,Cholesterol met (darkred),26,21,0.8076923076923077
+cDC2,Cell cycle,97,67,0.6907216494845361
+cDC2,ECM organization,59,46,0.7796610169491526
+cDC2,Apoptosis,52,38,0.7307692307692307
+cDC2,Interferon signaling,59,40,0.6779661016949152
+cDC2,Nrf2 signaling,16,11,0.6875
+cDC2,Amino acid met,54,40,0.7407407407407407
+cDC2,mRNA splicing,52,37,0.7115384615384616
+cDC2,Fatty acid met,30,20,0.6666666666666666
+cDC2,Adaptive immunity,93,68,0.7311827956989247
+cDC2,Translation,117,79,0.6752136752136753
+cDC2,Cholesterol met (salmon),12,9,0.75
+cDC2,Heat stress response,20,14,0.7
+cDC2,OxPhos,61,44,0.7213114754098361
+cDC2,Innate immunity,332,237,0.713855421686747
+cDC2,Chromatin modification (2),169,111,0.6568047337278107
+cMonocyte,Muscle contraction,42,20,0.47619047619047616
+cMonocyte,Respiration,357,239,0.6694677871148459
+cMonocyte,Chromatin modification (1),246,169,0.6869918699186992
+cMonocyte,Heme metabolism,20,14,0.7
+cMonocyte,VEGF signaling,34,23,0.6764705882352942
+cMonocyte,Protein processing in ER,31,15,0.4838709677419355
+cMonocyte,Lipid met,16,12,0.75
+cMonocyte,Cholesterol met (darkred),26,19,0.7307692307692307
+cMonocyte,Cell cycle,97,66,0.6804123711340206
+cMonocyte,ECM organization,59,42,0.711864406779661
+cMonocyte,Apoptosis,52,36,0.6923076923076923
+cMonocyte,Interferon signaling,59,41,0.6949152542372882
+cMonocyte,Nrf2 signaling,16,11,0.6875
+cMonocyte,Amino acid met,54,35,0.6481481481481481
+cMonocyte,mRNA splicing,52,33,0.6346153846153846
+cMonocyte,Fatty acid met,30,19,0.6333333333333333
+cMonocyte,Adaptive immunity,93,64,0.6881720430107527
+cMonocyte,Translation,117,75,0.6410256410256411
+cMonocyte,Cholesterol met (salmon),12,9,0.75
+cMonocyte,Heat stress response,20,13,0.65
+cMonocyte,OxPhos,61,42,0.6885245901639344
+cMonocyte,Innate immunity,332,217,0.6536144578313253
+cMonocyte,Chromatin modification (2),169,100,0.591715976331361
+ncMonocyte,Muscle contraction,42,18,0.42857142857142855
+ncMonocyte,Respiration,357,226,0.6330532212885154
+ncMonocyte,Chromatin modification (1),246,162,0.6585365853658537
+ncMonocyte,Heme metabolism,20,14,0.7
+ncMonocyte,VEGF signaling,34,20,0.5882352941176471
+ncMonocyte,Protein processing in ER,31,14,0.45161290322580644
+ncMonocyte,Lipid met,16,11,0.6875
+ncMonocyte,Cholesterol met (darkred),26,16,0.6153846153846154
+ncMonocyte,Cell cycle,97,63,0.6494845360824743
+ncMonocyte,ECM organization,59,40,0.6779661016949152
+ncMonocyte,Apoptosis,52,32,0.6153846153846154
+ncMonocyte,Interferon signaling,59,38,0.6440677966101694
+ncMonocyte,Nrf2 signaling,16,11,0.6875
+ncMonocyte,Amino acid met,54,34,0.6296296296296297
+ncMonocyte,mRNA splicing,52,31,0.5961538461538461
+ncMonocyte,Fatty acid met,30,19,0.6333333333333333
+ncMonocyte,Adaptive immunity,93,59,0.6344086021505376
+ncMonocyte,Translation,117,68,0.5811965811965812
+ncMonocyte,Cholesterol met (salmon),12,8,0.6666666666666666
+ncMonocyte,Heat stress response,20,12,0.6
+ncMonocyte,OxPhos,61,39,0.639344262295082
+ncMonocyte,Innate immunity,332,203,0.6114457831325302
+ncMonocyte,Chromatin modification (2),169,92,0.5443786982248521

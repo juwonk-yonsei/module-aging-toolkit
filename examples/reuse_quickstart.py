@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Quickstart: apply the attribution ladder to your own two-cohort data.
+"""Quickstart: apply the diagnostic checklist (manuscript Table 2) to two cohorts.
 
-This runs on small synthetic data (no download required) to show the API. To
-use it on real data, replace the synthetic arrays with your own per-module
-effect vectors (one value per module, per cohort) and per-donor module-score
-matrices.
+Runs on small synthetic data (no download required) to show the API. For real data,
+replace the arrays with your own sample x module score matrices and case labels; pass
+``strata`` (fine cell type) and ``donors`` when samples are donor x cell-type pseudobulks.
 
 Run:
     python examples/reuse_quickstart.py
@@ -19,52 +18,28 @@ import numpy as np
 # make `module_aging` importable from a source checkout without installing
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from module_aging import (  # noqa: E402
-    classify,
-    concordance_permutation_p,
-    effect_concordance,
-    split_half_ceiling,
-)
+from module_aging import checklist, cross_cohort_test, split_half_reliability  # noqa: E402
 
 rng = np.random.default_rng(0)
 N_MODULES = 23
 
-# --------------------------------------------------------------------------- #
-# Scenario A: a lymphoid-like cell type that REPLICATES across cohorts
-# --------------------------------------------------------------------------- #
-truth = rng.normal(0, 0.5, N_MODULES)
-eff_A = truth + rng.normal(0, 0.15, N_MODULES)
-eff_B = truth + rng.normal(0, 0.15, N_MODULES)  # correlated with A
 
-conc = effect_concordance(eff_A, eff_B)
-p = concordance_permutation_p(eff_A, eff_B, n_perm=2000, seed=1)
-print("Scenario A (replicates):")
-print(f"  cross-cohort Pearson r = {conc.pearson_r:.2f}, sign = {conc.sign_concordance:.0%}, "
-      f"permutation p = {p:.4f}")
-print("  verdict:", classify(conc.pearson_r, p).conclusion)
+def cohort(effect, n_case, n_ctrl, noise=1.0):
+    """Donor x module scores with a case-control effect vector."""
+    case = np.r_[np.ones(n_case), np.zeros(n_ctrl)]
+    return case[:, None] * effect[None, :] + rng.normal(0, noise, (len(case), N_MODULES)), case
 
-# --------------------------------------------------------------------------- #
-# Scenario B: a myeloid-like cell type that FAILS across cohorts but is
-# stable within-cohort -> genuine between-cohort difference (not power)
-# --------------------------------------------------------------------------- #
-eff_A2 = rng.normal(0, 0.5, N_MODULES)
-eff_B2 = rng.normal(0, 0.5, N_MODULES)  # independent -> no cross-cohort concordance
-conc2 = effect_concordance(eff_A2, eff_B2)
-p2 = concordance_permutation_p(eff_A2, eff_B2, n_perm=2000, seed=2)
 
-# within-cohort split-half: 40 donors, strong stable module signal in cohort A
-n_donors = 40
-labels = np.r_[np.ones(20), np.zeros(20)].astype(int)
-signal = rng.normal(0, 1, N_MODULES)
-donor_scores = (labels[:, None] * signal[None, :]) + rng.normal(0, 0.4, (n_donors, N_MODULES))
-sh = split_half_ceiling(donor_scores, labels, n_repeats=200, seed=3)
+def run(name, scores_a, case_a, scores_b, case_b):
+    r, p = cross_cohort_test(scores_a, case_a, scores_b, case_b, n_perm=1000, seed=1)
+    rs, tau = split_half_reliability(scores_a, case_a, n_split=100, n_perm=100, seed=2)
+    res = checklist(r, p, rs, tau)
+    print(f"{name}\n  cross-cohort r = {r:.2f} (two-sided p = {p:.3f}); split-half r = {rs:.2f}, tau = {tau:.2f}"
+          f"\n  step {res.step}: {res.decision}")
 
-verdict = classify(conc2.pearson_r, p2, splithalf_median=sh["median"])
-print("\nScenario B (fails cross-cohort, stable within-cohort):")
-print(f"  cross-cohort Pearson r = {conc2.pearson_r:.2f}, permutation p = {p2:.4f}")
-print(f"  within-cohort split-half ceiling = {sh['median']:.2f} "
-      f"[{sh['lo']:.2f}, {sh['hi']:.2f}]")
-print(f"  verdict [{verdict.stage}]: {verdict.conclusion}")
 
-print("\nDone. Swap in your own effect vectors / donor matrices to diagnose "
-      "non-replication in your data.")
+shared = rng.normal(0, 1, N_MODULES)
+run("Shared effect in both cohorts", *cohort(shared, 30, 30), *cohort(shared, 12, 10))
+run("Stable effect in cohort A, different effect in cohort B",
+    *cohort(shared, 30, 30), *cohort(rng.normal(0, 1, N_MODULES), 12, 10))
+run("No effect", *cohort(np.zeros(N_MODULES), 30, 30), *cohort(np.zeros(N_MODULES), 12, 10))

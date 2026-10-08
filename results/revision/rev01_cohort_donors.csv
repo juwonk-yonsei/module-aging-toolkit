@@ -1,0 +1,6 @@
+cohort,group,donors,age,male,female,tissue
+GSE136831 (Adams),COPD,18,62.4 ± 4.9 (55–73),9.0,9.0,Whole Lung Dissociate
+GSE136831 (Adams),Control,28,45.6 ± 17.7 (20–80),16.0,12.0,Whole Lung Dissociate
+GSE136831 (Adams),IPF,32,65.4 ± 5.4 (54–78),26.0,6.0,Whole Lung Dissociate
+GSE135893 (Habermann),Control,10,not available,,,"lung tissue; Vanderbilt 7, Donor Network of Arizona 3"
+GSE135893 (Habermann),IPF,12,not available,,,"lung tissue; Vanderbilt 7, Norton Thoracic Institute 5"

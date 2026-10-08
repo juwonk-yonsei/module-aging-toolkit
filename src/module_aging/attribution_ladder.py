@@ -1,4 +1,9 @@
-"""Reusable attribution-ladder primitives (manuscript Table 1).
+"""Reusable attribution-ladder primitives (original submission, Table 1).
+
+Superseded by ``module_aging.checklist`` (revised manuscript, Table 2), which drops the
+technical and resolution stages, tests concordance two-sided and replaces the fixed
+split-half threshold with a permutation threshold. Kept unchanged so that v0.1.0 results
+can be reproduced.
 
 A clock-agnostic protocol to diagnose *why* a cell-type-resolved module effect
 vector fails to replicate across two cohorts. Given per-module effect vectors

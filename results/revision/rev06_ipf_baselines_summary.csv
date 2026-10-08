@@ -1,0 +1,2 @@
+n_tests,hits_clock_fdr10_published,hits_geneset_fdr10,hits_geneset_signed_fdr10,corr_t_clock_geneset,corr_t_clock_geneset_signed,hits_beating_random_p05,hits_beating_perm_p05,hits_competitive_random_fdr10,hits_competitive_perm_fdr10,median_abs_t_hits,median_null_abs_t_random_hits
+253,30,34,27,0.055098102855720116,0.6236196759989981,16,11,0,0,3.2041927324882837,1.2419464382714116

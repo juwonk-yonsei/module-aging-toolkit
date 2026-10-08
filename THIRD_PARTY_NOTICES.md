@@ -38,6 +38,13 @@ MGB-licensed data/code, they **cannot** be relicensed under MIT.
   `scripts/train_module_clocks.py`):** not redistributed. `setup.sh` downloads
   the Zenodo data and re-runs training locally, so each user generates the
   models from the MGB-licensed source under the MGB license.
+- **Supplementary Tables S3a and S3b** (sheets `S3a_Module_gene_weights` and
+  `S3b_Module_models` of `supplementary_revision/Supplementary_Tables.xlsx`): the genes, coefficients,
+  training medians and scaling parameters of the retrained module clocks. They are
+  derived from the MGB-licensed rodent data and are distributed under the **MGB Open
+  Access License 1.0** (non-commercial academic use only), not MIT. The other sheets
+  of the workbook and the tables in `results/` are summary statistics produced by our
+  code.
 - **`third_party/tage_prep.py`:** our Python port of tAge's R preprocessing
   (`preprocessing.R`). It is a **derivative work of MGB Materials**, so it is
   distributed here under the **MGB Open Access License 1.0** (not MIT), with the
@@ -51,6 +58,7 @@ MGB-licensed data/code, they **cannot** be relicensed under MIT.
 | Human scRNA-seq (primary, Adams) | GEO **GSE136831** | NCBI GEO |
 | Human scRNA-seq (replication, Habermann) | GEO **GSE135893** | NCBI GEO |
 | Human bulk RNA-seq (IPF) | GEO **GSE134692** | NCBI GEO |
+| Healthy human lung (age validation) | **Human Lung Cell Atlas core** (CELLxGENE Census) | CC BY 4.0 |
 | Cross-tissue human validation | **GTEx v8** lung | GTEx / dbGaP terms |
 
 See `data/README.md` for retrieval instructions. These are not redistributed.

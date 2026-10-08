@@ -1,15 +1,34 @@
 cff-version: 1.2.0
 message: "If you use this software or method, please cite the manuscript below."
-title: "module-aging-toolkit: module- and cell-type-resolved application and validation of transcriptomic aging clocks in single-cell data"
-version: 0.1.0
-date-released: 2026-07-31
+title: "module-aging-toolkit: a single-cell framework with built-in controls for module- and cell-type-resolved transcriptomic clocks"
+abstract: >-
+  Code, result tables, figures and verification script for the manuscript "Opening the composite clock:
+  a single-cell framework with built-in controls for mortality-associated module signatures, demonstrated
+  in pulmonary fibrosis". Version 0.2.0 corresponds to the revised manuscript (scripts/revision,
+  results/revision, figures_revision, supplementary_revision); version 0.1.0 corresponds to the original
+  submission. The toolkit's own code is MIT-licensed; third_party/tage_prep.py and Supplementary Tables
+  S3a-b are derived from Materials distributed under the MGB Open Access License 1.0 and are restricted to
+  non-commercial academic use (see THIRD_PARTY_NOTICES.md).
+version: 0.2.0
+date-released: 2026-10-08
 license: MIT
 repository-code: "https://github.com/juwonk-yonsei/module-aging-toolkit"
 url: "https://github.com/juwonk-yonsei/module-aging-toolkit"
+keywords:
+  - transcriptomic clock
+  - module decomposition
+  - single-cell RNA sequencing
+  - negative controls
+  - idiopathic pulmonary fibrosis
+  - geroscience
 authors:
   - family-names: Kang
     given-names: Juwon
     orcid: "https://orcid.org/0009-0009-2186-0038"
+    affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+  - family-names: Jeon
+    given-names: Dongkyu
+    orcid: "https://orcid.org/0000-0002-1339-6388"
     affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
   - family-names: Choi
     given-names: Junjeong
@@ -17,9 +36,9 @@ authors:
     affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
 preferred-citation:
   type: article
-  title: "A module- and cell-type-resolved framework for applying and validating transcriptomic aging clocks in single-cell data: proof-of-principle in idiopathic pulmonary fibrosis"
+  title: "Opening the composite clock: a single-cell framework with built-in controls for mortality-associated module signatures, demonstrated in pulmonary fibrosis"
   year: 2026
-  journal: "GeroScience (submitted)"
+  journal: "GeroScience (under revision)"
   authors:
     - family-names: Kang
       given-names: Juwon

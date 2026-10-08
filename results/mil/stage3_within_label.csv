@@ -1,0 +1,5 @@
+,n,n,sep_pooled,sep_pooled,auroc_annotation,auroc_annotation,sep_within_Macrophage,sep_within_Macrophage,n_Macrophage,n_Macrophage,sep_within_Macrophage_Alveolar,sep_within_Macrophage_Alveolar,n_Macrophage_Alveolar,n_Macrophage_Alveolar
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+group,,,,,,,,,,,,,,
+Control,1079.0,0.0,0.08627817900448194,0.04851943374342946,0.5655992923485184,0.03652366038057699,-0.01309441646269752,0.049049981679230636,680.0,0.0,0.025107768642900374,0.04824447396489875,399.0,0.0
+IPF,1465.0,0.0,0.5239175148619516,0.054966325884632516,0.8769043520595343,0.02984886598173364,-0.03210340222020673,0.032792391073655926,1009.0,0.0,0.09661459620914385,0.07743696619393806,456.0,0.0

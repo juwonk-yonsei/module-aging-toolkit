@@ -1,0 +1,3 @@
+# Minimal environment for verify/verify_claims.py (Python >= 3.11)
+numpy==2.4.6
+pandas==2.3.3

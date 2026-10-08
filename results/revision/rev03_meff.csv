@@ -1,0 +1,3 @@
+dataset,n_modules,meff_nyholt,meff_liji,median_abs_r,max_abs_r,n_pairs_abs_r_gt_0_7
+rodent training (in-sample predictions),23,14.614800162478335,10.00000000000001,0.6151198642548541,0.8352785736918332,53
+IPF pseudobulk (centred within cell type),23,21.98177949637729,19.000000000000007,0.1321045721358859,0.6076569895507679,0

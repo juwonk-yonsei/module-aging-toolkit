@@ -1,5 +1,5 @@
-# Tested with Python 3.11. Versions below are the ones used to produce the
-# manuscript results; newer patch releases generally work.
+# Tested with Python 3.11. These are the exact versions that produced results/ and
+# results/revision/. The checks in verify/ need only verify/requirements.txt.
 numpy==2.4.6
 pandas==2.3.3
 scipy==1.17.1
@@ -8,15 +8,17 @@ statsmodels==0.14.6
 matplotlib==3.11.1
 joblib==1.5.3
 pillow==12.3.0
+openpyxl==3.1.5       # rodent annotation .xlsx and Supplementary_Tables.xlsx
 
-# Attention-MIL sub-state model (§3.6). Install the build matching your CUDA/CPU
-# from https://pytorch.org ; any 2.x works.
-torch>=2.0
-
-# Single-cell handling / data acquisition (pseudobulk aggregation, census pulls)
+# Single-cell handling and data acquisition (pseudobulk aggregation, HLCA census pull)
 scanpy==1.11.5
+anndata==0.12.19
 cellxgene-census==1.18.0
+
+# Attention MIL (Supplementary Methods S4). The results were produced with 2.5.1+cu121;
+# for a CPU-only build use
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
 
 # Optional: dataset retrieval helper used by setup.sh
 zenodo_get>=1.3
-openpyxl>=3.1   # read the rodent annotation .xlsx

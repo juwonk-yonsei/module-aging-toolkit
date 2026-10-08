@@ -1,0 +1,2 @@
+n_tests,hits_classical,hits_hc3,hits_perm,hits_all_three,hits_with_copd_testable,hits_ipf_specific_direct,hits_old_rule_copd_ns,global_fdr10_cr1,global_fdr10_wild,global_fdr10_mixed
+253,30,23,29,23,30,13,15,6,2,6

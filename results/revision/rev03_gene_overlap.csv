@@ -1,0 +1,24 @@
+module,n_genes,n_nonzero_module_coef,in_composite_features,nonzero_in_composite
+Muscle contraction,42,16,19,19
+Respiration,357,36,247,247
+Chromatin modification (1),246,106,159,159
+Heme metabolism,20,9,16,16
+VEGF signaling,34,15,20,20
+Protein processing in ER,31,12,19,19
+Lipid met,16,12,12,12
+Cholesterol met (darkred),26,10,17,17
+Cell cycle,97,32,68,68
+ECM organization,59,23,38,38
+Apoptosis,52,14,33,33
+Interferon signaling,59,30,35,35
+Nrf2 signaling,16,5,10,10
+Amino acid met,54,34,37,37
+mRNA splicing,52,21,31,31
+Fatty acid met,30,21,21,21
+Adaptive immunity,93,77,59,59
+Translation,117,57,78,78
+Cholesterol met (salmon),12,3,8,8
+Heat stress response,20,8,14,14
+OxPhos,61,20,40,40
+Innate immunity,332,79,215,215
+Chromatin modification (2),169,32,104,104

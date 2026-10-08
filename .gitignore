@@ -10,6 +10,8 @@ data/*
 *.tar.gz
 *.log
 results/**/*.pkl
+# diagnostic plots written by scripts/revision/rev_*.py (manuscript figures: figures_revision/)
+results/revision/figs/
 
 # ---- third-party checkout (fetched by setup.sh) ----
 third_party/tAge/
