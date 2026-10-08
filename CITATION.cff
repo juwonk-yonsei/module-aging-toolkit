@@ -11,6 +11,14 @@ abstract: >-
   non-commercial academic use (see THIRD_PARTY_NOTICES.md).
 version: 0.2.0
 date-released: 2026-10-08
+doi: 10.5281/zenodo.23229671
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23229671
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23229672
+    description: "Zenodo DOI of version 0.2.0 (revised manuscript)"
 license: MIT
 repository-code: "https://github.com/juwonk-yonsei/module-aging-toolkit"
 url: "https://github.com/juwonk-yonsei/module-aging-toolkit"

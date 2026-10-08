@@ -1,5 +1,7 @@
 # module-aging-toolkit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23229671.svg)](https://doi.org/10.5281/zenodo.23229671)
+
 **A single-cell framework with built-in controls for module- and cell-type-resolved
 transcriptomic clocks: competitive nulls, composite decomposition, disease contrasts,
 sensitivity analyses and a diagnostic checklist for cross-cohort non-replication.**
@@ -8,7 +10,8 @@ Companion code for the manuscript *"Opening the composite clock: a single-cell f
 with built-in controls for mortality-associated module signatures, demonstrated in
 pulmonary fibrosis"* (Kang, Jeon & Choi; Methods Paper, under revision at *GeroScience*).
 
-> Zenodo archive of this version: _DOI added on release_ · Paper DOI: _added on acceptance_
+> Zenodo archive: v0.2.0 (revised manuscript) [10.5281/zenodo.23229672](https://doi.org/10.5281/zenodo.23229672) ·
+> all versions [10.5281/zenodo.23229671](https://doi.org/10.5281/zenodo.23229671) · Paper DOI: _added on acceptance_
 
 | Version | Corresponds to |
 |---|---|
