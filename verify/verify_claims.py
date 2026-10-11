@@ -725,7 +725,12 @@ def main() -> int:
                     help="check the v0.3.0 manuscript against verify/claims_r2.csv")
     args = ap.parse_args()
     if args.r2:
-        from verify_r2 import main as r2_main
+        root = Path(__file__).resolve().parents[1]
+        sys.argv = [sys.argv[0],
+                    str(root / "verify" / "claims_r2.csv"),
+                    str(root / "supplementary_revision" / "Supplementary_Tables_v16.xlsx"),
+                    str(root / "verify" / "verify_report.csv")]
+        from verify_claims_r2 import main as r2_main
         return r2_main()
     c = Checker()
     (submission if args.submission else revision)(c)

@@ -16,7 +16,7 @@ pulmonary fibrosis"* (Kang, Jeon & Choi; Methods Paper, under revision at *GeroS
 
 | Version | Corresponds to |
 |---|---|
-| **v0.3.0** (this version) | revised manuscript using the serialized module clocks: `figures/v17/`, `results/v15/Supplementary_Tables_v15.xlsx`, `verify/claims_r2.csv` |
+| **v0.3.0** (this version) | revised manuscript using the serialized module clocks: `figures/v17/`, `supplementary_revision/Supplementary_Tables_v16.xlsx`, `verify/claims_r2.csv` |
 | v0.2.0 | withdrawn: that release retrained the module clocks |
 | v0.1.0 | original submission: `scripts/`, `results/*.csv`, `figures/` |
 
@@ -44,14 +44,14 @@ needs no clocks. See **[docs/METHOD.md](docs/METHOD.md)**.
 ### Verify the reported numbers
 ```bash
 pip install -r verify/requirements.txt     # numpy and pandas, pinned
-python verify/verify_claims.py --r2        # v0.3.0 manuscript numbers that map to a supplementary-table cell
+python verify/verify_claims_r2.py verify/claims_r2.csv supplementary_revision/Supplementary_Tables_v16.xlsx verify/verify_report.csv
 python verify/verify_claims.py             # v0.2.0 revision tables
 python verify/verify_claims.py --submission   # original submission (v0.1.0)
 ```
 Each check reads a value from the committed result tables and compares it with the
 number printed in the manuscript at the printed precision. No raw data are needed and
 the script runs in seconds; the exit code is non-zero on any mismatch.
-`--r2` checks the claims in `verify/claims_r2.csv` against `results/v15/Supplementary_Tables_v15.xlsx`.
+The v0.3.0 check reads `verify/claims_r2.csv` against `supplementary_revision/Supplementary_Tables_v16.xlsx`.
 
 Full pipeline: **[docs/REPRODUCE.md](docs/REPRODUCE.md)**.
 
@@ -89,7 +89,7 @@ results/                 v0.1.0 result tables (results/*.csv, results/mil/)
 results/revision/        revision result tables (rev00_* ... rev15_*)
 figures/                 submission figures (Fig1-6, FigS1, graphical abstract)
 figures_revision/        revised figures (Fig1-6, FigS1-S6; PNG 600 dpi + PDF)
-supplementary_revision/  Supplementary Tables S1-S17 (one workbook)
+supplementary_revision/  Supplementary Tables v16 (one workbook)
 third_party/             tage_prep.py port + LICENSE.MGB                  (MGB licence)
 data/                    (git-ignored) fetched by setup.sh; see data/README.md
 docs/                    METHOD.md (reuse) and REPRODUCE.md (verify, rerun)
@@ -114,3 +114,14 @@ docs/                    METHOD.md (reuse) and REPRODUCE.md (verify, rerun)
 
 See **[CITATION.cff](CITATION.cff)**. Please also cite Tyshkovskiy et al. 2026
 (Nature; tAge clocks, DOI 10.1038/s41586-026-10542-3).
+
+## Glossary
+
+Some spike-in result tables keep Korean judgment labels. They mean:
+
+| Korean | English |
+|---|---|
+| 견고 | robust |
+| 탈락 | failed |
+| IPF 특이 | IPF-specific |
+| 비특이 | not specific |
