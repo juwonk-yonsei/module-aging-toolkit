@@ -1,0 +1,9 @@
+celltype,module,scenario,system,abs_standardized,mde80,comparison
+Macrophage_Alveolar,green,S1a,clock,1.6150493639681955,1.422,above MDE
+Macrophage_Alveolar,green,S1a,program,1.6150493639681955,1.409,above MDE
+Macrophage_Alveolar,green,S1b,clock,1.6150493639681955,> 2.0,below MDE
+Macrophage_Alveolar,green,S1b,program,1.6150493639681955,1.452,above MDE
+Macrophage,grey60,S1a,clock,1.4166601166884225,1.382,above MDE
+Macrophage,grey60,S1a,program,1.4166601166884225,1.382,above MDE
+Macrophage,grey60,S1b,clock,1.4166601166884225,> 2.0,below MDE
+Macrophage,grey60,S1b,program,1.4166601166884225,1.722,below MDE

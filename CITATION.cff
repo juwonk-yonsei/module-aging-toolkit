@@ -4,13 +4,14 @@ title: "module-aging-toolkit: a single-cell framework with built-in controls for
 abstract: >-
   Code, result tables, figures and verification script for the manuscript "Opening the composite clock:
   a single-cell framework with built-in controls for mortality-associated module signatures, demonstrated
-  in pulmonary fibrosis". Version 0.2.0 corresponds to the revised manuscript (scripts/revision,
-  results/revision, figures_revision, supplementary_revision); version 0.1.0 corresponds to the original
-  submission. The toolkit's own code is MIT-licensed; third_party/tage_prep.py and Supplementary Tables
-  S3a-b are derived from Materials distributed under the MGB Open Access License 1.0 and are restricted to
-  non-commercial academic use (see THIRD_PARTY_NOTICES.md).
-version: 0.2.0
-date-released: 2026-10-08
+  in   pulmonary fibrosis". Version 0.3.0 corresponds to the revised manuscript that uses the
+  serialized module clocks. Version 0.2.0 retrained those clocks and is withdrawn.
+  Version 0.1.0 is the original submission. No Zenodo version DOI has been issued for 0.3.0.
+  The toolkit's own code is MIT-licensed; third_party/tage_prep.py is derived from Materials
+  distributed under the MGB Open Access License 1.0 and is restricted to non-commercial academic
+  use (see THIRD_PARTY_NOTICES.md).
+version: 0.3.0
+date-released: 2026-10-11
 doi: 10.5281/zenodo.23229671
 identifiers:
   - type: doi

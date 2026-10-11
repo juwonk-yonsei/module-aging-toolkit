@@ -1,0 +1,19 @@
+celltype,n_IPF,n_Control,status,analysis
+ATI,0,1,검정 불가,age_overlap
+ATII,3,4,검정 불가,age_overlap
+B,22,3,검정 불가,age_overlap
+B_Plasma,0,0,검정 불가,age_overlap
+Basal,6,0,검정 불가,age_overlap
+Ciliated,30,3,검정 불가,age_overlap
+Club,12,0,검정 불가,age_overlap
+Fibroblast,10,2,검정 불가,age_overlap
+Goblet,8,0,검정 불가,age_overlap
+Lymphatic,3,2,검정 불가,age_overlap
+Mast,3,0,검정 불가,age_overlap
+Myofibroblast,10,1,검정 불가,age_overlap
+SMC,5,0,검정 불가,age_overlap
+T_Regulatory,7,0,검정 불가,age_overlap
+VE_Capillary_B,3,2,검정 불가,age_overlap
+VE_Peribronchial,12,0,검정 불가,age_overlap
+cDC2,22,3,검정 불가,age_overlap
+ncMonocyte,14,3,검정 불가,age_overlap

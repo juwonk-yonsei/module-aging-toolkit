@@ -1,0 +1,56 @@
+Module,Annotation,Outcome,MAE unit,MAE,Pearson r,R2,"# non-zero features
+in final model"
+All module genes,All module genes,Chronological age,Months,3.289872778542043,0.903694845318582,0.816664373455376,2141
+blue,Respiration/Mitochondrial translation,Chronological age,Months,5.421764690895936,0.711225314649309,0.505841448198008,357
+turquoise,Innate immunity/Inflammation,Chronological age,Months,4.414760311898525,0.8179903335729,0.669108185818704,332
+brown,Chromatin modification (1),Chronological age,Months,5.536073979698112,0.696222998543323,0.484726463700656,255
+yellow,Chromatin modification (2),Chronological age,Months,5.985107233810032,0.629594434201888,0.396389151577995,169
+red,Translation/Ribosome,Chronological age,Months,6.374030569629312,0.54897259362885,0.301370908555587,117
+green,Cell cycle/DNA replication,Chronological age,Months,6.555797906407488,0.525659681313235,0.276318100558331,97
+pink,Adaptive immunity/T cell signaling,Chronological age,Months,5.472933243438768,0.695038190657802,0.483078086472871,93
+tan,Oxidative phosphorylation/TCA cycle,Chronological age,Months,6.787118695943713,0.476485005491699,0.227037960458424,61
+greenyellow,ECM organization/EMT,Chronological age,Months,6.129319547341584,0.617060079019264,0.380763141119261,59
+lightgreen,Interferon signaling,Chronological age,Months,6.014381561608223,0.61818312145367,0.382150371650203,59
+magenta,Amino acid metabolism/Coagulation/Xenobiotic metabolism,Chronological age,Months,6.956287764946127,0.394305044004138,0.155476467727105,54
+grey60,Apoptosis/Nrf2 signaling/Proteasome,Chronological age,Months,6.805495971888961,0.449178967748144,0.201761745067288,52
+midnightblue,mRNA splicing,Chronological age,Months,6.677062414032576,0.485108646743582,0.235330399145389,52
+black,Muscle contraction/Cytoskeleton/Glycolysis,Chronological age,Months,6.77136861595128,0.43897040582159,0.192695017187171,42
+darkgreen,VEGF signaling,Chronological age,Months,6.91152097533432,0.407206196521871,0.165816886485809,36
+darkgrey,Protein processing in ER/UPR/mTOR signaling,Chronological age,Months,6.735139546880784,0.453897256525298,0.206022719481192,31
+orange,Fatty acid metabolism/Beta-oxidation,Chronological age,Months,6.892258458338592,0.426820054230692,0.182175358693491,30
+darkred,Cholesterol metabolism/mTOR signaling,Chronological age,Months,7.091916033692689,0.339222510151924,0.115071911393772,26
+white,Nuclear lamina depolymerization,Chronological age,Months,7.172442583360512,0.295802804653362,0.0874992992407949,24
+cyan,Heme metabolism/ROS pathway/Mitochondria,Chronological age,Months,7.096857055432464,0.340722630604152,0.116091911005813,20
+skyblue,Heat stress response,Chronological age,Months,6.92114469820584,0.435403400783968,0.189576121414245,20
+darkorange,Lipid metabolism/PPAR signaling,Chronological age,Months,7.148952845980752,0.326644386384769,0.106696555156682,17
+lightcyan,Circadian clock,Chronological age,Months,7.23646896273336,0.273065915356224,0.0745649941293322,17
+lightyellow,Nrf2 signaling/Proteasome,Chronological age,Months,7.099139312740368,0.334677144060528,0.112008790756511,16
+darkturquoise,Coagulation/Xenobiotic metabolism,Chronological age,Months,7.130022763589375,0.287228663141257,0.0825003049299137,14
+salmon,Cholesterol metabolism/Platelet degranulation,Chronological age,Months,6.862318972295425,0.419832128963748,0.176259016510233,12
+All module genes,All module genes,Expected mortality,log10HR,0.383953902627801,0.881013907820366,0.776185505772913,2141
+blue,Respiration/Mitochondrial translation,Expected mortality,log10HR,0.594054423157115,0.680334537136864,0.462855082421231,357
+turquoise,Innate immunity/Inflammation,Expected mortality,log10HR,0.517004092801616,0.770590751032533,0.593810105576884,332
+brown,Chromatin modification (1),Expected mortality,log10HR,0.630087778177704,0.639663430236861,0.409169303982388,255
+yellow,Chromatin modification (2),Expected mortality,log10HR,0.656465636815676,0.586576427298675,0.344071905062478,169
+red,Translation/Ribosome,Expected mortality,log10HR,0.678569473213953,0.526563396959416,0.27726901101744,117
+green,Cell cycle/DNA replication,Expected mortality,log10HR,0.717014291307121,0.483402013132304,0.233677506300364,97
+pink,Adaptive immunity/T cell signaling,Expected mortality,log10HR,0.61597579768522,0.644159568631849,0.41494154985997,93
+tan,Oxidative phosphorylation/TCA cycle,Expected mortality,log10HR,0.72877845154917,0.437060667693064,0.191022027244307,61
+greenyellow,ECM organization/EMT,Expected mortality,log10HR,0.66909749679316,0.576970717788348,0.332895209185201,59
+lightgreen,Interferon signaling,Expected mortality,log10HR,0.654389598095336,0.586120172379593,0.343536856470283,59
+magenta,Amino acid metabolism/Coagulation/Xenobiotic metabolism,Expected mortality,log10HR,0.731747627983382,0.39122651018642,0.153058182272645,54
+grey60,Apoptosis/Nrf2 signaling/Proteasome,Expected mortality,log10HR,0.732842272579986,0.41898222850131,0.175546107799924,52
+midnightblue,mRNA splicing,Expected mortality,log10HR,0.726688068675494,0.441862669825246,0.195242618985095,52
+black,Muscle contraction/Cytoskeleton/Glycolysis,Expected mortality,log10HR,0.734761639580316,0.414235695930108,0.171591211782701,42
+darkgreen,VEGF signaling,Expected mortality,log10HR,0.739360819411251,0.396092291473425,0.156889103364668,36
+darkgrey,Protein processing in ER/UPR/mTOR signaling,Expected mortality,log10HR,0.742959992453071,0.394716377589435,0.155801018737326,31
+orange,Fatty acid metabolism/Beta-oxidation,Expected mortality,log10HR,0.745439413862851,0.386556418286761,0.149425864518689,30
+darkred,Cholesterol metabolism/mTOR signaling,Expected mortality,log10HR,0.767261090745385,0.299558527212701,0.0897353112258428,26
+white,Nuclear lamina depolymerization,Expected mortality,log10HR,0.774384701215375,0.270508792443742,0.0731750067893713,24
+cyan,Heme metabolism/ROS pathway/Mitochondria,Expected mortality,log10HR,0.756050524403178,0.304444382419042,0.0926863819865119,20
+skyblue,Heat stress response,Expected mortality,log10HR,0.750307644745339,0.365874594656595,0.133864219015128,20
+darkorange,Lipid metabolism/PPAR signaling,Expected mortality,log10HR,0.763332778826517,0.309344636823597,0.095694104331523,17
+lightcyan,Circadian clock,Expected mortality,log10HR,0.782835826809725,0.205594719932125,0.042269188863969,17
+lightyellow,Nrf2 signaling/Proteasome,Expected mortality,log10HR,0.760022686511458,0.320886613203208,0.102968218533025,16
+darkturquoise,Coagulation/Xenobiotic metabolism,Expected mortality,log10HR,0.77769520772707,0.218426232909053,0.04771001922284,14
+salmon,Cholesterol metabolism/Platelet degranulation,Expected mortality,log10HR,0.743369289526292,0.373006866451843,0.139134122420223,12

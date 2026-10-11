@@ -1,0 +1,16 @@
+quantity,value
+samples,4539.0
+mouse samples,3876.0
+rat samples,663.0
+datasets (Source),96.0
+samples with a reference group (Source x Tissue x Sex),3774.0
+target reproduced exactly (|diff| < 1e-4),3466.0
+fraction reproduced exactly,0.7636043181317471
+fraction reproduced exactly among samples with a reference group,0.9183889772125067
+control samples with target and age difference,3523.0
+"Pearson r, target vs age difference, controls",0.9677457789564862
+"slope, log10 hazard per month of age difference, mouse controls",0.10124871794393457
+"slope, log10 hazard per 0.1 of species maximum lifespan, controls",0.5015408189159785
+target range (min),-3.628009
+target range (max),3.628009
+target median |value|,0.5936945

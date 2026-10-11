@@ -1,0 +1,7 @@
+kind,outcome,r_oof_all,r_oof_all_v020_all_genes,hyperparameter
+union_2141,Mortality,0.7003765125603978,,frozen_official
+union_2007,Mortality,0.6847610714588789,,elasticnetcv_no_official_alpha
+union_2141,Chronological,0.7626444795014534,,frozen_official
+union_2007,Chronological,0.7455267388724988,,elasticnetcv_no_official_alpha
+all_genes_18286,Mortality,0.7455927305176276,0.7521156127395774,elasticnetcv_no_official_alpha
+all_genes_18286,Chronological,0.8129215788059503,0.8217532703421204,elasticnetcv_no_official_alpha

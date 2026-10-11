@@ -1,0 +1,3 @@
+celltype,module,beta_GSE135893,p_GSE135893,same_sign,n_IPF_main,n_Control_main,standardized,official_name
+Macrophage_Alveolar,green,0.0073718469286162,0.9875062468765616,False,29,26,-1.6150493639681955,Cell cycle / DNA replication
+Macrophage,grey60,-0.0403030177311386,0.8250874562718641,False,32,27,1.4166601166884225,Apoptosis / Nrf2 signaling / Proteasome

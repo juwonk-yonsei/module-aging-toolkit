@@ -1,0 +1,161 @@
+method,gate,scenario,celltype,n_d1,rate_d1,n_d15,rate_d15,n_d2,rate_d2,mde80
+screen,program,S1a,ATII,28,0.0,28,0.0,28,0.10714285714285714,> 2.0
+screen,program,S1a,B,30,0.03333333333333333,30,0.5666666666666667,30,0.9666666666666667,1.792
+screen,program,S1a,Ciliated,30,0.0,30,0.5,30,0.9333333333333333,1.846
+screen,program,S1a,Club,25,0.0,25,0.0,25,0.0,> 2.0
+screen,program,S1a,Fibroblast,24,0.0,27,0.0,25,0.0,> 2.0
+screen,program,S1a,Goblet,2,0.0,0,,0,,
+screen,program,S1a,Lymphatic,5,0.0,8,0.0,7,0.0,> 2.0
+screen,program,S1a,Macrophage,30,0.23333333333333334,30,0.9333333333333333,30,1.0,1.405
+screen,program,S1a,Macrophage_Alveolar,30,0.3,30,0.9333333333333333,30,1.0,1.395
+screen,program,S1a,Mast,2,0.0,0,,1,0.0,
+screen,program,S1a,Myofibroblast,18,0.0,22,0.0,19,0.0,> 2.0
+screen,program,S1a,NK,30,0.06666666666666667,30,0.7,30,1.0,1.667
+screen,program,S1a,T,30,0.0,30,0.8,30,0.9,1.500
+screen,program,S1a,T_Cytotoxic,30,0.16666666666666666,30,0.7333333333333333,30,0.9666666666666667,1.643
+screen,program,S1a,T_Regulatory,7,0.0,7,0.0,5,0.0,> 2.0
+screen,program,S1a,VE_Peribronchial,16,0.0,19,0.0,12,0.0,> 2.0
+screen,program,S1a,cDC2,30,0.03333333333333333,30,0.4,30,0.9,1.900
+screen,program,S1a,cMonocyte,30,0.2,30,0.7333333333333333,30,1.0,1.625
+screen,program,S1a,ncMonocyte,30,0.0,30,0.13333333333333333,30,0.6333333333333333,> 2.0
+screen,program,S1b,ATII,29,0.0,30,0.0,29,0.034482758620689655,> 2.0
+screen,program,S1b,B,30,0.0,30,0.26666666666666666,30,0.43333333333333335,> 2.0
+screen,program,S1b,Ciliated,30,0.0,30,0.16666666666666666,30,0.23333333333333334,> 2.0
+screen,program,S1b,Club,24,0.0,26,0.0,19,0.0,> 2.0
+screen,program,S1b,Fibroblast,29,0.0,29,0.0,27,0.0,> 2.0
+screen,program,S1b,Goblet,2,0.0,0,,0,,
+screen,program,S1b,Lymphatic,10,0.0,9,0.0,10,0.0,> 2.0
+screen,program,S1b,Macrophage,30,0.0,30,0.36666666666666664,30,0.43333333333333335,> 2.0
+screen,program,S1b,Macrophage_Alveolar,30,0.1,30,0.43333333333333335,30,0.43333333333333335,> 2.0
+screen,program,S1b,Mast,1,0.0,0,,3,0.0,
+screen,program,S1b,Myofibroblast,19,0.0,19,0.0,17,0.0,> 2.0
+screen,program,S1b,NK,30,0.0,30,0.3333333333333333,30,0.3,> 2.0
+screen,program,S1b,T,30,0.0,30,0.16666666666666666,30,0.5,> 2.0
+screen,program,S1b,T_Cytotoxic,30,0.06666666666666667,30,0.3,30,0.4666666666666667,> 2.0
+screen,program,S1b,T_Regulatory,1,0.0,5,0.0,6,0.0,> 2.0
+screen,program,S1b,VE_Peribronchial,16,0.0,18,0.0,12,0.0,> 2.0
+screen,program,S1b,cDC2,30,0.0,30,0.16666666666666666,30,0.3,> 2.0
+screen,program,S1b,cMonocyte,30,0.03333333333333333,30,0.4,30,0.5,> 2.0
+screen,program,S1b,ncMonocyte,30,0.0,30,0.13333333333333333,30,0.3,> 2.0
+screen,program,S1a,(all),427,0.07259953161592506,436,0.4426605504587156,422,0.6682464454976303,> 2.0
+screen,program,S1b,(all),431,0.013921113689095127,436,0.18807339449541285,423,0.2789598108747045,> 2.0
+screen,clock,S1a,ATII,28,0.0,28,0.0,28,0.03571428571428571,> 2.0
+screen,clock,S1a,B,30,0.0,30,0.23333333333333334,30,0.7,> 2.0
+screen,clock,S1a,Ciliated,30,0.0,30,0.3333333333333333,30,0.7666666666666667,> 2.0
+screen,clock,S1a,Club,25,0.0,25,0.0,25,0.0,> 2.0
+screen,clock,S1a,Fibroblast,24,0.0,27,0.0,25,0.0,> 2.0
+screen,clock,S1a,Goblet,2,0.0,0,,0,,
+screen,clock,S1a,Lymphatic,5,0.0,8,0.0,7,0.0,> 2.0
+screen,clock,S1a,Macrophage,30,0.13333333333333333,30,0.7666666666666667,30,0.9333333333333333,1.600
+screen,clock,S1a,Macrophage_Alveolar,30,0.1,30,0.8666666666666667,30,0.7666666666666667,1.457
+screen,clock,S1a,Mast,2,0.0,0,,1,0.0,
+screen,clock,S1a,Myofibroblast,18,0.0,22,0.0,19,0.0,> 2.0
+screen,clock,S1a,NK,30,0.0,30,0.16666666666666666,30,0.5666666666666667,> 2.0
+screen,clock,S1a,T,30,0.0,30,0.43333333333333335,30,0.5333333333333333,> 2.0
+screen,clock,S1a,T_Cytotoxic,30,0.03333333333333333,30,0.43333333333333335,30,0.7,> 2.0
+screen,clock,S1a,T_Regulatory,7,0.0,7,0.0,5,0.0,> 2.0
+screen,clock,S1a,VE_Peribronchial,16,0.0,19,0.0,12,0.0,> 2.0
+screen,clock,S1a,cDC2,30,0.03333333333333333,30,0.23333333333333334,30,0.8,2.000
+screen,clock,S1a,cMonocyte,30,0.06666666666666667,30,0.3333333333333333,30,0.6666666666666666,> 2.0
+screen,clock,S1a,ncMonocyte,30,0.0,30,0.06666666666666667,30,0.4,> 2.0
+screen,clock,S1b,ATII,29,0.0,30,0.0,29,0.0,> 2.0
+screen,clock,S1b,B,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,Ciliated,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,Club,24,0.0,26,0.0,19,0.0,> 2.0
+screen,clock,S1b,Fibroblast,29,0.0,29,0.0,27,0.0,> 2.0
+screen,clock,S1b,Goblet,2,0.0,0,,0,,
+screen,clock,S1b,Lymphatic,10,0.0,9,0.0,10,0.0,> 2.0
+screen,clock,S1b,Macrophage,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,Macrophage_Alveolar,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,Mast,1,0.0,0,,3,0.0,
+screen,clock,S1b,Myofibroblast,19,0.0,19,0.0,17,0.0,> 2.0
+screen,clock,S1b,NK,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,T,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,T_Cytotoxic,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,T_Regulatory,1,0.0,5,0.0,6,0.0,> 2.0
+screen,clock,S1b,VE_Peribronchial,16,0.0,18,0.0,12,0.0,> 2.0
+screen,clock,S1b,cDC2,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,cMonocyte,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1b,ncMonocyte,30,0.0,30,0.0,30,0.0,> 2.0
+screen,clock,S1a,(all),427,0.02576112412177986,436,0.26605504587155965,422,0.4881516587677725,> 2.0
+screen,clock,S1b,(all),431,0.0,436,0.0,423,0.0,> 2.0
+within,program,S1a,ATII,28,0.0,28,0.0,28,0.10714285714285714,> 2.0
+within,program,S1a,B,30,0.03333333333333333,30,0.5666666666666667,30,0.9666666666666667,1.792
+within,program,S1a,Ciliated,30,0.0,30,0.5,30,0.9666666666666667,1.821
+within,program,S1a,Club,25,0.0,25,0.0,25,0.0,> 2.0
+within,program,S1a,Fibroblast,24,0.0,27,0.0,25,0.0,> 2.0
+within,program,S1a,Goblet,2,0.0,0,,0,,
+within,program,S1a,Lymphatic,5,0.0,8,0.0,7,0.0,> 2.0
+within,program,S1a,Macrophage,30,0.23333333333333334,30,0.9333333333333333,30,1.0,1.405
+within,program,S1a,Macrophage_Alveolar,30,0.3,30,0.9333333333333333,30,1.0,1.395
+within,program,S1a,Mast,2,0.0,0,,1,0.0,
+within,program,S1a,Myofibroblast,18,0.0,22,0.0,19,0.0,> 2.0
+within,program,S1a,NK,30,0.06666666666666667,30,0.7,30,1.0,1.667
+within,program,S1a,T,30,0.0,30,0.8,30,0.9,1.500
+within,program,S1a,T_Cytotoxic,30,0.16666666666666666,30,0.7333333333333333,30,0.9666666666666667,1.643
+within,program,S1a,T_Regulatory,7,0.0,7,0.0,5,0.0,> 2.0
+within,program,S1a,VE_Peribronchial,16,0.0,19,0.0,12,0.0,> 2.0
+within,program,S1a,cDC2,30,0.03333333333333333,30,0.4,30,0.9,1.900
+within,program,S1a,cMonocyte,30,0.2,30,0.7333333333333333,30,1.0,1.625
+within,program,S1a,ncMonocyte,30,0.0,30,0.13333333333333333,30,0.6333333333333333,> 2.0
+within,program,S1b,ATII,29,0.0,30,0.0,29,0.06896551724137931,> 2.0
+within,program,S1b,B,30,0.0,30,0.43333333333333335,30,0.7333333333333333,> 2.0
+within,program,S1b,Ciliated,30,0.0,30,0.5,30,0.6333333333333333,> 2.0
+within,program,S1b,Club,24,0.0,26,0.0,19,0.0,> 2.0
+within,program,S1b,Fibroblast,29,0.0,29,0.0,27,0.0,> 2.0
+within,program,S1b,Goblet,2,0.0,0,,0,,
+within,program,S1b,Lymphatic,10,0.0,9,0.0,10,0.0,> 2.0
+within,program,S1b,Macrophage,30,0.23333333333333334,30,0.6666666666666666,30,0.8333333333333334,1.900
+within,program,S1b,Macrophage_Alveolar,30,0.36666666666666664,30,0.6666666666666666,30,0.8333333333333334,1.900
+within,program,S1b,Mast,1,0.0,0,,3,0.0,
+within,program,S1b,Myofibroblast,19,0.0,19,0.0,17,0.0,> 2.0
+within,program,S1b,NK,30,0.1,30,0.7,30,0.5666666666666667,> 2.0
+within,program,S1b,T,30,0.0,30,0.36666666666666664,30,0.7333333333333333,> 2.0
+within,program,S1b,T_Cytotoxic,30,0.06666666666666667,30,0.8,30,0.9333333333333333,1.500
+within,program,S1b,T_Regulatory,1,0.0,5,0.0,6,0.0,> 2.0
+within,program,S1b,VE_Peribronchial,16,0.0,18,0.0,12,0.0,> 2.0
+within,program,S1b,cDC2,30,0.06666666666666667,30,0.36666666666666664,30,0.6666666666666666,> 2.0
+within,program,S1b,cMonocyte,30,0.13333333333333333,30,0.7,30,1.0,1.667
+within,program,S1b,ncMonocyte,30,0.0,30,0.3,30,0.6333333333333333,> 2.0
+within,program,S1a,(all),427,0.07259953161592506,436,0.4426605504587156,422,0.6706161137440758,> 2.0
+within,program,S1b,(all),431,0.06728538283062645,436,0.37844036697247707,423,0.541371158392435,> 2.0
+within,clock,S1a,ATII,28,0.0,28,0.0,28,0.10714285714285714,> 2.0
+within,clock,S1a,B,30,0.03333333333333333,30,0.5,30,0.9333333333333333,1.846
+within,clock,S1a,Ciliated,30,0.0,30,0.5,30,0.9666666666666667,1.821
+within,clock,S1a,Club,25,0.0,25,0.0,25,0.0,> 2.0
+within,clock,S1a,Fibroblast,24,0.0,27,0.0,25,0.0,> 2.0
+within,clock,S1a,Goblet,2,0.0,0,,0,,
+within,clock,S1a,Lymphatic,5,0.0,8,0.0,7,0.0,> 2.0
+within,clock,S1a,Macrophage,30,0.23333333333333334,30,0.9333333333333333,30,1.0,1.405
+within,clock,S1a,Macrophage_Alveolar,30,0.3,30,0.9333333333333333,30,1.0,1.395
+within,clock,S1a,Mast,2,0.0,0,,1,0.0,
+within,clock,S1a,Myofibroblast,18,0.0,22,0.0,19,0.0,> 2.0
+within,clock,S1a,NK,30,0.06666666666666667,30,0.6666666666666666,30,0.9666666666666667,1.722
+within,clock,S1a,T,30,0.0,30,0.8,30,0.8666666666666667,1.500
+within,clock,S1a,T_Cytotoxic,30,0.16666666666666666,30,0.7333333333333333,30,0.9666666666666667,1.643
+within,clock,S1a,T_Regulatory,7,0.0,7,0.0,5,0.0,> 2.0
+within,clock,S1a,VE_Peribronchial,16,0.0,19,0.0,12,0.0,> 2.0
+within,clock,S1a,cDC2,30,0.03333333333333333,30,0.36666666666666664,30,0.8666666666666667,1.933
+within,clock,S1a,cMonocyte,30,0.2,30,0.7,30,1.0,1.667
+within,clock,S1a,ncMonocyte,30,0.0,30,0.13333333333333333,30,0.6,> 2.0
+within,clock,S1b,ATII,29,0.0,30,0.0,29,0.0,> 2.0
+within,clock,S1b,B,30,0.0,30,0.0,30,0.0,> 2.0
+within,clock,S1b,Ciliated,30,0.0,30,0.0,30,0.0,> 2.0
+within,clock,S1b,Club,24,0.0,26,0.0,19,0.0,> 2.0
+within,clock,S1b,Fibroblast,29,0.0,29,0.0,27,0.0,> 2.0
+within,clock,S1b,Goblet,2,0.0,0,,0,,
+within,clock,S1b,Lymphatic,10,0.0,9,0.0,10,0.0,> 2.0
+within,clock,S1b,Macrophage,30,0.0,30,0.0,30,0.0,> 2.0
+within,clock,S1b,Macrophage_Alveolar,30,0.03333333333333333,30,0.0,30,0.0,> 2.0
+within,clock,S1b,Mast,1,0.0,0,,3,0.0,
+within,clock,S1b,Myofibroblast,19,0.0,19,0.0,17,0.0,> 2.0
+within,clock,S1b,NK,30,0.0,30,0.0,30,0.06666666666666667,> 2.0
+within,clock,S1b,T,30,0.0,30,0.0,30,0.03333333333333333,> 2.0
+within,clock,S1b,T_Cytotoxic,30,0.03333333333333333,30,0.03333333333333333,30,0.06666666666666667,> 2.0
+within,clock,S1b,T_Regulatory,1,0.0,5,0.0,6,0.0,> 2.0
+within,clock,S1b,VE_Peribronchial,16,0.0,18,0.0,12,0.0,> 2.0
+within,clock,S1b,cDC2,30,0.0,30,0.03333333333333333,30,0.03333333333333333,> 2.0
+within,clock,S1b,cMonocyte,30,0.0,30,0.0,30,0.1,> 2.0
+within,clock,S1b,ncMonocyte,30,0.0,30,0.06666666666666667,30,0.0,> 2.0
+within,clock,S1a,(all),427,0.07259953161592506,436,0.43119266055045874,422,0.6587677725118484,> 2.0
+within,clock,S1b,(all),431,0.004640371229698376,436,0.009174311926605505,423,0.02127659574468085,> 2.0

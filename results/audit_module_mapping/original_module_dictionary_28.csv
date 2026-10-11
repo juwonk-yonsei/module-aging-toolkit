@@ -1,0 +1,29 @@
+module_colour,annotation,module_size
+blue,Respiration / Mitochondrial translation,357
+turquoise,Innate immunity / Inflammation,332
+brown,Chromatin modification (1),255
+yellow,Chromatin modification (2),169
+red,Translation / Ribosome,117
+green,Cell cycle / DNA replication,97
+pink,Adaptive immunity / T cell signaling,93
+purple,-,67
+tan,Oxidative phosphorylation / TCA cycle,61
+greenyellow,ECM organization / EMT,59
+lightgreen,Interferon signaling,59
+magenta,Amino acid metabolism / Coagulation / Xenobiotic metabolism,54
+grey60,Apoptosis / Nrf2 signaling / Proteasome,52
+midnightblue,mRNA splicing,52
+black,Muscle contraction / Cytoskeleton / Glycolysis,42
+darkgreen,VEGF signaling,36
+darkgrey,Protein processing in ER / UPR / mTOR signaling,31
+orange,Fatty acid metabolism / Beta-oxidation,30
+darkred,Cholesterol metabolism / mTOR signaling,26
+white,Nuclear lamina depolymerization,24
+cyan,Heme metabolism / ROS pathway / Mitochondria,20
+skyblue,Heat stress response,20
+darkorange,Lipid metabolism / PPAR signaling,17
+lightcyan,Circadian clock,17
+lightyellow,Nrf2 signaling / Proteasome,16
+darkturquoise,Coagulation / Xenobiotic metabolism,14
+royalblue,-,12
+salmon,Cholesterol metabolism / Platelet degranulation,12

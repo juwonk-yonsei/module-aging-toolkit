@@ -1,0 +1,25 @@
+scenario,category,k,n,rate,denominator
+S1a,pass,282,422,0.6682464454976303,planted module pairs
+S1a,robust + IPF-specific,1,422,0.002369668246445498,planted module pairs
+S1a,robust + set-specific,28,422,0.06635071090047394,planted module pairs
+S1a,robust only,0,422,0.0,planted module pairs
+S1a,hit only,19,422,0.045023696682464455,planted module pairs
+S1a,not a hit,92,422,0.21800947867298578,planted module pairs
+S1b,pass,118,423,0.2789598108747045,planted module pairs
+S1b,robust + IPF-specific,172,423,0.4066193853427896,planted module pairs
+S1b,robust + set-specific,6,423,0.014184397163120567,planted module pairs
+S1b,robust only,7,423,0.016548463356973995,planted module pairs
+S1b,hit only,18,423,0.0425531914893617,planted module pairs
+S1b,not a hit,102,423,0.24113475177304963,planted module pairs
+S2a,pass,9,2042,0.004407443682664055,all pairs in the three planted cell types
+S2a,robust + IPF-specific,1089,2042,0.5333006856023507,all pairs in the three planted cell types
+S2a,robust + set-specific,1,2042,0.0004897159647404506,all pairs in the three planted cell types
+S2a,robust only,202,2042,0.098922624877571,all pairs in the three planted cell types
+S2a,hit only,108,2042,0.05288932419196866,all pairs in the three planted cell types
+S2a,not a hit,633,2042,0.3099902056807052,all pairs in the three planted cell types
+S4,pass,0,19334,0.0,all pairs
+S4,robust + IPF-specific,0,19334,0.0,all pairs
+S4,robust + set-specific,1,19334,5.172235440157236e-05,all pairs
+S4,robust only,0,19334,0.0,all pairs
+S4,hit only,1,19334,5.172235440157236e-05,all pairs
+S4,not a hit,19332,19334,0.9998965552911968,all pairs

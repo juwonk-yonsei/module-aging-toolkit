@@ -1,0 +1,7 @@
+tag,f,set_failure_rate,suspect_fraction_mean,V1_n_reps,V1_pass_mean,V1_pass_max,V2_n_reps,V2_pass_mean,V2_pass_max
+official,0.0,0.0,0.0,1,0.0,0.0,0,,
+corrupted,0.1,0.9,0.6152173913043478,0,,,0,,
+corrupted,0.25,1.0,0.867391304347826,10,1.1,4.0,10,1.6,4.0
+corrupted,0.5,1.0,0.9826086956521738,10,1.1,3.0,10,1.9,6.0
+corrupted,1.0,1.0,1.0,10,2.2,10.0,10,1.3,3.0
+table5b,,1.0,1.0,1,1.0,1.0,1,1.0,1.0

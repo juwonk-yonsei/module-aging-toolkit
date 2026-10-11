@@ -1,0 +1,5 @@
+analysis,celltype,outcome,with_sex,beta,higher_in_old,p
+binary,alveolar macrophage,Mortality,True,0.31904127189526543,True,0.25300196358636373
+binary,alveolar macrophage,Chronological,True,0.008646637282729693,True,0.7685510797865543
+binary,natural killer cell,Mortality,True,0.19796319947975743,True,0.19801052582082956
+binary,natural killer cell,Chronological,True,0.1266814407512423,True,0.15633613534092416

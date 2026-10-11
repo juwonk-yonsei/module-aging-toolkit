@@ -1,0 +1,9 @@
+quantity,v020,v3_planned,v3_amended_r5,scrambled_median,v020_source
+n_tests,253,253,249,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+hits,30,12,10,19.0,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+robust,23,10,9,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+ipf_specific,13,2,2,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+module_specific,10,6,4,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+all_three_filters,1,0,0,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+global_cr1,6,1,1,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv
+replicated_coarse,2,1,1,,results/revision/rev08_summary.csv; module-specific and all-three from rev06_hits_competitive.csv; replicated coarse types from rev15_checklist_realdata.csv

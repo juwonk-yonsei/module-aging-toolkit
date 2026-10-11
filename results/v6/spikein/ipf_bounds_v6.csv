@@ -1,0 +1,20 @@
+celltype,n_IPF,n_Control,n_COPD,max_abs_d,max_abs_module,mde80_S1a,vs_S1a,mde80_S1b,vs_S1b
+ATII,,,,,,> 2.0,,> 2.0,
+B,22.0,7.0,13.0,1.574669299264448,red,> 2.0,below MDE,> 2.0,below MDE
+Ciliated,30.0,8.0,7.0,1.9159318860437464,lightyellow,1.825,above MDE,> 2.0,below MDE
+Club,,,,,,> 2.0,,> 2.0,
+Fibroblast,10.0,4.0,1.0,1.6399942181755405,midnightblue,> 2.0,below MDE,> 2.0,below MDE
+Goblet,,,,,,> 2.0,,> 2.0,
+Lymphatic,,,,,,> 2.0,,> 2.0,
+Macrophage,32.0,27.0,17.0,1.4689199070300407,turquoise,1.382,above MDE,> 2.0,below MDE
+Macrophage_Alveolar,29.0,26.0,16.0,1.6150493639681955,green,1.422,above MDE,> 2.0,below MDE
+Mast,,,,,,,,> 2.0,
+Myofibroblast,,,,,,> 2.0,,> 2.0,
+NK,23.0,15.0,15.0,1.227662654954881,greenyellow,1.714,below MDE,> 2.0,below MDE
+T,24.0,10.0,17.0,0.9277493245456924,black,1.650,below MDE,> 2.0,below MDE
+T_Cytotoxic,28.0,13.0,15.0,1.2514407429840952,black,1.667,below MDE,> 2.0,below MDE
+T_Regulatory,,,,,,> 2.0,,> 2.0,
+VE_Peribronchial,,,,,,> 2.0,,> 2.0,
+cDC2,22.0,9.0,12.0,1.6856049163660325,red,1.875,below MDE,> 2.0,below MDE
+cMonocyte,26.0,17.0,15.0,1.8298543482951533,red,1.700,above MDE,> 2.0,below MDE
+ncMonocyte,14.0,5.0,13.0,3.085853514175594,green,> 2.0,unknown,> 2.0,unknown

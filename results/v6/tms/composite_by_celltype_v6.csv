@@ -1,0 +1,7 @@
+celltype,outcome,n_young,n_old,beta,p,higher_in_old
+Alveolar_macrophage,Mortality,7,5,0.16364377778444414,0.2662747916449119,True
+Alveolar_macrophage,Chronological,7,5,-0.04644485222616832,0.2516149654361036,False
+Ciliated_cells,Mortality,3,4,0.3083463160585955,0.05319307156289716,True
+Ciliated_cells,Chronological,3,4,0.00976911672574327,0.8142059033238509,True
+Type_2_pneumocytes,Mortality,8,7,0.03904203421513624,0.8258145836049234,True
+Type_2_pneumocytes,Chronological,8,7,-0.0003116939798086041,0.9955460411190193,False

@@ -1,0 +1,2 @@
+donor,disease,in_score_table,age,sexM,dropped_at,celltypes
+244C,Control,False,,,"n_cells < 50 in every statistics cell type, so the donor never enters the scored grid",ATI:61;B:12;Ciliated:17;Fibroblast:4;Lymphatic:1;Macrophage:24;Macrophage_Alveolar:5;Myofibroblast:2;NK:8;Pericyte:2;SMC:1;T:1;T_Cytotoxic:15;VE_Capillary_A:7;VE_Capillary_B:3;VE_Venous:1;cMonocyte:1

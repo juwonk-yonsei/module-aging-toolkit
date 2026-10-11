@@ -1,0 +1,7 @@
+family,n_genes,top_module,top_module_annotation,top_share,null_median_top_share,p_concentration,n_modules_spanned,expected_annotation
+ribosomal (Rpl/Rps),64,turquoise,Innate immunity/ Inflammation,0.188,0.203,0.7942,19,translation/ribosome
+OXPHOS (Nduf/Cox/Uqcr/Sdh/Atp5),77,brown,Chromatin modification (1),0.182,0.208,0.7922,17,respiration/OxPhos
+interferon-stimulated,43,blue,Respiration/ Mitochondrial translation,0.163,0.209,0.9441,18,interferon
+cell cycle,37,blue,Respiration/ Mitochondrial translation,0.135,0.216,0.997,17,cell cycle
+collagen (Col),12,blue,Respiration/ Mitochondrial translation,0.25,0.25,0.7782,7,ECM
+heat shock (Hsp/Dnaj),18,brown,Chromatin modification (1),0.278,0.222,0.4416,7,heat stress

@@ -1,0 +1,3 @@
+tissue,n_modules,n_positive,p_count_exact,null_count_median
+Kidney,23,16,0.24025974025974026,11.5
+Skeletal muscle,23,19,0.05627705627705628,11.5

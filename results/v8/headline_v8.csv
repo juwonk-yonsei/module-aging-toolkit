@@ -1,0 +1,49 @@
+item,value,unit,source,note
+composite_IPF_coefficient,-0.023308942653283912,"score units, IPF minus control, global model",results/v8/masking/masking_fixed_v8.csv,sum of the 24 component coefficients; bootstrap CI -0.159 to 0.155
+S,0.2205631054422136,"sum of absolute coefficients, 24 components",results/v8/masking/masking_fixed_v8.csv,24 components; p=0.001000; CI 0.156-0.418
+N,0.0233089426532842,absolute sum of the 24 component coefficients,results/v8/masking/masking_fixed_v8.csv,absolute composite; p=0.658; CI 0.0028-0.178
+MI,0.8943207541145585,(S-N)/S,results/v8/masking/masking_fixed_v8.csv,(S-N)/S; p=0.141; CI 0.306-0.989
+components_fdr10,13,of 24 component coefficients,results/v3/human/r5/masking_global_r5.csv,"7 negative, 6 positive"
+r5_tests,249,estimable cell-type by module tests,results/v7/ipf_two_funnels_v7.csv,4 unestimable tests excluded
+r5_hits,10,classical FDR<0.10,results/v7/ipf_two_funnels_v7.csv,
+r5_robust,9,three inferences FDR<0.10,results/v7/ipf_two_funnels_v7.csv,
+r5_ipf_specific,2,primary and IPF-COPD FDR<0.10,results/v7/ipf_two_funnels_v7.csv,
+r5_set_specific,6,random-gene null FDR<0.10 inside the hit set,results/v7/ipf_two_funnels_v7.csv,
+r5_weight_specific,4,both competitive nulls FDR<0.10 inside the hit set,results/v7/ipf_two_funnels_v7.csv,same as r5 module-specific
+r5_program_pass,1,robust and IPF-specific and set-specific,results/v7/ipf_two_funnels_v7.csv,"Macrophage_Alveolar / green, cell cycle"
+r5_clock_pass,0,robust and IPF-specific and weight-specific,results/v7/ipf_two_funnels_v7.csv,
+screen_10000_both,0,"of 249 tests, B=10000",results/v3/human/r5/screen_10000_summary.csv,random-gene FDR<0.10 is also 0; permutation FDR<0.10 is also 0
+scrambled_classical_median,19,hits under scrambled membership,results/v3/human/r5/scrambled_null_summary_r5.csv,2.5-97.5 percentile 7.5-32
+scrambled_percentile_amended_10,6,percentile of the official 10 hits,results/v3/human/r5/scrambled_null_summary_r5.csv,v0.2.0 30 hits sit at percentile 95
+replication_NK_r,0.6680415316685673,centred cross-cohort correlation,results/v3/human/r5/replication_detail_r5.csv,"p=0.00783, B=2000; GSE136831 23/15, GSE135893 4/5"
+HLCA_donors,77,adult donors with an age,results/v3/human/r5/hlca/pseudobulk_meta.csv,
+GTEx_lung_composite_rho,0.2005998617915515,"Spearman, mortality composite",results/v3/human/s8_gtex.csv,"adjusted Spearman 0.2058, n=578; the manuscript 0.21 is this adjusted value rounded"
+P1_S4_program_pass,0,proportion of 16207 S4 pairs,results/v7/spikein/program_criteria_v7.csv,"threshold 0.01, met"
+P2_S2a_set_specific,0.106453,proportion of 7872 S2a hits,results/v7/spikein/program_criteria_v7.csv,"threshold 0.10, not met; planted-cell hits are 0.0610 of 7234"
+P3_S3_IPF_specific,0.000352,proportion of 2840 S3 target pairs,results/v7/spikein/program_criteria_v7.csv,"threshold 0.10, met"
+program_definition,채택 불가,P1-P3,results/v7/spikein/program_criteria_v7.csv,P2 fails
+MDE80_S1a_clock,1.382 to >2.0,standardized effect,results/v6/spikein/spikein_mde_v6.csv,Macrophage 1.382; several cell types >2.0
+MDE80_S1b_clock,>2.0,standardized effect,results/v6/spikein/spikein_mde_v6.csv,every cell type with a defined rate
+MDE80_S1a_program,1.382 to >2.0,standardized effect,results/v7/spikein/mde_two_funnels_v7.csv,Macrophage 1.382; B 1.864; several cell types >2.0
+MDE80_S1b_program,1.452 to >2.0,standardized effect,results/v7/spikein/mde_two_funnels_v7.csv,Macrophage_Alveolar 1.452; Ciliated 2.000; several cell types >2.0
+input_check_f025,1.0,"set-failure rate, 20 replicates",results/v6/corruption/input_check_summary_v6.csv,f=0.50 and f=1.00 are also 1.0; f=0.10 is 0.90
+corrupted_downstream_pass_V1,"1.1, 1.1, 2.2","mean pass count at f=0.25, 0.50, 1.00",results/v6/corruption/input_check_summary_v6.csv,"V2 means 1.6, 1.9, 1.3; official labels give 0"
+positive_control,양성 대조 미통과,Angelidis mortality composite direction and module sign test,results/v6/tms/summary_v6.csv,"C-1 met (3/3); C-2 not met (positive fraction 0.422, p=0.904)"
+resolution_mouse,부재,pre-specified label,results/v7/resolution/resolution_verdict_v7.csv,"tissue is stronger (ratio 7.48, p=4e-6); composition/whole=0.183; detection/whole=1"
+resolution_human,부재,pre-specified label,results/v7/resolution/resolution_verdict_v7.csv,"whole adjusted rho 0.122, cell-type median 0.062, ratio 1.99, p=0.333"
+false_hit_set_specific,0.7682926829268293,882/1148,results/v8/selection/selection_bias_v8.csv,all scenarios
+false_hit_weight_specific,0.5261324041811847,604/1148,results/v8/selection/selection_bias_v8.csv,all scenarios
+true_hit_set_specific,0.3560933448573898,4120/11570,results/v8/selection/selection_bias_v8.csv,all scenarios
+true_hit_weight_specific,0.2242869490060501,2595/11570,results/v8/selection/selection_bias_v8.csv,all scenarios
+S2a_false_set_specific,0.622257053291536,397/638,results/v8/selection/selection_bias_v8.csv,unplanted cell types
+S2a_weight_all_hits,0.0293445121951219,231/7872,results/v8/selection/selection_bias_v8.csv,same denominator as instruction 7 P2
+S2a_weight_planted_hits,0.0087088747580868,63/7234,results/v8/selection/selection_bias_v8.csv,same denominator as instruction 6 A-specificity 2
+mouse_contribution_judgment,중간,mortality composite,results/v8/decomposition/contrib_summary_v8.csv,max Ciliated_cells 0.1530; n>=10% 2; additivity 0.7185
+mouse_expression_beta,1.079253710908571,mortality composite,results/v8/decomposition/contrib_summary_v8.csv,additivity 0.7185
+human_contribution_judgment,집중됨,mortality composite,results/v8/decomposition/contrib_summary_v8.csv,max Macrophage 1.0897; n>=10% 4; additivity 0.9962
+human_expression_beta,0.0115471217783121,mortality composite,results/v8/decomposition/contrib_summary_v8.csv,additivity 0.9962
+alveolar_green_unweighted_sign,0,1 = same sign as the official clock,results/v8/candidates/candidate_direction_v8.csv,unweighted mean is positive; clock coefficient is negative
+alveolar_green_marker_sign,0,1 = same sign as the official clock,results/v8/candidates/candidate_direction_v8.csv,MKI67 and TOP2A positive fractions are higher in IPF
+grey60_direction_sign,1,1 = same sign as the official clock,results/v8/candidates/candidate_direction_v8.csv,"unweighted, PC1, MKI67, and TOP2A agree with the clock"
+alveolar_green_same_sign_GSE135893,False,same sign,results/v8/candidates/candidate_replication_v8.csv,"beta 0.00737, p=0.988"
+grey60_same_sign_GSE135893,False,same sign,results/v8/candidates/candidate_replication_v8.csv,"beta -0.0403, p=0.825"

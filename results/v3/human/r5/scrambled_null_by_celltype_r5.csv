@@ -1,0 +1,12 @@
+celltype,median,p2_5,p97_5
+Macrophage,7.0,4.0,12.0
+Macrophage_Alveolar,5.5,2.0,9.524999999999991
+Ciliated,1.0,0.0,4.0
+ncMonocyte,1.0,0.0,3.5249999999999915
+cDC2,1.0,0.0,3.0
+NK,1.0,0.0,3.0
+B,0.0,0.0,1.0
+Fibroblast,0.0,0.0,2.0
+T,0.0,0.0,2.0
+T_Cytotoxic,0.0,0.0,2.0
+cMonocyte,0.0,0.0,3.0

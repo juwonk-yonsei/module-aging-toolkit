@@ -1,0 +1,16 @@
+item,value,path
+composite_global_beta,-0.0233089426532973,results/v3/human/s9b_global.csv
+composite_global_ci,"[-0.1776, 0.1310]",results/v3/human/s9b_global.csv
+composite_global_p_cr1_t,0.7634124972380357,results/v3/human/s9b_global.csv
+masking_MI_median,0.7557782352918477,results/v3/human/s11_masking.csv
+hits_fdr10,12,results/v3/human/s9c_summary.csv
+hits_fdr05,8,results/v3/human/s9c_summary.csv
+hits_hc3_fdr10,15,results/v3/human/s9a_celltype.csv
+hits_perm_fdr10,11,results/v3/human/s9a_celltype.csv
+robust_fdr10,10,results/v3/human/s9c_summary.csv
+ipf_specific_fdr10,2,results/v3/human/s9c_summary.csv
+module_specific_both_nulls_fdr10,6,results/v3/human/s10_hits10000.csv
+screen_1000_fdr10,0,results/v3/human/s10_summary.csv
+pass_all_three_filters,0,results/v3/human/s9a_celltype.csv
+tests,253,results/v3/human/s9c_summary.csv
+tier1_modules,"blue,greenyellow,lightgreen,pink,turquoise,yellow",results/v3/human/module_tiers.csv

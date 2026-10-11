@@ -1,0 +1,9 @@
+cohort,group,donors,age,male,female,tissue,tissue_source,tissue_source_note
+GSE136831 (Adams),COPD,18,62.4 ± 4.9 (55–73),9.0,9.0,Whole Lung Dissociate,explanted lung (transplantation),"Adams et al. 2020, as cited in the cohort script"
+GSE136831 (Adams),Control,28,45.6 ± 17.7 (20–80),16.0,12.0,Whole Lung Dissociate,donor lung not used for transplantation,"Adams et al. 2020, as cited in the cohort script"
+GSE136831 (Adams),IPF,32,65.4 ± 5.4 (54–78),26.0,6.0,Whole Lung Dissociate,explanted lung (transplantation),"Adams et al. 2020, as cited in the cohort script"
+GSE135893 (Habermann),Control,10,not in GEO,,,"lung tissue; Vanderbilt 7, Donor Network of Arizona 3",donor lung declined for transplantation,"Habermann et al. 2020, as cited in the cohort script"
+GSE135893 (Habermann),IPF,12,not in GEO,,,"lung tissue; Vanderbilt 7, Norton Thoracic Institute 5",explanted lung (transplantation),"Habermann et al. 2020, as cited in the cohort script"
+GSE134692 (bulk),Control,26,32.6 ± 24.5 (1–80),13.0,12.0,lung homogenate,see GEO series,Age and sex are the Age and sex columns of GSE134692_design.txt.gz
+GSE134692 (bulk),IPF,46,63.0 ± 5.6 (48–71),34.0,12.0,lung homogenate,see GEO series,Age and sex are the Age and sex columns of GSE134692_design.txt.gz
+HLCA core (healthy subset),healthy,42,20–81,31.0,11.0,"lung, multiple sampling protocols","CELLxGENE dataset 9f222629, disease normal, age >= 20, age-stratified cap 45",HLCA core is 107 donors. The 42 are the stored result of scripts/hlca_pull_pseudobulk.py

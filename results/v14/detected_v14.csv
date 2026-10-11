@@ -1,0 +1,13 @@
+celltype,n_samples,module_genes_serialized,module_genes_detected,composite_genes_serialized,composite_genes_detected
+B,42.0,2007,1223,10487,4918
+Ciliated,45.0,2007,1445,10487,8142
+Fibroblast,15.0,2007,1297,10487,6814
+Macrophage,76.0,2007,1686,10487,9124
+Macrophage_Alveolar,71.0,2007,1658,10487,8910
+NK,53.0,2007,1260,10487,5122
+T,51.0,2007,1289,10487,5603
+T_Cytotoxic,56.0,2007,1309,10487,5767
+cDC2,43.0,2007,1428,10487,6192
+cMonocyte,58.0,2007,1321,10487,5555
+ncMonocyte,32.0,2007,1237,10487,4793
+detected in all 11 cell types,,2007,1025,10487,3754

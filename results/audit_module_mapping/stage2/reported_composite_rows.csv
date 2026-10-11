@@ -1,0 +1,8 @@
+Species,Tissue,Outcome,Type,Model,Normalization,MAE Unit,MAE,Pearson r,R2,"# non-zero features
+in final model"
+Rodents,Multi-tissue,Chronological age,Relative,Elastic Net,Scaling,Months,2.26105249371435,0.951096728519316,0.903454161671059,16517.0
+Rodents,Multi-tissue,Expected mortality,Relative,Elastic Net,Scaling,log10HR,0.27395197258152,0.938559589042549,0.879065563943193,16760.0
+Rodents,Multi-tissue,Normalized age,Relative,Elastic Net,Scaling,% of expected max lifespan,6.32919761464829,0.950424167768421,0.901392343813989,16760.0
+Rodents,Multi-tissue,Expected max lifespan,Relative,Elastic Net,Scaling,Months,1.40770962457965,0.874919570325258,0.764484531191137,16760.0
+Rodents,Multi-tissue,"Expected max lifespan,
+with age as a feature",Relative,Elastic Net,Scaling,Months,1.40196785565677,0.875252297320461,0.765121313860428,

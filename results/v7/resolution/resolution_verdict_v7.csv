@@ -1,0 +1,3 @@
+species,score,expected_shift,median_celltype_recovery,whole_recovery,whole_beta,whole_p,ratio_whole_over_median,tissue_stronger,composition_beta,composition_over_whole,detection_beta,detection_over_whole,a_composition,b_detection,c_absence,label
+mouse,composite_Mortality,2.1262230768226225,0.07696453846648561,0.5756598607275499,1.2239812802794137,4.219017874895405e-06,7.4795467132986495,True,0.22395247401561957,0.18297050585977517,1.2239812802794137,1.0,False,False,True,부재
+human,composite_Mortality,,0.061512064845069866,0.12211815732828722,0.12211815732828722,0.3325063485677721,1.9852716314411754,False,-0.10618298171737392,-0.8695101862037178,0.12211815732828722,1.0,False,False,True,부재

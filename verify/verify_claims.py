@@ -246,7 +246,7 @@ def check_human_age(c: Checker) -> None:
     c.printed("GTEx largest adjusted rho", gm.loc[top, "adj_spearman"], 0.11, 2)
     c.printed("GTEx largest adjusted rho, FDR", gm.loc[top, "adj_fdr"], 0.12, 2)
 
-    c.section("Module correlation (Section 3.3, Supplementary Fig. S1, Table S6)")
+    c.section("Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)")
     me = rev("rev03_meff.csv")
     tr, ipf = me.iloc[0], me.iloc[1]
     c.printed("training median |rho|", tr.median_abs_r, 0.62, 2)
@@ -267,37 +267,37 @@ def check_masking(c: Checker) -> None:
     c.printed("composite p", comp.p_cr1_t, 0.76, 2)
     m = rev("rev07_masking_global.csv").set_index("component")
     s = m.loc["__summary__"]
-    c.printed("composite 95% CI lower (donor bootstrap)", s.comp_lo, -0.158, 3)
-    c.printed("composite 95% CI upper (donor bootstrap)", s.comp_hi, 0.144, 3)
-    c.printed("total component signal S", s.S, 0.226, 3)
-    c.printed("S 95% CI lower", s.S_lo, 0.196, 3)
-    c.printed("S 95% CI upper", s.S_hi, 0.393, 3)
-    c.printed("S permutation median", s.S_null_median, 0.090, 3)
-    c.printed("S / permutation median", s.S / s.S_null_median, 2.5, 1)
-    c.printed("S permutation p", s.p_S, 0.0005, 4)
+    c.printed("composite 95% CI lower (donor bootstrap)", s.comp_lo, -0.154, 3)
+    c.printed("composite 95% CI upper (donor bootstrap)", s.comp_hi, 0.148, 3)
+    c.printed("total component signal S", s.S, 0.217, 3)
+    c.printed("S 95% CI lower", s.S_lo, 0.190, 3)
+    c.printed("S 95% CI upper", s.S_hi, 0.381, 3)
+    c.printed("S permutation median", s.S_null_median, 0.089, 3)
+    c.printed("S / permutation median", s.S / s.S_null_median, 2.4, 1)
+    c.printed("S permutation p", s.p_S, 0.001, 3)
     c.printed("net signal N", s.N, 0.023, 3)
-    c.printed("N p", s.p_N, 0.64, 2)
-    c.printed("masking index MI", s.MI, 0.90, 2)
+    c.printed("N p", s.p_N, 0.65, 2)
+    c.printed("masking index MI", s.MI, 0.89, 2)
     c.printed("MI 95% CI lower", s.MI_lo, 0.47, 2)
     c.printed("MI 95% CI upper", s.MI_hi, 0.99, 2)
-    c.printed("MI permutation median", s.MI_null_median, 0.59, 2)
-    c.printed("MI permutation p", s.p_MI, 0.13, 2)
+    c.printed("MI permutation median", s.MI_null_median, 0.60, 2)
+    c.printed("MI permutation p", s.p_MI, 0.12, 2)
     comps = m.drop(index="__summary__")
     sig = comps[comps.fdr < 0.10]
     c.equal("components at FDR < 0.10", len(sig), 10)
-    for name, v in {"Adaptive immunity": 0.026, "Cell cycle": 0.024, "mRNA splicing": 0.013,
-                    "Heat stress response": 0.006, "Respiration": -0.035, "Innate immunity": -0.027,
-                    "Chromatin modification (1)": -0.019, "ECM organization": -0.014, "Amino acid met": -0.008,
+    for name, v in {"Adaptive immunity": 0.025, "Cell cycle": 0.023, "mRNA splicing": 0.013,
+                    "Heat stress response": 0.005, "Respiration": -0.031, "Innate immunity": -0.028,
+                    "Chromatin modification (1)": -0.019, "ECM organization": -0.014, "Amino acid met": -0.007,
                     "Muscle contraction": -0.006}.items():
         c.printed(f"component: {name}", sig.loc[name, "delta"], v, 3)
     nm = comps.loc["Non-module genes"]
-    c.printed("non-module component", nm.delta, 0.026, 3)
-    c.printed("non-module component CI lower", nm.lo, -0.105, 3)
+    c.printed("non-module component", nm.delta, 0.027, 3)
+    c.printed("non-module component CI lower", nm.lo, -0.098, 3)
     c.printed("non-module component CI upper", nm.hi, 0.162, 3)
-    c.printed("non-module component FDR", nm.fdr, 0.73, 2)
+    c.printed("non-module component FDR", nm.fdr, 0.72, 2)
     mc = rev("rev07_masking_celltype.csv")
     c.equal("cell types with S above its null at FDR < 0.10",
-            sorted(mc.loc[mc.fdr_S < 0.10, "celltype"]), ["Macrophage", "Macrophage_Alveolar", "T", "cDC2", "ncMonocyte"])
+            sorted(mc.loc[mc.fdr_S < 0.10, "celltype"]), ["Ciliated", "Macrophage", "Macrophage_Alveolar", "T", "cDC2"])
 
     c.section("Global module effects (Section 3.4, Fig. 3d, Supplementary Table S9b)")
     for name, (b, lo, hi) in {"Interferon signaling": (-0.33, -0.46, -0.21), "VEGF signaling": (-0.27, -0.40, -0.14)}.items():
@@ -360,10 +360,12 @@ def check_celltype(c: Checker) -> None:
 
     c.section("Sensitivity analyses (Section 3.5, Fig. 5d, Supplementary Table S12)")
     v = rev("rev09_sensitivity_summary.csv").set_index("analysis")
-    c.equal("age overlap: same sign", v.loc["age_overlap", "main_hits_same_sign"], 30)
-    c.equal("age overlap: p < 0.05", v.loc["age_overlap", "main_hits_p05"], 30)
+    c.equal("age overlap: cell types with >= 4 controls aged >= 54 y", v.loc["age_overlap", "n_celltypes"], 6)
+    c.equal("age overlap: testable effects", v.loc["age_overlap", "main_hits_available"], 23)
+    c.equal("age overlap: same sign", v.loc["age_overlap", "main_hits_same_sign"], 23)
+    c.equal("age overlap: p < 0.05", v.loc["age_overlap", "main_hits_p05"], 23)
     c.printed("age overlap: coefficient ratio", v.loc["age_overlap", "main_hits_median_beta_ratio"], 1.02, 2)
-    c.printed("age overlap: Spearman with main", v.loc["age_overlap", "beta_spearman_vs_main"], 0.96, 2)
+    c.printed("age overlap: Spearman with main", v.loc["age_overlap", "beta_spearman_vs_main"], 0.98, 2)
     c.equal("technical covariates: same sign", v.loc["tech_covariates", "main_hits_same_sign"], 30)
     c.equal("technical covariates: p < 0.05", v.loc["tech_covariates", "main_hits_p05"], 28)
     c.printed("technical covariates: ratio", v.loc["tech_covariates", "main_hits_median_beta_ratio"], 0.91, 2)
@@ -389,21 +391,31 @@ def check_celltype(c: Checker) -> None:
 
     c.section("Baselines and competitive nulls (Section 3.6, Fig. 5a-c, Supplementary Table S10)")
     bl = rev("rev06_ipf_baselines_summary.csv").iloc[0]
-    c.equal("unsigned gene-set effects at FDR < 0.10", bl.hits_geneset_fdr10, 34)
-    c.equal("signed gene-set effects at FDR < 0.10", bl.hits_geneset_signed_fdr10, 27)
-    c.printed("t correlation, clock vs unsigned gene set", bl.corr_t_clock_geneset, 0.06, 2)
-    c.printed("t correlation, clock vs signed gene set", bl.corr_t_clock_geneset_signed, 0.62, 2)
+    c.equal("unsigned gene-set effects at FDR < 0.10", bl.hits_geneset_fdr10, 32)
+    c.equal("signed gene-set effects at FDR < 0.10", bl.hits_geneset_signed_fdr10, 31)
+    c.printed("t correlation, clock vs unsigned gene set", bl.corr_t_clock_geneset, 0.05, 2)
+    c.printed("t correlation, clock vs signed gene set", bl.corr_t_clock_geneset_signed, 0.63, 2)
     hc = rev("rev06_hits_competitive.csv").set_index(["celltype", "module"])
-    c.equal("effects exceeding random genes (p < 0.05; 10,000 draws)", (hc.p_comp_random < 0.05).sum(), 16)
-    c.equal("effects exceeding permuted coefficients (p < 0.05)", (hc.p_comp_perm < 0.05).sum(), 10)
+    c.equal("all 253 tests: effects passing either competitive null at FDR < 0.10",
+            int(bl.all_tests_competitive_random_fdr10 + bl.all_tests_competitive_perm_fdr10), 0)
+    c.equal("effects exceeding random genes (p < 0.05; 10,000 draws)", (hc.p_comp_random < 0.05).sum(), 17)
+    c.equal("effects exceeding permuted coefficients (p < 0.05)", (hc.p_comp_perm < 0.05).sum(), 12)
     both = sorted(hc.index[hc.module_specific.astype(bool)])
     c.equal("effects passing both nulls at FDR < 0.10",
-            both, sorted([("B", "Muscle contraction"), ("ncMonocyte", "Heat stress response"),
-                          ("ncMonocyte", "Heme metabolism"), ("T_Cytotoxic", "VEGF signaling"),
-                          ("NK", "ECM organization")]))
-    c.printed("macrophage VEGF vs random genes", hc.loc[("Macrophage", "VEGF signaling"), "p_comp_random"], 0.012, 3)
+            both, sorted([("B", "Muscle contraction"), ("NK", "Cell cycle"), ("NK", "ECM organization"),
+                          ("NK", "OxPhos"), ("T", "Interferon signaling"), ("T_Cytotoxic", "VEGF signaling"),
+                          ("cDC2", "Interferon signaling"), ("cMonocyte", "Heat stress response"),
+                          ("ncMonocyte", "Heat stress response"), ("ncMonocyte", "Heme metabolism")]))
+    c.printed("largest within-effect FDR among them (random genes)",
+              hc.loc[hc.module_specific.astype(bool), "fdr_comp_random_within_hits"].max(), 0.088, 3)
+    c.equal("of these, COPD - control p < 0.05",
+            int((hc.loc[hc.module_specific.astype(bool), "p_COPD"] < 0.05).sum()), 9)
+    c.equal("robust to HC3 and permutation", int(hc.robust_inference.astype(bool).sum()), 23)
+    c.equal("differ from COPD", int(hc.IPF_specific.astype(bool).sum()), 13)
+    c.equal("pass all three filters", sorted(hc.index[hc.passes_all_three.astype(bool)]), [("NK", "ECM organization")])
+    c.printed("macrophage VEGF vs random genes", hc.loc[("Macrophage", "VEGF signaling"), "p_comp_random"], 0.015, 3)
     c.printed("macrophage interferon vs random genes", hc.loc[("Macrophage", "Interferon signaling"), "p_comp_random"],
-              0.045, 3)
+              0.044, 3)
     mp = hc.loc[[("Macrophage", "VEGF signaling"), ("Macrophage", "Interferon signaling")], "p_comp_perm"]
     c.equal("macrophage VEGF and interferon vs permuted coefficients, p 0.05-0.10",
             bool(((mp >= 0.05) & (mp <= 0.10)).all()), True)
@@ -446,7 +458,7 @@ def check_replication(c: Checker) -> None:
     c.printed("macrophage random-split mean r", ck.loc["Macrophage", "r_random_split"], 0.14, 2)
     c.printed("monocyte random-split mean r", ck.loc["Monocyte", "r_random_split"], 0.20, 2)
     att = ck.attribution.to_dict()
-    c.equal("attribution: ciliated", att["Ciliated"], "inconclusive (power)")
+    c.equal("attribution: ciliated", att["Ciliated"], "inconclusive (low reliability)")
     c.equal("attribution: macrophage", att["Macrophage"], "between-cohort difference (unresolved)")
     c.equal("attribution: monocyte", att["Monocyte"], "between-cohort difference (unresolved)")
     c.equal("attribution: NK", att["NK"], "replicated")
@@ -488,7 +500,7 @@ def check_replication(c: Checker) -> None:
 def check_checklist_simulation(c: Checker) -> None:
     c.section("Checklist simulation (Section 3.8, Fig. 6d, Supplementary Methods S3, Table S15a)")
     cf = rev("rev12_checklist_confusion.csv", keep_default_na=False).set_index("scenario")
-    rep_, comp_, betw, inc = "replicated", "composition", "between-cohort difference (unresolved)", "inconclusive (power)"
+    rep_, comp_, betw, inc = "replicated", "composition", "between-cohort difference (unresolved)", "inconclusive (low reliability)"
     c.printed("shared effect -> replicated", cf.loc["shared", rep_], 1.00, 2)
     c.printed("sub-state composition -> composition", cf.loc["composition", comp_], 0.97, 2)
     c.printed("confound in one cohort -> between-cohort difference", cf.loc["confound", betw], 0.99, 2)
@@ -548,9 +560,100 @@ def check_package(c: Checker) -> None:
                                                         **sub).decision, r.attribution)
 
 
+def check_consistency(c: Checker) -> None:
+    """The same test must give the same number in every table that reports it."""
+    c.section("Consistency between supplementary tables (S9-S11)")
+    st = rev("rev08_celltype_stats.csv").set_index(["celltype", "module"])
+    mods = st[st.index.get_level_values(1) != "Composite"]
+    bl = rev("rev06_ipf_baselines.csv").set_index(["celltype", "module"]).reindex(mods.index)
+    sd = rev("rev07_standardized_effects.csv").set_index(["celltype", "score"])
+    c.equal("S10a covers the 253 tests of S9a", int(bl.beta_clock.notna().sum()), 253)
+    c.equal("IPF - control beta, S9a = S10a",
+            bool(np.allclose(bl.beta_clock, mods.beta_IPF, atol=1e-8)), True)
+    c.equal("IPF - control beta, S9a = S11d (modules and composite)",
+            bool(np.allclose(sd.reindex(st.index).beta, st.beta_IPF, atol=1e-8)), True)
+    c.equal("FDR < 0.10 effects, S9a = S10a",
+            sorted(mods.index[mods.fdr_IPF < 0.10]), sorted(bl.index[bl.fdr_IPF < 0.10]))
+    ok = st.n_COPD >= 4
+    c.equal("IPF - COPD = beta_IPF_3grp - beta_COPD (same three-group model)",
+            bool(np.allclose(st.IPF_minus_COPD[ok], (st.beta_IPF_3grp - st.beta_COPD)[ok], atol=1e-10)), True)
+    hc = rev("rev06_hits_competitive.csv").set_index(["celltype", "module"])
+    c.equal("S10b t = S10a t", bool(np.allclose(hc.t_clock, bl.loc[hc.index, "t_clock"], atol=1e-10)), True)
+    c.equal("S10b competitive p = S10a competitive p (same draws)",
+            bool(np.allclose(hc.p_comp_random, bl.loc[hc.index, "p_competitive_random"]) and
+                 np.allclose(hc.p_comp_perm, bl.loc[hc.index, "p_competitive_perm"])), True)
+    sm = rev("rev06_ipf_baselines_summary.csv").iloc[0]
+    c.equal("S10c hit-level counts = S10b",
+            [int(sm.hits_beating_random_p05), int(sm.hits_beating_perm_p05),
+             int(sm.hits_beating_both_fdr10_within_hits), int(sm.hits_passing_all_three)],
+            [int((hc.p_comp_random < .05).sum()), int((hc.p_comp_perm < .05).sum()),
+             int(hc.module_specific.astype(bool).sum()), int(hc.passes_all_three.astype(bool).sum())])
+    mc = rev("rev07_masking_celltype.csv").set_index("celltype")
+    comp = st.xs("Composite", level="module")
+    c.equal("composite IPF effect per cell type, S11b = S9a",
+            bool(np.allclose(mc.delta_composite, comp.loc[mc.index, "beta_IPF"], atol=1e-8)), True)
+
+
+def check_filters_and_caveats(c: Checker) -> None:
+    c.section("Parallel filters, accuracy caveats and power (Sections 3.1-3.6)")
+    hc = rev("rev06_hits_competitive.csv")
+    for col in ("robust_inference", "IPF_specific", "module_specific"):
+        hc[col] = hc[col].astype(bool)
+    mac = hc.celltype.str.startswith("Macrophage")
+    c.equal("robust effects in macrophages or AM", int((hc.robust_inference & mac).sum()), 14)
+    c.equal("IPF-specific effects in macrophages or AM", int((hc.IPF_specific & mac).sum()), 12)
+    c.equal("module-specific effects in macrophages or AM", int((hc.module_specific & mac).sum()), 0)
+    old = (hc.n_COPD >= 4) & (hc.p_COPD > 0.05)
+    c.equal("indirect rule (COPD p > 0.05) effects", int(old.sum()), 15)
+    c.equal("... of which not IPF-specific in the direct test", int((old & ~hc.IPF_specific).sum()), 3)
+    low = hc.module.isin(["Heme metabolism", "Protein processing in ER"])
+    c.equal("effects from heme / ER modules", int(low.sum()), 5)
+    c.printed("macrophage VEGF vs permuted coefficients", hc.set_index(["celltype", "module"]).loc[
+        ("Macrophage", "VEGF signaling"), "p_comp_perm"], 0.05, 2)
+    cv = rev("rev02_species_cv.csv")
+    cv = cv[(cv.kind == "module") & (cv.outcome == "Mortality")].set_index("module").r_oof_all
+    c.printed("heme metabolism clock r", cv["Heme metabolism"], 0.15, 2)
+    c.printed("ER protein processing clock r", cv["Protein processing in ER"], 0.18, 2)
+    ca = rev("rev14_coef_agreement.csv")
+    rp = rev("rev14_published_reproduction.csv")
+    rp = rp[(rp.table == "5B module") & (rp.convention == "as_released") & (rp.outcome == "Mortality")]
+    m = ca[ca.outcome == "Mortality"].merge(rp[["module", "r_reported"]], left_on="color", right_on="module")
+    top = m.sort_values("r_reported").iloc[-1]
+    c.printed("largest reported mortality module r", top.r_reported, 0.77, 2)
+    c.printed("... retrained r of the same module", top.r_cv_retrained, 0.54, 2)
+    k = rev("rev04_klotho_modules.csv")
+    k = k[k.module != "Composite"]
+    c.equal("Klotho kidney modules at FDR < 0.10", int(((k.tissue == "Kidney") & (k.fdr_perm < .1)).sum()), 7)
+    c.equal("Klotho muscle modules at FDR < 0.10", int(((k.tissue == "Skeletal muscle") & (k.fdr_perm < .1)).sum()), 1)
+    g = rev("rev05b_gtex_validation.csv")
+    g = g[(g.outcome == "Mortality") & (g.module != "Composite")]
+    c.equal("GTEx module clocks with raw FDR < 0.10", int((g.fdr < .1).sum()), 14)
+    hs = rev("rev05_human_age_summary.csv").set_index(["dataset", "outcome"])
+    c.printed("HLCA composite raw median rho", hs.loc[("HLCA", "Mortality"), "composite_median_rho"], -0.25, 2)
+    from scipy.stats import norm
+    detectable = [np.tanh((norm.ppf(0.975) + norm.ppf(0.8)) / np.sqrt(n - 3)) for n in (38, 7)]
+    c.printed("detectable |rho| at n = 38 (80% power)", detectable[0], 0.44, 2)
+    c.printed("detectable |rho| at n = 7 (80% power)", detectable[1], 0.89, 2)
+    d = rev("rev01_depth_by_disease.csv").set_index(["celltype", "variable"])
+    c.printed("macrophage detected fraction, IPF", d.loc[("Macrophage", "detected_frac"), "median_IPF"], 0.61, 2)
+    c.printed("macrophage detected fraction, control", d.loc[("Macrophage", "detected_frac"), "median_Control"], 0.56, 2)
+    c.printed("macrophage detected fraction FDR", d.loc[("Macrophage", "detected_frac"), "fdr"], 0.013, 3)
+    c.printed("macrophage library size FDR", d.loc[("Macrophage", "lib_size"), "fdr"], 0.017, 3)
+    sp = rev("rev10_specific_effects.csv").set_index(["celltype", "module"])
+    c.printed("replication FDR, macrophage apoptosis", sp.loc[("Macrophage", "Apoptosis"), "fdr_H"], 0.20, 2)
+    c.printed("replication FDR, macrophage translation", sp.loc[("Macrophage", "Translation"), "fdr_H"], 0.20, 2)
+    cc = rev("rev10_coarse_concordance.csv").set_index("coarse")
+    c.equal("replication donors NK (IPF, control)", [int(cc.loc["NK", "n_IPF_H"]), int(cc.loc["NK", "n_Ctrl_H"])], [4, 5])
+    c.equal("replication donors T (IPF, control)", [int(cc.loc["T cell", "n_IPF_H"]), int(cc.loc["T cell", "n_Ctrl_H"])],
+            [6, 4])
+    c.equal("NK Vanderbilt-only r equals full r (all NK donors from Vanderbilt)",
+            bool(np.isclose(cc.loc["NK", "r_vanderbilt_only"], cc.loc["NK", "r"])), True)
+
+
 def revision(c: Checker) -> None:
     for f in (check_target, check_cohorts, check_rodent, check_klotho, check_human_age, check_masking,
-              check_celltype, check_replication, check_checklist_simulation, check_mil, check_package):
+              check_celltype, check_consistency, check_filters_and_caveats, check_replication,
+              check_checklist_simulation, check_mil, check_package):
         f(c)
 
 
@@ -618,7 +721,12 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--submission", action="store_true",
                     help="check the numbers of the original submission (v0.1.0) instead of the revision")
+    ap.add_argument("--r2", action="store_true",
+                    help="check the v0.3.0 manuscript against verify/claims_r2.csv")
     args = ap.parse_args()
+    if args.r2:
+        from verify_r2 import main as r2_main
+        return r2_main()
     c = Checker()
     (submission if args.submission else revision)(c)
     ok = c.report()

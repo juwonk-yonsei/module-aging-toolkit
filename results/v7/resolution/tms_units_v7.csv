@@ -1,0 +1,13 @@
+unit,score,beta,p,n,note,ci_lo,ci_hi,coef_mass_detected
+celltype:alveolar macrophage,composite_Mortality,0.3190412718952654,0.2530019635863637,,reused; model included sex,,,
+celltype:alveolar macrophage,composite_Chronological,0.0086466372827296,0.7685510797865543,,reused; model included sex,,,
+celltype:natural killer cell,composite_Mortality,0.1979631994797574,0.1980105258208295,,reused; model included sex,,,
+celltype:natural killer cell,composite_Chronological,0.1266814407512423,0.1563361353409241,,reused; model included sex,,,
+whole,composite_Mortality,1.294873537248257,0.004028461091588979,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.5075197798039948,2.082227294692519,0.9088297795572405
+whole,composite_Chronological,0.4358796686435344,0.0002088526856544566,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.25901114297821154,0.6127481943088573,0.9176612702046042
+whole_detection_limited,composite_Mortality,1.294873537248257,0.004028461091588979,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.5075197798039948,2.082227294692519,0.9088297795572405
+whole_detection_limited,composite_Chronological,0.4358796686435344,0.0002088526856544566,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.25901114297821154,0.6127481943088573,0.9176612702046042
+composition_only,composite_Mortality,0.6123097014243332,0.0664772719605092,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",-0.049381295810019044,1.2740006986586854,0.9088297795572405
+composition_only,composite_Chronological,0.27708228156685777,0.0230873710969726,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.04587641547615795,0.5082881476575576,0.9176612702046042
+expression_only,composite_Mortality,0.35787354864924803,0.032728519159454815,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.03527050074512694,0.6804765965533691,0.9088297795572405
+expression_only,composite_Chronological,0.09567312168412907,0.017066403021352542,14.0,"score ~ old + sex; 3-month vs 18/21/30-month, batch may differ",0.020649497934928665,0.17069674543332947,0.9176612702046042

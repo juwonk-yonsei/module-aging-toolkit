@@ -1,0 +1,19 @@
+key,facts,stored,file,match
+n_profiles,"4,539","4,539",training annotation rows 4539,True
+n_datasets,96,96,training annotation Source nunique 96,True
+f_curve,"[(0.0, 0.0), (0.1, 0.9), (0.25, 1.0), (0.5, 1.0), (1.0, 1.0)]","[(0.0, 0.0), (0.1, 0.9), (0.25, 1.0), (0.5, 1.0), (1.0, 1.0)]",results/v6/corruption/input_check_v6.csv,True
+f10_failed,18 of 20,18 of 20,results/v6/corruption/input_check_v6.csv,True
+n_estimable,249,249,results/v9/ipf_screen_funnels_v9.csv,True
+unestimable_n,4,4,results/v3/human/r5/score_informativeness.csv,True
+gse136831,"32 IPF, 28 control, 18 COPD donors","32 IPF, 28 control, 18 COPD donors",results/v3/human/s1_cohorts.csv,True
+S,0.221,0.221,results/v8/masking/masking_fixed_v8.csv,True
+N,0.023,0.023,results/v8/masking/masking_fixed_v8.csv,True
+n_comp_fdr,13,13,results/v3/human/r5/masking_global_r5.csv,True
+funnel,"[249, 10, 9, 2, 0]","[249, 10, 9, 2, 0]",results/v9/ipf_screen_funnels_v9.csv,True
+null_pass,"0 of 19,334","0 of 19,334",results/v9/screen_criteria_v9.csv,True
+whole_lung,58,58,results/v12/mouse_recovery_ci_v12.csv,True
+celltype_lo,2,2,results/v12/mouse_recovery_ci_v12.csv,True
+celltype_hi,15,15,results/v12/mouse_recovery_ci_v12.csv,True
+cross_r,"[('NK', 0.67), ('AT2', 0.37), ('T', 0.25), ('Ciliated', 0.15), ('Macrophage', 0.12), ('Monocyte', 0.0), ('B', -0.05)]","[('NK', 0.67), ('AT2', 0.37), ('T', 0.25), ('Ciliated', 0.15), ('Macrophage', 0.12), ('Monocyte', 0.0), ('B', -0.05)]",results/v3/human/r5/replication_detail_r5.csv,True
+nk_p,0.008,0.008,results/v3/human/r5/replication_detail_r5.csv,True
+n_sim_pairs,300,300,results/v3/human/s15_simulation_raw.csv,True

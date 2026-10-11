@@ -1,0 +1,5 @@
+category,n
+robust_and_module_specific,0
+robust_not_module_specific,2
+hit_not_robust,4
+not_a_hit,58

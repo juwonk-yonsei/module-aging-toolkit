@@ -1,0 +1,7 @@
+family,n_genes,top_module,top_module_annotation,top_share,null_median_top_share,p_concentration,n_modules_spanned,expected_annotation
+ribosomal (Rpl/Rps),72,allmodulegenes,,1.0,1.0,1.0,1,translation/ribosome
+OXPHOS (Nduf/Cox/Uqcr/Sdh/Atp5),83,allmodulegenes,,1.0,1.0,1.0,1,respiration/OxPhos
+interferon-stimulated,46,allmodulegenes,,1.0,1.0,1.0,1,interferon
+cell cycle,41,allmodulegenes,,1.0,1.0,1.0,1,cell cycle
+collagen (Col),12,allmodulegenes,,1.0,1.0,1.0,1,ECM
+heat shock (Hsp/Dnaj),19,allmodulegenes,,1.0,1.0,1.0,1,heat stress

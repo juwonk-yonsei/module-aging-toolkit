@@ -2,17 +2,21 @@
 # ---------------------------------------------------------------------------
 # setup.sh -- prepare the module-aging-toolkit for use.
 #
-# Fetches the third-party tAge dependency and the MGB/Zenodo module-clock
-# training data, then regenerates the retrained module clocks locally (so no
-# MGB-licensed model weights are redistributed by this repo). Public GEO/GTEx
-# raw data are NOT downloaded here -- see data/README.md.
+# v0.3.0 checks the checksums of the author-licensed inputs (Supplementary
+# Table S20) and does not retrain module clocks. The v0.2.0 retraining path
+# is withdrawn. Public GEO/GTEx raw data are not downloaded here.
 #
-# Usage:  bash setup.sh
+# Usage:  MAT_EXPRESSION=... MAT_CLOCKS=... MAT_TABLE5B=... bash setup.sh --verify-only
 # ---------------------------------------------------------------------------
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT"
+
+if [ "${1:-}" = "--verify-only" ]; then
+  python scripts/setup_v030.py --verify-only
+  exit $?
+fi
 
 TAGE_DIR="${TAGE_DIR:-$ROOT/third_party/tAge}"
 ZENODO_RECORD="18763485"
@@ -51,18 +55,13 @@ else
   echo "     data/clock_models/EN_*.pkl   (base tAge clocks)"
 fi
 
-# 4) Regenerate the retrained module clocks locally --------------------------
-if [ -f data/rodent/Expression_data_relative_rodents_Scaled.csv ] \
-   && [ -f data/supp/module_membership_rodent.csv ]; then
-  say "Retraining module clocks -> data/module_clocks/ (reproduces §3.1)"
-  MAT_ROOT="$ROOT" TAGE_DIR="$TAGE_DIR" python scripts/train_module_clocks.py
-else
-  echo "  Skipping training: Zenodo inputs not found yet (see step 3)."
-fi
+# 4) Checksums of the author-licensed inputs. No retraining. -----------------
+say "Checking S20 checksums (no download, no clock extraction)"
+python scripts/setup_v030.py --verify-only
 
 # 5) Sanity check ------------------------------------------------------------
-say "Verifying shipped results reproduce the manuscript numbers"
-python verify/verify_claims.py || true
+say "Verifying shipped results against the v0.3.0 claim table"
+python verify/verify_claims.py --r2 || true
 
 say "Done. Next:"
 echo "  * Reuse the method:  python examples/reuse_quickstart.py"

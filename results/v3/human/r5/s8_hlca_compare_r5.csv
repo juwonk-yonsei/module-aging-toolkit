@@ -1,0 +1,5 @@
+cohort,outcome,n_tests,n_celltypes,n_donors_min,n_donors_max,median_rho,fdr10_raw,fdr10_raw_negative,fdr10_adj
+donors_42,Chronological,253,11,14,38,-0.1860335474853304,8,8,0
+donors_42,Mortality,253,11,14,38,-0.1878016854772503,21,20,0
+donors_all,Chronological,253,11,26,71,-0.16760320276271906,0,0,0
+donors_all,Mortality,253,11,26,71,-0.16279542840584582,0,0,0

@@ -1,0 +1,2 @@
+B,seconds_per_draw,total_seconds,classical_median,classical_p2_5,classical_p97_5,both_median,both_p2_5,both_p97_5,percentile_official_12,percentile_amended_10,percentile_v020_30
+100,0.4368391871452332,43.69364786148071,19.0,7.475,32.0,13.0,5.475,21.0,15.0,6.0,95.0

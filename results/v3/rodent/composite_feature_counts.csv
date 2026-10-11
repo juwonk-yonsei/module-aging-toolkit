@@ -1,0 +1,5 @@
+outcome,n_nonzero,n_inside_official_modules,n_outside_official_modules,n_unmapped_among_nonzero,source,n_features
+Chronological,16517.0,2007,14510,14510.0,,
+Mortality,16760.0,2007,14753,14753.0,,
+Mortality,,1292,9195,,composite_pickle_features,10487.0
+Chronological,,1292,9195,,composite_pickle_features,10487.0

@@ -1,0 +1,24 @@
+colour,original_name,original_table,tage_short_name,n_genes,coherence_top_family,coherence_fraction,coherence_p,r_mortality,r_chronological,tier,exceeds_size_matched_random,manuscript_label_v020
+black,Muscle contraction / Cytoskeleton / Glycolysis,Table 6,Myogenesis,42,,,,0.2610731529246512,0.2492571481437236,2,False,Muscle contraction
+blue,Respiration / Mitochondrial translation,Table 6,Respiration,357,OXPHOS (Nduf/Cox/Uqcr/Sdh/Atp5),0.699,0.001,0.4011048551907889,0.4218028370091098,1,False,Respiration
+brown,Chromatin modification (1),Table 6,Chromatin modification (brown),255,,,,0.2999891882732842,0.3647957914022105,2,False,Chromatin modification (1)
+cyan,Heme metabolism / ROS pathway / Mitochondria,Table 6,Heme metabolism,20,,,,0.1644660130884114,0.2338406201274825,2,False,Heme metabolism
+darkgreen,VEGF signaling,Table 6,Cell adhesion,36,,,,0.1309231316429205,0.1882042119580914,2,False,VEGF signaling
+darkgrey,Protein processing in ER / UPR / mTOR signaling,Table 6,Protein processing,31,,,,0.1797313874817299,0.2595633615591977,2,False,Protein processing in ER
+darkorange,Lipid metabolism / PPAR signaling,Table 6,Lipid met,17,,,,0.1175908132593452,0.1091988872840967,2,False,Lipid met
+darkred,Cholesterol metabolism / mTOR signaling,Table 6,Cholesterol met (darkred),26,,,,0.0791435054268779,0.1338930885846569,2,False,Cholesterol met (darkred)
+green,Cell cycle / DNA replication,Table 6,Cell cycle,97,cell cycle,0.951,0.001,0.1328669603058052,0.1652321398900956,2,False,Cell cycle
+greenyellow,ECM organization / EMT,Table 6,ECM organization,59,collagen (Col),1.0,0.001,0.3936723297865138,0.4182490716485166,1,False,ECM organization
+grey60,Apoptosis / Nrf2 signaling / Proteasome,Table 6,Apoptosis,52,,,,0.2269958898784301,0.2289249378126396,2,False,Apoptosis
+lightgreen,Interferon signaling,Table 6,Interferon signaling,59,interferon-stimulated,0.783,0.001,0.4680891339903013,0.4697655292495031,1,False,Interferon signaling
+lightyellow,Nrf2 signaling / Proteasome,Table 6,Nrf2 signaling,16,,,,0.1543631001223534,0.2360018696656286,2,False,Nrf2 signaling
+magenta,Amino acid metabolism / Coagulation / Xenobiotic metabolism,Table 6,Amino acid met,54,,,,0.1548034891749521,0.1582831464987917,2,False,Amino acid met
+midnightblue,mRNA splicing,Table 6,mRNA splicing,52,,,,0.1685575569777671,0.2026908290414588,2,False,mRNA splicing
+orange,Fatty acid metabolism / Beta-oxidation,Table 6,Fatty acid met,30,,,,0.1357035352141257,0.1830781306714235,2,False,Fatty acid met
+pink,Adaptive immunity / T cell signaling,Table 6,Adaptive immunity,93,,,,0.4914747480822937,0.5578105179354192,1,False,Adaptive immunity
+red,Translation / Ribosome,Table 6,Translation,117,ribosomal (Rpl/Rps),0.931,0.001,0.2605942460085174,0.2825678673955303,2,False,Translation
+salmon,Cholesterol metabolism / Platelet degranulation,Table 6,Cholesterol met (salmon),12,,,,0.2577830757106963,0.2525628077687408,2,False,Cholesterol met (salmon)
+skyblue,Heat stress response,Table 6,Heat stress response,20,heat shock (Hsp/Dnaj),0.444,0.014,0.1322510932084036,0.179439931030384,2,False,Heat stress response
+tan,Oxidative phosphorylation / TCA cycle,Table 6,Oxidative phosphorylation,61,,,,0.0927875369257568,0.0784961601261109,2,False,OxPhos
+turquoise,Innate immunity / Inflammation,Table 6,Innate immunity,332,,,,0.6100783301178868,0.68298318198203,1,True,Innate immunity
+yellow,Chromatin modification (2),Table 6,Chromatin modification (yellow),169,,,,0.3386671553667776,0.3897132659105385,1,False,Chromatin modification (2)

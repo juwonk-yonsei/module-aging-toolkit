@@ -25,7 +25,11 @@ build/
 dist/
 .ipynb_checkpoints/
 .venv/
+.venv-*/
 venv/
+module_clock_bundle/
+data/clocks/
+data/official_clocks/
 
 # ---- os / editor ----
 .DS_Store

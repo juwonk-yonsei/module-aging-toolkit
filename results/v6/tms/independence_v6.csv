@@ -1,0 +1,3 @@
+dataset,in_training,n_samples,n_lung
+GSE132040 Schaum 2020 Tabula Muris Senis bulk,True,752,47
+"GSE124872 Angelidis 2019, including its bulk libraries",False,0,0

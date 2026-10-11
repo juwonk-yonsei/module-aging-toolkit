@@ -1,0 +1,3 @@
+outcome,n_genes,with_std,with_mean,scale_is_none,alpha,l1_ratio,intercept,n_warnings,warnings,max_abs_diff,n_inside_membership,n_outside_membership
+Mortality,10487,False,True,True,0.056234132519034905,0.0,0.15246413525003755,0,,3.941291737419306e-15,1292,9195
+Chronological,10487,False,True,True,0.001,0.19999999999999998,0.03211897213960977,0,,9.992007221626409e-16,1292,9195

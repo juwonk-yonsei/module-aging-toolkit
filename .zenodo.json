@@ -1,0 +1,30 @@
+{
+  "title": "module-aging-toolkit: a single-cell framework with built-in controls for module- and cell-type-resolved transcriptomic clocks",
+  "version": "0.3.0",
+  "license": "MIT",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Kang, Juwon",
+      "orcid": "0009-0009-2186-0038",
+      "affiliation": "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+    },
+    {
+      "name": "Jeon, Dongkyu",
+      "orcid": "0000-0002-1339-6388",
+      "affiliation": "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+    },
+    {
+      "name": "Choi, Junjeong",
+      "orcid": "0000-0003-1339-593X",
+      "affiliation": "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23229671",
+      "relation": "isVersionOf",
+      "resource_type": "software"
+    }
+  ]
+}

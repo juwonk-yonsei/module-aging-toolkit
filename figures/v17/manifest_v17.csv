@@ -1,0 +1,22 @@
+figure,panel,source,columns,note
+Fig2,a,results/v3/rodent/native_reproduction.csv; results/audit_module_mapping/stage2/b1_reproduction.csv,r_native; r_insample; r_reported,Mortality modules; spreadsheet convention as_released_na0; vertical line is the reported median
+Fig2,b,results/v10/coherence_null_band_v10.csv,top_share; null_p2_5; null_p97_5,"whisker is the null 2.5–97.5 percent; seed 0, 1000 label shuffles"
+Fig2,c,results/v6/corruption/input_check_v6.csv,f; set_failure_rate; ci_lo; ci_hi,Wilson interval; f = 0 is the serialized set; star is the spreadsheet
+Fig2,d,results/v10/corruption_screen_v10.csv,n_robust; n_program_pass; n_clock_pass,bars and ticks are means; points are replicates; line is the serialized robust count
+Fig2,e,results/v3/human/r5/scrambled_null_raw_r5.csv,hits_classical,100 scrambled memberships; lines at 10 serialized hits and 30 original-submission hits
+Fig3,a,results/v7/spikein/program_criteria_v7.csv,k; n,schematic
+Fig3,b,results/v12/fig3_categories_v12.csv,scenario; category; rate; denominator,S1a and S1b: planted module pairs; S2a: pairs in the three planted cell types; S4: all pairs
+Fig3,c,results/v12/fig3_bias_v12.csv,rate; ci_lo; ci_hi; hit_class; method,Solid bars are false hits (n = 293). Pale bars are hits in S1a and S1b planted module pairs. Wilson 95% CI.
+Fig3,d,results/v9/screen_mde_v9.csv,mde80,S1a; 11 cell types of the IPF grid; arrow means MDE80 > 2
+Fig3,e,results/v9/screen_mde_v9.csv,rate_d1; rate_d15; rate_d2,"pooled planted pairs; solid S1a, dashed S1b"
+Fig4,a,results/v3/rodent/klotho_official.csv; results/v12/klotho_noise_band_v12.csv,delta; p2_5; p97_5,bands are the 2.5–97.5% of WT-half differences after the 1/sqrt(2) six-versus-six scaling
+Fig4,b-left,results/v3/human/r5/s8_hlca_all_r5.csv,rho_adj; min_abs_rho_80power,Grey ticks are the uncorrected two-sided α = 0.05 Fisher-z |ρ| with 80% power
+Fig4,c,results/v12/mouse_recovery_ci_v12.csv,recovery; recovery_ci_lo; recovery_ci_hi,100% is the training expected shift; error bars are 95% CIs of the same fits
+Fig4,d,results/v12/fig4d_abs_v12.csv,contrib_ratio; rank_abs; additivity_ratio,"eight cell types with the largest absolute contributions, remainder pooled"
+Fig5,a,results/v3/human/r5/masking_global_r5.csv; results/v8/masking/masking_fixed_v8.csv; results/v10/masking_null_draws_v10.csv,value; ci_lo; ci_hi; fdr; delta_sum; composite_ci_lo; composite_ci_hi; S; N; MI,composite uses the donor-bootstrap interval; filled points are component FDR < 0.10; inset B = 2000
+Fig5,b,results/v9/ipf_screen_funnels_v9.csv,hit; robust; IPF_specific; program_pass_screen,pass is the program-level screen gate
+Fig5,c,results/v3/human/s11_standardized.csv; results/v3/human/r5/s9a_fdr_r5.csv; results/v3/human/r5/score_informativeness.csv,standardized; fdr_IPF; robust; IPF_specific; unestimable,four unestimable black-module tests are blank and hatched
+Fig5,d,results/v10/alveolar_green_donors_v10.csv,clock_score; unweighted_mean; mki67_fraction; disease,black lines are group means; x labels give the donor count
+Fig6,a,results/v3/human/r5/replication_detail_r5.csv; results/v10/concordance_null_band_v10.csv,r_centred; null_p2_5; null_p97_5; n_IPF_GSE136831; n_Control_GSE136831; n_IPF_GSE135893; n_Control_GSE135893,label is IPF+control in GSE136831 | IPF+control in GSE135893
+Fig6,b,results/v3/human/s15_confusion.csv,scenario and outcome columns,300 simulated pairs; cell text is the stored proportion
+Fig6,c,results/v3/human/s15_checklist_real.csv,coarse; attribution,outcome names match panel b; AT2 is not tested

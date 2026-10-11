@@ -1,0 +1,61 @@
+item_type,item,uses_module_definition,label,estimate,note
+script,scripts/train_module_clocks.py,membership,재실행 필요,not rerun,Retraining is disabled. Official clocks are the Zenodo bundle.
+script,scripts/module_clocks.py,scoring,재실행 필요,done in this instruction,module_scores now calls score_modules.
+script,scripts/revision/rev_common.py,scoring,재실행 필요,done in this instruction,load_module_clocks and score_modules read the bundle.
+script,scripts/revision/rev_02_species_cv.py,membership,재실행 필요,1-2 h if rerun with ElasticNetCV,Replaced here by scripts/v3/rodent_reanalysis.py.
+script,scripts/revision/rev_02b_allgene_benchmark.py,none,영향 없음,30-90 min if repeated,Full-transcriptome clock does not use module membership. Recomputed in v3 because the benchmark table includes it.
+script,scripts/revision/rev_03_module_correlation.py,scoring,재실행 필요,10 min,Rodent half recomputed. IPF half waits for the human rerun.
+script,scripts/revision/rev_04_klotho.py,scoring,재실행 필요,15 min,Recomputed in v3.
+script,scripts/revision/rev_05_human_age.py,scoring,재실행 필요,1-2 h,Not run. Next instruction.
+script,scripts/revision/rev_05b_gtex.py,scoring,재실행 필요,20 min,Recomputed in v3. Composite block is unchanged.
+script,scripts/revision/rev_06_baselines.py,scoring and membership,재실행 필요,2-4 h,Equal-weight rodent comparison recomputed. Human baselines wait.
+script,scripts/revision/rev_07_masking.py,membership,재실행 필요,1-2 h,Composite decomposition uses module membership.
+script,scripts/revision/rev_08_primary_model.py,scoring,재실행 필요,1 h,IPF cell-type tests. Not run.
+script,scripts/revision/rev_09_confounding.py,scoring,재실행 필요,1 h,Not run.
+script,scripts/revision/rev_10_replication.py,scoring and membership,재실행 필요,2-3 h,Not run.
+script,scripts/revision/rev_11_substate.py,scoring,재실행 필요,1 h,Not run.
+script,scripts/revision/rev_14_original_clocks.py,legacy Table 5B,문구만 수정,none,Still reads Table 5B through load_legacy_table5b for the historical comparison only.
+script,scripts/revision/rev_15_checklist_realdata.py,scoring,재실행 필요,1 h,Not run.
+script,scripts/revision/make_supplementary_tables.py,membership and coefficients,재실행 필요,after the human rerun,Gene lists now come from the bundle. Do not overwrite the current workbook until the human rerun exists.
+script,scripts/ipf_pipeline.py,composite only,영향 없음,none,Does not score modules.
+result,results/revision/rev02_species_cv.csv,module clocks,재실행 필요,see rodent_cv.csv,Superseded for rodent CV by results/v3/rodent/rodent_cv.csv.
+result,results/revision/rev03_meff.csv,module scores,재실행 필요,see module_corr_rodent.csv,Rodent half superseded. IPF half not recomputed.
+result,results/revision/rev04_klotho_*.csv,module clocks,재실행 필요,see klotho_official.csv,Superseded.
+result,results/revision/rev05b_gtex_validation.csv,module clocks plus composite,재실행 필요,see gtex_official.csv,Module rows change. Composite rows matched the v0.2.0 values.
+result,results/revision/rev07_masking_*.csv,membership,재실행 필요,1-2 h,Not recomputed.
+result,results/revision/rev08_celltype_stats.csv,module clocks,재실행 필요,1 h,Not recomputed. This is the (cell type and module) coefficient table the next instruction must keep consistent.
+result,composite IPF effect that does not split modules,composite pickle only,영향 없음,none,The composite model file was not replaced. GTEx composite correlations reproduced the v0.2.0 numbers.
+supplement,S1_Cohorts,no,영향 없음,none,Cohort description.
+supplement,S2a-S2c,no,영향 없음,none,Cell counts and depth. No module scores.
+supplement,S3a_Module_gene_weights,module genes and coefficients,재실행 필요,with the table rebuild,Current sheet is the retrained membership plus Table 5B coefficients.
+supplement,S3b_Module_models,module models,재실행 필요,with the table rebuild,Alphas and intercepts change to the official values.
+supplement,S4a-S4c,rodent module CV,재실행 필요,done in v3,Compare against rodent_cv.csv and rodent_benchmarks.csv.
+supplement,S5a-S5c,Table 5B comparison,문구만 수정,none,These sheets document the scrambled spreadsheet. They should be labeled as legacy and not as the clock definition.
+supplement,S6a-S6d,module correlation,재실행 필요,rodent half done,IPF correlation matrix waits for the human rerun.
+supplement,S7a-S7c,Klotho,재실행 필요,done in v3,See klotho_official.csv.
+supplement,S8a-S8b,human module age,재실행 필요,1-2 h,Not run.
+supplement,S8c_Age_GTEx,modules plus composite,재실행 필요,done in v3,Composite rows unchanged. Module rows recomputed.
+supplement,S8d_Age_summary,derived,재실행 필요,minutes after S8,Depends on the recomputed age tables.
+supplement,S9-S14,IPF and replication module tests,재실행 필요,4-8 h,Next instruction. Includes the cell-type by module coefficients.
+supplement,S15,checklist on module scores,재실행 필요,1 h,Next instruction.
+supplement,S16,MIL,문구만 수정,none if MIL does not use module scores,Confirm during the human rerun. No module membership in the MIL script name. Treat as wording unless a module score is an input.
+supplement,S17_Software,environment,문구만 수정,none,Record scikit-learn 1.3.2 for loading the official pickles.
+figure,Fig. 1,schematic,문구만 수정,none,Update the schematic if it names the scrambled membership as the clock.
+figure,Fig. 2,rodent CV,재실행 필요,plot only after rodent_cv.csv,Panels use rev02 out-of-fold correlations.
+figure,Fig. 3,composite decomposition,재실행 필요,1-2 h plus plotting,Uses module membership to split the composite.
+figure,Fig. 4,IPF cell-type effects,재실행 필요,after S9,Module by cell-type statistics.
+figure,Fig. 5,baselines and age,재실행 필요,after human rerun,Mixes module hits with other panels.
+figure,Fig. 6,replication,재실행 필요,after human rerun,Module effect vectors.
+figure,Fig. S1,supporting cohort or QC,영향 없음,none,No module score. Recheck the panel list before the next submission.
+figure,Fig. S2,supporting methods,문구만 수정,none,Recheck captions that cite Table 5B gene lists.
+figure,Fig. S3,module detail,재실행 필요,with the human rerun,Likely module-level.
+figure,Fig. S4,module correlation,재실행 필요,rodent half done,IPF half waits.
+figure,Fig. S5,Klotho or sensitivity,재실행 필요,Klotho numbers are ready,Other panels may wait for the human rerun.
+figure,Fig. S6,replication support,재실행 필요,after human rerun,Module concordance.
+manuscript,Methods module-clock definition,definition,문구만 수정,none,State that scores come from Zenodo 22166800 and that Table 5B labels are not the definition. Do not edit the manuscript in this instruction.
+manuscript,Methods rodent cross-validation and benchmarks,rodent results,재실행 필요,numbers ready,Replace out-of-fold figures after this table is accepted.
+manuscript,Methods and Results Klotho,module scores,재실행 필요,numbers ready,Direction is stronger. The count test is still not below 0.05.
+manuscript,Results module redundancy,module scores,재실행 필요,rodent numbers ready,Official modules are less correlated than the retrained clocks.
+manuscript,Results GTEx,composite and modules,문구만 수정,numbers ready,Composite sentences can stay. Module sentences need the new correlations.
+manuscript,Results IPF cell type and module,module scores,재실행 필요,next instruction,Every (cell type and module) coefficient has to be regenerated and kept identical across tables.
+manuscript,composite-only IPF and GTEx statements,composite pickle,영향 없음,none,Confirmed for GTEx composite. The same applies to an IPF contrast that uses only the composite score.

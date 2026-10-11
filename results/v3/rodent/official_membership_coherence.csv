@@ -1,0 +1,7 @@
+family,n_genes,top_module,top_module_annotation,top_share,null_median_top_share,p_concentration,n_modules_spanned,expected_annotation
+ribosomal (Rpl/Rps),72,red,Translation / Ribosome,0.931,0.194,0.001,4,translation/ribosome
+OXPHOS (Nduf/Cox/Uqcr/Sdh/Atp5),83,blue,Respiration / Mitochondrial translation,0.699,0.193,0.001,4,respiration/OxPhos
+interferon-stimulated,46,lightgreen,Interferon signaling,0.783,0.196,0.001,2,interferon
+cell cycle,41,green,Cell cycle / DNA replication,0.951,0.22,0.001,2,cell cycle
+collagen (Col),12,greenyellow,ECM organization / EMT,1.0,0.25,0.001,1,ECM
+heat shock (Hsp/Dnaj),18,skyblue,Heat stress response,0.444,0.222,0.014,6,heat stress

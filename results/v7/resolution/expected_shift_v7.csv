@@ -1,0 +1,3 @@
+outcome,target,predictor,filter,n,pearson_r,slope_per_month,angelidis_months,expected_shift
+Mortality,Difference.Hazard.log10,Difference.Chronological_age.days / (365.25/12),Species == Mouse and Intervention == Control,2860,0.9685273377254627,0.1012487179439344,21.0,2.1262230768226225
+Chronological,Difference.Chronological_age.Normalized_by_species_max_lifespan,Difference.Chronological_age.days / (365.25/12),Species == Mouse and Intervention == Control,2912,0.9999999999999986,0.020847602327630933,21.0,0.4377996488802496

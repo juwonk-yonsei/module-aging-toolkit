@@ -1,0 +1,24 @@
+module_colour,n_bundle,size_table6,annotation_table6,size_match
+black,42,42,Muscle contraction / Cytoskeleton / Glycolysis,True
+blue,357,357,Respiration / Mitochondrial translation,True
+brown,255,255,Chromatin modification (1),True
+cyan,20,20,Heme metabolism / ROS pathway / Mitochondria,True
+darkgreen,36,36,VEGF signaling,True
+darkgrey,31,31,Protein processing in ER / UPR / mTOR signaling,True
+darkorange,17,17,Lipid metabolism / PPAR signaling,True
+darkred,26,26,Cholesterol metabolism / mTOR signaling,True
+green,97,97,Cell cycle / DNA replication,True
+greenyellow,59,59,ECM organization / EMT,True
+grey60,52,52,Apoptosis / Nrf2 signaling / Proteasome,True
+lightgreen,59,59,Interferon signaling,True
+lightyellow,16,16,Nrf2 signaling / Proteasome,True
+magenta,54,54,Amino acid metabolism / Coagulation / Xenobiotic metabolism,True
+midnightblue,52,52,mRNA splicing,True
+orange,30,30,Fatty acid metabolism / Beta-oxidation,True
+pink,93,93,Adaptive immunity / T cell signaling,True
+red,117,117,Translation / Ribosome,True
+salmon,12,12,Cholesterol metabolism / Platelet degranulation,True
+skyblue,20,20,Heat stress response,True
+tan,61,61,Oxidative phosphorylation / TCA cycle,True
+turquoise,332,332,Innate immunity / Inflammation,True
+yellow,169,169,Chromatin modification (2),True

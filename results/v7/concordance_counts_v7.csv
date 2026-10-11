@@ -1,0 +1,2 @@
+item,n,module_specific,both_nulls_fdr10,random_gene_fdr10,perm_fdr10,random_only,passes_all_three,source
+v020_hits,30,10,10,20,10,10,1,results/revision/rev06_hits_competitive.csv

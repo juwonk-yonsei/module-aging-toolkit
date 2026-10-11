@@ -1,0 +1,5 @@
+item,population,k,n,rate,threshold,met,note,adoptable,weight_specific_mismatches,n_rows,n_files,seconds
+P1,S4 pairs,0,16207,0.0,0.01,True,program-level pass,False,0,338630,1050,2.826993465423584
+P2,"S2a hits, all cells",838,7872,0.10645325203252033,0.1,False,set-specific among hits,False,0,338630,1050,2.826993465423584
+P2_planted,S2a hits in planted cells,441,7234,0.060962123306607684,0.1,True,"descriptive, same population as instruction 6",False,0,338630,1050,2.826993465423584
+P3,S3 target pairs,1,2840,0.00035211267605633805,0.1,True,IPF-specific,False,0,338630,1050,2.826993465423584

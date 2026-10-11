@@ -1,0 +1,15 @@
+scope,contrast,rho,p,ribosomal_coef_fraction,note,n_IPF,n_Control
+Macrophage,spearman score vs lib_size,0.2810052600818236,0.031090947701605292,0.5963616324381255,,,
+Macrophage,spearman score vs detected_fraction,,,0.5963616324381255,,,
+Macrophage,mitochondrial fraction,,,0.5963616324381255,pseudobulk table has no mitochondrial fraction,,
+cMonocyte,spearman score vs lib_size,0.5057384475989126,0.0005410672648964257,0.5963616324381255,,,
+cMonocyte,spearman score vs detected_fraction,,,0.5963616324381255,,,
+cMonocyte,mitochondrial fraction,,,0.5963616324381255,pseudobulk table has no mitochondrial fraction,,
+ncMonocyte,spearman score vs lib_size,0.356140350877193,0.1345057418260472,0.5963616324381255,,,
+ncMonocyte,spearman score vs detected_fraction,,,0.5963616324381255,,,
+ncMonocyte,mitochondrial fraction,,,0.5963616324381255,pseudobulk table has no mitochondrial fraction,,
+global,CR1 coefficient,1.473447981181703,,0.5963616324381255,,,
+GSE135893:Macrophages,mean IPF minus control,0.09594986406264838,,0.5963616324381255,,12.0,9.0
+GSE135893:Monocytes,mean IPF minus control,-1.7544464653968972,,0.5963616324381255,,6.0,6.0
+GSE135893:Proliferating Macrophages,mean IPF minus control,0.995776513647988,,0.5963616324381255,,3.0,1.0
+GSE134692,mean IPF minus control,0.2805803512113798,,0.5963616324381255,,,

@@ -1,0 +1,6 @@
+item,reason
+HLCA eligible donors before the cell-count filter,The analyzed donor table is pseudobulk_meta.csv. The count of donors who met the disease and age rules before the 50-cell filter is not saved in that table.
+"Per-cell-type detected module genes with denominator 2,007","Only the all-cell-type intersection, 1,025 of 2,007, is stored. The per-cell-type table uses denominator 1,995."
+GSE136831 control within-cell-type age correlations,The stored table rev05_adams_control_age.csv uses the original-submission module names. It was not copied.
+Random-split mean correlations printed as −0.02 versus 0.03,The stored random-split correlations are the two sub-state rows in substate_concordance_r5.csv. That pair of means is not a column.
+Zenodo composite-clock file md5,The stored Zenodo checksums are the expression archive and the rodent module-clock archive. A separate composite-clock checksum is not in those records.

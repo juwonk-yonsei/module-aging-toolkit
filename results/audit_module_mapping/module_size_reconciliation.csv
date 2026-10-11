@@ -1,0 +1,29 @@
+module_colour,annotation_table6,size_table6,mean_r_table4,n_nonzero_table5b,n_pipeline,retained_in_pipeline
+black,Muscle contraction / Cytoskeleton / Glycolysis,42,0.42660305087584904,42,42,True
+blue,Respiration / Mitochondrial translation,357,0.6957799258930866,357,357,True
+brown,Chromatin modification (1),255,0.6679432143900921,191,246,True
+cyan,Heme metabolism / ROS pathway / Mitochondria,20,0.32258350651159695,19,20,True
+darkgreen,VEGF signaling,36,0.401649243997648,28,34,True
+darkgrey,Protein processing in ER / UPR / mTOR signaling,31,0.4243068170573665,31,31,True
+darkorange,Lipid metabolism / PPAR signaling,17,0.317994511604183,15,16,True
+darkred,Cholesterol metabolism / mTOR signaling,26,0.3193905186823125,26,26,True
+darkturquoise,Coagulation / Xenobiotic metabolism,14,0.252827448025155,0,0,False
+green,Cell cycle / DNA replication,97,0.5045308472227695,97,97,True
+greenyellow,ECM organization / EMT,59,0.597015398403806,59,59,True
+grey60,Apoptosis / Nrf2 signaling / Proteasome,52,0.434080598124727,46,52,True
+lightcyan,Circadian clock,17,0.2393303176441745,0,0,False
+lightgreen,Interferon signaling,59,0.6021516469166315,59,59,True
+lightyellow,Nrf2 signaling / Proteasome,16,0.32778187863186803,16,16,True
+magenta,Amino acid metabolism / Coagulation / Xenobiotic metabolism,54,0.39276577709527905,54,54,True
+midnightblue,mRNA splicing,52,0.463485658284414,48,52,True
+orange,Fatty acid metabolism / Beta-oxidation,30,0.4066882362587265,30,30,True
+pink,Adaptive immunity / T cell signaling,93,0.6695988796448256,93,93,True
+purple,-,67,,0,0,False
+red,Translation / Ribosome,117,0.537767995294133,117,117,True
+royalblue,-,12,,0,0,False
+salmon,Cholesterol metabolism / Platelet degranulation,12,0.3964194977077955,12,12,True
+skyblue,Heat stress response,20,0.4006389977202815,20,20,True
+tan,Oxidative phosphorylation / TCA cycle,61,0.4567728365923815,61,61,True
+turquoise,Innate immunity / Inflammation,332,0.7942905423027165,332,332,True
+white,Nuclear lamina depolymerization,24,0.283155798548552,0,0,False
+yellow,Chromatin modification (2),169,0.6080854307502814,169,169,True

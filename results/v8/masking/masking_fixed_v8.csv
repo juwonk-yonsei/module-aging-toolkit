@@ -1,0 +1,26 @@
+level,celltype,n_components,n_rows,S,N,MI,delta_sum,p_S,p_N,p_MI,S_ci_lo,S_ci_hi,N_ci_lo,N_ci_hi,MI_ci_lo,MI_ci_hi,composite_ci_lo,composite_ci_hi,S_modules_only,N_outside,r5_S,r5_N,r5_MI,r5_p_S,r5_p_N,r5_p_MI,v020_S,v020_N,v020_MI,v020_p_S,v020_p_N,v020_p_MI,S_matches_module_only,N_matches_outside,component,official_name,delta
+global,,24.0,401.0,0.2205631054422136,0.02330894265328426,0.8943207541145585,-0.02330894265328426,0.0009995002498750624,0.6581709145427287,0.1409295352323838,0.15636873217993766,0.4183578235388353,0.0027532610823948703,0.17795283600107092,0.3059178729473456,0.9890553413207447,-0.15870577858697968,0.15480126775389097,0.18489375966901794,0.035669345773195686,0.1848937596690179,0.0356693457731956,0.8070819380975967,0.0004997501249375,0.408295852073963,0.2503748125937031,0.2165703518927588,0.023308942653298,0.8923724210189208,0.000999500249875,0.6476761619190404,0.12143928035982,True,True,,,
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,black,Muscle contraction / Cytoskeleton / Glycolysis,-0.0012561763447891288
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blue,Respiration / Mitochondrial translation,-0.01035289576900673
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,brown,Chromatin modification (1),-0.02410465380605605
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,cyan,Heme metabolism / ROS pathway / Mitochondria,-0.009769915240772656
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,darkgreen,VEGF signaling,-0.0013485426020321645
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,darkgrey,Protein processing in ER / UPR / mTOR signaling,0.00509555220824344
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,darkorange,Lipid metabolism / PPAR signaling,0.00455865110501529
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,darkred,Cholesterol metabolism / mTOR signaling,-0.0030525353855105366
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,green,Cell cycle / DNA replication,-0.01651567968688027
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greenyellow,ECM organization / EMT,-0.023384258862556285
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,grey60,Apoptosis / Nrf2 signaling / Proteasome,-0.00040285829349981123
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lightgreen,Interferon signaling,0.0010157481583525079
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lightyellow,Nrf2 signaling / Proteasome,0.003315216956805336
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,magenta,Amino acid metabolism / Coagulation / Xenobiotic metabolism,0.005002173805269835
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,midnightblue,mRNA splicing,-0.004994605124481691
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,orange,Fatty acid metabolism / Beta-oxidation,-0.00012232685198532118
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pink,Adaptive immunity / T cell signaling,-0.012671968943230156
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,red,Translation / Ribosome,0.005950717604869194
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,salmon,Cholesterol metabolism / Platelet degranulation,-0.0015634243743231752
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,skyblue,Heat stress response,-0.0005194717824932888
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,tan,Oxidative phosphorylation / TCA cycle,-0.0023396239165865023
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,turquoise,Innate immunity / Inflammation,0.03801967578271338
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yellow,Chromatin modification (2),-0.009537087063545169
+component,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,outside,,0.035669345773195686

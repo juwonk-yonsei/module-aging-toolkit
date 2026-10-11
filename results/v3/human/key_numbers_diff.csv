@@ -1,0 +1,58 @@
+manuscript_location,claim,old_value,new_value
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","mortality module clocks, minimum r",0.15,0.0791
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","mortality module clocks, maximum r",0.54,0.6101
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","mortality module clocks, median r",0.40,0.1797
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","chronological module clocks, minimum r",0.16,0.0785
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","chronological module clocks, maximum r",0.60,0.6830
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","chronological module clocks, median r",0.44,0.2360
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)",mortality modules exceeding all random draws,8,1
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)",chronological modules exceeding all random draws,10,2
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","median r, mouse test samples",0.40,0.1956
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","median r, rat test samples",0.49,0.2757
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","median r, mouse-trained -> rat",0.51,0.2988
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","median r, rat-trained -> mouse",0.33,0.1836
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)","median r, within-rat leave-one-dataset-out",0.39,0.2222
+"Rodent cross-validation (Section 3.1, Fig. 2a-b, Supplementary Table S4)",check_rodent,KeyError: 'Protein processing in ER',not compared
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",HLCA median rho,-0.17,-0.1878
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",HLCA FDR < 0.10 before adjustment,14,21
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)","HLCA FDR < 0.10 before adjustment, negative",13,20
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",GSE136831 controls median rho,0.04,0.0044
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",HLCA vs GSE136831 concordance rho,0.09,-0.016
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",HLCA vs GSE136831 concordance p,0.22,0.824
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",GTEx modules FDR < 0.05 before adjustment,14,12
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",... of which positive,6,10
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",GTEx modules FDR < 0.05 after adjustment,0,2
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",GTEx largest adjusted module,Adaptive immunity,Respiration
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)",GTEx largest adjusted rho,0.11,0.1580
+"Human age (Section 3.3, Fig. 2d, Supplementary Table S8)","GTEx largest adjusted rho, FDR",0.12,0.0032
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",training median |rho|,0.62,0.3675
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",training effective number (Li-Ji),10,15.00
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",training effective number (Nyholt),15,19.52
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",IPF median |rho|,0.13,0.0639
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",IPF effective number (Li-Ji),19,22.00
+"Module correlation (Section 3.3, Supplementary Fig. S4, Table S6)",IPF effective number (Nyholt),22,22.72
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","FDR < 0.10, classical errors",30,12
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","FDR < 0.10, HC3",23,15
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","FDR < 0.10, permutation",29,11
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","FDR < 0.10, all three",23,10
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",IPF-specific (direct IPF-COPD contrast),13,2
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",IPF-specific under the previous rule,15,6
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","global modules at FDR < 0.10, CR1",6,1
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","global modules at FDR < 0.10, wild bootstrap",2,1
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)","global modules at FDR < 0.10, mixed model",6,2
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",effects in macrophages,8,4
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",effects in alveolar macrophages,7,1
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",IPF-specific effects in macrophages or alveolar macrophages,12,2
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",remaining IPF-specific effect,"[('NK', 'ECM organization')]",[]
+"Cell-type effects (Section 3.5, Fig. 4, Supplementary Table S9a)",check_celltype,"KeyError: ('NK', 'Cell cycle')",not compared
+"Parallel filters, accuracy caveats and power (Sections 3.1-3.6)",heme metabolism clock r,0.15,0.1645
+"Parallel filters, accuracy caveats and power (Sections 3.1-3.6)",check_filters_and_caveats,KeyError: 'Protein processing in ER',not compared
+"Checklist simulation (Section 3.8, Fig. 6d, Supplementary Methods S3, Table S15a)",sub-state composition -> composition,0.97,0.8867
+"Checklist simulation (Section 3.8, Fig. 6d, Supplementary Methods S3, Table S15a)",confound in one cohort -> between-cohort difference,0.99,0.9733
+"Checklist simulation (Section 3.8, Fig. 6d, Supplementary Methods S3, Table S15a)",check_checklist_simulation,KeyError: 'null',not compared
+"Attention MIL, negative result (Section 3.8, Supplementary Results, Table S16)",check_mil,FileNotFoundError: [Errno 2] No such file or directory: 'results/v3/human/for_verify/mil/stage3_within_label_raw.csv',not compared
+"Attention MIL (Section 3.8, Table S16)",MIL was not rerun,v0.2.0 tables left in place,not rerun
+Checklist simulation (Section 3.8),no effect -> inconclusive (low reliability),0.94,0.923
+Checklist simulation (Section 3.8),weak shared effect -> replicated,0.50,0.493
+Checklist simulation (Section 3.8),weak shared effect -> between-cohort difference,0.41,0.393
+Consistency (step 11),primary coefficients identical across S9a S10 S11 S12-main S13b S14,required,0 mismatches at 1e-8; S10 beta gap 8.9e-16

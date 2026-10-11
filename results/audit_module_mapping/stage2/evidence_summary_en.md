@@ -1,0 +1,25 @@
+# Gene labels in Supplementary Table 5B do not reproduce the module clocks
+
+We have not contacted the authors. This note records what we can recompute from the public files.
+
+## What we observe
+
+Supplementary Table 5B (MOESM7, sheet `(B) Module rodent clocks`, md5 `990a4d6cc6a9aaa892606f47fa2e1731`) lists 2,141 genes and coefficients for 23 module clocks plus an all-module-gene clock. Applied to `Expression_data_relative_rodents_Scaled.csv` (Zenodo 18763485, md5 `c283869cf69e35afa200c6a6fc281519`; 18,286 genes by 4,539 samples), with non-finite expression set to 0, in-sample Pearson r is about 0.04 for the 23 modules and 0.206–0.222 for the all-module clock. Supplementary Table 4B reports about 0.42 (modules; median of the published module clocks is in that range) and 0.881–0.904 (all-module). The same procedure on Supplementary Table 5A, rodent multi-tissue scaled composite clocks, gives r = 0.998 (mortality; `Difference.Hazard.log10`) and 0.983 (chronological age; `Difference.Chronological_age.Normalized_by_species_max_lifespan`). Those in-sample values sit above the Table 4A test-set figures (0.939 and 0.951).
+
+Among genes with a non-zero Table 5B coefficient, the sign of the coefficient matches the sign of the gene–target correlation 51.1% of the time for the mortality all-module clock (permutation p = 0.208; 100 shuffles of gene labels). Twenty-two of 23 modules are consistent with that null. The Table 5A composite matches on 56.3% of genes (59.8% when weighted by |coefficient|).
+
+Genes with a non-zero coefficient in a Table 5B module have mean pairwise correlation r̄ = 0.021 (median across 23 modules) on the 4,539 samples. Against random sets of the same size drawn from the 2,141 genes, no module has z > 3. Canonical gene families (ribosome, OXPHOS, interferon, cell cycle, collagen, heat shock) are spread across modules at rates consistent with a random assignment. Non-zero entries are not stored as one contiguous block per module, the gene column is not sorted by Entrez or symbol, and the sheet has no hidden rows, filters, or formulas. Shifting or re-sorting the gene column by Entrez, symbol, the expression-matrix order, or the Table 5A order does not raise sign concordance above the null in any substantial way.
+
+A second public object does reproduce the clocks. The tAge package (`R/clocks.R`) downloads `Rodent module clocks.zip` from Zenodo record 22166800 (md5 `be9234547aacfbb2e83f0f1c5e44b3bd`). Each pickle names the genes in `feature_names_in_`. Those 23 gene sets (2,007 genes) match the module sizes in Supplementary Table 6B, and the skyblue set contains heat-shock genes (Hspa1a, Hspa8, Hsp90ab1, Dnajb1, and others). Dot products of the stored elastic-net coefficients with the same expression matrix give median in-sample r = 0.44 for the 23 modules and 0.892 / 0.913 for the all-module clock (mortality / chronological), next to the Table 4B figures 0.881 / 0.904. Median sign concordance is 0.71 (0.82 weighted by |coefficient|). Median pairwise correlation within a module is 0.385, and all 23 modules exceed z = 3 against both the module-gene pool and the full 18,286-gene pool. Five of six canonical families concentrate in the expected module at the resolution limit of a 1,000-permutation test (p = 0.001); heat shock is enriched in skyblue (top share 0.44, p = 0.014).
+
+The pickle gene sets and the Table 5B non-zero sets for the same colour have median Jaccard index 0.011. No global shift of the Table 5B gene column recovers the pickle sets (best median Jaccard 0.028).
+
+## Files and procedure
+
+Expression and sample annotation are the Zenodo 18763485 files above. Targets are the annotation columns `Difference.Hazard.log10` and `Difference.Chronological_age.Normalized_by_species_max_lifespan`. Every test filled non-finite expression with 0. Module scores are the dot product of that matrix with the published coefficients, with and without standardizing each gene across samples. Pairwise correlation uses genes standardized with the population standard deviation so that the mean of the k(k−1) pairs equals (Σ_s (Σ_g Z_gs)² / n − k) / (k(k−1)). Permutation seeds were 20260808. We did not use the module-aging-toolkit analysis code. Pickles were read with scikit-learn 1.2.2; they were written with 1.3.2. Scores that reuse the pickled scaler were NaN; scores that use only `feature_names_in_` and `coef_` were finite.
+
+## Questions
+
+1. Are the Entrez IDs and symbols in Supplementary Table 5B paired with the coefficient columns that were used to train the clocks in `Rodent module clocks.zip`, or were the label rows and the coefficient rows assembled separately?
+2. Which object should a reader use to reproduce Table 4B: the spreadsheet, or the pickled pipelines on Zenodo 22166800?
+3. Can you release the 28-module gene membership (colour per Entrez) that underlies Table 6B? The spreadsheet and the zip both omit a standalone membership table, and five colours (purple, royalblue, white, lightcyan, darkturquoise) have no clock column in Table 5B.

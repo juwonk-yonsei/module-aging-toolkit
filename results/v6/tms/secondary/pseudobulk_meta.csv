@@ -1,0 +1,83 @@
+key,mouse,celltype,n_cells,age_months,old,sexM,sex
+18-F-50||B cell,18-F-50,B cell,92,18,1,0.0,female
+18-F-51||B cell,18-F-51,B cell,180,18,1,0.0,female
+"18-F-51||CD8-positive, alpha-beta T cell",18-F-51,"CD8-positive, alpha-beta T cell",57,18,1,0.0,female
+18-F-51||alveolar macrophage,18-F-51,alveolar macrophage,91,18,1,0.0,female
+18-F-51||bronchial smooth muscle cell,18-F-51,bronchial smooth muscle cell,194,18,1,0.0,female
+18-F-51||classical monocyte,18-F-51,classical monocyte,123,18,1,0.0,female
+18-F-51||fibroblast of lung,18-F-51,fibroblast of lung,75,18,1,0.0,female
+18-F-51||mature NK T cell,18-F-51,mature NK T cell,97,18,1,0.0,female
+18-F-51||natural killer cell,18-F-51,natural killer cell,55,18,1,0.0,female
+18-F-51||non-classical monocyte,18-F-51,non-classical monocyte,62,18,1,0.0,female
+18-M-52||B cell,18-M-52,B cell,111,18,1,1.0,male
+"18-M-52||CD8-positive, alpha-beta T cell",18-M-52,"CD8-positive, alpha-beta T cell",79,18,1,1.0,male
+18-M-52||alveolar macrophage,18-M-52,alveolar macrophage,50,18,1,1.0,male
+18-M-52||bronchial smooth muscle cell,18-M-52,bronchial smooth muscle cell,289,18,1,1.0,male
+18-M-52||classical monocyte,18-M-52,classical monocyte,474,18,1,1.0,male
+18-M-52||neutrophil,18-M-52,neutrophil,307,18,1,1.0,male
+18-M-53||B cell,18-M-53,B cell,117,18,1,1.0,male
+"18-M-53||CD8-positive, alpha-beta T cell",18-M-53,"CD8-positive, alpha-beta T cell",86,18,1,1.0,male
+18-M-53||bronchial smooth muscle cell,18-M-53,bronchial smooth muscle cell,227,18,1,1.0,male
+18-M-53||classical monocyte,18-M-53,classical monocyte,345,18,1,1.0,male
+18-M-53||fibroblast of lung,18-M-53,fibroblast of lung,51,18,1,1.0,male
+18-M-53||neutrophil,18-M-53,neutrophil,96,18,1,1.0,male
+21-F-54||B cell,21-F-54,B cell,156,21,1,0.0,female
+"21-F-54||CD4-positive, alpha-beta T cell",21-F-54,"CD4-positive, alpha-beta T cell",50,21,1,0.0,female
+"21-F-54||CD8-positive, alpha-beta T cell",21-F-54,"CD8-positive, alpha-beta T cell",198,21,1,0.0,female
+21-F-54||bronchial smooth muscle cell,21-F-54,bronchial smooth muscle cell,339,21,1,0.0,female
+21-F-54||classical monocyte,21-F-54,classical monocyte,104,21,1,0.0,female
+21-F-54||natural killer cell,21-F-54,natural killer cell,118,21,1,0.0,female
+21-F-54||non-classical monocyte,21-F-54,non-classical monocyte,74,21,1,0.0,female
+21-F-54||vein endothelial cell,21-F-54,vein endothelial cell,51,21,1,0.0,female
+21-F-55||B cell,21-F-55,B cell,258,21,1,0.0,female
+"21-F-55||CD4-positive, alpha-beta T cell",21-F-55,"CD4-positive, alpha-beta T cell",57,21,1,0.0,female
+"21-F-55||CD8-positive, alpha-beta T cell",21-F-55,"CD8-positive, alpha-beta T cell",137,21,1,0.0,female
+21-F-55||alveolar macrophage,21-F-55,alveolar macrophage,52,21,1,0.0,female
+21-F-55||bronchial smooth muscle cell,21-F-55,bronchial smooth muscle cell,331,21,1,0.0,female
+21-F-55||classical monocyte,21-F-55,classical monocyte,138,21,1,0.0,female
+21-F-55||fibroblast of lung,21-F-55,fibroblast of lung,59,21,1,0.0,female
+21-F-55||natural killer cell,21-F-55,natural killer cell,109,21,1,0.0,female
+21-F-55||non-classical monocyte,21-F-55,non-classical monocyte,120,21,1,0.0,female
+21-F-55||vein endothelial cell,21-F-55,vein endothelial cell,56,21,1,0.0,female
+3-F-56||alveolar macrophage,3-F-56,alveolar macrophage,51,3,0,0.0,female
+3-F-56||bronchial smooth muscle cell,3-F-56,bronchial smooth muscle cell,50,3,0,0.0,female
+3-F-56||classical monocyte,3-F-56,classical monocyte,51,3,0,0.0,female
+3-F-57||B cell,3-F-57,B cell,130,3,0,0.0,female
+"3-F-57||CD4-positive, alpha-beta T cell",3-F-57,"CD4-positive, alpha-beta T cell",108,3,0,0.0,female
+"3-F-57||CD8-positive, alpha-beta T cell",3-F-57,"CD8-positive, alpha-beta T cell",61,3,0,0.0,female
+3-F-57||alveolar macrophage,3-F-57,alveolar macrophage,74,3,0,0.0,female
+3-F-57||bronchial smooth muscle cell,3-F-57,bronchial smooth muscle cell,104,3,0,0.0,female
+3-F-57||classical monocyte,3-F-57,classical monocyte,60,3,0,0.0,female
+3-F-57||natural killer cell,3-F-57,natural killer cell,165,3,0,0.0,female
+3-F-57||non-classical monocyte,3-F-57,non-classical monocyte,113,3,0,0.0,female
+3-M-5/6||adventitial cell,3-M-5/6,adventitial cell,95,3,0,1.0,male
+3-M-5/6||fibroblast of lung,3-M-5/6,fibroblast of lung,302,3,0,1.0,male
+3-M-5/6||natural killer cell,3-M-5/6,natural killer cell,68,3,0,1.0,male
+3-M-7/8||adventitial cell,3-M-7/8,adventitial cell,263,3,0,1.0,male
+3-M-7/8||alveolar macrophage,3-M-7/8,alveolar macrophage,73,3,0,1.0,male
+3-M-7/8||fibroblast of lung,3-M-7/8,fibroblast of lung,804,3,0,1.0,male
+3-M-7/8||natural killer cell,3-M-7/8,natural killer cell,263,3,0,1.0,male
+3-M-7/8||pulmonary interstitial fibroblast,3-M-7/8,pulmonary interstitial fibroblast,136,3,0,1.0,male
+30-M-2||alveolar macrophage,30-M-2,alveolar macrophage,145,30,1,1.0,male
+30-M-2||classical monocyte,30-M-2,classical monocyte,5383,30,1,1.0,male
+30-M-2||intermediate monocyte,30-M-2,intermediate monocyte,1346,30,1,1.0,male
+30-M-2||lung macrophage,30-M-2,lung macrophage,1060,30,1,1.0,male
+30-M-3||B cell,30-M-3,B cell,79,30,1,1.0,male
+"30-M-3||CD4-positive, alpha-beta T cell",30-M-3,"CD4-positive, alpha-beta T cell",76,30,1,1.0,male
+"30-M-3||CD8-positive, alpha-beta T cell",30-M-3,"CD8-positive, alpha-beta T cell",76,30,1,1.0,male
+30-M-3||bronchial smooth muscle cell,30-M-3,bronchial smooth muscle cell,137,30,1,1.0,male
+30-M-3||classical monocyte,30-M-3,classical monocyte,547,30,1,1.0,male
+30-M-3||intermediate monocyte,30-M-3,intermediate monocyte,104,30,1,1.0,male
+30-M-3||mature NK T cell,30-M-3,mature NK T cell,147,30,1,1.0,male
+30-M-3||natural killer cell,30-M-3,natural killer cell,81,30,1,1.0,male
+30-M-3||non-classical monocyte,30-M-3,non-classical monocyte,155,30,1,1.0,male
+30-M-4||B cell,30-M-4,B cell,127,30,1,1.0,male
+"30-M-4||CD8-positive, alpha-beta T cell",30-M-4,"CD8-positive, alpha-beta T cell",77,30,1,1.0,male
+30-M-4||alveolar macrophage,30-M-4,alveolar macrophage,83,30,1,1.0,male
+30-M-4||bronchial smooth muscle cell,30-M-4,bronchial smooth muscle cell,196,30,1,1.0,male
+30-M-4||classical monocyte,30-M-4,classical monocyte,96,30,1,1.0,male
+30-M-4||non-classical monocyte,30-M-4,non-classical monocyte,67,30,1,1.0,male
+30-M-5||B cell,30-M-5,B cell,85,30,1,1.0,male
+30-M-5||bronchial smooth muscle cell,30-M-5,bronchial smooth muscle cell,89,30,1,1.0,male
+30-M-5||classical monocyte,30-M-5,classical monocyte,62,30,1,1.0,male
+30-M-5||non-classical monocyte,30-M-5,non-classical monocyte,65,30,1,1.0,male

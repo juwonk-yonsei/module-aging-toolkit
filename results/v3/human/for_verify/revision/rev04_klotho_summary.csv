@@ -1,0 +1,3 @@
+tissue,n_modules,n_positive,p_count_exact,null_count_median,composite_delta,n_positive_both_tissues,wtwt_median_abs_delta,obs_median_abs_delta
+Kidney,23,9,0.7813852813852814,11.5,0.6456319015943182,7,0.08683806794553817,0.16907717048684356
+Skeletal muscle,23,13,0.4491341991341991,11.5,0.6105682909459292,7,0.15933965572967285,0.16096930888897157

@@ -1,0 +1,9 @@
+path,needles,overwritten
+results/v6/spikein/parts/S1b_d1.0_r20.csv,0.807081,False
+results/v6/spikein/parts/S1a_d1.0_r28.csv,0.807081,False
+results/v6/spikein/parts/S1a_d1.5_r02.csv,0.807081,False
+results/v6/spikein/parts/S1b_d2.0_r24.csv,0.807081,False
+results/v7/headline_v7.csv,"0.035669,0.807081",False
+results/v3/human/r5/masking_global_r5.csv,"0.035669,0.807081",False
+results/v3/human/r5/masking_summary_r5.csv,"0.035669,0.807081",False
+results/v7/headline_v7.csv,"0.035669,0.807081",False

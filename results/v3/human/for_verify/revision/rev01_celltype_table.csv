@@ -1,0 +1,14 @@
+celltype,in_coverage_set,in_statistics_set,donors_Control,cells_median_Control,cells_total_Control,donors_IPF,cells_median_IPF,cells_total_IPF,donors_COPD,cells_median_COPD,cells_total_COPD
+B,True,True,7,122.0,881,22,135.5,4216,13,110.0,2190
+Ciliated,True,True,8,92.0,838,30,197.5,7404,7,93.0,682
+Fibroblast,True,True,4,144.0,563,10,97.0,1013,1,65.0,65
+Macrophage,True,True,27,830.0,40723,32,1747.5,60483,17,420.0,7753
+Macrophage_Alveolar,True,True,26,533.5,23885,29,707.0,27334,16,1109.0,23204
+NK,True,True,15,87.0,2551,23,155.0,3821,15,231.0,4551
+T,True,True,10,228.5,4026,24,188.5,4883,17,241.0,6604
+T_Cytotoxic,True,True,13,250.0,3793,28,145.5,6226,15,294.0,6006
+cDC2,True,True,9,100.0,966,22,117.0,3422,12,118.0,1647
+cMonocyte,True,True,17,290.0,5868,26,155.0,4688,15,216.0,4445
+ncMonocyte,True,True,5,78.0,677,14,98.5,1595,13,125.0,2662
+ATII,True,False,10,116.0,2488,3,60.0,236,6,83.0,605
+Lymphatic,True,False,5,125.0,576,3,82.0,220,2,70.0,140

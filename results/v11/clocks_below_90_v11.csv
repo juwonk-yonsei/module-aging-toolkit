@@ -1,0 +1,2 @@
+outcome,module,n_features,n_selected,n_missing_genes,r_native,r_native_species_scaled,r_reported,r_stage2_dot,max_abs_diff_vs_manual,below
+Chronological,darkorange,17,17,0,0.28958128884969,0.291482448456966,0.326644386384769,0.289591062242273,0.0,True

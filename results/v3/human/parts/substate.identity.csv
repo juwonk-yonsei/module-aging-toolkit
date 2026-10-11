@@ -1,0 +1,9 @@
+cohort,variant,celltype,rep,max_abs_composite_gap
+GSE136831,substate,Macrophage|monoHi,-1,2.886579864025407e-15
+GSE136831,substate,Macrophage|resHi,-1,3.4555691641457997e-15
+GSE136831,substate,Monocyte|monoHi,-1,3.1086244689504383e-15
+GSE136831,substate,Monocyte|resHi,-1,3.552713678800501e-15
+GSE135893,substate,Macrophage|monoHi,-1,4.107825191113079e-15
+GSE135893,substate,Macrophage|resHi,-1,5.773159728050814e-15
+GSE135893,substate,Monocyte|monoHi,-1,4.274358644806853e-15
+GSE135893,substate,Monocyte|resHi,-1,1.0880185641326534e-14
