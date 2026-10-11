@@ -1,4 +1,4 @@
-"""Supplementary coverage + imputation-robustness analysis (reviewer request).
+"""Supplementary coverage and imputation-robustness analysis.
 
 CORRECTED measurement: a clock feature is "detected" only if it survives the
 preprocessing detection filter (count>=10 in >=20% of samples) AND the
