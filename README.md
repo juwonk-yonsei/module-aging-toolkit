@@ -6,13 +6,14 @@
 transcriptomic clocks: competitive nulls, composite decomposition, disease contrasts,
 sensitivity analyses and a diagnostic checklist for cross-cohort non-replication.**
 
-Companion code for the manuscript *"Opening the composite clock: a single-cell framework
-with built-in controls for mortality-associated module signatures, demonstrated in
-pulmonary fibrosis"* (Kang, Jeon & Choi; Methods Paper, under revision at *GeroScience*).
+Companion code for the manuscript *"Can transcriptomic clocks be read by module and cell
+type? Validated controls and a demonstration in pulmonary fibrosis"* (Kang, Jeon & Choi;
+Methods Paper, under revision at *GeroScience*).
 
 > Zenodo concept DOI [10.5281/zenodo.23229671](https://doi.org/10.5281/zenodo.23229671) ·
-> v0.2.0 [10.5281/zenodo.23229672](https://doi.org/10.5281/zenodo.23229672) ·
-> v0.3.0 has no version DOI yet · Paper DOI: _added on acceptance_
+> v0.3.0 [10.5281/zenodo.23306962](https://doi.org/10.5281/zenodo.23306962) ·
+> v0.2.0 (withdrawn) [10.5281/zenodo.23229672](https://doi.org/10.5281/zenodo.23229672) ·
+> Paper DOI: _added on acceptance_
 
 | Version | Corresponds to |
 |---|---|

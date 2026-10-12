@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: "If you use this software or method, please cite the manuscript below."
 title: "module-aging-toolkit: a single-cell framework with built-in controls for module- and cell-type-resolved transcriptomic clocks"
 abstract: >-
-  Code, result tables, figures and verification script for the manuscript "Opening the composite clock:
-  a single-cell framework with built-in controls for mortality-associated module signatures, demonstrated
-  in   pulmonary fibrosis". Version 0.3.0 corresponds to the revised manuscript that uses the
-  serialized module clocks. Version 0.2.0 retrained those clocks and is withdrawn.
-  Version 0.1.0 is the original submission. No Zenodo version DOI has been issued for 0.3.0.
+  Code, result tables, figures and verification script for the manuscript "Can transcriptomic clocks
+  be read by module and cell type? Validated controls and a demonstration in pulmonary fibrosis".
+  Version 0.3.0 (Zenodo DOI 10.5281/zenodo.23306962) corresponds to the revised manuscript that uses
+  the serialized module clocks. Version 0.2.0 retrained those clocks and is withdrawn.
+  Version 0.1.0 is the original submission.
   The toolkit's own code is MIT-licensed; third_party/tage_prep.py is derived from Materials
   distributed under the MGB Open Access License 1.0 and is restricted to non-commercial academic
   use (see THIRD_PARTY_NOTICES.md).
@@ -18,8 +18,11 @@ identifiers:
     value: 10.5281/zenodo.23229671
     description: "Zenodo concept DOI (all versions)"
   - type: doi
+    value: 10.5281/zenodo.23306962
+    description: "Zenodo DOI of version 0.3.0 (revised manuscript, serialized module clocks)"
+  - type: doi
     value: 10.5281/zenodo.23229672
-    description: "Zenodo DOI of version 0.2.0 (revised manuscript)"
+    description: "Zenodo DOI of version 0.2.0 (withdrawn)"
 license: MIT
 repository-code: "https://github.com/juwonk-yonsei/module-aging-toolkit"
 url: "https://github.com/juwonk-yonsei/module-aging-toolkit"
@@ -45,7 +48,7 @@ authors:
     affiliation: "College of Pharmacy, Yonsei Institute of Pharmaceutical Sciences, Yonsei University, Incheon, Republic of Korea"
 preferred-citation:
   type: article
-  title: "Opening the composite clock: a single-cell framework with built-in controls for mortality-associated module signatures, demonstrated in pulmonary fibrosis"
+  title: "Can transcriptomic clocks be read by module and cell type? Validated controls and a demonstration in pulmonary fibrosis"
   year: 2026
   journal: "GeroScience (under revision)"
   authors:

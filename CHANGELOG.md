@@ -2,6 +2,8 @@
 
 ## 0.3.0
 
+Zenodo DOI: [10.5281/zenodo.23306962](https://doi.org/10.5281/zenodo.23306962).
+
 The manuscript now uses the serialized module clocks from the original study.
 The module clocks retrained for v0.2.0 are withdrawn and are not in this tree.
 Training data, serialized pipelines, gene-level coefficients and module membership
