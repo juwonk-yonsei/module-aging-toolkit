@@ -259,7 +259,7 @@ M0257,manuscript,Section 2.12,M055,digits,50%,50%,0,design,override: rule,d if t
 M0258,manuscript,Section 2.12,M055,digits,10%,10%,0,design,override: rule,"d at least three cell types contributed ⟦10%⟧ or more, concentrated if one "
 M0259,manuscript,Section 2.12,M055,digits,50%,50%,0,design,override: rule,"ncentrated if one cell type contributed ⟦50%⟧ or more, and intermediate oth"
 M0260,manuscript,Section 2.13,M057,digits,23,23,0,design,fixed by the clock set or design,"present in both cohorts, the vectors of ⟦23⟧ IPF–control module effects we"
-M0261,manuscript,Section 2.13,M057,digits,"2,000","2,000",0,design,setting/threshold,"ls among donors within each cohort (B = ⟦2,000⟧); this null preserves the cor"
+M0261,manuscript,Section 2.13,M057,digits,"2,000","2,000",0,design,setting/threshold,"ls among donors within each cohort (B = ⟦2,000⟧; permutations that left a cel"
 M0262,manuscript,Section 2.13,M057,digits,"2,000","2,000",0,design,setting/threshold,"alues from permuting module labels (B = ⟦2,000⟧), a null that ignores that co"
 M0263,manuscript,Section 2.13,M057,digits,47,47,0,structural,pointer/name, monocyte-derived and resident markers [⟦47⟧–49] and analysed with a sub-s
 M0264,manuscript,Section 2.13,M057,digits,49,49,0,structural,pointer/name,nocyte-derived and resident markers [47–⟦49⟧] and analysed with a sub-stat
@@ -396,14 +396,14 @@ M0394,manuscript,Section 3.2,M070,digits,"10,000","10,000",0,design,setting/thre
 M0395,manuscript,Section 3.2,M070,digits,0.05,0.05,2,design,override: threshold,"ws, and no pair with a first-stage p of ⟦0.05⟧ or more reached a screen FDR "
 M0396,manuscript,Section 3.2,M070,digits,0.10,0.10,2,design,override: threshold,0.05 or more reached a screen FDR below ⟦0.10⟧. We use the screen definition
 M0397,manuscript,Section 3.2,M071,digits,3,3,0,structural,pointer/name,"Specificity was bought with power (Fig. ⟦3⟧d, e). In the second experimen"
-M0398,manuscript,Section 3.2,M071,digits,80%,80%,0,design,power level,"s (S1a), the program-level gate reached ⟦80%⟧ power at 1.40–1.90 residual s"
-M0399,manuscript,Section 3.2,M071,digits,1.40,1.40,2,computed,default,program-level gate reached 80% power at ⟦1.40⟧–1.90 residual standard deviat
-M0400,manuscript,Section 3.2,M071,digits,1.90,1.90,2,computed,default,am-level gate reached 80% power at 1.40–⟦1.90⟧ residual standard deviations 
+M0398,manuscript,Section 3.2,M071,digits,80%,80%,0,design,power level,"s (S1a), the program-level gate reached ⟦80%⟧ power at 1.39–1.90 residual s"
+M0399,manuscript,Section 3.2,M071,digits,1.39,1.39,2,computed,default,program-level gate reached 80% power at ⟦1.39⟧–1.90 residual standard deviat
+M0400,manuscript,Section 3.2,M071,digits,1.90,1.90,2,computed,default,am-level gate reached 80% power at 1.39–⟦1.90⟧ residual standard deviations 
 M0401,manuscript,Section 3.2,M071,digits,11,11,0,computed,default,dual standard deviations in nine of the ⟦11⟧ cell types of the IPF grid (a
-M0402,manuscript,Section 3.2,M071,digits,1.40,1.40,2,computed,default,"s of the IPF grid (alveolar macrophages ⟦1.40⟧, macrophages 1.41, T cells 1."
-M0403,manuscript,Section 3.2,M071,digits,1.41,1.41,2,computed,default,"(alveolar macrophages 1.40, macrophages ⟦1.41⟧, T cells 1.50, classical mono"
-M0404,manuscript,Section 3.2,M071,digits,1.50,1.50,2,computed,default,"ophages 1.40, macrophages 1.41, T cells ⟦1.50⟧, classical monocytes 1.63, cy"
-M0405,manuscript,Section 3.2,M071,digits,1.63,1.63,2,computed,default,"1.41, T cells 1.50, classical monocytes ⟦1.63⟧, cytotoxic T cells 1.64, NK c"
+M0402,manuscript,Section 3.2,M071,digits,1.39,1.39,2,computed,default,"s of the IPF grid (alveolar macrophages ⟦1.39⟧, macrophages 1.40, T cells 1."
+M0403,manuscript,Section 3.2,M071,digits,1.40,1.40,2,computed,default,"(alveolar macrophages 1.39, macrophages ⟦1.40⟧, T cells 1.50, classical mono"
+M0404,manuscript,Section 3.2,M071,digits,1.50,1.50,2,computed,default,"ophages 1.39, macrophages 1.40, T cells ⟦1.50⟧, classical monocytes 1.63, cy"
+M0405,manuscript,Section 3.2,M071,digits,1.63,1.63,2,computed,default,"1.40, T cells 1.50, classical monocytes ⟦1.63⟧, cytotoxic T cells 1.64, NK c"
 M0406,manuscript,Section 3.2,M071,digits,1.64,1.64,2,computed,default,"sical monocytes 1.63, cytotoxic T cells ⟦1.64⟧, NK cells 1.67, B cells 1.79,"
 M0407,manuscript,Section 3.2,M071,digits,1.67,1.67,2,computed,default," 1.63, cytotoxic T cells 1.64, NK cells ⟦1.67⟧, B cells 1.79, ciliated cells"
 M0408,manuscript,Section 3.2,M071,digits,1.79,1.79,2,computed,default,"ic T cells 1.64, NK cells 1.67, B cells ⟦1.79⟧, ciliated cells 1.85 and cDC2"
@@ -627,8 +627,8 @@ M0625,manuscript,Section 3.5,M083,digits,0.98,0.98,2,computed,default,orrection 
 M0626,manuscript,Section 3.5,M083,digits,0.10,0.10,2,computed,default,n FDR 0.98; uncorrected competitive p = ⟦0.10⟧ for grey60 and 0.028 for gree
 M0627,manuscript,Section 3.5,M083,digits,0.028,0.028,3,computed,default,"ted competitive p = 0.10 for grey60 and ⟦0.028⟧ for green). For comparison, e"
 M0628,manuscript,Section 3.5,M083,digits,80%,80%,0,design,power level, pass the program-level gate with about ⟦80%⟧ power in these cell types (MD
-M0629,manuscript,Section 3.5,M083,digits,1.41,1.41,2,computed,default,ut 80% power in these cell types (MDE80 ⟦1.41⟧ and 1.40). Nine of the ten hi
-M0630,manuscript,Section 3.5,M083,digits,1.40,1.40,2,computed,default,"wer in these cell types (MDE80 1.41 and ⟦1.40⟧). Nine of the ten hits, inclu"
+M0629,manuscript,Section 3.5,M083,digits,1.40,1.40,2,computed,default,ut 80% power in these cell types (MDE80 ⟦1.40⟧ and 1.39). Nine of the ten hi
+M0630,manuscript,Section 3.5,M083,digits,1.39,1.39,2,computed,default,"wer in these cell types (MDE80 1.40 and ⟦1.39⟧). Nine of the ten hits, inclu"
 M0631,manuscript,Section 3.5,M083,digits,0.30,0.30,2,computed,default,e clocks had a dataset-held-out r below ⟦0.30⟧ in rodents (Supplementary Tab
 M0632,manuscript,Section 3.5,M083,digits,253,253,0,computed,default,"pplementary Tables S3 and S4). With all ⟦253⟧ planned tests, before the est"
 M0633,manuscript,Section 3.5,M083,digits,2.6,2.6,1,structural,pointer/name,"he estimability rule was added (Section ⟦2.6⟧), there were 12 hits, 10 robu"
@@ -1030,9 +1030,9 @@ S1028,SI,Table S-M1,S-T1-R05,digits,"3,523","3,523",0,computed,default,"een targ
 S1029,SI,Table S-M1,S-T1-R06,digits,0.10,0.10,2,computed,default, in target per month of age difference +⟦0.10⟧ log10 units
 S1030,SI,Table S-M1,S-T1-R07,digits,0.1,0.1,1,design,override: unit,Controls: change in target per ⟦0.1⟧ of species maximum lifespan +
 S1031,SI,Table S-M1,S-T1-R07,digits,0.50,0.50,2,computed,default,et per 0.1 of species maximum lifespan +⟦0.50⟧ log10 units
-S1032,SI,Table S-M1,S-T1-R08,digits,248,248,0,computed,default,"e reference age, mean target: diet (n = ⟦248⟧) −0.37 (hazard ratio 0.43)"
-S1033,SI,Table S-M1,S-T1-R08,digits,−0.37,−0.37,2,computed,default,"erence age, mean target: diet (n = 248) ⟦−0.37⟧ (hazard ratio 0.43)"
-S1034,SI,Table S-M1,S-T1-R08,digits,0.43,0.43,2,computed,default,get: diet (n = 248) −0.37 (hazard ratio ⟦0.43⟧)
+S1032,SI,Table S-M1,S-T1-R08,digits,248,248,0,computed,default,"e reference age, mean target: diet (n = ⟦248⟧) −0.37 (hazard ratio 0.42)"
+S1033,SI,Table S-M1,S-T1-R08,digits,−0.37,−0.37,2,computed,default,"erence age, mean target: diet (n = 248) ⟦−0.37⟧ (hazard ratio 0.42)"
+S1034,SI,Table S-M1,S-T1-R08,digits,0.42,0.42,2,computed,default,get: diet (n = 248) −0.37 (hazard ratio ⟦0.42⟧)
 S1035,SI,Table S-M1,S-T1-R09,digits,201,201,0,computed,default,"erence age, mean target: compounds (n = ⟦201⟧) −0.10 (hazard ratio 0.79)"
 S1036,SI,Table S-M1,S-T1-R09,digits,−0.10,−0.10,2,computed,default,"e age, mean target: compounds (n = 201) ⟦−0.10⟧ (hazard ratio 0.79)"
 S1037,SI,Table S-M1,S-T1-R09,digits,0.79,0.79,2,computed,default,compounds (n = 201) −0.10 (hazard ratio ⟦0.79⟧)
@@ -1087,7 +1087,7 @@ S1085,SI,Supplementary Methods S2,S029,digits,10,10,0,design,setting/threshold,"
 S1086,SI,Supplementary Methods S2,S030,digits,"2,007","2,007",0,computed,default,"Scrambled memberships. The ⟦2,007⟧ module genes were randomly re"
 S1087,SI,Supplementary Methods S2,S030,digits,23,23,0,design,fixed by the clock set or design,odule genes were randomly reassigned to ⟦23⟧ modules of the original sizes
 S1088,SI,Supplementary Methods S2,S030,digits,100,100,0,design,setting/threshold,36831 with classical and HC3 inference (⟦100⟧ scrambled sets). Retraining t
-S1089,SI,Supplementary Methods S2,S030,digits,0.95,0.95,2,computed,default, its coefficients closely (Spearman ρ = ⟦0.95⟧).
+S1089,SI,Supplementary Methods S2,S030,digits,0.95,0.95,2,computed,default, its coefficients closely (Spearman ρ = ⟦0.95⟧; Supplementary Table S17).
 S1090,SI,Supplementary Methods S3,S032,digits,2.4,2.4,1,structural,pointer/name,This section expands Section ⟦2.4⟧ of the main text.
 S1091,SI,Supplementary Methods S3,S033,digits,0,0,0,design,override,1 ratio); pipelines with an l1 ratio of ⟦0⟧ were refitted as the equivale
 S1092,SI,Supplementary Methods S3,S034,digits,"18,286","18,286",0,computed,default,"enes; and a composite-like clock on all ⟦18,286⟧ genes. The released composite"
@@ -1275,137 +1275,139 @@ W0042,manuscript,Section 2.12,M055,word,half,0.500,3,design,number word," named 
 W0043,manuscript,Section 2.12,M055,word,three,3,0,design,number word,"ed distributed if the largest contribution was below 50% and at least ⟦three⟧ cell types contributed 10% or more, concentrated if one cell type con"
 W0044,manuscript,Section 2.12,M055,word,one,1,0,design,number word,"nd at least three cell types contributed 10% or more, concentrated if ⟦one⟧ cell type contributed 50% or more, and intermediate otherwise."
 W0045,manuscript,Section 2.13,M057,word,two,2,0,design,number word,"trol module effects were centred and correlated between cohorts, with ⟦two⟧-sided p-values from permuting disease labels among donors within each"
-W0046,manuscript,Section 2.13,M057,word,two,2,0,design,number word,"among modules. Whole-donor and bulk effect vectors were compared with ⟦two⟧-sided p-values from permuting module labels (B = 2,000), a null that "
-W0047,manuscript,Section 2.13,M058,word,two,2,0,design,number word,ed order (Table 3): replicated if the cross-cohort r is positive with ⟦two⟧-sided p < 0.05; otherwise inconclusive if the primary cohort's split-
-W0048,manuscript,Section 2.13,M058,word,six,6,0,design,number word,acteristics were estimated by simulating 300 cohort pairs for each of ⟦six⟧ known scenarios (Supplementary Methods S7).
-W0049,manuscript,Section 3.1,M064,word,six,6,0,computed,number word,e families were spread across modules as under random assignment (all ⟦six⟧ families p > 0.45; Fig. 2b). The composite coefficients of the compan
-W0050,manuscript,Section 3.1,M065,word,one,1,0,computed,number word,"of the 46 clocks reached or exceeded their reported accuracy and only ⟦one⟧, the chronological clock of darkorange, fell below 90% of it, making "
-W0051,manuscript,Section 3.1,M065,word,two,2,0,design,number word,"of 18 heat-shock genes into skyblue (p = 0.014). The gene sets of the ⟦two⟧ versions barely overlapped (median Jaccard index 0.011 per module), n"
-W0052,manuscript,Section 3.1,M066,word,one,1,0,structural,number word,The check detects label errors far smaller than this ⟦one⟧ (Fig. 2c; Supplementary Table S17). With 10% of module genes relabell
-W0053,manuscript,Section 3.1,M066,word,one,1,0,computed,number word,"ls, and 0.10 and none when the clocks were retrained; never more than ⟦one⟧ per input), but robust hits did not (on average 13.6 per input, range"
-W0054,manuscript,Section 3.2,M070,word,two,2,0,computed,number word, is usual. The program-level definition built on that application met ⟦two⟧ of its three pre-specified criteria but failed the third: 10.6% of S2
-W0055,manuscript,Section 3.2,M070,word,three,3,0,computed,number word,The program-level definition built on that application met two of its ⟦three⟧ pre-specified criteria but failed the third: 10.6% of S2a hits were c
-W0056,manuscript,Section 3.2,M071,word,nine,9,0,computed,number word,"l gate reached 80% power at 1.40–1.90 residual standard deviations in ⟦nine⟧ of the 11 cell types of the IPF grid (alveolar macrophages 1.40, macr"
-W0057,manuscript,Section 3.2,M071,word,three,3,0,computed,number word,"ted cells 1.85 and cDC2 1.90), and the clock-direction gate did so in ⟦three⟧ (alveolar macrophages 1.46, macrophages 1.60 and cDC2 2.00); fibrobla"
-W0058,manuscript,Section 3.3,M073,word,Ten,10,0,design,number word,al clocks were similar). Module identity added nothing to prediction. ⟦Ten⟧ size-matched random gene sets trained in the same way reached higher 
-W0059,manuscript,Section 3.3,M073,word,ten,10,0,design,number word,"ogical age), and only 3 of the 46 module × target clocks exceeded all ⟦ten⟧. Clocks retrained on the misaligned gene sets of the spreadsheet, wit"
-W0060,manuscript,Section 3.3,M073,word,one,1,0,structural,number word,"uracy therefore says little about the program it represents, which is ⟦one⟧ reason why module readouts need competitive nulls. Module scores were"
-W0061,manuscript,Section 3.3,M074,word,two,2,0,design,number word, kidney and 19 of 23 in muscle; Fig. 4a; Supplementary Table S7). The ⟦two⟧ tissues agreed only loosely: 13 modules moved in the expected directi
-W0062,manuscript,Section 3.3,M074,word,two,2,0,design,number word,"ently (permutation median 13; p = 0.80), and the module shifts of the ⟦two⟧ tissues were weakly correlated (Spearman ρ = 0.40; p = 0.06). The num"
-W0063,manuscript,Section 3.3,M075,word,nine,9,0,computed,number word,"hich survived adjustment or the larger sample. In GSE136831 controls (⟦nine⟧ cell types with 7–27 donors), no association reached FDR < 0.10 (medi"
-W0064,manuscript,Section 3.3,M075,word,three,3,0,computed,number word,"iates (ρ = 0.21, p = 6 × 10−7; chronological composite ρ = 0.19), and ⟦three⟧ of the 23 module clocks were weakly associated with age (FDR < 0.10):"
-W0065,manuscript,Section 3.3,M076,word,zero,0,0,design,number word,"similarly (whole-lung recovery 54%, p = 3 × 10−4; cell types close to ⟦zero⟧)."
-W0066,manuscript,Section 3.3,M077,word,two,2,0,computed,number word,"rule this pattern is intermediate: no cell type reached 50%, but only ⟦two⟧ exceeded 10%. The standalone pseudobulks of the three testable cell t"
-W0067,manuscript,Section 3.3,M077,word,three,3,0,computed,number word,"hed 50%, but only two exceeded 10%. The standalone pseudobulks of the ⟦three⟧ testable cell types gave effects of similar size (ciliated cells 0.31"
-W0068,manuscript,Section 3.3,M078,word,three,3,0,computed,number word,"Table 2). The composite mortality score was higher in old mice in all ⟦three⟧ testable cell types, meeting the first criterion, but only 27 of 64 m"
-W0069,manuscript,Section 3.3,M078,word,two,2,0,computed,number word,the whole-lung composite also shifted (β = 1.29; p = 0.004) while the ⟦two⟧ testable cell types did not (Supplementary Table S18). The failed cri
-W0070,manuscript,Section 3.4,M080,word,six,6,0,computed,number word,"to 24 components contained 13 components with permutation FDR < 0.10, ⟦six⟧ higher in IPF (including translation/ribosome, red, and innate immuni"
-W0071,manuscript,Section 3.4,M080,word,seven,7,0,computed,number word,"ation/ribosome, red, and innate immunity/inflammation, turquoise) and ⟦seven⟧ lower (including cell cycle/DNA replication, green, and chromatin mod"
-W0072,manuscript,Section 3.4,M080,word,six,6,0,computed,number word,"ance. Per cell type, S exceeded its permutation null at FDR < 0.10 in ⟦six⟧ of the 11 cell types: macrophages, alveolar macrophages, cDC2, ciliat"
-W0073,manuscript,Section 3.5,M083,word,seven,7,0,computed,number word,"ar macrophages, lower in IPF (−1.62) and unchanged in COPD. The other ⟦seven⟧ robust hits did not differ significantly between IPF and COPD; in sev"
-W0074,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"ytes (IPF–control 2.37 and COPD–control 1.75 log10 hazard units), and ⟦two⟧ came from non-classical monocytes, which had only five control donors"
-W0075,manuscript,Section 3.5,M083,word,five,5,0,computed,number word,"ard units), and two came from non-classical monocytes, which had only ⟦five⟧ control donors. None of the 249 tests passed either screen competitiv"
-W0076,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"), so no effect passed the final gates (Supplementary Table S10). The ⟦two⟧ IPF-specific effects failed the random-gene null after correction for"
-W0077,manuscript,Section 3.5,M083,word,Nine,9,0,computed,number word," gate with about 80% power in these cell types (MDE80 1.41 and 1.40). ⟦Nine⟧ of the ten hits, including both IPF-specific effects, were in modules"
-W0078,manuscript,Section 3.5,M083,word,ten,10,0,computed,number word,"bout 80% power in these cell types (MDE80 1.41 and 1.40). Nine of the ⟦ten⟧ hits, including both IPF-specific effects, were in modules whose cloc"
-W0079,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"12 hits, 10 robust and 2 IPF-specific, and none passed all gates; the ⟦two⟧ further hits were the constant black-module score in classical monocy"
-W0080,manuscript,Section 3.5,M083,word,four,4,0,computed,number word,"atrix module in NK cells, whose FDR rose from 0.097 to 0.104 when the ⟦four⟧ non-estimable tests were removed."
-W0081,manuscript,Section 3.5,M084,word,six,6,0,computed,number word,"o age and to most technical choices (Supplementary Table S12). In the ⟦six⟧ hits testable with age-overlapping controls, coefficients kept 79–103"
-W0082,manuscript,Section 3.5,M084,word,Eight,8,0,computed,number word,"th or cell number between groups, and 0.82 with technical covariates. ⟦Eight⟧ of the ten hits met the technical-robustness rule; the exceptions wer"
-W0083,manuscript,Section 3.5,M084,word,ten,10,0,computed,number word,"mber between groups, and 0.82 with technical covariates. Eight of the ⟦ten⟧ hits met the technical-robustness rule; the exceptions were innate im"
-W0084,manuscript,Section 3.5,M084,word,two,2,0,computed,number word,cell-number matching (0.33). The equalization stress tests attenuated ⟦two⟧ non-classical-monocyte effects more than their information-loss contr
-W0085,manuscript,Section 3.5,M085,word,six,6,0,computed,number word,"Under the conventional within-hit definition, ⟦six⟧ hits would have been called set-specific and four weight-specific (Nr"
-W0086,manuscript,Section 3.5,M085,word,four,4,0,computed,number word,"thin-hit definition, six hits would have been called set-specific and ⟦four⟧ weight-specific (Nrf2/proteasome, lightyellow, in ciliated cells; tra"
-W0087,manuscript,Section 3.6,M087,word,One,1,0,computed,number word,3.6 ⟦One⟧ lymphoid effect pattern replicates; the checklist locates the other d
-W0088,manuscript,Section 3.6,M088,word,two,2,0,design,number word,", the centred 23-module effect vectors agreed for NK cells (r = 0.67; ⟦two⟧-sided permutation p = 0.008; Fig. 6a; Supplementary Table S13) but no"
-W0089,manuscript,Section 3.6,M088,word,three,3,0,computed,number word,ls (−0.05; p = 0.88); alveolar type 2 cells (0.37; p = 0.22) had only ⟦three⟧ IPF donors in GSE136831. The NK agreement was unchanged after removin
-W0090,manuscript,Section 3.6,M088,word,nine,9,0,computed,number word," to 0.71 when each GSE135893 donor was left out in turn. However, all ⟦nine⟧ GSE135893 NK donors came from one site, and within GSE136831 the NK e"
-W0091,manuscript,Section 3.6,M088,word,one,1,0,computed,number word,"was left out in turn. However, all nine GSE135893 NK donors came from ⟦one⟧ site, and within GSE136831 the NK effect vector was not reliably esti"
-W0092,manuscript,Section 3.6,M088,word,half,0.500,3,design,number word,"d within GSE136831 the NK effect vector was not reliably estimated at ⟦half⟧ the sample size (split-half r = 0.12, below its null threshold τ = 0."
-W0093,manuscript,Section 3.6,M088,word,one,1,0,computed,number word,", and none reached p < 0.05 there. Replication is therefore shown for ⟦one⟧ effect pattern, not for any individual cell-type × module effect."
-W0094,manuscript,Section 3.6,M089,word,one,1,0,design,number word,elong to none of the 23 modules; the sub-state split therefore shares ⟦one⟧ marker each with greenyellow (SPARC) and turquoise (MRC1).
-W0095,manuscript,Section 3.6,M090,word,two,2,0,design,number word,The ⟦two⟧ cohorts sampled the lung very differently. Macrophages made up a medi
-W0096,manuscript,Section 3.6,M090,word,two,2,0,design,number word," S14). At whole-donor level, effect vectors agreed weakly between the ⟦two⟧ single-cell cohorts (r = 0.14; p = 0.53) and between GSE136831 and th"
-W0097,manuscript,Section 3.6,M090,word,two,2,0,design,number word,"t closely between GSE135893 and the bulk cohort (r = 0.77; p = 0.001; ⟦two⟧-sided, module labels permuted). Whole-donor effects were reproduced b"
-W0098,manuscript,Section 3.6,M091,word,one,1,0,design,number word,"te composition difference ""composition"" in 89%, a confound present in ⟦one⟧ cohort a between-cohort difference in 97% and a null effect inconclus"
-W0099,manuscript,Section 3.6,M091,word,two,2,0,structural,number word,ce in 97% and a null effect inconclusive in 92%. It was unreliable in ⟦two⟧ situations. A weak shared effect was called replicated in only 49% of
-W0100,manuscript,Section 3.7,M092,word,Twelve,12,0,computed,number word,3.7 ⟦Twelve⟧ of fourteen pre-specified criteria were met
-W0101,manuscript,Section 3.7,M092,word,fourteen,14,0,computed,number word,3.7 Twelve of ⟦fourteen⟧ pre-specified criteria were met
-W0102,manuscript,Section 3.7,M093,word,Twelve,12,0,computed,number word, 2 lists the 14 pre-specified validation criteria and their outcomes. ⟦Twelve⟧ were met. The two failures are reported as results: the within-hit pr
-W0103,manuscript,Section 3.7,M093,word,two,2,0,computed,number word,pecified validation criteria and their outcomes. Twelve were met. The ⟦two⟧ failures are reported as results: the within-hit program-level defini
-W0104,manuscript,Section 4,M095,word,Three,3,0,structural,number word,ls were themselves tested against data in which the answer was known. ⟦Three⟧ results reach beyond pulmonary fibrosis: module definitions need a ch
-W0105,manuscript,Section 4,M096,word,three,3,0,computed,number word,"misaligned labels, although with a different training procedure, gave ⟦three⟧ times as many nominal hits as the correct clocks. Only checks against"
-W0106,manuscript,Section 4,M096,word,a tenth,0.100,3,design,number word,"ne families stay together, and these checks detected errors affecting ⟦a tenth⟧ of the genes. Because module definitions are increasingly distributed"
-W0107,manuscript,Section 4,M097,word,two-thirds,0.667,3,computed,number word,"ied after a significance filter. The simulations show the cost: about ⟦two-thirds⟧ of false hits passed a random-gene null applied within hits, because "
-W0108,manuscript,Section 4,M098,word,one,1,0,design,number word," intermediate rather than distributed. A tissue-trained clock read in ⟦one⟧ cell type is therefore not a cell-type aging clock, and its silence i"
-W0109,manuscript,Section 4,M099,word,half,0.500,3,design,number word,"the replication cohort and on an effect vector that was unreliable at ⟦half⟧ the sample size, and no individual NK effect was a hit."
-W0110,manuscript,Section 4,M100,word,two,2,0,design,number word,"in IPF, but matched sub-states did not agree between cohorts, and the ⟦two⟧ cohorts differ in dissociation and sampling protocol, sites, depth an"
-W0111,manuscript,Section 4,M101,word,one,1,0,computed,number word, definition was introduced after the within-hit definition had failed ⟦one⟧ criterion; it was then validated on independent replicates against cr
-W0112,manuscript,Section 4,M101,word,one,1,0,design,number word,hough it did not change the conclusion. The positive control rests on ⟦one⟧ mouse study with three testable cell types and no sex information. Th
-W0113,manuscript,Section 4,M101,word,three,3,0,computed,number word,ge the conclusion. The positive control rests on one mouse study with ⟦three⟧ testable cell types and no sex information. The clocks were trained o
-W0114,manuscript,Fig. 1 legend,M180,word,six,6,0,design,number word,"ulks with a re-implementation of the tAge pipeline (grey). Cards: the ⟦six⟧ steps, each with the question it asks (italics; step 2 states its tas"
-W0115,manuscript,Fig. 1 legend,M180,word,four,4,0,computed,number word," modules of GSE136831 (donor numbers are cohort totals); crosses, the ⟦four⟧ non-estimable tests. Step 3, decomposition: total (S) and net (N) com"
-W0116,manuscript,Fig. 1 legend,M180,word,seven,7,0,computed,number word,"ation: cross-cohort correlation of the IPF–control effect vectors for ⟦seven⟧ cell types, NK cells highlighted (Fig. 6a). Colours mark components a"
-W0117,manuscript,Fig. 2 legend,M181,word,six,6,0,design,number word, vertical line marks the reported median (0.42). (b) Concentration of ⟦six⟧ canonical gene families: share of each family's members in the module
-W0118,manuscript,Fig. 2 legend,M181,word,five,5,0,computed,number word,"erialized clocks, permutation p = 0.001 (the smallest attainable) for ⟦five⟧ families and 0.014 for heat-shock proteins; with the spreadsheet labe"
-W0119,manuscript,Fig. 2 legend,M181,word,six,6,0,computed,number word,"or heat-shock proteins; with the spreadsheet labels, p > 0.45 for all ⟦six⟧. (c) Fraction of module sets that failed the input check, by fraction"
-W0120,manuscript,Fig. 2 legend,M181,word,one,1,0,design,number word," (20 replicates per f; Wilson 95% CIs); f = 0, the serialized clocks (⟦one⟧ set); star, the spreadsheet labels. (d) Corrupted inputs carried thro"
-W0121,manuscript,Fig. 4 legend,M183,word,six,6,0,computed,number word,"s (Δlog10 hazard units) in kidney (orange) and skeletal muscle (blue; ⟦six⟧ knockout and six wild-type male mice per tissue); grey bands, 95% ran"
-W0122,manuscript,Fig. 4 legend,M183,word,six,6,0,computed,number word,"units) in kidney (orange) and skeletal muscle (blue; six knockout and ⟦six⟧ wild-type male mice per tissue); grey bands, 95% range of the differe"
-W0123,manuscript,Fig. 4 legend,M183,word,six,6,0,design,number word," the differences between halves of the wild-type animals, scaled to a ⟦six⟧-versus-six comparison (darker, kidney; lighter, skeletal muscle). Cou"
-W0124,manuscript,Fig. 4 legend,M183,word,three,3,0,computed,number word,"types, in expression-only and composition-only reconstructions and in ⟦three⟧ cell types (8 young and 7 old mice; at least three per group in each "
-W0125,manuscript,Fig. 4 legend,M183,word,three,3,0,design,number word,"nstructions and in three cell types (8 young and 7 old mice; at least ⟦three⟧ per group in each cell type); error bars, 95% CIs. (d) Contribution o"
-W0126,manuscript,Fig. 4 legend,M183,word,eight,8,0,design,number word,"lung (blue; age-group effect) and in HLCA (green; age slope), for the ⟦eight⟧ cell types with the largest absolute contributions and the rest poole"
-W0127,manuscript,Fig. 6 legend,M185,word,three,3,0,computed,number word,"r each coarse cell type in the real data; alveolar type 2 cells, with ⟦three⟧ IPF donors in GSE136831, were not tested."
-W0128,manuscript,Table 1,M-T1-R14,word,Two,2,0,design,number word,"Replication analyses and diagnostic checklist	New	⟦Two⟧-sided permutation, specific effects, composition and sub-states; simu"
-W0129,manuscript,Table 3,M-T3-R02,word,Two,2,0,design,number word," after removing each module's response to a uniform expression shift)	⟦Two⟧-sided p from permuting disease labels within each cohort (B = 2,000)	"
-W0130,manuscript,Table 3,M-T3-R04,word,Two,2,0,design,number word,"sub-states (identical rule in both cohorts), averaged over sub-states	⟦Two⟧-sided permutation p, Bonferroni-adjusted over sub-states; the same r "
-W0131,SI,Contents,S016,word,one,1,0,structural,number word,Supplementary Tables S1–S21 (index; tables in ⟦one⟧ Excel workbook)
-W0132,SI,Supplementary Methods S1,S020,word,zero,0,0,design,number word,"same dataset, tissue and sex whose target and age difference are both ⟦zero⟧. Table S-M1 summarizes the check. For the remaining 765 samples, no s"
-W0133,SI,Supplementary Methods S1,S020,word,zero,0,0,design,number word,"mple of the same dataset, tissue and sex has both quantities equal to ⟦zero⟧, so the reference cannot be identified from the released annotation."
-W0134,SI,Table S-M1 note,S022,word,tenfold,10,0,design,number word,A target of +1 therefore corresponds to a ⟦tenfold⟧ higher expected hazard than in the reference animals and −0.1 to a 21
-W0135,SI,Supplementary Methods S2,S026,word,one,1,0,design,number word,"2e83f0f1c5e44b3bd) [1], which the tAge package downloads. It contains ⟦one⟧ fitted scikit-learn pipeline [3] for each of the 23 modules and each "
-W0136,SI,Supplementary Methods S2,S026,word,two,2,0,design,number word," scikit-learn pipeline [3] for each of the 23 modules and each of the ⟦two⟧ targets, and one clock per target on all module genes (2,141 features"
-W0137,SI,Supplementary Methods S2,S026,word,one,1,0,design,number word,"eline [3] for each of the 23 modules and each of the two targets, and ⟦one⟧ clock per target on all module genes (2,141 features; 48 pipelines in"
-W0138,SI,Supplementary Methods S2,S026,word,one,1,0,computed,number word,"the module pipelines: 2,007 genes in 23 modules, no gene in more than ⟦one⟧ module, with the module sizes reported by the authors [2]. The compos"
-W0139,SI,Supplementary Methods S2,S027,word,six,6,0,design,number word,"mselves, is coherent. (iii) Gene-family concentration is, for each of ⟦six⟧ canonical families (cytosolic ribosomal proteins, oxidative phosphory"
-W0140,SI,Supplementary Methods S2,S028,word,zero,0,0,design,number word,"rix with these coefficients, with non-finite expression values set to ⟦zero⟧, with and without standardizing each gene across samples; the composi"
-W0141,SI,Supplementary Methods S2,S029,word,two,2,0,design,number word,ugh the gates of the IPF analysis (main text Sections 2.7 and 2.8) in ⟦two⟧ ways: applying the original coefficients under the corrupted labels (
-W0142,SI,Supplementary Methods S2,S030,word,one,1,0,design,number word,sical and HC3 inference (100 scrambled sets). Retraining the genes of ⟦one⟧ serialized module with the same code reproduced its coefficients clos
-W0143,SI,Supplementary Methods S3,S033,word,five,5,0,design,number word,Cross-validation. Accuracy was estimated by ⟦five⟧-fold cross-validation with whole datasets held out. Each module pipel
-W0144,SI,Supplementary Methods S3,S034,word,ten,10,0,design,number word,"Benchmarks. On the same folds we evaluated ⟦ten⟧ size-matched random gene sets per module, trained in the same way; an"
-W0145,SI,Supplementary Methods S3,S035,word,six,6,0,computed,number word,out data distributed with tAge comprise kidney and skeletal muscle of ⟦six⟧ knockout and six wild-type male mice per tissue. Because Klotho defic
-W0146,SI,Supplementary Methods S3,S035,word,six,6,0,computed,number word,ted with tAge comprise kidney and skeletal muscle of six knockout and ⟦six⟧ wild-type male mice per tissue. Because Klotho deficiency shortens li
-W0147,SI,Supplementary Methods S3,S035,word,two,2,0,design,number word,"ociated scores. Knockout–wild-type differences were tested with exact ⟦two⟧-sided permutation tests over all 924 genotype relabelings, with Benja"
-W0148,SI,Supplementary Methods S3,S035,word,three,3,0,design,number word,"o effect. As a negative control we therefore used differences between ⟦three⟧-versus-three splits of the wild-type animals, which contain no biolog"
-W0149,SI,Supplementary Methods S3,S035,word,six,6,0,design,number word,"ontain no biological contrast, scaled by 1/√2 to the noise level of a ⟦six⟧-versus-six comparison."
-W0150,SI,Supplementary Methods S4,S038,word,one,1,0,design,number word," by relative log expression (RLE) [9], log10-transformed after adding ⟦one⟧, standardized within each sample across genes and centred by subtract"
-W0151,SI,Supplementary Methods S4,S038,word,Zero,0,0,design,number word,"ype (range 4,669–9,774) meet this condition (Supplementary Table S2). ⟦Zero⟧ counts of retained genes are not imputed: they enter as log10(0 + 1) "
-W0152,SI,Supplementary Methods S4,S040,word,eleven,11,0,design,number word,Sensitivity analyses. Hits were re-estimated under ⟦eleven⟧ alternative analyses: (i) restriction to controls aged 54 years or ol
-W0153,SI,Supplementary Methods S4,S040,word,four,4,0,design,number word," or older, the age of the youngest IPF donor (testable where at least ⟦four⟧ such controls remained); (ii) additional covariates for log cell numb"
-W0154,SI,Supplementary Methods S4,S040,word,one,1,0,design,number word,"nning of every pseudobulk to the minimum depth of its cell type; (ix) ⟦one⟧ 60-cell mini-pseudobulk per donor; and (x, xi) information-loss contr"
-W0155,SI,Supplementary Methods S4,S040,word,half,0.500,3,design,number word,"lled technically robust if its coefficient kept its sign and at least ⟦half⟧ of its size under (ii), (vi) and (vii)."
-W0156,SI,Supplementary Methods S5,S044,word,Four,4,0,design,number word,"ck input, and only to genes detected in every donor of the cell type. ⟦Four⟧ directions were used, each scaled to unit length: uclock, the clock c"
-W0157,SI,Supplementary Methods S5,S045,word,one,1,0,design,number word,"direction), δ·uclock or δ·ueig was added to the permuted IPF group in ⟦one⟧ randomly chosen estimable module per cell type, with δ chosen so that"
-W0158,SI,Supplementary Methods S5,S045,word,three,3,0,design,number word,"rect outcome is a pass. In S2a, δ·vrand was added to the IPF group of ⟦three⟧ randomly chosen cell types, with δ chosen so that the median absolute"
-W0159,SI,Supplementary Methods S5,S045,word,one,1,0,structural,number word,"ed descriptively, because a principal component is often dominated by ⟦one⟧ program. In S3 the S1a shift was added to both the IPF and the COPD g"
-W0160,SI,Supplementary Methods S5,S046,word,one,1,0,computed,number word,"(B = 2,000). After the within-hit program-level definition had failed ⟦one⟧ of its pre-specified criteria (main text Section 3.2), a second, inde"
-W0161,SI,Supplementary Methods S6,S049,word,one,1,0,design,number word,"l 80 eligible donors (20–81 years) were used, of whom 77 had at least ⟦one⟧ cell type with 50 or more cells. Spearman correlations between module"
-W0162,SI,Supplementary Methods S6,S049,word,six,6,0,design,number word,"alysis was run in the GSE136831 controls for cell types with at least ⟦six⟧ control donors. In GTEx v8 lung bulk tissue (578 donors, 20–79 years)"
-W0163,SI,Supplementary Methods S6,S050,word,one,1,0,design,number word,lungs from 8 young (3 months) and 7 old (24 months) mice processed in ⟦one⟧ study (Angelidis et al. [13]; GSE124872); no training sample derives 
-W0164,SI,Supplementary Methods S6,S051,word,four,4,0,design,number word,ed shift divided by the expected shift. Age effects were computed for ⟦four⟧ units: (i) cell-type pseudobulks (at least 50 cells; at least three m
-W0165,SI,Supplementary Methods S6,S051,word,three,3,0,design,number word,"or four units: (i) cell-type pseudobulks (at least 50 cells; at least ⟦three⟧ mice per group, lowered from four because only two cell types met the"
-W0166,SI,Supplementary Methods S6,S051,word,four,4,0,design,number word,"bulks (at least 50 cells; at least three mice per group, lowered from ⟦four⟧ because only two cell types met the stricter rule); (ii) whole-lung p"
-W0167,SI,Supplementary Methods S6,S051,word,two,2,0,computed,number word," cells; at least three mice per group, lowered from four because only ⟦two⟧ cell types met the stricter rule); (ii) whole-lung pseudobulks of eac"
-W0168,SI,Supplementary Methods S7,S055,word,two,2,0,design,number word,"labels among donors within each cohort (B = 2,000) and is reported as ⟦two⟧-sided; this null preserves the correlation among modules, so no assum"
-W0169,SI,Supplementary Methods S7,S055,word,two,2,0,design,number word,"les is needed. Whole-donor and bulk effect vectors were compared with ⟦two⟧-sided p-values from permuting module labels (B = 2,000), a null that "
-W0170,SI,Supplementary Methods S7,S056,word,two,2,0,design,number word,"b-state comparison, each donor's cells were also split at random into ⟦two⟧ groups of the same sizes."
-W0171,SI,Supplementary Methods S7,S057,word,two,2,0,design,number word,b-states agree between cohorts (Bonferroni-adjusted p < 0.05 over the ⟦two⟧ sub-states) and that their mean correlation exceed that of random spl
-W0172,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,nor pseudobulks. Each simulated donor has 23 module scores in each of ⟦two⟧ sub-states (resident and monocyte-derived). Residual noise was drawn 
-W0173,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,wn baseline profile. The donor's pooled profile is the mixture of the ⟦two⟧ sub-states with a donor-specific monocyte-derived fraction (group mea
-W0174,SI,Supplementary Methods S7,S058,word,Six,6,0,design,number word,"ry cohort 32 IPF and 27 control donors; replication cohort 12 and 9). ⟦Six⟧ true scenarios were simulated, 300 cohort pairs each: (i) shared effe"
-W0175,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,"25 SD; (iii) sub-state composition, an effect of opposite sign in the ⟦two⟧ sub-states, with the cohorts sampling different fractions (0.25 and 0"
-W0176,SI,Supplementary Methods S7,S060,word,Two,2,0,structural,number word,"⟦Two⟧ limitations follow from the design. First, the scenarios are stylized"
-W0177,SI,Supplementary Methods S7,S060,word,one,1,0,design,number word,"cal artifacts are represented only by the confound scenario, and only ⟦one⟧ cell type is simulated. Second, the error rates depend on the effect "
-W0178,SI,Supplementary Table index,S062,word,one,1,0,structural,number word,"All supplementary tables are provided as ⟦one⟧ Excel workbook, one sheet per table, with a README sheet that repeats"
-W0179,SI,Supplementary Table index,S062,word,one,1,0,structural,number word,"All supplementary tables are provided as one Excel workbook, ⟦one⟧ sheet per table, with a README sheet that repeats this index. Effects"
+W0046,manuscript,Section 2.13,M057,word,one,1,0,design,number word,"2,000; permutations that left a cell type without an effect vector in ⟦one⟧ of the cohorts were discarded); this null preserves the correlation a"
+W0047,manuscript,Section 2.13,M057,word,two,2,0,design,number word,"among modules. Whole-donor and bulk effect vectors were compared with ⟦two⟧-sided p-values from permuting module labels (B = 2,000), a null that "
+W0048,manuscript,Section 2.13,M058,word,two,2,0,design,number word,ed order (Table 3): replicated if the cross-cohort r is positive with ⟦two⟧-sided p < 0.05; otherwise inconclusive if the primary cohort's split-
+W0049,manuscript,Section 2.13,M058,word,six,6,0,design,number word,acteristics were estimated by simulating 300 cohort pairs for each of ⟦six⟧ known scenarios (Supplementary Methods S7).
+W0050,manuscript,Section 3.1,M064,word,six,6,0,computed,number word,e families were spread across modules as under random assignment (all ⟦six⟧ families p > 0.45; Fig. 2b). The composite coefficients of the compan
+W0051,manuscript,Section 3.1,M065,word,one,1,0,computed,number word,"of the 46 clocks reached or exceeded their reported accuracy and only ⟦one⟧, the chronological clock of darkorange, fell below 90% of it, making "
+W0052,manuscript,Section 3.1,M065,word,two,2,0,design,number word,"of 18 heat-shock genes into skyblue (p = 0.014). The gene sets of the ⟦two⟧ versions barely overlapped (median Jaccard index 0.011 per module), n"
+W0053,manuscript,Section 3.1,M066,word,one,1,0,structural,number word,The check detects label errors far smaller than this ⟦one⟧ (Fig. 2c; Supplementary Table S17). With 10% of module genes relabell
+W0054,manuscript,Section 3.1,M066,word,one,1,0,computed,number word,"ls, and 0.10 and none when the clocks were retrained; never more than ⟦one⟧ per input), but robust hits did not (on average 13.6 per input, range"
+W0055,manuscript,Section 3.2,M070,word,two,2,0,computed,number word, is usual. The program-level definition built on that application met ⟦two⟧ of its three pre-specified criteria but failed the third: 10.6% of S2
+W0056,manuscript,Section 3.2,M070,word,three,3,0,computed,number word,The program-level definition built on that application met two of its ⟦three⟧ pre-specified criteria but failed the third: 10.6% of S2a hits were c
+W0057,manuscript,Section 3.2,M071,word,nine,9,0,computed,number word,"l gate reached 80% power at 1.39–1.90 residual standard deviations in ⟦nine⟧ of the 11 cell types of the IPF grid (alveolar macrophages 1.39, macr"
+W0058,manuscript,Section 3.2,M071,word,three,3,0,computed,number word,"ted cells 1.85 and cDC2 1.90), and the clock-direction gate did so in ⟦three⟧ (alveolar macrophages 1.46, macrophages 1.60 and cDC2 2.00); fibrobla"
+W0059,manuscript,Section 3.3,M073,word,Ten,10,0,design,number word,al clocks were similar). Module identity added nothing to prediction. ⟦Ten⟧ size-matched random gene sets trained in the same way reached higher 
+W0060,manuscript,Section 3.3,M073,word,ten,10,0,design,number word,"ogical age), and only 3 of the 46 module × target clocks exceeded all ⟦ten⟧. Clocks retrained on the misaligned gene sets of the spreadsheet, wit"
+W0061,manuscript,Section 3.3,M073,word,one,1,0,structural,number word,"uracy therefore says little about the program it represents, which is ⟦one⟧ reason why module readouts need competitive nulls. Module scores were"
+W0062,manuscript,Section 3.3,M074,word,two,2,0,design,number word, kidney and 19 of 23 in muscle; Fig. 4a; Supplementary Table S7). The ⟦two⟧ tissues agreed only loosely: 13 modules moved in the expected directi
+W0063,manuscript,Section 3.3,M074,word,two,2,0,design,number word,"ently (permutation median 13; p = 0.80), and the module shifts of the ⟦two⟧ tissues were weakly correlated (Spearman ρ = 0.40; p = 0.06). The num"
+W0064,manuscript,Section 3.3,M075,word,nine,9,0,computed,number word,"hich survived adjustment or the larger sample. In GSE136831 controls (⟦nine⟧ cell types with 7–27 donors), no association reached FDR < 0.10 (medi"
+W0065,manuscript,Section 3.3,M075,word,three,3,0,computed,number word,"iates (ρ = 0.21, p = 6 × 10−7; chronological composite ρ = 0.19), and ⟦three⟧ of the 23 module clocks were weakly associated with age (FDR < 0.10):"
+W0066,manuscript,Section 3.3,M076,word,zero,0,0,design,number word,"similarly (whole-lung recovery 54%, p = 3 × 10−4; cell types close to ⟦zero⟧)."
+W0067,manuscript,Section 3.3,M077,word,two,2,0,computed,number word,"rule this pattern is intermediate: no cell type reached 50%, but only ⟦two⟧ exceeded 10%. The standalone pseudobulks of the three testable cell t"
+W0068,manuscript,Section 3.3,M077,word,three,3,0,computed,number word,"hed 50%, but only two exceeded 10%. The standalone pseudobulks of the ⟦three⟧ testable cell types gave effects of similar size (ciliated cells 0.31"
+W0069,manuscript,Section 3.3,M078,word,three,3,0,computed,number word,"Table 2). The composite mortality score was higher in old mice in all ⟦three⟧ testable cell types, meeting the first criterion, but only 27 of 64 m"
+W0070,manuscript,Section 3.3,M078,word,two,2,0,computed,number word,the whole-lung composite also shifted (β = 1.29; p = 0.004) while the ⟦two⟧ testable cell types did not (Supplementary Table S18). The failed cri
+W0071,manuscript,Section 3.4,M080,word,six,6,0,computed,number word,"to 24 components contained 13 components with permutation FDR < 0.10, ⟦six⟧ higher in IPF (including translation/ribosome, red, and innate immuni"
+W0072,manuscript,Section 3.4,M080,word,seven,7,0,computed,number word,"ation/ribosome, red, and innate immunity/inflammation, turquoise) and ⟦seven⟧ lower (including cell cycle/DNA replication, green, and chromatin mod"
+W0073,manuscript,Section 3.4,M080,word,six,6,0,computed,number word,"ance. Per cell type, S exceeded its permutation null at FDR < 0.10 in ⟦six⟧ of the 11 cell types: macrophages, alveolar macrophages, cDC2, ciliat"
+W0074,manuscript,Section 3.5,M083,word,seven,7,0,computed,number word,"ar macrophages, lower in IPF (−1.62) and unchanged in COPD. The other ⟦seven⟧ robust hits did not differ significantly between IPF and COPD; in sev"
+W0075,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"ytes (IPF–control 2.37 and COPD–control 1.75 log10 hazard units), and ⟦two⟧ came from non-classical monocytes, which had only five control donors"
+W0076,manuscript,Section 3.5,M083,word,five,5,0,computed,number word,"ard units), and two came from non-classical monocytes, which had only ⟦five⟧ control donors. None of the 249 tests passed either screen competitiv"
+W0077,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"), so no effect passed the final gates (Supplementary Table S10). The ⟦two⟧ IPF-specific effects failed the random-gene null after correction for"
+W0078,manuscript,Section 3.5,M083,word,Nine,9,0,computed,number word," gate with about 80% power in these cell types (MDE80 1.40 and 1.39). ⟦Nine⟧ of the ten hits, including both IPF-specific effects, were in modules"
+W0079,manuscript,Section 3.5,M083,word,ten,10,0,computed,number word,"bout 80% power in these cell types (MDE80 1.40 and 1.39). Nine of the ⟦ten⟧ hits, including both IPF-specific effects, were in modules whose cloc"
+W0080,manuscript,Section 3.5,M083,word,two,2,0,computed,number word,"12 hits, 10 robust and 2 IPF-specific, and none passed all gates; the ⟦two⟧ further hits were the constant black-module score in classical monocy"
+W0081,manuscript,Section 3.5,M083,word,four,4,0,computed,number word,"atrix module in NK cells, whose FDR rose from 0.097 to 0.104 when the ⟦four⟧ non-estimable tests were removed."
+W0082,manuscript,Section 3.5,M084,word,six,6,0,computed,number word,"o age and to most technical choices (Supplementary Table S12). In the ⟦six⟧ hits testable with age-overlapping controls, coefficients kept 79–103"
+W0083,manuscript,Section 3.5,M084,word,Eight,8,0,computed,number word,"th or cell number between groups, and 0.82 with technical covariates. ⟦Eight⟧ of the ten hits met the technical-robustness rule; the exceptions wer"
+W0084,manuscript,Section 3.5,M084,word,ten,10,0,computed,number word,"mber between groups, and 0.82 with technical covariates. Eight of the ⟦ten⟧ hits met the technical-robustness rule; the exceptions were innate im"
+W0085,manuscript,Section 3.5,M084,word,two,2,0,computed,number word,cell-number matching (0.33). The equalization stress tests attenuated ⟦two⟧ non-classical-monocyte effects more than their information-loss contr
+W0086,manuscript,Section 3.5,M085,word,six,6,0,computed,number word,"Under the conventional within-hit definition, ⟦six⟧ hits would have been called set-specific and four weight-specific (Nr"
+W0087,manuscript,Section 3.5,M085,word,four,4,0,computed,number word,"thin-hit definition, six hits would have been called set-specific and ⟦four⟧ weight-specific (Nrf2/proteasome, lightyellow, in ciliated cells; tra"
+W0088,manuscript,Section 3.6,M087,word,One,1,0,computed,number word,3.6 ⟦One⟧ lymphoid effect pattern replicates; the checklist locates the other d
+W0089,manuscript,Section 3.6,M088,word,two,2,0,design,number word,", the centred 23-module effect vectors agreed for NK cells (r = 0.67; ⟦two⟧-sided permutation p = 0.008; Fig. 6a; Supplementary Table S13) but no"
+W0090,manuscript,Section 3.6,M088,word,three,3,0,computed,number word,ls (−0.05; p = 0.88); alveolar type 2 cells (0.37; p = 0.22) had only ⟦three⟧ IPF donors in GSE136831. The NK agreement was unchanged after removin
+W0091,manuscript,Section 3.6,M088,word,nine,9,0,computed,number word," to 0.71 when each GSE135893 donor was left out in turn. However, all ⟦nine⟧ GSE135893 NK donors came from one site, and within GSE136831 the NK e"
+W0092,manuscript,Section 3.6,M088,word,one,1,0,computed,number word,"was left out in turn. However, all nine GSE135893 NK donors came from ⟦one⟧ site, and within GSE136831 the NK effect vector was not reliably esti"
+W0093,manuscript,Section 3.6,M088,word,half,0.500,3,design,number word,"d within GSE136831 the NK effect vector was not reliably estimated at ⟦half⟧ the sample size (split-half r = 0.12, below its null threshold τ = 0."
+W0094,manuscript,Section 3.6,M088,word,one,1,0,computed,number word,", and none reached p < 0.05 there. Replication is therefore shown for ⟦one⟧ effect pattern, not for any individual cell-type × module effect."
+W0095,manuscript,Section 3.6,M089,word,one,1,0,design,number word,elong to none of the 23 modules; the sub-state split therefore shares ⟦one⟧ marker each with greenyellow (SPARC) and turquoise (MRC1).
+W0096,manuscript,Section 3.6,M090,word,two,2,0,design,number word,The ⟦two⟧ cohorts sampled the lung very differently. Macrophages made up a medi
+W0097,manuscript,Section 3.6,M090,word,two,2,0,design,number word," S14). At whole-donor level, effect vectors agreed weakly between the ⟦two⟧ single-cell cohorts (r = 0.14; p = 0.53) and between GSE136831 and th"
+W0098,manuscript,Section 3.6,M090,word,two,2,0,design,number word,"t closely between GSE135893 and the bulk cohort (r = 0.77; p = 0.001; ⟦two⟧-sided, module labels permuted). Whole-donor effects were reproduced b"
+W0099,manuscript,Section 3.6,M091,word,one,1,0,design,number word,"te composition difference ""composition"" in 89%, a confound present in ⟦one⟧ cohort a between-cohort difference in 97% and a null effect inconclus"
+W0100,manuscript,Section 3.6,M091,word,two,2,0,structural,number word,ce in 97% and a null effect inconclusive in 92%. It was unreliable in ⟦two⟧ situations. A weak shared effect was called replicated in only 49% of
+W0101,manuscript,Section 3.7,M092,word,Twelve,12,0,computed,number word,3.7 ⟦Twelve⟧ of fourteen pre-specified criteria were met
+W0102,manuscript,Section 3.7,M092,word,fourteen,14,0,computed,number word,3.7 Twelve of ⟦fourteen⟧ pre-specified criteria were met
+W0103,manuscript,Section 3.7,M093,word,Twelve,12,0,computed,number word, 2 lists the 14 pre-specified validation criteria and their outcomes. ⟦Twelve⟧ were met. The two failures are reported as results: the within-hit pr
+W0104,manuscript,Section 3.7,M093,word,two,2,0,computed,number word,pecified validation criteria and their outcomes. Twelve were met. The ⟦two⟧ failures are reported as results: the within-hit program-level defini
+W0105,manuscript,Section 4,M095,word,Three,3,0,structural,number word,ls were themselves tested against data in which the answer was known. ⟦Three⟧ results reach beyond pulmonary fibrosis: module definitions need a ch
+W0106,manuscript,Section 4,M096,word,three,3,0,computed,number word,"misaligned labels, although with a different training procedure, gave ⟦three⟧ times as many nominal hits as the correct clocks. Only checks against"
+W0107,manuscript,Section 4,M096,word,a tenth,0.100,3,design,number word,"ne families stay together, and these checks detected errors affecting ⟦a tenth⟧ of the genes. Because module definitions are increasingly distributed"
+W0108,manuscript,Section 4,M097,word,two-thirds,0.667,3,computed,number word,"ied after a significance filter. The simulations show the cost: about ⟦two-thirds⟧ of false hits passed a random-gene null applied within hits, because "
+W0109,manuscript,Section 4,M098,word,one,1,0,design,number word," intermediate rather than distributed. A tissue-trained clock read in ⟦one⟧ cell type is therefore not a cell-type aging clock, and its silence i"
+W0110,manuscript,Section 4,M099,word,half,0.500,3,design,number word,"the replication cohort and on an effect vector that was unreliable at ⟦half⟧ the sample size, and no individual NK effect was a hit."
+W0111,manuscript,Section 4,M100,word,two,2,0,design,number word,"in IPF, but matched sub-states did not agree between cohorts, and the ⟦two⟧ cohorts differ in dissociation and sampling protocol, sites, depth an"
+W0112,manuscript,Section 4,M101,word,one,1,0,computed,number word, definition was introduced after the within-hit definition had failed ⟦one⟧ criterion; it was then validated on independent replicates against cr
+W0113,manuscript,Section 4,M101,word,one,1,0,design,number word,hough it did not change the conclusion. The positive control rests on ⟦one⟧ mouse study with three testable cell types and no sex information. Th
+W0114,manuscript,Section 4,M101,word,three,3,0,computed,number word,ge the conclusion. The positive control rests on one mouse study with ⟦three⟧ testable cell types and no sex information. The clocks were trained o
+W0115,manuscript,Fig. 1 legend,M180,word,six,6,0,design,number word,"ulks with a re-implementation of the tAge pipeline (grey). Cards: the ⟦six⟧ steps, each with the question it asks (italics; step 2 states its tas"
+W0116,manuscript,Fig. 1 legend,M180,word,four,4,0,computed,number word," modules of GSE136831 (donor numbers are cohort totals); crosses, the ⟦four⟧ non-estimable tests. Step 3, decomposition: total (S) and net (N) com"
+W0117,manuscript,Fig. 1 legend,M180,word,seven,7,0,computed,number word,"ation: cross-cohort correlation of the IPF–control effect vectors for ⟦seven⟧ cell types, NK cells highlighted (Fig. 6a). Colours mark components a"
+W0118,manuscript,Fig. 2 legend,M181,word,six,6,0,design,number word, vertical line marks the reported median (0.42). (b) Concentration of ⟦six⟧ canonical gene families: share of each family's members in the module
+W0119,manuscript,Fig. 2 legend,M181,word,five,5,0,computed,number word,"erialized clocks, permutation p = 0.001 (the smallest attainable) for ⟦five⟧ families and 0.014 for heat-shock proteins; with the spreadsheet labe"
+W0120,manuscript,Fig. 2 legend,M181,word,six,6,0,computed,number word,"or heat-shock proteins; with the spreadsheet labels, p > 0.45 for all ⟦six⟧. (c) Fraction of module sets that failed the input check, by fraction"
+W0121,manuscript,Fig. 2 legend,M181,word,one,1,0,design,number word," (20 replicates per f; Wilson 95% CIs); f = 0, the serialized clocks (⟦one⟧ set); star, the spreadsheet labels. (d) Corrupted inputs carried thro"
+W0122,manuscript,Fig. 4 legend,M183,word,six,6,0,computed,number word,"s (Δlog10 hazard units) in kidney (orange) and skeletal muscle (blue; ⟦six⟧ knockout and six wild-type male mice per tissue); grey bands, 95% ran"
+W0123,manuscript,Fig. 4 legend,M183,word,six,6,0,computed,number word,"units) in kidney (orange) and skeletal muscle (blue; six knockout and ⟦six⟧ wild-type male mice per tissue); grey bands, 95% range of the differe"
+W0124,manuscript,Fig. 4 legend,M183,word,six,6,0,design,number word," the differences between halves of the wild-type animals, scaled to a ⟦six⟧-versus-six comparison (darker, kidney; lighter, skeletal muscle). Cou"
+W0125,manuscript,Fig. 4 legend,M183,word,three,3,0,computed,number word,"types, in expression-only and composition-only reconstructions and in ⟦three⟧ cell types (8 young and 7 old mice; at least three per group in each "
+W0126,manuscript,Fig. 4 legend,M183,word,three,3,0,design,number word,"nstructions and in three cell types (8 young and 7 old mice; at least ⟦three⟧ per group in each cell type); error bars, 95% CIs. (d) Contribution o"
+W0127,manuscript,Fig. 4 legend,M183,word,eight,8,0,design,number word,"lung (blue; age-group effect) and in HLCA (green; age slope), for the ⟦eight⟧ cell types with the largest absolute contributions and the rest poole"
+W0128,manuscript,Fig. 6 legend,M185,word,three,3,0,computed,number word,"r each coarse cell type in the real data; alveolar type 2 cells, with ⟦three⟧ IPF donors in GSE136831, were not tested."
+W0129,manuscript,Table 1,M-T1-R14,word,Two,2,0,design,number word,"Replication analyses and diagnostic checklist	New	⟦Two⟧-sided permutation, specific effects, composition and sub-states; simu"
+W0130,manuscript,Table 3,M-T3-R02,word,Two,2,0,design,number word," after removing each module's response to a uniform expression shift)	⟦Two⟧-sided p from permuting disease labels within each cohort (B = 2,000)	"
+W0131,manuscript,Table 3,M-T3-R04,word,Two,2,0,design,number word,"sub-states (identical rule in both cohorts), averaged over sub-states	⟦Two⟧-sided permutation p, Bonferroni-adjusted over sub-states; the same r "
+W0132,SI,Contents,S016,word,one,1,0,structural,number word,Supplementary Tables S1–S21 (index; tables in ⟦one⟧ Excel workbook)
+W0133,SI,Supplementary Methods S1,S020,word,zero,0,0,design,number word,"same dataset, tissue and sex whose target and age difference are both ⟦zero⟧. Table S-M1 summarizes the check. For the remaining 765 samples, no s"
+W0134,SI,Supplementary Methods S1,S020,word,zero,0,0,design,number word,"mple of the same dataset, tissue and sex has both quantities equal to ⟦zero⟧, so the reference cannot be identified from the released annotation."
+W0135,SI,Table S-M1 note,S022,word,tenfold,10,0,design,number word,A target of +1 therefore corresponds to a ⟦tenfold⟧ higher expected hazard than in the reference animals and −0.1 to a 21
+W0136,SI,Supplementary Methods S2,S026,word,one,1,0,design,number word,"2e83f0f1c5e44b3bd) [1], which the tAge package downloads. It contains ⟦one⟧ fitted scikit-learn pipeline [3] for each of the 23 modules and each "
+W0137,SI,Supplementary Methods S2,S026,word,two,2,0,design,number word," scikit-learn pipeline [3] for each of the 23 modules and each of the ⟦two⟧ targets, and one clock per target on all module genes (2,141 features"
+W0138,SI,Supplementary Methods S2,S026,word,one,1,0,design,number word,"eline [3] for each of the 23 modules and each of the two targets, and ⟦one⟧ clock per target on all module genes (2,141 features; 48 pipelines in"
+W0139,SI,Supplementary Methods S2,S026,word,one,1,0,computed,number word,"the module pipelines: 2,007 genes in 23 modules, no gene in more than ⟦one⟧ module, with the module sizes reported by the authors [2]. The compos"
+W0140,SI,Supplementary Methods S2,S027,word,six,6,0,design,number word,"mselves, is coherent. (iii) Gene-family concentration is, for each of ⟦six⟧ canonical families (cytosolic ribosomal proteins, oxidative phosphory"
+W0141,SI,Supplementary Methods S2,S028,word,zero,0,0,design,number word,"rix with these coefficients, with non-finite expression values set to ⟦zero⟧, with and without standardizing each gene across samples; the composi"
+W0142,SI,Supplementary Methods S2,S029,word,two,2,0,design,number word,ugh the gates of the IPF analysis (main text Sections 2.7 and 2.8) in ⟦two⟧ ways: applying the original coefficients under the corrupted labels (
+W0143,SI,Supplementary Methods S2,S030,word,one,1,0,design,number word,"sical and HC3 inference (100 scrambled sets). Retraining the genes of ⟦one⟧ serialized module (translation/ribosome, red) with the same code repr"
+W0144,SI,Supplementary Methods S3,S033,word,five,5,0,design,number word,Cross-validation. Accuracy was estimated by ⟦five⟧-fold cross-validation with whole datasets held out. Each module pipel
+W0145,SI,Supplementary Methods S3,S034,word,ten,10,0,design,number word,"Benchmarks. On the same folds we evaluated ⟦ten⟧ size-matched random gene sets per module, trained in the same way; an"
+W0146,SI,Supplementary Methods S3,S035,word,six,6,0,computed,number word,out data distributed with tAge comprise kidney and skeletal muscle of ⟦six⟧ knockout and six wild-type male mice per tissue. Because Klotho defic
+W0147,SI,Supplementary Methods S3,S035,word,six,6,0,computed,number word,ted with tAge comprise kidney and skeletal muscle of six knockout and ⟦six⟧ wild-type male mice per tissue. Because Klotho deficiency shortens li
+W0148,SI,Supplementary Methods S3,S035,word,two,2,0,design,number word,"ociated scores. Knockout–wild-type differences were tested with exact ⟦two⟧-sided permutation tests over all 924 genotype relabelings, with Benja"
+W0149,SI,Supplementary Methods S3,S035,word,three,3,0,design,number word,"o effect. As a negative control we therefore used differences between ⟦three⟧-versus-three splits of the wild-type animals, which contain no biolog"
+W0150,SI,Supplementary Methods S3,S035,word,six,6,0,design,number word,"ontain no biological contrast, scaled by 1/√2 to the noise level of a ⟦six⟧-versus-six comparison."
+W0151,SI,Supplementary Methods S4,S038,word,one,1,0,design,number word," by relative log expression (RLE) [9], log10-transformed after adding ⟦one⟧, standardized within each sample across genes and centred by subtract"
+W0152,SI,Supplementary Methods S4,S038,word,Zero,0,0,design,number word,"ype (range 4,669–9,774) meet this condition (Supplementary Table S2). ⟦Zero⟧ counts of retained genes are not imputed: they enter as log10(0 + 1) "
+W0153,SI,Supplementary Methods S4,S040,word,eleven,11,0,design,number word,Sensitivity analyses. Hits were re-estimated under ⟦eleven⟧ alternative analyses: (i) restriction to controls aged 54 years or ol
+W0154,SI,Supplementary Methods S4,S040,word,four,4,0,design,number word," or older, the age of the youngest IPF donor (testable where at least ⟦four⟧ such controls remained); (ii) additional covariates for log cell numb"
+W0155,SI,Supplementary Methods S4,S040,word,one,1,0,design,number word,"nning of every pseudobulk to the minimum depth of its cell type; (ix) ⟦one⟧ 60-cell mini-pseudobulk per donor; and (x, xi) information-loss contr"
+W0156,SI,Supplementary Methods S4,S040,word,half,0.500,3,design,number word,"lled technically robust if its coefficient kept its sign and at least ⟦half⟧ of its size under (ii), (vi) and (vii)."
+W0157,SI,Supplementary Methods S5,S044,word,Four,4,0,design,number word,"ck input, and only to genes detected in every donor of the cell type. ⟦Four⟧ directions were used, each scaled to unit length: uclock, the clock c"
+W0158,SI,Supplementary Methods S5,S045,word,one,1,0,design,number word,"direction), δ·uclock or δ·ueig was added to the permuted IPF group in ⟦one⟧ randomly chosen estimable module per cell type, with δ chosen so that"
+W0159,SI,Supplementary Methods S5,S045,word,three,3,0,design,number word,"rect outcome is a pass. In S2a, δ·vrand was added to the IPF group of ⟦three⟧ randomly chosen cell types, with δ chosen so that the median absolute"
+W0160,SI,Supplementary Methods S5,S045,word,one,1,0,structural,number word,"ed descriptively, because a principal component is often dominated by ⟦one⟧ program. In S3 the S1a shift was added to both the IPF and the COPD g"
+W0161,SI,Supplementary Methods S5,S046,word,one,1,0,computed,number word,"(B = 2,000). After the within-hit program-level definition had failed ⟦one⟧ of its pre-specified criteria (main text Section 3.2), a second, inde"
+W0162,SI,Supplementary Methods S6,S049,word,one,1,0,design,number word,"l 80 eligible donors (20–81 years) were used, of whom 77 had at least ⟦one⟧ cell type with 50 or more cells. Spearman correlations between module"
+W0163,SI,Supplementary Methods S6,S049,word,six,6,0,design,number word,"alysis was run in the GSE136831 controls for cell types with at least ⟦six⟧ control donors. In GTEx v8 lung bulk tissue (578 donors, 20–79 years)"
+W0164,SI,Supplementary Methods S6,S050,word,one,1,0,design,number word,lungs from 8 young (3 months) and 7 old (24 months) mice processed in ⟦one⟧ study (Angelidis et al. [13]; GSE124872); no training sample derives 
+W0165,SI,Supplementary Methods S6,S051,word,four,4,0,design,number word,ed shift divided by the expected shift. Age effects were computed for ⟦four⟧ units: (i) cell-type pseudobulks (at least 50 cells; at least three m
+W0166,SI,Supplementary Methods S6,S051,word,three,3,0,design,number word,"or four units: (i) cell-type pseudobulks (at least 50 cells; at least ⟦three⟧ mice per group, lowered from four because only two cell types met the"
+W0167,SI,Supplementary Methods S6,S051,word,four,4,0,design,number word,"bulks (at least 50 cells; at least three mice per group, lowered from ⟦four⟧ because only two cell types met the stricter rule); (ii) whole-lung p"
+W0168,SI,Supplementary Methods S6,S051,word,two,2,0,computed,number word," cells; at least three mice per group, lowered from four because only ⟦two⟧ cell types met the stricter rule); (ii) whole-lung pseudobulks of eac"
+W0169,SI,Supplementary Methods S7,S055,word,two,2,0,design,number word,"labels among donors within each cohort (B = 2,000) and is reported as ⟦two⟧-sided; this null preserves the correlation among modules, so no assum"
+W0170,SI,Supplementary Methods S7,S055,word,one,1,0,design,number word," needed. Permutations after which a cell type had no effect vector in ⟦one⟧ of the cohorts were discarded, and p-values were computed over the re"
+W0171,SI,Supplementary Methods S7,S055,word,two,2,0,design,number word," permutations. Whole-donor and bulk effect vectors were compared with ⟦two⟧-sided p-values from permuting module labels (B = 2,000), a null that "
+W0172,SI,Supplementary Methods S7,S056,word,two,2,0,design,number word,"b-state comparison, each donor's cells were also split at random into ⟦two⟧ groups of the same sizes."
+W0173,SI,Supplementary Methods S7,S057,word,two,2,0,design,number word,b-states agree between cohorts (Bonferroni-adjusted p < 0.05 over the ⟦two⟧ sub-states) and that their mean correlation exceed that of random spl
+W0174,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,nor pseudobulks. Each simulated donor has 23 module scores in each of ⟦two⟧ sub-states (resident and monocyte-derived). Residual noise was drawn 
+W0175,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,wn baseline profile. The donor's pooled profile is the mixture of the ⟦two⟧ sub-states with a donor-specific monocyte-derived fraction (group mea
+W0176,SI,Supplementary Methods S7,S058,word,Six,6,0,design,number word,"ry cohort 32 IPF and 27 control donors; replication cohort 12 and 9). ⟦Six⟧ true scenarios were simulated, 300 cohort pairs each: (i) shared effe"
+W0177,SI,Supplementary Methods S7,S058,word,two,2,0,design,number word,"25 SD; (iii) sub-state composition, an effect of opposite sign in the ⟦two⟧ sub-states, with the cohorts sampling different fractions (0.25 and 0"
+W0178,SI,Supplementary Methods S7,S060,word,Two,2,0,structural,number word,"⟦Two⟧ limitations follow from the design. First, the scenarios are stylized"
+W0179,SI,Supplementary Methods S7,S060,word,one,1,0,design,number word,"cal artifacts are represented only by the confound scenario, and only ⟦one⟧ cell type is simulated. Second, the error rates depend on the effect "
+W0180,SI,Supplementary Table index,S062,word,one,1,0,structural,number word,"All supplementary tables are provided as ⟦one⟧ Excel workbook, one sheet per table, with a README sheet that repeats"
+W0181,SI,Supplementary Table index,S062,word,one,1,0,structural,number word,"All supplementary tables are provided as one Excel workbook, ⟦one⟧ sheet per table, with a README sheet that repeats this index. Effects"

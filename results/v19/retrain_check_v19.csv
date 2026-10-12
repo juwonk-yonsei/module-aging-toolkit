@@ -1,0 +1,2 @@
+module,n_genes,spearman_rho_coefficients,max_abs_diff_training_mean,max_abs_diff_training_median,alpha,l1_ratio
+red,117,0.9499692787243925,0.003285330383008423,0.0013757740000000002,0.0017782794100389228,0.0

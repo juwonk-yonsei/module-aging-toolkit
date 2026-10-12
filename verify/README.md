@@ -39,7 +39,7 @@ bound ("all p < 0.05"); an expression that returns several values requires each 
 ## Run
 
 ```
-python verify/verify_claims_r2.py verify/claims_r2.csv supplementary_revision/Supplementary_Tables_v16.xlsx verify/verify_report.csv
+python verify/verify_claims_r2.py verify/claims_r2.csv supplementary_revision/Supplementary_Tables.xlsx verify/verify_report.csv
 ```
 
 The script prints the number of rows of each kind and result and a summary line for the computed numbers,

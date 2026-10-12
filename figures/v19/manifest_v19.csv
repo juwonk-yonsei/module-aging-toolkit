@@ -1,0 +1,9 @@
+figure,panel,source,columns,note
+Fig2,a,results/v3/rodent/native_reproduction.csv; results/audit_module_mapping/stage2/b1_reproduction.csv,r_native; r_insample; r_reported,Mortality modules; spreadsheet convention as_released_na0; vertical line is the reported median
+Fig2,b,results/v10/coherence_null_band_v10.csv,top_share; null_p2_5; null_p97_5,"whisker is the null 2.5–97.5 percent; seed 0, 1000 label shuffles"
+Fig2,c,results/v6/corruption/input_check_v6.csv,f; set_failure_rate; ci_lo; ci_hi,Wilson interval; f = 0 is the serialized set; star is the spreadsheet
+Fig2,d,results/v10/corruption_screen_v10.csv,n_robust; n_program_pass; n_clock_pass,bars and ticks are means; points are replicates; line is the serialized robust count
+Fig2,e,results/v3/human/r5/scrambled_null_raw_r5.csv,hits_classical,100 scrambled memberships; lines at 10 serialized hits and 30 original-submission hits
+Fig6,a,results/v3/human/r5/replication_detail_r5.csv; results/v10/concordance_null_band_v10.csv,r_centred; null_p2_5; null_p97_5; n_IPF_GSE136831; n_Control_GSE136831; n_IPF_GSE135893; n_Control_GSE135893,label is IPF+control in GSE136831 | IPF+control in GSE135893
+Fig6,b,results/v3/human/s15_confusion.csv,scenario and outcome columns,300 simulated pairs; cell text is the stored proportion
+Fig6,c,results/v3/human/s15_checklist_real.csv,coarse; attribution,outcome names match panel b; AT2 is not tested

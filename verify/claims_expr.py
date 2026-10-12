@@ -582,67 +582,67 @@ W_COMPUTED = {
              "v('S01_cohorts','tissue',cohort='GSE135893 (Habermann)',group=g).split('; ')[1].split(', ')})",
     'W0025': "v('S09_funnel','amended_r5',quantity='unestimable')",
     'W0039': "n('S16_program',met='not met',item=['P1','P2','P3'])",
-    'W0049': "n('S05_coherence',source='table5b')",
-    'W0050': "n('S05_serialized',query=\"module != 'allmodulegenes' and r_native < 0.9*r_reported\")",
-    'W0053': "max(mx('S17_corrupt','n_program_pass',tag='corrupted'), mx('S17_corrupt','n_clock_pass',tag='corrupted'))",
-    'W0054': "n('S16_program',met='met',item=['P1','P2','P3'])",
-    'W0055': "n('S16_program',item=['P1','P2','P3'])",
-    'W0063': "len(set(T('S08_adams_controls').celltype))",
-    'W0064': "n('S08_gtex',outcome='Mortality',query=\"adj_fdr < 0.10 and module != 'Composite'\")",
-    'W0066': "v('S18_contrib','n_ge_10',species='mouse',outcome='Mortality')",
-    'W0067': "v('S18_positive','n_celltypes')",
-    'W0068': "v('S16_criteria','k',criterion='C')",
-    'W0069': "n('S18_tms',score='composite_Mortality',query=\"unit.str.startswith('celltype')\")",
-    'W0070': "n('S11_components',level='component',sign='+',query='fdr < 0.10')",
-    'W0071': "n('S11_components',level='component',sign='-',query='fdr < 0.10')",
-    'W0072': "n('S11_celltype',query='fdr_S < 0.10')",
-    'W0073': "n('S09_ipf',robust=True,IPF_specific=False)",
-    'W0074': "n('S09_ipf',robust=True,celltype='ncMonocyte',query='fdr_IPF < 0.10')",
-    'W0075': "tuple(sorted(set(rows('S09_ipf',celltype='ncMonocyte').n_Control)))",
-    'W0076': "n('S09_ipf',IPF_specific=True)",
-    'W0077': f"sum(v('S03_modules','heldout_r_Mortality',colour=m) < 0.30 for m in {HITS}.module)",
-    'W0078': "n('S09_ipf',query='fdr_IPF < 0.10')",
-    'W0079': "n('S12_sensitivity',analysis='main',query='fdr < 0.10') - n('S09_ipf',query='fdr_IPF < 0.10')",
-    'W0080': "v('S09_funnel','amended_r5',quantity='unestimable')",
-    'W0081': f"len({S12H('age_overlap')}.dropna(subset=['ratio']))",
-    'W0082': "sum(min(v('S12_sensitivity','ratio',celltype=c,module=m,analysis=a) for a in "
+    'W0050': "n('S05_coherence',source='table5b')",
+    'W0051': "n('S05_serialized',query=\"module != 'allmodulegenes' and r_native < 0.9*r_reported\")",
+    'W0054': "max(mx('S17_corrupt','n_program_pass',tag='corrupted'), mx('S17_corrupt','n_clock_pass',tag='corrupted'))",
+    'W0055': "n('S16_program',met='met',item=['P1','P2','P3'])",
+    'W0056': "n('S16_program',item=['P1','P2','P3'])",
+    'W0064': "len(set(T('S08_adams_controls').celltype))",
+    'W0065': "n('S08_gtex',outcome='Mortality',query=\"adj_fdr < 0.10 and module != 'Composite'\")",
+    'W0067': "v('S18_contrib','n_ge_10',species='mouse',outcome='Mortality')",
+    'W0068': "v('S18_positive','n_celltypes')",
+    'W0069': "v('S16_criteria','k',criterion='C')",
+    'W0070': "n('S18_tms',score='composite_Mortality',query=\"unit.str.startswith('celltype')\")",
+    'W0071': "n('S11_components',level='component',sign='+',query='fdr < 0.10')",
+    'W0072': "n('S11_components',level='component',sign='-',query='fdr < 0.10')",
+    'W0073': "n('S11_celltype',query='fdr_S < 0.10')",
+    'W0074': "n('S09_ipf',robust=True,IPF_specific=False)",
+    'W0075': "n('S09_ipf',robust=True,celltype='ncMonocyte',query='fdr_IPF < 0.10')",
+    'W0076': "tuple(sorted(set(rows('S09_ipf',celltype='ncMonocyte').n_Control)))",
+    'W0077': "n('S09_ipf',IPF_specific=True)",
+    'W0078': f"sum(v('S03_modules','heldout_r_Mortality',colour=m) < 0.30 for m in {HITS}.module)",
+    'W0079': "n('S09_ipf',query='fdr_IPF < 0.10')",
+    'W0080': "n('S12_sensitivity',analysis='main',query='fdr < 0.10') - n('S09_ipf',query='fdr_IPF < 0.10')",
+    'W0081': "v('S09_funnel','amended_r5',quantity='unestimable')",
+    'W0082': f"len({S12H('age_overlap')}.dropna(subset=['ratio']))",
+    'W0083': "sum(min(v('S12_sensitivity','ratio',celltype=c,module=m,analysis=a) for a in "
              "('tech_covariates','depth_group_matched','cells_group_matched')) >= 0.5 "
              f"for c, m in zip({HITS}.celltype, {HITS}.module))",
-    'W0083': "n('S09_ipf',query='fdr_IPF < 0.10')",
-    'W0084': "sum(v('S12_sensitivity','ratio',celltype=c,module=m,analysis=k+'_equalized') < 0.5 <= "
+    'W0084': "n('S09_ipf',query='fdr_IPF < 0.10')",
+    'W0085': "sum(v('S12_sensitivity','ratio',celltype=c,module=m,analysis=k+'_equalized') < 0.5 <= "
              "v('S12_sensitivity','ratio',celltype=c,module=m,analysis=k+'_loss_control') "
              f"for c, m in zip({HITS}.celltype, {HITS}.module) for k in ('depth','cells'))",
-    'W0085': f"len(rows('S10_within',query='fdr_hits_random < 0.10').merge({HITS}[['celltype','module']]))",
-    'W0086': f"len(rows('S10_within',query='fdr_hits_perm < 0.10').merge({HITS}[['celltype','module']]))",
-    'W0087': "n('S15_real',attribution='replicated')",
-    'W0089': "v('S13_replication','n_IPF_GSE136831',coarse='AT2')",
-    'W0090': "v('S13_replication','nk_lodo_n',coarse='NK')",
-    'W0091': "1 if v('S13_replication','vanderbilt_equals_full',coarse='NK') else 0",
-    'W0093': "n('S15_real',attribution='replicated')",
-    'W0105': "v('S17_scrambled','original_submission_hits') / n('S09_ipf',query='fdr_IPF < 0.10')",
-    'W0107': "0.60 <= v('S16_bias','rate_set_specific',table='by_class',scenario='S2a',d='all',"
+    'W0086': f"len(rows('S10_within',query='fdr_hits_random < 0.10').merge({HITS}[['celltype','module']]))",
+    'W0087': f"len(rows('S10_within',query='fdr_hits_perm < 0.10').merge({HITS}[['celltype','module']]))",
+    'W0088': "n('S15_real',attribution='replicated')",
+    'W0090': "v('S13_replication','n_IPF_GSE136831',coarse='AT2')",
+    'W0091': "v('S13_replication','nk_lodo_n',coarse='NK')",
+    'W0092': "1 if v('S13_replication','vanderbilt_equals_full',coarse='NK') else 0",
+    'W0094': "n('S15_real',attribution='replicated')",
+    'W0106': "v('S17_scrambled','original_submission_hits') / n('S09_ipf',query='fdr_IPF < 0.10')",
+    'W0108': "0.60 <= v('S16_bias','rate_set_specific',table='by_class',scenario='S2a',d='all',"
              "class_or_denominator='false_hit') <= 0.70",
-    'W0111': "n('S16_program',met='not met',item=['P1','P2','P3'])",
-    'W0113': "v('S18_positive','n_celltypes')",
-    'W0115': "v('S09_funnel','amended_r5',quantity='unestimable')",
-    'W0116': "n('S13_replication')",
-    'W0118': "n('S05_coherence',source='official',query='p < 0.002')",
-    'W0119': "n('S05_coherence',source='table5b')",
-    'W0121': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),0) for g in ('Kidney','Skeletal muscle'))",
-    'W0122': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),1) for g in ('Kidney','Skeletal muscle'))",
-    'W0124': "v('S18_positive','n_celltypes')",
-    'W0127': "v('S13_replication','n_IPF_GSE136831',coarse='AT2')",
-    'W0138': "sum(col('S03_modules','n_genes_serialized')) == mx('S02_detected','module_genes_serialized')",
-    'W0145': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),0) for g in ('Kidney','Skeletal muscle'))",
-    'W0146': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),1) for g in ('Kidney','Skeletal muscle'))",
-    'W0160': "n('S16_program',met='not met',item=['P1','P2','P3'])",
+    'W0112': "n('S16_program',met='not met',item=['P1','P2','P3'])",
+    'W0114': "v('S18_positive','n_celltypes')",
+    'W0116': "v('S09_funnel','amended_r5',quantity='unestimable')",
+    'W0117': "n('S13_replication')",
+    'W0119': "n('S05_coherence',source='official',query='p < 0.002')",
+    'W0120': "n('S05_coherence',source='table5b')",
+    'W0122': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),0) for g in ('Kidney','Skeletal muscle'))",
+    'W0123': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),1) for g in ('Kidney','Skeletal muscle'))",
+    'W0125': "v('S18_positive','n_celltypes')",
+    'W0128': "v('S13_replication','n_IPF_GSE136831',coarse='AT2')",
+    'W0139': "sum(col('S03_modules','n_genes_serialized')) == mx('S02_detected','module_genes_serialized')",
+    'W0146': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),0) for g in ('Kidney','Skeletal muscle'))",
+    'W0147': "tuple(num(v('S01_cohorts','note',cohort='Klotho knockout',group=g),1) for g in ('Kidney','Skeletal muscle'))",
+    'W0161': "n('S16_program',met='not met',item=['P1','P2','P3'])",
 }
 for cid, expr in W_COMPUTED.items():
     E(cid, expr)
     KIND[cid] = 'computed'
 # number words that are not quantities (pronouns, headings, rhetorical counts, layout of the files)
-W_STRUCTURAL = {'W0002', 'W0029', 'W0031', 'W0052', 'W0060', 'W0099', 'W0104', 'W0131', 'W0159', 'W0176',
-                'W0178', 'W0179'}
+W_STRUCTURAL = {'W0002', 'W0029', 'W0031', 'W0053', 'W0061', 'W0100', 'W0105', 'W0132', 'W0160', 'W0178',
+                'W0180', 'W0181'}
 
 # ----------------------------------------------------------------------------- training data, second spike-in experiment and other checks
 # S01_training: the released training matrix and the check of its mortality target (Supplementary Methods S1)
@@ -681,7 +681,7 @@ E('S1161', "num(v('S01_cohorts','age',cohort='GTEx v8 lung'),1)", 'upper bound o
 
 # input check: gene-set overlap (S05_overlap), retraining check (S17_retrain_check), within-hit passes (S17_within_corrupt)
 E('M0323', "med('S05_overlap','jaccard')")
-E('S1089', "v('S17_retrain_check','spearman_rho_coefficients')")
+E('S1089', "v('S17_retrain_check','spearman_rho_coefficients',module='red')")
 E('M0335', "mn('S17_within_corrupt','mean_within_hit_passes',path='V1')")
 E('M0336', "mx('S17_within_corrupt','mean_within_hit_passes',path='V1')")
 E('M0337', "mn('S17_within_corrupt','mean_within_hit_passes',path='V2')")
@@ -691,8 +691,8 @@ E('M0338', "mx('S17_within_corrupt','mean_within_hit_passes',path='V2')")
 for cid, clock, outcome in (('M0434', 'all_module_genes', 'Mortality'), ('M0435', 'all_module_genes', 'Chronological'),
                             ('M0437', 'all_genes', 'Mortality'), ('M0438', 'all_genes', 'Chronological')):
     E(cid, f"v('S04_benchmarks','r_oof_all',clock='{clock}',outcome='{outcome}')")
-E('M0455', "v('S07_klotho_noise','median_abs_shift',tissue='Kidney')")
-E('M0456', "v('S07_klotho_noise','median_abs_shift',tissue='Skeletal muscle')")
+E('M0455', "v('S07_klotho_noise','median_abs_shift_6v6',tissue='Kidney')", 'wild-type halves, scaled to six versus six')
+E('M0456', "v('S07_klotho_noise','median_abs_shift_6v6',tissue='Skeletal muscle')", 'wild-type halves, scaled to six versus six')
 
 # second spike-in experiment: MDE80 (S16_mde2), pass rates (S16_pass2), within-hit labels (S16_within2),
 # escalation of draws (S16_escalation2); first experiment, S1b nulls (S16_s1b); Table 2 criteria (S16_criteria)
@@ -707,7 +707,7 @@ for cid, ct in (('M0402', 'Macrophage_Alveolar'), ('M0403', 'Macrophage'), ('M04
     E(cid, "v(" + MDE.format(g='program') + f",celltype='{ct}')")
 for cid, ct in (('M0411', 'Macrophage_Alveolar'), ('M0412', 'Macrophage'), ('M0413', 'cDC2')):
     E(cid, "v(" + MDE.format(g='clock') + f",celltype='{ct}')")
-for cid, g in (('W0001', 'program'), ('W0056', 'program'), ('W0057', 'clock')):
+for cid, g in (('W0001', 'program'), ('W0057', 'program'), ('W0058', 'clock')):
     E(cid, f"n('S16_mde2',scenario='S1a',gate='{g}',query='mde80 <= 2')")
     KIND[cid] = 'computed'
 WH = "v('S16_within2','{f}',definition='within_hit',population='false_hits')"
@@ -723,16 +723,16 @@ E('M0375', "100*v('S16_s1b','rate_both',d=2.0)")
 E('M0393', "100*v('S16_escalation2','rate_extended')")
 E('M0396', "v('S16_escalation2','min_screen_fdr_not_extended') >= 0.10",
   'no pair with a first-stage p >= 0.05 reached a screen FDR below 0.10')
-for cid, expr in (('W0100', "n('S16_criteria',met='Yes')"), ('W0101', "n('S16_criteria')"),
-                  ('W0102', "n('S16_criteria',met='Yes')"), ('W0103', "n('S16_criteria',met='No')")):
+for cid, expr in (('W0101', "n('S16_criteria',met='Yes')"), ('W0102', "n('S16_criteria')"),
+                  ('W0103', "n('S16_criteria',met='Yes')"), ('W0104', "n('S16_criteria',met='No')")):
     E(cid, expr)
     KIND[cid] = 'computed'
 
 # resolution: HLCA expression-only reconstruction (S18_resolution), Angelidis grid rule (S18_positive)
 E('M0562', "v('S18_resolution','expression_only_rho_adj',species='human')")
 E('M0563', "v('S18_resolution','expression_only_p',species='human')")
-E('W0167', "v('S18_positive','n_celltypes_min4')")
-KIND['W0167'] = 'computed'
+E('W0168', "v('S18_positive','n_celltypes_min4')")
+KIND['W0168'] = 'computed'
 
 # all 253 planned tests (S09_planned)
 E('M0632', "n('S09_planned')")

@@ -16,7 +16,7 @@ from statsmodels.stats.multitest import multipletests
 
 REPO = Path(__file__).resolve().parents[2]
 V15 = REPO / "results" / "v15" / "Supplementary_Tables_v15.xlsx"
-OUT = REPO / "supplementary_revision" / "Supplementary_Tables_v16.xlsx"
+OUT = REPO / "results" / "v18" / "Supplementary_Tables_v16.xlsx"
 GRID = ["ATII", "B", "Ciliated", "Macrophage", "Macrophage_Alveolar", "NK",
         "T", "T_Cytotoxic", "cDC2", "cMonocyte", "ncMonocyte"]
 
@@ -330,7 +330,7 @@ def readme_note(readme, sheet, description, source, n_rows, columns):
     return pd.concat([readme, pd.DataFrame([row])], ignore_index=True)
 
 
-def main():
+def build():
     extras = mouse_target_extras(annotation_path())
     book = pd.read_excel(V15, sheet_name=None)
     readme = book.pop("README")
@@ -534,18 +534,21 @@ def main():
         readme, "glossary",
         "Korean labels in the spike-in result files: 견고 = robust; 탈락 = failed; IPF 특이 = IPF-specific; 비특이 = not specific.",
         "result files are unchanged", 0, "")
+    return book, readme
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    with pd.ExcelWriter(OUT, engine="openpyxl") as w:
+
+def write(book, readme, out):
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with pd.ExcelWriter(out, engine="openpyxl") as w:
         readme.to_excel(w, sheet_name="README", index=False)
         for name, df in book.items():
             df.to_excel(w, sheet_name=name, index=False)
-    print("wrote", OUT)
-    print("excluded", book["S02_excluded_donors"].to_string(index=False))
-    print("B_valid replication", book["S13_replication"].B_valid.value_counts(dropna=False).to_dict())
-    print("B_valid substate", book["S14_substate"][["celltype", "substate", "p_two_sided", "B_valid"]].to_string(index=False))
-    print("escalation", book["S16_escalation2"].to_string(index=False))
-    print("fdr match", np.allclose(plan.fdr_IPF_253, plan.fdr_recomputed) if "fdr_recomputed" in plan.columns else "n/a")
+    print("wrote", out)
+
+
+def main():
+    book, readme = build()
+    write(book, readme, OUT)
 
 
 if __name__ == "__main__":

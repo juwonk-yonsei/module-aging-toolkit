@@ -16,7 +16,7 @@ pulmonary fibrosis"* (Kang, Jeon & Choi; Methods Paper, under revision at *GeroS
 
 | Version | Corresponds to |
 |---|---|
-| **v0.3.0** (this version) | revised manuscript using the serialized module clocks: `figures/v17/`, `supplementary_revision/Supplementary_Tables_v16.xlsx`, `verify/claims_r2.csv` |
+| **v0.3.0** (this version) | revised manuscript using the serialized module clocks: `figures/v17/` (Fig. 2 and 6 in `figures/v19/`), `supplementary_revision/Supplementary_Tables.xlsx`, `verify/claims_r2.csv` |
 | v0.2.0 | withdrawn: that release retrained the module clocks |
 | v0.1.0 | original submission: `scripts/`, `results/*.csv`, `figures/` |
 
@@ -44,14 +44,14 @@ needs no clocks. See **[docs/METHOD.md](docs/METHOD.md)**.
 ### Verify the reported numbers
 ```bash
 pip install -r verify/requirements.txt     # numpy and pandas, pinned
-python verify/verify_claims_r2.py verify/claims_r2.csv supplementary_revision/Supplementary_Tables_v16.xlsx verify/verify_report.csv
+python verify/verify_claims_r2.py verify/claims_r2.csv supplementary_revision/Supplementary_Tables.xlsx verify/verify_report.csv
 python verify/verify_claims.py             # v0.2.0 revision tables
 python verify/verify_claims.py --submission   # original submission (v0.1.0)
 ```
 Each check reads a value from the committed result tables and compares it with the
 number printed in the manuscript at the printed precision. No raw data are needed and
 the script runs in seconds; the exit code is non-zero on any mismatch.
-The v0.3.0 check reads `verify/claims_r2.csv` against `supplementary_revision/Supplementary_Tables_v16.xlsx`.
+The v0.3.0 check reads `verify/claims_r2.csv` against `supplementary_revision/Supplementary_Tables.xlsx`.
 
 Full pipeline: **[docs/REPRODUCE.md](docs/REPRODUCE.md)**.
 
@@ -89,7 +89,7 @@ results/                 v0.1.0 result tables (results/*.csv, results/mil/)
 results/revision/        revision result tables (rev00_* ... rev15_*)
 figures/                 submission figures (Fig1-6, FigS1, graphical abstract)
 figures_revision/        revised figures (Fig1-6, FigS1-S6; PNG 600 dpi + PDF)
-supplementary_revision/  Supplementary Tables v16 (one workbook)
+supplementary_revision/  final Supplementary Tables (one workbook)
 third_party/             tage_prep.py port + LICENSE.MGB                  (MGB licence)
 data/                    (git-ignored) fetched by setup.sh; see data/README.md
 docs/                    METHOD.md (reuse) and REPRODUCE.md (verify, rerun)
