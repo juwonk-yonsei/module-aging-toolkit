@@ -1,4 +1,4 @@
-"""Figures 2 and 6 for instruction 19: layout fixes only (Fig. 2c label, Fig. 2d legend, Fig. 6a x range).
+"""Figures 2 and 6 with layout fixes only (Fig. 2c label, Fig. 2d legend, Fig. 6a x range).
 
 Data, labels and styling come from scripts/v17/v17_figures.py. Writes figures/v19 only.
 """
